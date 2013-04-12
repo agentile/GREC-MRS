@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9637683">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9637683</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A stress response pathway from the endoplasmic reticulum to the nucleus requires a novel bifunctional protein kinase/endoribonuclease (Ire1p) in mammalian cells.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Eukaryotes respond to the presence of unfolded protein in the endoplasmic reticulum (ER) by up-regulating the transcription of <term sem="Gene" id="T1" lex="genes">genes</term> encoding <term sem="Protein" id="T2" lex="ER_protein_chaperones">ER protein chaperones</term>, such as BiP.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="E2" />
+<clue>Eukaryotes respond to the presence of unfolded protein in the endoplasmic reticulum (ER) by <clueType>up-regulating</clueType> the transcription of genes encoding ER protein chaperones, such as BiP.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="E3" />
+<clue>Eukaryotes respond to the presence of unfolded protein in the endoplasmic reticulum (ER) by up-regulating the <clueType>transcription</clueType> of genes encoding ER protein chaperones, such as BiP.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Eukaryotes respond to the presence of unfolded protein in the endoplasmic reticulum (ER) by up-regulating the transcription of genes <clueType>encoding</clueType> ER protein chaperones, such as BiP.</clue>
+</event>
+<sentence id="S4">We have isolated <term sem="DNA" id="T3" lex="a_novel_human_cDNA">a novel human cDNA</term> encoding <term sem="SPAN" id="T4" lex="a_homolog_to_Saccharomyces_cerevisiae_Ire1p">a homolog to <term sem="Gene" id="T5" lex="Saccharomyces_cerevisiae_Ire1p">Saccharomyces cerevisiae Ire1p</term></term>, a proximal sensor for this signal transduction pathway in yeast.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>We have isolated a novel human cDNA <clueType>encoding</clueType> a homolog to Saccharomyces cerevisiae Ire1p, a proximal sensor for this signal transduction pathway in yeast.</clue>
+</event>
+<sentence id="S5">The gene product hIre1p is a type 1 transmembrane protein containing a cytoplasmic domain that is highly conserved to the yeast counterpart having a Ser/Thr protein kinase domain and a domain homologous to RNase L.</sentence>
+<sentence id="S6">However, the luminal domain has extensively diverged from the yeast gene product.</sentence>
+<sentence id="S7"><term sem="Gene" id="T6" lex="hIre1p">hIre1p</term> expressed <term sem="SPAN" id="T7" lex="in_mammalian_cells">in <term sem="Cells" id="T8" lex="mammalian_cells">mammalian cells</term></term> displayed <term sem="SPAN" id="T9" lex="intrinsic_autophosphorylation_activity">intrinsic autophosphorylation activity</term> and an <term sem="Enzyme" id="T10" lex="endoribonuclease">endoribonuclease</term> activity that cleaved the 5' splice site of yeast HAC1 mRNA, a substrate for the endoribonuclease activity of yeast Ire1p.</sentence>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T6" />
+<Location idref="T7" />
+<clue>hIre1p <clueType>expressed</clueType> in mammalian cells displayed intrinsic autophosphorylation activity and an endoribonuclease activity that cleaved the 5' splice site of yeast HAC1 mRNA, a substrate for the endoribonuclease activity of yeast Ire1p.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T6" />
+<Descriptive-Theme idref="T9" />
+<clue>hIre1p expressed in mammalian cells <clueType>displayed</clueType> intrinsic autophosphorylation activity and an endoribonuclease activity that cleaved the 5' splice site of yeast HAC1 mRNA, a substrate for the endoribonuclease activity of yeast Ire1p.</clue>
+</event>
+<sentence id="S8">Overexpressed hIre1p was localized to the ER with particular concentration around the nuclear envelope and some colocalization with the nuclear pore complex.</sentence>
+<sentence id="S9">Expression of <term sem="mRNA" id="T11" lex="Ire1p_mRNA">Ire1p mRNA</term> was autoregulated through a process that required <term sem="SPAN" id="T12" lex="a_functional_hIre1p_kinase_activity">a functional hIre1p kinase activity</term>.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T11" />
+<clue><clueType>Expression</clueType> of Ire1p mRNA was autoregulated through a process that required a functional hIre1p kinase activity.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Theme idref="E7" />
+<Condition idref="T12" />
+<clue>Expression of Ire1p mRNA was <clueType>autoregulated</clueType> through a process that required a functional hIre1p kinase activity.</clue>
+</event>
+<sentence id="S10">Finally, overexpression of <term sem="Gene" id="T13" lex="wild-type_hIre1p">wild-type hIre1p</term> <term sem="SPAN" id="T14" lex="constitutively">constitutively</term> activated <term sem="Gene" id="T15" lex="a_reporter_gene">a reporter gene</term> under transcriptional control of the rat BiP promoter, whereas expression of <term sem="Gene" id="T16" lex="a_catalytically_inactive_hIre1p">a catalytically inactive hIre1p</term> acted in <term sem="SPAN" id="T17" lex="a_trans-dominant-negative_manner">a trans-dominant-negative manner</term> to prevent <term sem="SPAN" id="T18" lex="transcriptional"><term sem="SPAN" id="T19" lex="transcriptional_activation">transcriptional activation</term></term> of <term sem="Promoter" id="T20" lex="the_BiP_promoter">the BiP promoter</term> in response to <term sem="SPAN" id="T21" lex="ER_stress">ER stress</term> induced by inhibition of N-linked glycosylation.</sentence>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<clue>Finally, <clueType>overexpression</clueType> of wild-type hIre1p constitutively activated a reporter gene under transcriptional control of the rat BiP promoter, whereas expression of a catalytically inactive hIre1p acted in a trans-dominant-negative manner to prevent transcriptional activation of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Activation" />
+<Agent idref="E9" />
+<Theme idref="T15" />
+<Manner idref="T14" />
+<clue>Finally, overexpression of wild-type hIre1p constitutively <clueType>activated</clueType> a reporter gene under transcriptional control of the rat BiP promoter, whereas expression of a catalytically inactive hIre1p acted in a trans-dominant-negative manner to prevent transcriptional activation of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>Finally, overexpression of wild-type hIre1p constitutively activated a reporter gene under transcriptional control of the rat BiP promoter, whereas <clueType>expression</clueType> of a catalytically inactive hIre1p acted in a trans-dominant-negative manner to prevent transcriptional activation of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="E11" />
+<Manner idref="T17" />
+<clue>Finally, overexpression of wild-type hIre1p constitutively activated a reporter gene under transcriptional control of the rat BiP promoter, whereas expression of a catalytically inactive hIre1p <clueType>acted</clueType> in a trans-dominant-negative manner to prevent transcriptional activation of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T19" />
+<clue>Finally, overexpression of wild-type hIre1p constitutively activated a reporter gene under transcriptional control of the rat BiP promoter, whereas expression of a catalytically inactive hIre1p acted in a trans-dominant-negative manner to <clueType>prevent</clueType> transcriptional activation of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Theme idref="T20" />
+<Manner idref="T18" />
+<Condition idref="T21" />
+<clue>Finally, overexpression of wild-type hIre1p constitutively activated a reporter gene under transcriptional control of the rat BiP promoter, whereas expression of a catalytically inactive hIre1p acted in a trans-dominant-negative manner to prevent transcriptional <clueType>activation</clueType> of the BiP promoter in response to ER stress induced by inhibition of N-linked glycosylation.</clue>
+</event>
+<sentence id="S11">These results demonstrate that hIre1p is an essential proximal sensor of the unfolded protein response pathway in mammalian cells.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12453212">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12453212</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Governor of the glnAp2 promoter of Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Transcription_Binding_Site" id="T1" lex="Low-affinity_sites">Low-affinity sites</term> for the activator NRI-P (NtrC-P) that map between the enhancer and the glnAp2 promoter were responsible for limiting <term sem="Gene_Expression" id="T2" lex="promoter_activity">promoter activity</term> at high concentrations of <term sem="Regulator" id="T3" lex="NRI">NRI</term> approximately P <term sem="SPAN" id="T4" lex="in_intact_cells">in <term sem="Bacteria" id="T5" lex="intact_cells">intact cells</term></term> and in an in vitro transcription system consisting of purified bacterial components.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Location idref="T4" />
+<Condition idref="T3" />
+<clue>Low-affinity sites for the activator NRI-P (NtrC-P) that map between the enhancer and the glnAp2 promoter were responsible for <clueType>limiting</clueType> promoter activity at high concentrations of NRI approximately P in intact cells and in an in vitro transcription system consisting of purified bacterial components.</clue>
+</event>
+<sentence id="S4">That is, <term sem="Transcription_Binding_Site" id="T6" lex="the_low-affinity_sites">the low-affinity sites</term> constitute a 'governor', limiting <term sem="Gene_Expression" id="T7" lex="the_maximum_promoter_activity">the maximum promoter activity</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>That is, the low-affinity sites constitute a 'governor', <clueType>limiting</clueType> the maximum promoter activity.</clue>
+</event>
+<sentence id="S5">As the governor sites are themselves far from the promoter, they apparently act either by preventing the formation of the activation DNA loop that brings the enhancer-bound activator and the promoter-bound polymerase into proximity or by preventing a productive interaction between the <term sem="Activator" id="T8" lex="enhancer-bound_activator">enhancer-bound activator</term> and <term sem="RNA_Polymerase" id="T9" lex="polymerase">polymerase</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T8" idref1="T9" />
+<clue>As the governor sites are themselves far from the promoter, they apparently act either by preventing the formation of the activation DNA loop that brings the enhancer-bound activator and the promoter-bound polymerase into proximity or by preventing a productive <clueType>interaction</clueType> between the enhancer-bound activator and polymerase.</clue>
+</event>
+<sentence id="S6">The combination of potent enhancer and governor sites at the glnAp2 promoter provides for efficient activation of <term sem="Promoter" id="T10" lex="the_promoter">the promoter</term> when <term sem="Activator" id="T11" lex="the_activator_concentration"><term sem="SPAN" id="T12" lex="the_activator_concentration_is_low">the activator concentration is low</term></term>, while limiting the maximum level of promoter activity when the activator concentration is high.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Theme idref="T10" />
+<Condition idref="T12" />
+<clue>The combination of potent enhancer and governor sites at the glnAp2 promoter provides for efficient <clueType>activation</clueType> of the promoter when the activator concentration is low, while limiting the maximum level of promoter activity when the activator concentration is high.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

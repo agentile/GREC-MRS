@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9512707">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9512707</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Molecular analysis of the regulation of <term sem="Gene" id="T1" lex="csiD">csiD</term>, a carbon starvation-inducible gene in Escherichia coli that is exclusively dependent on sigma s and requires <term sem="SPAN" id="T2" lex="activation">activation</term> by cAMP-CRP.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<clue>Molecular analysis of the <clueType>regulation</clueType> of csiD, a carbon starvation-inducible gene in Escherichia coli that is exclusively dependent on sigma s and requires activation by cAMP-CRP.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="E1" />
+<Theme idref="T2" />
+<clue>Molecular analysis of the regulation of csiD, a carbon starvation-inducible gene in Escherichia coli that is exclusively dependent on sigma s and <clueType>requires</clueType> activation by cAMP-CRP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The general stress-induced sigma subunit sigma s of Escherichia coli RNA polymerase is closely related to the vegetative sigma factor sigma 70.</sentence>
+<sentence id="S4">In view of their very similar promoter specificity in vitro, it is unclear how sigma factor selectivity in the expression of sigma s-dependent genes is generated in vivo.</sentence>
+<sentence id="S5">The csiD gene is such a strongly sigma s-dependent gene.</sentence>
+<sentence id="S6">In contrast to sigma s, which is induced in response to many different stresses, <term sem="Gene" id="T3" lex="csiD">csiD</term>, whose expression is driven from a single promoter, is induced by <term sem="SPAN" id="T4" lex="carbon_starvation">carbon starvation</term> only.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<clue>In contrast to sigma s, which is induced in response to many different stresses, csiD, whose expression is driven from a single promoter, is <clueType>induced</clueType> by carbon starvation only.</clue>
+</event>
+<sentence id="S7">To our knowledge, <term sem="Promoter" id="T5" lex="the_csiD_promoter">the csiD promoter</term> is the first characterized promoter which is not only exclusively dependent on sigma s-containing RNA polymerase (E sigma s), but also requires <term sem="Activator" id="T6" lex="an_activator">an activator</term>, cAMP-CRP.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>To our knowledge, the csiD promoter is the first characterized promoter which is not only exclusively dependent on sigma s-containing RNA polymerase (E sigma s), but also <clueType>requires</clueType> an activator, cAMP-CRP.</clue>
+</event>
+<sentence id="S8">In addition, leucine-responsive regulatory protein (<term sem="Protein" id="T7" lex="Lrp">Lrp</term>) acts as <term sem="Regulator" id="T8" lex="a_positive_modulator">a positive modulator</term> of csiD expression.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T7" />
+<Descriptive-Agent idref="T8" />
+<clue>In addition, leucine-responsive regulatory protein (Lrp) <clueType>acts</clueType> as a positive modulator of csiD expression.</clue>
+</event>
+<sentence id="S9">Also in vitro, E sigma s is more efficient than E sigma 70 in csiD promoter binding, open complex formation and run-off transcription, which might be due to the poor match of the csiD -35 region to the sigma 70 consensus and to transcription by E sigma s being less dependent on contacts in this region.</sentence>
+<sentence id="S10">By DNase I protection experiments, a cAMP-CRP binding site centered at -68.5 nucleotides upstream of the csiD transcriptional start site was identified.</sentence>
+<sentence id="S11">While cAMP-CRP stimulates E sigma 70 binding, it does not promote open complex formation by E sigma 70, but does so in conjunction with E sigma s.</sentence>
+<sentence id="S12">With linear templates, <term sem="Protein" id="T9" lex="cAMP-CRP">cAMP-CRP</term> significantly stimulates <term sem="Transcription" id="T10" lex="E_sigma_s-mediated_in_vitro_transcription">E sigma s-mediated in vitro transcription</term>, whereas <term sem="Transcription" id="T11" lex="transcription">transcription</term> by E sigma 70 is negligible and hardly stimulated by <term sem="Protein" id="T12" lex="cAMP-CRP">cAMP-CRP</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<clue>With linear templates, cAMP-CRP significantly <clueType>stimulates</clueType> E sigma s-mediated in vitro transcription, whereas transcription by E sigma 70 is negligible and hardly stimulated by cAMP-CRP.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T11" />
+<clue>With linear templates, cAMP-CRP significantly stimulates E sigma s-mediated in vitro transcription, whereas transcription by E sigma 70 is negligible and hardly <clueType>stimulated</clueType> by cAMP-CRP.</clue>
+</event>
+<sentence id="S13">These findings may reflect different or less stringent positional requirements for an activator site for E sigma s than for E sigma 70, and indicate that cAMP-CRP contributes to sigma factor selectivity at the csiD promoter.</sentence>
+<sentence id="S14"><term sem="Experimental_Technique" id="T13" lex="In_vitro_transcription_experiments">In vitro transcription experiments</term> with super-coiled templates, however, revealed <term sem="Transcription" id="T14" lex="significant_cAMP-CRP-stimulated_transcription">significant cAMP-CRP-stimulated transcription</term> also by E sigma 70.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<clue>In vitro transcription experiments with super-coiled templates, however, <clueType>revealed</clueType> significant cAMP-CRP-stimulated transcription also by E sigma 70.</clue>
+</event>
+<sentence id="S15">Yet, under these conditions, <term sem="SPAN" id="T15" lex="H-NS">H-NS</term> was found to restore E sigma s specificity by strongly interfering with <term sem="Transcription" id="T16" lex="cAMP-CRP/E_sigma_70-dependent_transcription">cAMP-CRP/E sigma 70-dependent transcription</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T16" />
+<clue>Yet, under these conditions, H-NS was found to restore E sigma s specificity by strongly <clueType>interfering</clueType> with cAMP-CRP/E sigma 70-dependent transcription.</clue>
+</event>
+<sentence id="S16"><term sem="SPAN" id="T17" lex="Lrp">Lrp</term> strongly and cooperatively binds to multiple sites located between positions -14 and -102 (in a way that suggests DNA wrapping around multiple Lrp molecules) and moderately stimulates <term sem="Transcription" id="T18" lex="in_vitro_transcription">in vitro transcription</term>, especially with E sigma s.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>Lrp strongly and cooperatively binds to multiple sites located between positions -14 and -102 (in a way that suggests DNA wrapping around multiple Lrp molecules) and moderately <clueType>stimulates</clueType> in vitro transcription, especially with E sigma s.</clue>
+</event>
+<sentence id="S17">In summary, we conclude that the csiD promoter has an intrinsic preference for E sigma s, but that also protein factors such as cAMP-CRP, Lrp and probably H-NS as well as DNA conformation contribute to its strong E sigma s selectivity.</sentence>
+<sentence id="S18">Furthermore, this strong E sigma s preference in combination with a requirement for high concentrations of the essential activator cAMP-CRP ensures csiD expression under conditions of carbon starvation, but not other stress conditions.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

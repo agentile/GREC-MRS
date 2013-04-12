@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12492863">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12492863</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Two different modes of <term sem="Transcription" id="T1" lex="transcription">transcription</term> repression of <term sem="Operon" id="T2" lex="the_Escherichia_coli_acetate_operon">the Escherichia coli acetate operon</term> by <term sem="Repressor" id="T3" lex="IclR">IclR</term>.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T3" />
+<Theme idref="T2" />
+<Manner idref="T1" />
+<clue>Two different modes of transcription <clueType>repression</clueType> of the Escherichia coli acetate operon by IclR.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">IclR is a repressor for <term sem="Operon" id="T4" lex="the_Escherichia_coli_aceBAK_operon">the Escherichia coli aceBAK operon</term>, which encodes isocitrate lyase (<term sem="Gene" id="T5" lex="aceB">aceB</term>), malate synthase (<term sem="Gene" id="T6" lex="aceA">aceA</term>) and isocitrate dehydroge-nase kinase/phosphorylase (<term sem="Gene" id="T7" lex="aceK">aceK</term>) in the glyoxylate bypass.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" idref1="T6" idref2="T7" />
+<clue>IclR is a repressor for the Escherichia coli aceBAK operon, which <clueType>encodes</clueType> isocitrate lyase (aceB), malate synthase (aceA) and isocitrate dehydroge-nase kinase/phosphorylase (aceK) in the glyoxylate bypass.</clue>
+</event>
+<sentence id="S4"><term sem="Repressor" id="T8" lex="IclR">IclR</term> also represses the expression of <term sem="Gene" id="T9" lex="iclR">iclR</term> in <term sem="SPAN" id="T10" lex="an_autogenous_manner">an autogenous manner</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="E4" />
+<Manner idref="T10" />
+<clue>IclR also <clueType>represses</clueType> the expression of iclR in an autogenous manner.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<clue>IclR also represses the <clueType>expression</clueType> of iclR in an autogenous manner.</clue>
+</event>
+<sentence id="S5">DNase I footprinting and in vitro transcription assays indicated that <term sem="Repressor" id="T11" lex="IclR">IclR</term> binds to <term sem="Transcription_Binding_Site" id="T12" lex="an_IclR_box">an IclR box</term> (-21 to +14), which overlaps <term sem="Promoter" id="T13" lex="the_iclR_promoter">the iclR promoter</term> and thus competes with <term sem="RNA_Polymerase" id="T14" lex="the_RNA_polymerase">the RNA polymerase</term> for DNA binding, leading to <term sem="Transcription" id="T15" lex="transcription">transcription</term> repression.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T11" />
+<Destination idref="T12" />
+<clue>DNase I footprinting and in vitro transcription assays indicated that IclR <clueType>binds</clueType> to an IclR box (-21 to +14), which overlaps the iclR promoter and thus competes with the RNA polymerase for DNA binding, leading to transcription repression.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T12" />
+<Descriptive-Theme idref="T13" />
+<clue>DNase I footprinting and in vitro transcription assays indicated that IclR binds to an IclR box (-21 to +14), which <clueType>overlaps</clueType> the iclR promoter and thus competes with the RNA polymerase for DNA binding, leading to transcription repression.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T11" />
+<Agent idref="T14" />
+<clue>DNase I footprinting and in vitro transcription assays indicated that IclR binds to an IclR box (-21 to +14), which overlaps the iclR promoter and thus <clueType>competes</clueType> with the RNA polymerase for DNA binding, leading to transcription repression.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E9" />
+<clue>DNase I footprinting and in vitro transcription assays indicated that IclR binds to an IclR box (-21 to +14), which overlaps the iclR promoter and thus competes with the RNA polymerase for DNA binding, <clueType>leading</clueType> to transcription repression.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Repression" />
+<Theme idref="T15" />
+<clue>DNase I footprinting and in vitro transcription assays indicated that IclR binds to an IclR box (-21 to +14), which overlaps the iclR promoter and thus competes with the RNA polymerase for DNA binding, leading to transcription <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S6">In the case of the aceBAK operon, <term sem="Repressor" id="T16" lex="IclR">IclR</term> binds to <term sem="Locus" id="T17" lex="IclR_box_II">IclR box II</term> between -52 and -19 of the aceB promoter and interferes with binding of <term sem="RNA_Polymerase" id="T18" lex="the_RNA_polymerase">the RNA polymerase</term> to <term sem="Promoter" id="T19" lex="this_promoter">this promoter</term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T16" />
+<Destination idref="T17" />
+<clue>In the case of the aceBAK operon, IclR <clueType>binds</clueType> to IclR box II between -52 and -19 of the aceB promoter and interferes with binding of the RNA polymerase to this promoter.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="E12" />
+<clue>In the case of the aceBAK operon, IclR binds to IclR box II between -52 and -19 of the aceB promoter and <clueType>interferes</clueType> with binding of the RNA polymerase to this promoter.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T18" />
+<Destination idref="T19" />
+<clue>In the case of the aceBAK operon, IclR binds to IclR box II between -52 and -19 of the aceB promoter and interferes with <clueType>binding</clueType> of the RNA polymerase to this promoter.</clue>
+</event>
+<sentence id="S7">A secondary IclR binding site (<term sem="Transcription_Binding_Site" id="T20" lex="IclR_box_I">IclR box I</term>) was identified <term sem="SPAN" id="T21" lex="between_-125_and_-99_of_the_aceB_promoter">between <term sem="Locus" id="T22" lex="-125_and_-99">-125 and -99</term> of the aceB promoter</term><term sem="Promoter" id="T23" lex="the_aceB_promoter"></term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T20" />
+<Location idref="T21" />
+<clue>A secondary IclR binding site (IclR box I) was <clueType>identified</clueType> between -125 and -99 of the aceB promoter.</clue>
+</event>
+<sentence id="S8"><term sem="Repressor" id="T24" lex="IclR">IclR</term> binds to <term sem="Transcription_Binding_Site" id="T25" lex="this_IclR_box_I">this IclR box I</term> even <term sem="SPAN" id="T26" lex="after_formation_of_the_aceB_promoter_open_complex">after formation of the aceB promoter open complex</term> and, moreover, induces <term sem="SPAN" id="T27" lex="disassembly_of_the_open_complex">disassembly of the open complex</term>, leading to repression of <term sem="Gene" id="T28" lex="aceB">aceB</term> transcription.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T24" />
+<Destination idref="T25" />
+<Temporal idref="T26" />
+<clue>IclR <clueType>binds</clueType> to this IclR box I even after formation of the aceB promoter open complex and, moreover, induces disassembly of the open complex, leading to repression of aceB transcription.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="T27" />
+<clue>IclR binds to this IclR box I even after formation of the aceB promoter open complex and, moreover, <clueType>induces</clueType> disassembly of the open complex, leading to repression of aceB transcription.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Repression" />
+<Theme idref="E17" />
+<clue>IclR binds to this IclR box I even after formation of the aceB promoter open complex and, moreover, induces disassembly of the open complex, leading to <clueType>repression</clueType> of aceB transcription.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<Theme idref="T28" />
+<clue>IclR binds to this IclR box I even after formation of the aceB promoter open complex and, moreover, induces disassembly of the open complex, leading to repression of aceB <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S9">In parallel, the location of the C-terminal domain of the RNA polymerase alpha subunit (alphaCTD) on DNA is shifted close to the IclR box I, indicating that <term sem="SPAN" id="T29" lex="direct">direct</term> interaction between <term sem="Sub_Unit" id="T30" lex="the_alphaCTD">the alphaCTD</term> and <term sem="Repressor" id="T31" lex="the_IclR_box_I-associated_IclR">the IclR box I-associated IclR</term> caused <term sem="Gene_Repression" id="T32" lex="the_repression">the repression</term>.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T30" />
+<Agent idref="T31" />
+<Manner idref="T29" />
+<clue>In parallel, the location of the C-terminal domain of the RNA polymerase alpha subunit (alphaCTD) on DNA is shifted close to the IclR box I, indicating that direct <clueType>interaction</clueType> between the alphaCTD and the IclR box I-associated IclR caused the repression.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="T32" />
+<clue>In parallel, the location of the C-terminal domain of the RNA polymerase alpha subunit (alphaCTD) on DNA is shifted close to the IclR box I, indicating that direct interaction between the alphaCTD and the IclR box I-associated IclR <clueType>caused</clueType> the repression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

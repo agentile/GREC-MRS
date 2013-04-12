@@ -1,0 +1,97 @@
+<html>
+<head><title>GREC Corpus -XML annotation format</title></head>
+<body>
+
+<h1>GREC Corpus -XML annotation format</h1>
+
+<p>
+The use of the GREC corpus is subject to NaCTeM's <a href="http://www.nactem.ac.uk/terms_conditions.php">Terms and Conditions</a>, and in particular Section 8, regarding the use of NLM databases. 
+</p> 
+
+<p>
+The directory contains 3 subdirectories:
+<ul>
+<li><b>Ecoli</b> - Contains abstracts on the subject of Ecoli.</li>
+<li><b>Human</b> - Contains abstracts on the subject of Human.</li>
+<li><b>GRECResources</b> - Contains the DTD of the XML annotation files (GREC_event.dtd)</li>
+</ul>
+</p>
+
+
+<p>
+The XML annotation format for the corpus is based on the <a href=" http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=Event+Annotation">GENIA event annotation format</a> with some minor modifications. 
+</p>
+
+<p>
+Two levels of annotation of the target text are expressed within each file, i.e. 
+
+<ul>
+<li>text-bound event arguments and other annotated biological concepts</li>
+<li>event annotations</li>
+</ul>
+
+<p>
+An example of an annotated sentence within the XML file is shown below:
+<pre>
+...
+&lt;sentence id="S7"&gt;
+   &lt;term sem="SPAN" id="T10" lex="The_loss"&gt;The loss&lt;/term&gt; 
+   of TreR function led to derepression of 
+   &lt;term sem="Gene" id="T11" lex="treB"&gt;treB&lt;/term&gt; 
+   encoding 
+   &lt;term sem="SPAN" id="T12" lex="an_enzymeIITre"&gt;an enzymeIITre&lt;/term&gt; 
+   of the PTS for trehalose and of 
+   &lt;term sem="Gene" id="T13" lex="treC"&gt;treC&lt;/term&gt; 
+   encoding 
+   &lt;term sem="Enzyme" id="T14" lex="TreC"&gt;TreC&lt;/term&gt;
+   , the cytoplasmic trehalose-6-phosphate hydrolase.
+&lt;/sentence&gt;
+&lt;event id="E6"&gt;
+  &lt;type class="GRE" /&gt;
+  &lt;Agent idref="T10" /&gt;
+  &lt;Theme idref="E7" /&gt;
+  &lt;clue&gt;The loss of TreR function &lt;clueType&gt;led&lt;/clueType&gt; 
+  to derepression of treB encoding an enzymeIITre of the PTS for trehalose and 
+  of treC encoding TreC, the cytoplasmic trehalose-6-phosphate hydrolase.&lt;/clue&gt;
+&lt;/event&gt;
+&lt;event id="E7"&gt;
+  &lt;type class="Gene_Activation" /&gt;
+  &lt;Theme idref="T11" idref1="T13" /&gt;
+  &lt;clue&gt;The loss of TreR function led to &lt;clueType&gt;derepression&lt;/clueType&gt; 
+  of treB encoding an enzymeIITre of the PTS for trehalose and of treC encoding TreC, the 
+  cytoplasmic trehalose-6-phosphate hydrolase.&lt;/clue&gt;
+&lt;/event&gt;
+...
+</pre>
+</p>
+
+<p>
+Each sentence of the abstract is contained within a <i>&lt;sentence&gt;</i> element. Biological concepts and other event arguments are annotated inline, indicated by <i>&lt;term&gt;</i> elements. Event arguments may or may not correspond to biological concepts. In other cases, a biological concept may form only part of an event argument. Elements of type <i>&lt;term&gt;</i> correspond to all annotated biological concepts, together with other text spans that consistute event arguments. 
+</p>
+<p>
+Each <i>&lt;term&gt;</i> element has the following attributes:
+<ul>
+<li><b>sem</b> - The biological concept type assigned to the span, or "SPAN" if no concept type has been assigned.</li>
+<li><b>id</b> - A unique id for the span, beginning with "T"</li>
+<li><b>lex</b> - The value of the text span, with spaces replaced with underscores
+</ul>  
+</p>
+<p>
+Following the <i>&lt;sentence&gt;</i> element, the events in the sentence are listed, each within an <i>&lt;event&gt;</i> element. 
+Each event has a unique id, starting with an "E". Within the <i>&lt;event&gt;</i> element, there are the following elements:
+<ul>
+<li><b>Type</b>- The type assigned to the event is indicated by the <i>class</i> attribute. The general type "GRE" (Gene Regulation Event) is generally assigned to verb trigger words, as "top level" events centred on verbs are not assigned types. Embedded events (those which form an argument to another event, normally nominalised verbs) may be assigned a concept type. In this case, the type is indicated.</li>
+
+<li><b>Semantic Arguments</b> - There is an element corresponding to each annotated argument of the event, which is named according to the semantic role assigned to the argument, e.g. <i>Agent</i>, <i>Theme</i>, <i>Location</i>, <i>Condition</i> etc. Each element has one or more attributes, whose values correspond the id(s) of the argument which fills the role. The attributes are named <i>idref</i>, <i>idref1</i>, <i>idref2</i> etc. The value ot each attibute begins either with a "T", indicating that the argument span corresponds to one of the <i>&lt;term&gt;</i> elements, or it may begin with an "E", indicating that the argument is an embedded event whose structure is described in another <i>&lt;event&gt;</i> element.</li>
+<li><b>Clue</b> - This element contains the complete sentence containing the event. The <i>&lt;clueType&gt;</i> element surrounds the verb/nominalised verb on which the event is cented.
+</li> 
+</ul>
+
+<h2>Discontinuous spans</h2>
+<p>
+The <i>idref</i> attribute is always present, whilst <i>idref1</i>, <i>idref2</i> etc. are only present if the event argument corresponds to two or more <i>discontinuous</i> spans of text. This is the case, for example, when an argument consists of a list of items, the annotator is required to annotate discontinuous spans, consisting of the items in the list, minus any conjunctions or punctuation. In event E7 above, the THEME of <i>derepression</i> consists of the two spans <i>treB</i> and <i>treC</i>, which are assigned the ids of T11 annd T13 respectively. In the <i>Theme</i> element of the event, the value of the attribute <i>idref</i> is this <i>T11</i>, whilst the value of <i>idref1</i> is <i>T13</i>.    
+</p>  
+
+			
+</body>
+</html>

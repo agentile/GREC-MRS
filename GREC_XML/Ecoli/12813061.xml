@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12813061">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12813061</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification and molecular characterization of the Mg2+ stimulon of Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Transcription profile microarray analysis in Escherichia coli was performed to identify the member genes of the Mg(2+) stimulon that respond to the availability of external Mg(2+) in a PhoP/PhoQ two-component system-dependent manner.</sentence>
+<sentence id="S4">The mRNA levels of W3110 in the presence of 30 mM MgCl(2), WP3022 (phoP defective), and WQ3007 (phoQ defective) were compared with those of W3110 in the absence of MgCl(2).</sentence>
+<sentence id="S5">The expression ratios of a total of 232 genes were &lt;0.75 in all three strains (the supplemental data are shown at http://www.nara.kindai.ac.jp/nogei/seiken/array.html), suggesting that <term sem="SPAN" id="T1" lex="the_PhoP/PhoQ_system">the PhoP/PhoQ system</term> is involved <term sem="SPAN" id="T2" lex="directly">directly</term> or <term sem="SPAN" id="T3" lex="indirectly">indirectly</term> in the transcription of <term sem="Gene" id="T4" lex="these_genes">these genes</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Manner idref="T2" idref1="T3" />
+<Descriptive-Theme idref="E2" />
+<clue>The expression ratios of a total of 232 genes were &lt;0.75 in all three strains (the supplemental data are shown at http://www.nara.kindai.ac.jp/nogei/seiken/array.html), suggesting that the PhoP/PhoQ system is <clueType>involved</clueType> directly or indirectly in the transcription of these genes.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T4" />
+<clue>The expression ratios of a total of 232 genes were &lt;0.75 in all three strains (the supplemental data are shown at http://www.nara.kindai.ac.jp/nogei/seiken/array.html), suggesting that the PhoP/PhoQ system is involved directly or indirectly in the <clueType>transcription</clueType> of these genes.</clue>
+</event>
+<sentence id="S6">Of those, 26 contained the PhoP box-like sequences with the direct repeats of (T/G)GTTTA within 500 bp upstream of the initiation codon.</sentence>
+<sentence id="S7">Furthermore, S1 nuclease assays of 26 promoters were performed to verify six new Mg(2+) stimulon genes, hemL, nagA, rstAB, slyB, vboR, and yrbL, in addition to the phoPQ, mgrB, and mgtA genes reported previously.</sentence>
+<sentence id="S8">In gel shift and DNase I footprinting assays, all of <term sem="Gene" id="T5" lex="these_genes">these genes</term> were found to be regulated <term sem="SPAN" id="T6" lex="directly">directly</term> by <term sem="Regulator" id="T7" lex="PhoP">PhoP</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T7" />
+<Theme idref="T5" />
+<Manner idref="T6" />
+<clue>In gel shift and DNase I footprinting assays, all of these genes were found to be <clueType>regulated</clueType> directly by PhoP.</clue>
+</event>
+<sentence id="S9">Thus, we concluded that the phoPQ, mgrB, mgtA, hemL, nagA, rstAB, slyB, vboR, and yrbL genes make up the Mg(2+) stimulon in E. coli.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

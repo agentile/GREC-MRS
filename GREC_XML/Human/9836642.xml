@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="mobbedo2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9836642">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9836642</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Requirement of <term sem="Transcription_Factor" id="T1" lex="RSF_and_FACT">RSF and FACT</term> for transcription of <term sem="DNA" id="T2" lex="chromatin_templates">chromatin templates</term> <term sem="SPAN" id="T3" lex="in_vitro">in vitro</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Purpose idref="E2" />
+<clue><clueType>Requirement</clueType> of RSF and FACT for transcription of chromatin templates in vitro.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T2" />
+<Condition idref="T3" />
+<clue>Requirement of RSF and FACT for <clueType>transcription</clueType> of chromatin templates in vitro.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Transcription of <term sem="DNA" id="T4" lex="naked_DNA">naked DNA</term> <term sem="SPAN" id="T5" lex="in_vitro">in vitro</term> requires <term sem="Transcription_Factor" id="T6" lex="the_general_transcription_factors">the general transcription factors</term> and <term sem="RNA_Polymerase" id="T7" lex="RNA_polymerase_II">RNA polymerase II</term>.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<Theme idref="T4" />
+<Condition idref="T5" />
+<clue><clueType>Transcription</clueType> of naked DNA in vitro requires the general transcription factors and RNA polymerase II.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="E3" />
+<Theme idref="T6" idref1="T7" />
+<clue>Transcription of naked DNA in vitro <clueType>requires</clueType> the general transcription factors and RNA polymerase II.</clue>
+</event>
+<sentence id="S4">However, this minimal set of factors is not sufficient for transcription when <term sem="SPAN" id="T8" lex="the_DNA_template">the DNA template</term> is packaged into <term sem="SPAN" id="T9" lex="chromatin">chromatin</term>.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<Temporal idref="E6" />
+<clue>However, this minimal set of factors is not sufficient for <clueType>transcription</clueType> when the DNA template is packaged into chromatin.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T8" />
+<Destination idref="T9" />
+<clue>However, this minimal set of factors is not sufficient for transcription when the DNA template is <clueType>packaged</clueType> into chromatin.</clue>
+</event>
+<sentence id="S5">Here, <term sem="Transcription_Factor" id="T10" lex="a_factor">a factor</term> that facilitates <term sem="SPAN" id="T11" lex="activator-dependent">activator-dependent</term> <term sem="Transcription" id="T12" lex="transcription">transcription</term> initiation <term sem="SPAN" id="T13" lex="on_chromatin_templates">on chromatin templates</term> was purified.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="E8" />
+<clue>Here, a factor that <clueType>facilitates</clueType> activator-dependent transcription initiation on chromatin templates was purified.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T12" />
+<Manner idref="T11" />
+<Location idref="T13" />
+<clue>Here, a factor that facilitates activator-dependent transcription <clueType>initiation</clueType> on chromatin templates was purified.</clue>
+</event>
+<sentence id="S6">This factor, remodeling and spacing factor (RSF), has adenosine triphosphate-dependent nucleosome-remodeling and spacing activities.</sentence>
+<sentence id="S7"><term sem="RNA_Polymerase" id="T14" lex="Polymerases">Polymerases</term> that initiate <term sem="Transcription" id="T15" lex="transcription">transcription</term> with RSF can only extend <term sem="mRNA" id="T16" lex="their_transcripts">their transcripts</term> in the presence of <term sem="Protein" id="T17" lex="FACT">FACT</term> (facilitates <term sem="SPAN" id="T18" lex="chromatin">chromatin</term> transcription).</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>Polymerases that <clueType>initiate</clueType> transcription with RSF can only extend their transcripts in the presence of FACT (facilitates chromatin transcription).</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T16" />
+<Condition idref="T17" />
+<clue>Polymerases that initiate transcription with RSF can only <clueType>extend</clueType> their transcripts in the presence of FACT (facilitates chromatin transcription).</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="E12" />
+<clue>Polymerases that initiate transcription with RSF can only extend their transcripts in the presence of FACT (<clueType>facilitates</clueType> chromatin transcription).</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<Theme idref="T18" />
+<clue>Polymerases that initiate transcription with RSF can only extend their transcripts in the presence of FACT (facilitates chromatin <clueType>transcription</clueType>).</clue>
+</event>
+<sentence id="S8">Thus, the minimal factor requirements for <term sem="SPAN" id="T19" lex="activator-dependent">activator-dependent</term> transcription on <term sem="SPAN" id="T20" lex="chromatin_templates">chromatin templates</term> <term sem="SPAN" id="T21" lex="in_vitro">in vitro</term> have been defined.</sentence>
+<event id="E13">
+<type class="Transcription" />
+<Theme idref="T20" />
+<Manner idref="T19" />
+<Condition idref="T21" />
+<clue>Thus, the minimal factor requirements for activator-dependent <clueType>transcription</clueType> on chromatin templates in vitro have been defined.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

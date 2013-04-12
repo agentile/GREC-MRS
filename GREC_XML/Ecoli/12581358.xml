@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12581358">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12581358</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Transcriptional organization and regulation of <term sem="Gene" id="T1" lex="the_Escherichia_coli_K30_group_1_capsule_biosynthesis">the Escherichia coli K30 group 1 capsule biosynthesis</term> <term sem="SPAN" id="T2" lex="(cps)_gene_cluster">(cps) gene cluster</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T2" />
+<clue>Transcriptional <clueType>organization</clueType> and regulation of the Escherichia coli K30 group 1 capsule biosynthesis (cps) gene cluster.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T2" />
+<clue>Transcriptional organization and <clueType>regulation</clueType> of the Escherichia coli K30 group 1 capsule biosynthesis (cps) gene cluster.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Escherichia coli group 1 capsules are important virulence determinants, yet little is known about the transcriptional organization or regulation of their biosynthetic <term sem="Operon" id="T3" lex="(cps)_operons">(cps) operons</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T3" />
+<clue>Escherichia coli group 1 capsules are important virulence determinants, yet little is known about the transcriptional <clueType>organization</clueType> or regulation of their biosynthetic (cps) operons.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T3" />
+<clue>Escherichia coli group 1 capsules are important virulence determinants, yet little is known about the transcriptional organization or <clueType>regulation</clueType> of their biosynthetic (cps) operons.</clue>
+</event>
+<sentence id="S4">Transcription of <term sem="Gene" id="T4" lex="the_prototype_serotype_K30_cluster">the prototype serotype K30 cluster</term> is modulated by <term sem="SPAN" id="T5" lex="the_JUMPStart-RfaH_antitermination_mechanism">the JUMPStart-RfaH antitermination mechanism</term>, with the cps promoter being localized to a region immediately upstream of the JUMPStart sequence.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T4" />
+<clue><clueType>Transcription</clueType> of the prototype serotype K30 cluster is modulated by the JUMPStart-RfaH antitermination mechanism, with the cps promoter being localized to a region immediately upstream of the JUMPStart sequence.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="E5" />
+<clue>Transcription of the prototype serotype K30 cluster is <clueType>modulated</clueType> by the JUMPStart-RfaH antitermination mechanism, with the cps promoter being localized to a region immediately upstream of the JUMPStart sequence.</clue>
+</event>
+<sentence id="S5">A putative stem-loop structure located within the K30 cps cluster separates conserved genes with <term sem="Protein" id="T6" lex="products">products</term> that are required for surface expression of <term sem="SPAN" id="T7" lex="capsule">capsule</term> from <term sem="Gene" id="T8" lex="serotype-specific_genes">serotype-specific genes</term> encoding <term sem="Enzyme" id="T9" lex="enzymes">enzymes</term> for polymer repeat-unit synthesis and polymerization.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T6" />
+<Purpose idref="E8" />
+<clue>A putative stem-loop structure located within the K30 cps cluster separates conserved genes with products that are <clueType>required</clueType> for surface expression of capsule from serotype-specific genes encoding enzymes for polymer repeat-unit synthesis and polymerization.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T7" />
+<Source idref="T8" />
+<clue>A putative stem-loop structure located within the K30 cps cluster separates conserved genes with products that are required for surface <clueType>expression</clueType> of capsule from serotype-specific genes encoding enzymes for polymer repeat-unit synthesis and polymerization.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<clue>A putative stem-loop structure located within the K30 cps cluster separates conserved genes with products that are required for surface expression of capsule from serotype-specific genes <clueType>encoding</clueType> enzymes for polymer repeat-unit synthesis and polymerization.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T10" lex="This_putative_stem-loop_structure">This putative stem-loop structure</term> significantly reduces transcription <term sem="SPAN" id="T11" lex="in_a_termination-probe_vector">in <term sem="Viral_Vector" id="T12" lex="a_termination-probe_vector">a termination-probe vector</term></term> and may contribute to differential expression of <term sem="Gene" id="T13" lex="the_cps_genes">the cps genes</term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="E11" />
+<clue>This putative stem-loop structure significantly <clueType>reduces</clueType> transcription in a termination-probe vector and may contribute to differential expression of the cps genes.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<Location idref="T11" />
+<clue>This putative stem-loop structure significantly reduces <clueType>transcription</clueType> in a termination-probe vector and may contribute to differential expression of the cps genes.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T13" />
+<clue>This putative stem-loop structure significantly reduces transcription in a termination-probe vector and may contribute to differential <clueType>expression</clueType> of the cps genes.</clue>
+</event>
+<sentence id="S7">Previous work indicated that increased amounts of group 1 capsular polysaccharide synthesis resulted from the overexpression of the Rcs (regulator of capsule synthesis) proteins.</sentence>
+<sentence id="S8">However, neither overexpression of <term sem="Activator" id="T14" lex="the_transcriptional_activator_RcsB">the transcriptional activator RcsB</term> nor an <term sem="SPAN" id="T15" lex="rcsB">rcsB</term>::<term sem="SPAN" id="T16" lex="aadA">aadA</term> <term sem="SPAN" id="T17" lex="chromosomal">chromosomal</term> insertion altered <term sem="SPAN" id="T18" lex="the_level">the level</term> of transcription measured by cps::lacZ fusions.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T14" />
+<clue>However, neither <clueType>overexpression</clueType> of the transcriptional activator RcsB nor an rcsB::aadA chromosomal insertion altered the level of transcription measured by cps::lacZ fusions.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Manner idref="T15" idref1="T16" idref2="T17" />
+<clue>However, neither overexpression of the transcriptional activator RcsB nor an rcsB::aadA chromosomal <clueType>insertion</clueType> altered the level of transcription measured by cps::lacZ fusions.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref ="E13" idref1="E14" />
+<Theme idref="T18" />
+<clue>However, neither overexpression of the transcriptional activator RcsB nor an rcsB::aadA chromosomal insertion <clueType>altered</clueType> the level of transcription measured by cps::lacZ fusions.</clue>
+</event>
+<sentence id="S9">In the group 1 strains examined, an RcsAB box was found immediately upstream of <term sem="Gene" id="T19" lex="galF">galF</term>, a gene involved in <term sem="SPAN" id="T20" lex="the_production">the production</term> of sugar nucleotide precursors.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T19" />
+<Descriptive-Theme idref="T20" />
+<clue>In the group 1 strains examined, an RcsAB box was found immediately upstream of galF, a gene <clueType>involved</clueType> in the production of sugar nucleotide precursors.</clue>
+</event>
+<sentence id="S10">Overexpression of <term sem="Activator" id="T21" lex="RcsB">RcsB</term> was found to result in <term sem="SPAN" id="T22" lex="a_threefold">a threefold</term> increase in transcription of <term sem="DNA" id="T23" lex="a_galF::lacZ_chromosomal_fusion">a galF::lacZ chromosomal fusion</term>.</sentence>
+<event id="E17">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<clue><clueType>Overexpression</clueType> of RcsB was found to result in a threefold increase in transcription of a galF::lacZ chromosomal fusion.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="E17" />
+<Theme idref="E19" />
+<clue>Overexpression of RcsB was found to <clueType>result</clueType> in a threefold increase in transcription of a galF::lacZ chromosomal fusion.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="E20" />
+<Rate idref="T22" />
+<clue>Overexpression of RcsB was found to result in a threefold <clueType>increase</clueType> in transcription of a galF::lacZ chromosomal fusion.</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<Theme idref="T23" />
+<clue>Overexpression of RcsB was found to result in a threefold increase in <clueType>transcription</clueType> of a galF::lacZ chromosomal fusion.</clue>
+</event>
+<sentence id="S11">Moreover, overexpression of <term sem="Protein" id="T24" lex="GalF">GalF</term> gave rise to a two- to threefold <term sem="SPAN" id="T25" lex="increase">increase</term> in cell-free as well as cell-associated capsule, without affecting <term sem="SPAN" id="T26" lex="cps::lacZ_activity">cps::lacZ activity</term>.</sentence>
+<event id="E21">
+<type class="Gene_Expression" />
+<Theme idref="T24" />
+<clue>Moreover, <clueType>overexpression</clueType> of GalF gave rise to a two- to threefold increase in cell-free as well as cell-associated capsule, without affecting cps::lacZ activity.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="E21" />
+<Theme idref="T25" />
+<clue>Moreover, overexpression of GalF <clueType>gave</clueType> rise to a two- to threefold increase in cell-free as well as cell-associated capsule, without affecting cps::lacZ activity.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="E21" />
+<Theme idref="T26" />
+<clue>Moreover, overexpression of GalF gave rise to a two- to threefold increase in cell-free as well as cell-associated capsule, without <clueType>affecting</clueType> cps::lacZ activity.</clue>
+</event>
+<sentence id="S12">These results indicate that transcription of <term sem="Gene" id="T27" lex="the_E._coli_group_1_capsule_cluster">the E. coli group 1 capsule cluster</term> itself is not regulated by <term sem="SPAN" id="T28" lex="the_Rcs_system">the Rcs system</term> and may, in fact, be constitutive.</sentence>
+<event id="E24">
+<type class="Transcription" />
+<Theme idref="T27" />
+<clue>These results indicate that <clueType>transcription</clueType> of the E. coli group 1 capsule cluster itself is not regulated by the Rcs system and may, in fact, be constitutive.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="E24" />
+<clue>These results indicate that transcription of the E. coli group 1 capsule cluster itself is not <clueType>regulated</clueType> by the Rcs system and may, in fact, be constitutive.</clue>
+</event>
+<sentence id="S13">However, <term sem="SPAN" id="T29" lex="the_Rcs_system">the Rcs system</term> can potentially influence levels of capsular polysaccharide production by increasing <term sem="Gene" id="T30" lex="galF">galF</term> transcription and influencing the available pool of biosynthetic precursors.</sentence>
+<event id="E26">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="E27" />
+<clue>However, the Rcs system can potentially influence levels of capsular polysaccharide production by <clueType>increasing</clueType> galF transcription and influencing the available pool of biosynthetic precursors.</clue>
+</event>
+<event id="E27">
+<type class="GRE" />
+<Theme idref="T30" />
+<clue>However, the Rcs system can potentially influence levels of capsular polysaccharide production by increasing galF <clueType>transcription</clueType> and influencing the available pool of biosynthetic precursors.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7961715">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7961715</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A redox factor protein, <term sem="Protein" id="T1" lex="ref1">ref1</term>, is involved in <term sem="SPAN" id="T2" lex="negative">negative</term> <term sem="Gene" id="T3" lex="gene">gene</term> regulation by <term sem="Inorganic_Compounds" id="T4" lex="extracellular_calcium">extracellular calcium</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Descriptive-Theme idref="E2" />
+<clue>A redox factor protein, ref1, is <clueType>involved</clueType> in negative gene regulation by extracellular calcium.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<Manner idref="T2" />
+<clue>A redox factor protein, ref1, is involved in negative gene <clueType>regulation</clueType> by extracellular calcium.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T5" lex="A_rise_in_extracellular_calcium">A rise in <term sem="Inorganic_Compounds" id="T6" lex="extracellular_calcium">extracellular calcium</term></term> (Ca2+e) suppresses not only <term sem="SPAN" id="T7" lex="secretion">secretion</term> of parathyroid hormone (PTH) but also <term sem="SPAN" id="T8" lex="expression">expression</term> of <term sem="Gene" id="T9" lex="the_PTH_gene">the PTH gene</term> <term sem="SPAN" id="T10" lex="to_ensure_constant_plasma_Ca2+_level">to ensure constant plasma Ca2+ level</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T7" idref1="T8" />
+<Purpose idref="T10" />
+<clue>A rise in extracellular calcium (Ca2+e) <clueType>suppresses</clueType> not only secretion of parathyroid hormone (PTH) but also expression of the PTH gene to ensure constant plasma Ca2+ level.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<clue>A rise in extracellular calcium (Ca2+e) suppresses not only secretion of parathyroid hormone (PTH) but also <clueType>expression</clueType> of the PTH gene to ensure constant plasma Ca2+ level.</clue>
+</event>
+<sentence id="S4"><term sem="Protein" id="T11" lex="A_nuclear_protein(s)">A nuclear protein(s)</term> <term sem="SPAN" id="T12" lex="in_a_wide_variety_of_cells">in a wide variety of <term sem="Cells" id="T13" lex="cells">cells</term></term> bound to the specific DNA elements (negative Ca2+ responsive elements, <term sem="Transcription_Binding_Site" id="T14" lex="nCaREs">nCaREs</term>) in the human PTH gene in <term sem="SPAN" id="T15" lex="sequence-specific_and_Ca2+e_concentration-dependent_manners">sequence-specific and Ca2+e concentration-dependent manners</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T11" />
+<Location idref="T12" />
+<Destination idref="T14" />
+<Manner idref="T15" />
+<clue>A nuclear protein(s) in a wide variety of cells <clueType>bound</clueType> to the specific DNA elements (negative Ca2+ responsive elements, nCaREs) in the human PTH gene in sequence-specific and Ca2+e concentration-dependent manners.</clue>
+</event>
+<sentence id="S5">Our Southwestern cloning revealed that a redox factor protein (<term sem="Protein" id="T16" lex="ref1">ref1</term>), which was known to activate <term sem="Transcription_Factor" id="T17" lex="several_transcription_factors">several transcription factors</term> via <term sem="SPAN" id="T18" lex="alterations_of_their_redox_state">alterations of their redox state</term>, belonged to <term sem="Regulator" id="T19" lex="an_nCaRE_binding_protein">an nCaRE binding protein</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T17" />
+<Manner idref="T18" />
+<clue>Our Southwestern cloning revealed that a redox factor protein (ref1), which was known to <clueType>activate</clueType> several transcription factors via alterations of their redox state, belonged to an nCaRE binding protein.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T16" />
+<Descriptive-Theme idref="T19" />
+<clue>Our Southwestern cloning revealed that a redox factor protein (ref1), which was known to activate several transcription factors via alterations of their redox state, <clueType>belonged</clueType> to an nCaRE binding protein.</clue>
+</event>
+<sentence id="S6"><term sem="mRNA" id="T20" lex="The_level_of_ref1_mRNA">The level of ref1 mRNA</term> <term sem="SPAN" id="T21" lex="as_well_as_of_its_protein">as well as of <term sem="Protein" id="T22" lex="its_protein">its protein</term></term> was elevated by <term sem="Inorganic_Compounds" id="T23" lex="an_increase_in_Ca2+e_concentration">an increase in Ca2+e concentration</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="T20" idref1="T21" idref2="T22" />
+<clue>The level of ref1 mRNA as well as of its protein was <clueType>elevated</clueType> by an increase in Ca2+e concentration.</clue>
+</event>
+<sentence id="S7">In gel shift assay, <term sem="Protein" id="T24" lex="anti-ref1_antibody">anti-ref1 antibody</term> eliminated formation of <term sem="Protein_Complex" id="T25" lex="the_nCaRE-protein_complex">the nCaRE-protein complex</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="E10" />
+<clue>In gel shift assay, anti-ref1 antibody <clueType>eliminated</clueType> formation of the nCaRE-protein complex.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T25" />
+<clue>In gel shift assay, anti-ref1 antibody eliminated <clueType>formation</clueType> of the nCaRE-protein complex.</clue>
+</event>
+<sentence id="S8">We also found that there was <term sem="Protein" id="T26" lex="another_protein(s)">another protein(s)</term> interacting with <term sem="Regulator" id="T27" lex="nCaREs_and_ref1">nCaREs and ref1</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T26" />
+<Theme idref="T27" />
+<clue>We also found that there was another protein(s) <clueType>interacting</clueType> with nCaREs and ref1.</clue>
+</event>
+<sentence id="S9">Further, experiments with an antisense-ref cDNA expression vector introduced into cultured cells suggested that <term sem="SPAN" id="T28" lex="DNA_(nCaRE)-ref1_interaction">DNA (nCaRE)-ref1 interaction</term> led to <term sem="SPAN" id="T29" lex="Ca2+e-mediated_transcriptional">Ca2+e-mediated transcriptional</term> suppression.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="E13" />
+<clue>Further, experiments with an antisense-ref cDNA expression vector introduced into cultured cells suggested that DNA (nCaRE)-ref1 interaction <clueType>led</clueType> to Ca2+e-mediated transcriptional suppression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Repression" />
+<Manner idref="T29" />
+<clue>Further, experiments with an antisense-ref cDNA expression vector introduced into cultured cells suggested that DNA (nCaRE)-ref1 interaction led to Ca2+e-mediated transcriptional <clueType>suppression</clueType>.</clue>
+</event>
+<sentence id="S10">Thus, it is concluded that <term sem="Regulator" id="T30" lex="ref1">ref1</term> possesses <term sem="SPAN" id="T31" lex="transcription_repressor_activity">transcription repressor activity</term> in addition to its function as a transcriptional auxiliary protein.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T30" />
+<Descriptive-Agent idref="T31" />
+<clue>Thus, it is concluded that ref1 <clueType>possesses</clueType> transcription repressor activity in addition to its function as a transcriptional auxiliary protein.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

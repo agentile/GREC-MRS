@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9722567">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9722567</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Transcription_Factor" id="T1" lex="The_human_forkhead_protein_FREAC-2">The human forkhead protein FREAC-2</term> contains <term sem="Domain" id="T2" lex="two_functionally_redundant_activation_domains">two functionally redundant activation domains</term> and interacts with <term sem="Transcription_Factor" id="T3" lex="TBP_and_TFIIB">TBP and TFIIB</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Descriptive-Theme idref="T2" />
+<clue>The human forkhead protein FREAC-2 <clueType>contains</clueType> two functionally redundant activation domains and interacts with TBP and TFIIB.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Theme idref="T1" />
+<clue>The human forkhead protein FREAC-2 contains two functionally redundant activation domains and <clueType>interacts</clueType> with TBP and TFIIB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Forkhead-related activator 2 (<term sem="Transcription_Factor" id="T4" lex="FREAC-2">FREAC-2</term>) is a human transcription factor expressed <term sem="SPAN" id="T5" lex="in_lung_and_placenta">in <term sem="Tissue" id="T6" lex="lung_and_placenta">lung and placenta</term></term> that binds to <term sem="Locus" id="T7" lex="cis-elements">cis-elements</term> in several lung-specific genes.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T4" />
+<Location idref="T5" />
+<clue>Forkhead-related activator 2 (FREAC-2) is a human transcription factor <clueType>expressed</clueType> in lung and placenta that binds to cis-elements in several lung-specific genes.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T4" />
+<Destination idref="T7" />
+<clue>Forkhead-related activator 2 (FREAC-2) is a human transcription factor expressed in lung and placenta that <clueType>binds</clueType> to cis-elements in several lung-specific genes.</clue>
+</event>
+<sentence id="S4">We have identified the parts of FREAC-2 responsible for trans-activation and found two functionally redundant activation domains on the C-terminal side of the DNA binding forkhead domain.</sentence>
+<sentence id="S5"><term sem="Domain" id="T8" lex="Activation_domain_1">Activation domain 1</term> consists of the most C-terminal 23 amino acids of FREAC-2 and contains <term sem="Motif" id="T9" lex="a_sequence_motif">a sequence motif</term> conserved <term sem="SPAN" id="T10" lex="in_an_activation_domain">in <term sem="Domain" id="T11" lex="an_activation_domain">an activation domain</term></term> of another forkhead protein, FREAC-1.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<Descriptive-Theme idref="T9" />
+<clue>Activation domain 1 consists of the most C-terminal 23 amino acids of FREAC-2 and <clueType>contains</clueType> a sequence motif conserved in an activation domain of another forkhead protein, FREAC-1.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T9" />
+<Location idref="T10" />
+<clue>Activation domain 1 consists of the most C-terminal 23 amino acids of FREAC-2 and contains a sequence motif <clueType>conserved</clueType> in an activation domain of another forkhead protein, FREAC-1.</clue>
+</event>
+<sentence id="S6">Activation domain 2 is built up by three synergistic subdomains in the central part of the FREAC-2 protein.</sentence>
+<sentence id="S7"><term sem="Transcription_Factor" id="T12" lex="FREAC-2">FREAC-2</term> was shown to interact <term sem="SPAN" id="T13" lex="in_vitro">in vitro</term> with <term sem="Transcription_Factor" id="T14" lex="TBP_and_TFIIB">TBP and TFIIB</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T12" />
+<Theme idref="T14" />
+<Condition idref="T13" />
+<clue>FREAC-2 was shown to <clueType>interact</clueType> in vitro with TBP and TFIIB.</clue>
+</event>
+<sentence id="S8">The target site for FREAC-2 on TBP was localized to the N-terminal repeat in the core domain of TBP.</sentence>
+<sentence id="S9"><term sem="Transcription_Factor" id="T15" lex="TFIIB">TFIIB</term> binds <term sem="Transcription_Factor" id="T16" lex="FREAC-2">FREAC-2</term> close to the cleft between its two globular domains.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T15" />
+<Destination idref="T16" />
+<clue>TFIIB <clueType>binds</clueType> FREAC-2 close to the cleft between its two globular domains.</clue>
+</event>
+<sentence id="S10"><term sem="SPAN" id="T17" lex="The_part_of_FREAC-2">The part of <term sem="Transcription_Factor" id="T18" lex="FREAC-2">FREAC-2</term></term> that binds <term sem="Transcription_Factor" id="T19" lex="TBP">TBP</term> was mapped to 21 amino acids in the C-terminal end of the forkhead domain.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T17" />
+<Destination idref="T19" />
+<clue>The part of FREAC-2 that <clueType>binds</clueType> TBP was mapped to 21 amino acids in the C-terminal end of the forkhead domain.</clue>
+</event>
+<sentence id="S11">This sequence is well conserved among forkhead proteins, raising the possibility that interaction with TBP may be a general characteristic of this family of transcription factors.</sentence>
+<sentence id="S12">Overexpression of <term sem="Transcription_Factor" id="T20" lex="TFIIB">TFIIB</term> potentiates activation by <term sem="Transcription_Factor" id="T21" lex="FREAC-2">FREAC-2</term> in a manner dependent on the FREAC-2 activation domains.</sentence>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue><clueType>Overexpression</clueType> of TFIIB potentiates activation by FREAC-2 in a manner dependent on the FREAC-2 activation domains.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="E10" />
+<Theme idref="E12" />
+<clue>Overexpression of TFIIB <clueType>potentiates</clueType> activation by FREAC-2 in a manner dependent on the FREAC-2 activation domains.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Activation" />
+<Agent idref="T21" />
+<clue>Overexpression of TFIIB potentiates <clueType>activation</clueType> by FREAC-2 in a manner dependent on the FREAC-2 activation domains.</clue>
+</event>
+<sentence id="S13">Nuclear localization of FREAC-2 was found to depend on sequences from both ends of the forkhead domain.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

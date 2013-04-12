@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=17071714">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>17071714</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of human tRNA:m5C methyltransferase catalysing intron-dependent m5C formation in the first position of the anticodon of the pre-tRNA Leu (CAA).</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We identified a human orthologue of tRNA:m5C methyltransferase from Saccharomyces cerevisiae, which has been previously shown to catalyse the specific modification of C34 in the intron-containing yeast pre-tRNA Leu (CAA).</sentence>
+<sentence id="S4">Using transcripts of intron-less and intron-containing human pre-tRNA Leu (CAA) genes as substrates, we have shown that m5C34 is introduced only in the intron-containing tRNA precursors when the substrates were incubated in the HeLa extract.</sentence>
+<sentence id="S5">m5C34 formation depends on the nucleotide sequence surrounding the wobble cytidine and on the structure of the prolongated anticodon stem.</sentence>
+<sentence id="S6">Expression of the human Trm4 (<term sem="Gene" id="T1" lex="hTrm4">hTrm4</term>) <term sem="SPAN" id="T2" lex="cDNA">cDNA</term> <term sem="SPAN" id="T3" lex="in_yeast">in <term sem="Organism" id="T4" lex="yeast">yeast</term></term> partially complements the lack of the endogenous Trm4p enzyme.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" idref1="T2" />
+<Location idref="T3" />
+<clue><clueType>Expression</clueType> of the human Trm4 (hTrm4) cDNA in yeast partially complements the lack of the endogenous Trm4p enzyme.</clue>
+</event>
+<sentence id="S7">The yeast extract prepared from the strain deprived of the endogenous TRM4 gene and transformed with hTrm4 cDNA exhibits the same activity and substrate specificity toward human pre-tRNALeu transcripts as the HeLa extract.</sentence>
+<sentence id="S8">The hTrm4 MTase has a much narrower specificity against the yeast substrates than its yeast orthologue: human enzyme is not able to form m5C at positions 48 and 49 of human and yeast tRNA precursors.</sentence>
+<sentence id="S9">To our knowledge, this is the first report showing intron-dependent methylation of humanpre-tRNA Leu (CAA) and identification of <term sem="Gene" id="T5" lex="human_gene">human gene</term> encoding <term sem="Enzyme" id="T6" lex="tRNA_methylase">tRNA methylase</term> responsible for this reaction.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>To our knowledge, this is the first report showing intron-dependent methylation of humanpre-tRNA Leu (CAA) and identification of human gene <clueType>encoding</clueType> tRNA methylase responsible for this reaction.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

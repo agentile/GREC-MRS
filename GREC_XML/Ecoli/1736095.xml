@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1736095">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1736095</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="In_vitro">In vitro</term> interactions of <term sem="Regulator" id="T2" lex="integration_host_factor">integration host factor</term> with <term sem="Promoter" id="T3" lex="the_ompF_promoter-regulatory_region">the ompF promoter-regulatory region</term> of Escherichia coli.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" />
+<Agent idref="T3" />
+<Manner idref="T1" />
+<clue>In vitro <clueType>interactions</clueType> of integration host factor with the ompF promoter-regulatory region of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Previous work has shown that integration host factor (IHF) <term sem=" Mutant_Bacteria" id="T4" lex="mutants">mutants</term> have increased expression and altered osmoregulation of <term sem="Protein" id="T5" lex="OmpF">OmpF</term>, a major Escherichia coli outer membrane protein.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="E3" />
+<clue>Previous work has shown that integration host factor (IHF) mutants have <clueType>increased</clueType> expression and altered osmoregulation of OmpF, a major Escherichia coli outer membrane protein.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue>Previous work has shown that integration host factor (IHF) mutants have increased <clueType>expression</clueType> and altered osmoregulation of OmpF, a major Escherichia coli outer membrane protein.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="T5" />
+<clue>Previous work has shown that integration host factor (IHF) mutants have increased expression and altered <clueType>osmoregulation</clueType> of OmpF, a major Escherichia coli outer membrane protein.</clue>
+</event>
+<sentence id="S4">By in vitro analysis the possibility was investigated that <term sem="Regulator" id="T6" lex="IHF">IHF</term> interacts <term sem="SPAN" id="T7" lex="directly">directly</term> with <term sem="Promoter" id="T8" lex="the_ompF_promoter_region">the ompF promoter region</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T6" />
+<Agent idref="T8" />
+<Manner idref="T7" />
+<clue>By in vitro analysis the possibility was investigated that IHF <clueType>interacts</clueType> directly with the ompF promoter region.</clue>
+</event>
+<sentence id="S5">Gel retardation assays and DNase I protection experiments showed that <term sem="Regulator" id="T9" lex="IHF">IHF</term> binds to <term sem="Locus" id="T10" lex="two_sites">two sites</term> in the ompF promoter region centered at positions -180 and -60 relative to the start of transcription.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Destination idref="T10" />
+<clue>Gel retardation assays and DNase I protection experiments showed that IHF <clueType>binds</clueType> to two sites in the ompF promoter region centered at positions -180 and -60 relative to the start of transcription.</clue>
+</event>
+<sentence id="S6">Gel electrophoresis studies with circularly permuted ompF promoter fragments indicated that <term sem="SPAN" id="T11" lex="IHF_binding">IHF binding</term> <term sem="SPAN" id="T12" lex="strongly">strongly</term> increased <term sem="SPAN" id="T13" lex="a_small_intrinsic_bend">a small intrinsic bend</term> in the ompF promoter region.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T13" />
+<Manner idref="T12" />
+<clue>Gel electrophoresis studies with circularly permuted ompF promoter fragments indicated that IHF binding strongly <clueType>increased</clueType> a small intrinsic bend in the ompF promoter region.</clue>
+</event>
+<sentence id="S7">The addition of <term sem="Regulator" id="T14" lex="IHF">IHF</term> to <term sem="Laboratory_Technique" id="T15" lex="a_purified_in_vitro_transcription_system">a purified in vitro transcription system</term> <term sem="SPAN" id="T16" lex="strongly">strongly</term> and <term sem="SPAN" id="T17" lex="specifically">specifically</term> inhibited <term sem="Gene" id="T18" lex="ompF">ompF</term> transcription.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T14" />
+<Destination idref="T15" />
+<clue>The <clueType>addition</clueType> of IHF to a purified in vitro transcription system strongly and specifically inhibited ompF transcription.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E8" />
+<Theme idref="E10" />
+<Manner idref="T16" idref1="T17" />
+<clue>The addition of IHF to a purified in vitro transcription system strongly and specifically <clueType>inhibited</clueType> ompF transcription.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<Theme idref="T18" />
+<clue>The addition of IHF to a purified in vitro transcription system strongly and specifically inhibited ompF <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S8">This inhibition was reversed by increasing the concentration of <term sem="Activator" id="T19" lex="OmpR">OmpR</term>, a positive activator required for <term sem="Gene" id="T20" lex="ompF">ompF</term> expression, suggesting that <term sem="Regulator" id="T21" lex="IHF">IHF</term> may inhibit <term sem="Gene" id="T22" lex="ompF">ompF</term> transcription by altering how <term sem="Regulator" id="T23" lex="OmpR">OmpR</term> interacts with <term sem="Promoter" id="T24" lex="the_ompF_promoter">the ompF promoter</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T19" />
+<Purpose idref="E12" />
+<clue>This inhibition was reversed by increasing the concentration of OmpR, a positive activator <clueType>required</clueType> for ompF expression, suggesting that IHF may inhibit ompF transcription by altering how OmpR interacts with the ompF promoter.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>This inhibition was reversed by increasing the concentration of OmpR, a positive activator required for ompF <clueType>expression</clueType>, suggesting that IHF may inhibit ompF transcription by altering how OmpR interacts with the ompF promoter.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="E14" />
+<clue>This inhibition was reversed by increasing the concentration of OmpR, a positive activator required for ompF expression, suggesting that IHF may <clueType>inhibit</clueType> ompF transcription by altering how OmpR interacts with the ompF promoter.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<Theme idref="T22" />
+<clue>This inhibition was reversed by increasing the concentration of OmpR, a positive activator required for ompF expression, suggesting that IHF may inhibit ompF <clueType>transcription</clueType> by altering how OmpR interacts with the ompF promoter.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T23" />
+<Agent idref="T24" />
+<clue>This inhibition was reversed by increasing the concentration of OmpR, a positive activator required for ompF expression, suggesting that IHF may inhibit ompF transcription by altering how OmpR <clueType>interacts</clueType> with the ompF promoter.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

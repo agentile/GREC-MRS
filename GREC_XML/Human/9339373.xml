@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9339373">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9339373</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The genomic organization and the full coding region of the human PAX7 gene.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T1" lex="The_PAX7_gene">The PAX7 gene</term> encodes <term sem="Transcription_Factor" id="T2" lex="a_transcription_factor">a transcription factor</term> that is a member of the PAX family of developmental control genes.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The PAX7 gene <clueType>encodes</clueType> a transcription factor that is a member of the PAX family of developmental control genes.</clue>
+</event>
+<sentence id="S4">In addition to playing a role in embryogenesis, PAX genes appear to be of importance in a number of diverse human diseases and cancers.</sentence>
+<sentence id="S5">The PAX7 gene maps to human chromosomal region 1p36 and therefore is a potential candidate for human disorders linked to this region.</sentence>
+<sentence id="S6">In particular, a rearrangement of the PAX7 gene by chromosomal translocation is frequently found in alveolar rhabdomyosarcoma tumors.</sentence>
+<sentence id="S7">Here, we cloned a cDNA containing the full coding region of the human PAX7 gene and determined its genomic organization.</sentence>
+<sentence id="S8"><term sem="Gene" id="T3" lex="The_gene">The gene</term> encodes <term sem="Protein" id="T4" lex="a_predicted_protein_of_520_amino_acids">a predicted protein of 520 amino acids</term> that is 47 amino acids longer at the carboxy end than the highly related PAX3 protein.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>The gene <clueType>encodes</clueType> a predicted protein of 520 amino acids that is 47 amino acids longer at the carboxy end than the highly related PAX3 protein.</clue>
+</event>
+<sentence id="S9">The coding region of the gene is interrupted by seven introns, the positions and lengths of which are similar to those of the corresponding introns of the PAX3 gene.</sentence>
+<sentence id="S10">Sequence data for exon/intron boundaries of PAX7 exons 1, 5, 6, 7, and 8 were determined and, together with previously published data for exons 2, 3, and 4, provide the complete sequence information for mutation analysis of the human PAX7 gene.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

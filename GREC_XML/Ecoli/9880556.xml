@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9880556">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9880556</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cross-induction of <term sem="Operon" id="T1" lex="glc_and_ace_operons">glc and ace operons</term> of Escherichia coli attributable to <term sem="SPAN" id="T2" lex="pathway_intersection">pathway intersection</term>.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue><clueType>Cross-induction</clueType> of glc and ace operons of Escherichia coli attributable to pathway intersection.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Characterization of <term sem="Promoter" id="T3" lex="the_glc_promoter">the glc promoter</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<clue><clueType>Characterization</clueType> of the glc promoter.</clue>
+</event>
+<sentence id="S4"><term sem="SPAN" id="T4" lex="The_metabolic_pathways">The metabolic pathways</term> specified by <term sem="Operon" id="T5" lex="the_glc_and_ace_operons">the glc and ace operons</term> in Escherichia coli yield glyoxylate as a common intermediate, which is acted on by two <term sem="Enzyme" id="T6" lex="malate_synthase_isoenzymes">malate synthase isoenzymes</term>: one encoded by <term sem="Gene" id="T7" lex="glcB">glcB</term> and the other by <term sem="Gene" id="T8" lex="aceB">aceB</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T4" />
+<clue>The metabolic pathways <clueType>specified</clueType> by the glc and ace operons in Escherichia coli yield glyoxylate as a common intermediate, which is acted on by two malate synthase isoenzymes: one encoded by glcB and the other by aceB.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" idref1="T8" />
+<Theme idref="T6" />
+<clue>The metabolic pathways specified by the glc and ace operons in Escherichia coli yield glyoxylate as a common intermediate, which is acted on by two malate synthase isoenzymes: one <clueType>encoded</clueType> by glcB and the other by aceB.</clue>
+</event>
+<sentence id="S5">Null mutations in either gene exhibit no phenotype, because of cross-induction of <term sem="Operon" id="T9" lex="the_ace_operon">the ace operon</term> by <term sem="Organic_Compounds" id="T10" lex="glycolate">glycolate</term> and <term sem="Operon" id="T11" lex="the_glc_operon">the glc operon</term> by <term sem="Organic_Compounds" id="T12" lex="acetate">acetate</term>.</sentence>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T10" />
+<Theme idref="T9" />
+<clue>Null mutations in either gene exhibit no phenotype, because of <clueType>cross-induction</clueType> of the ace operon by glycolate and the glc operon by acetate.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Agent idref="T12" />
+<Theme idref="T11" />
+<clue>Null mutations in either gene exhibit no phenotype, because of <clueType>cross-induction</clueType> of the ace operon by glycolate and the glc operon by acetate.</clue>
+</event>
+<sentence id="S6">In this study, the regulation of <term sem="Operon" id="T13" lex="the_glc_operon">the glc operon</term>, comprising <term sem="Gene" id="T14" lex="the_structural_genes_glcDEFGB">the structural genes glcDEFGB</term>, was analyzed at the molecular level.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<Theme idref="T13" />
+<clue>In this study, the <clueType>regulation</clueType> of the glc operon, comprising the structural genes glcDEFGB, was analyzed at the molecular level.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T13" />
+<Descriptive-Theme idref="T14" />
+<clue>In this study, the regulation of the glc operon, <clueType>comprising</clueType> the structural genes glcDEFGB, was analyzed at the molecular level.</clue>
+</event>
+<sentence id="S7"><term sem="Operon" id="T15" lex="This_operon">This operon</term>, activated by growth on <term sem="Organic_Compounds" id="T16" lex="glycolate">glycolate</term>, is transcribed as a single message and is under the positive control of <term sem="Activator" id="T17" lex="GlcC">GlcC</term> encoded by <term sem="Gene" id="T18" lex="a_divergent_gene">a divergent gene</term>.</sentence>
+<event id="E9">
+<type class="Gene_Activation" />
+<Agent idref="T16" />
+<Theme idref="T15" />
+<clue>This operon, <clueType>activated</clueType> by growth on glycolate, is transcribed as a single message and is under the positive control of GlcC encoded by a divergent gene.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<Theme idref="T15" />
+<clue>This operon, activated by growth on glycolate, is <clueType>transcribed</clueType> as a single message and is under the positive control of GlcC encoded by a divergent gene.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="T17" />
+<clue>This operon, activated by growth on glycolate, is transcribed as a single message and is under the positive control of GlcC <clueType>encoded</clueType> by a divergent gene.</clue>
+</event>
+<sentence id="S8">Expression of <term sem="Operon" id="T19" lex="the_glc_operon">the glc operon</term> is strongly dependent on the integration host factor (<term sem="Transcription_Factor" id="T20" lex="IHF">IHF</term>) and is repressed by the global respiratory regulator <term sem="Repressor" id="T21" lex="ArcA-P">ArcA-P</term>.</sentence>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T19" />
+<Condition idref="T20" />
+<clue><clueType>Expression</clueType> of the glc operon is strongly dependent on the integration host factor (IHF) and is repressed by the global respiratory regulator ArcA-P.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Repression" />
+<Agent idref="T21" />
+<Theme idref="E12" />
+<clue>Expression of the glc operon is strongly dependent on the integration host factor (IHF) and is <clueType>repressed</clueType> by the global respiratory regulator ArcA-P.</clue>
+</event>
+<sentence id="S9">In vitro gel-shift experiments demonstrated <term sem="SPAN" id="T22" lex="direct">direct</term> binding of <term sem="Promoter" id="T23" lex="the_promoter_DNA">the promoter DNA</term> to <term sem="Transcription_Factor" id="T24" lex="IHF">IHF</term> and <term sem="Transcription_Factor" id="T25" lex="ArcA-P">ArcA-P</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T23" />
+<Manner idref="T22" />
+<Destination idref="T24" idref1="T25" />
+<clue>In vitro gel-shift experiments demonstrated direct <clueType>binding</clueType> of the promoter DNA to IHF and ArcA-P.</clue>
+</event>
+<sentence id="S10">Mutant analysis indicated that cross-induction of <term sem="SPAN" id="T26" lex="the_glc_operon">the glc operon</term> by <term sem="Organic_Compounds" id="T27" lex="acetate">acetate</term> is mediated by <term sem="Activator" id="T28" lex="the_GlcC_protein">the GlcC protein</term> that recognizes the compound as an alternative effector.</sentence>
+<event id="E15">
+<type class="Gene_Activation" />
+<Agent idref="T27" />
+<Theme idref="T26" />
+<clue>Mutant analysis indicated that <clueType>cross-induction</clueType> of the glc operon by acetate is mediated by the GlcC protein that recognizes the compound as an alternative effector.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="E15" />
+<clue>Mutant analysis indicated that cross-induction of the glc operon by acetate is <clueType>mediated</clueType> by the GlcC protein that recognizes the compound as an alternative effector.</clue>
+</event>
+<sentence id="S11">The similar pattern of regulation of <term sem="SPAN" id="T29" lex="the_Glc_and_Ace_systems">the Glc and Ace systems</term> by <term sem="Transcription_Factor" id="T30" lex="IHF">IHF</term> and <term sem="Transcription_Factor" id="T31" lex="ArcA-P">ArcA-P</term> ensures their effective cross-induction.</sentence>
+<event id="E17">
+<type class="Regulation" />
+<Agent idref="T30" idref1="T31" />
+<Theme idref="T29" />
+<clue>The similar pattern of <clueType>regulation</clueType> of the Glc and Ace systems by IHF and ArcA-P ensures their effective cross-induction.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

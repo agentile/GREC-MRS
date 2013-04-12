@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8034728">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8034728</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulated expression <term sem="SPAN" id="T1" lex="in_vitro">in vitro</term> of <term sem="Gene" id="T2" lex="genes">genes</term> coding for <term sem="Sub_Unit" id="T3" lex="formate_hydrogenlyase_components">formate hydrogenlyase components</term> of Escherichia coli.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="E2" />
+<clue><clueType>Regulated</clueType> expression in vitro of genes coding for formate hydrogenlyase components of Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<Manner idref="T1" />
+<clue>Regulated <clueType>expression</clueType> in vitro of genes coding for formate hydrogenlyase components of Escherichia coli.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="T3" />
+<clue>Regulated expression in vitro of genes <clueType>coding</clueType> for formate hydrogenlyase components of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Activator" id="T4" lex="Purified_FHLA">Purified FHLA</term>, the transcriptional activator of the formate regulon from Escherichia coli, is able to efficiently stimulate transcription from <term sem="Promoter" id="T5" lex="the_sigma_54-dependent_promoters">the sigma 54-dependent promoters</term> of the fdhF, hyp, and hyc transcriptional units.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T4" />
+<Theme idref="E5" />
+<clue>Purified FHLA, the transcriptional activator of the formate regulon from Escherichia coli, is able to efficiently <clueType>stimulate</clueType> transcription from the sigma 54-dependent promoters of the fdhF, hyp, and hyc transcriptional units.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<Source idref="T5" />
+<clue>Purified FHLA, the transcriptional activator of the formate regulon from Escherichia coli, is able to efficiently stimulate <clueType>transcription</clueType> from the sigma 54-dependent promoters of the fdhF, hyp, and hyc transcriptional units.</clue>
+</event>
+<sentence id="S4">Expression was dependent on the presence of <term sem="Sigma_Factor" id="T6" lex="sigma_54">sigma 54</term>, of the upstream activatory sequence (<term sem="Enhancer" id="T7" lex="UAS">UAS</term>), and of <term sem="SPAN" id="T8" lex="formate">formate</term>.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Condition idref="T6" idref1="T7" idref2="T8" />
+<clue><clueType>Expression</clueType> was dependent on the presence of sigma 54, of the upstream activatory sequence (UAS), and of formate.</clue>
+</event>
+<sentence id="S5">Hypophosphite, a formate analogue, could substitute for formate in vitro suggesting that formate per se was active in regulation.</sentence>
+<sentence id="S6">The integration host factor (<term sem="Regulator" id="T9" lex="IHF">IHF</term>) had a direct effect on the expression (<term sem="SPAN" id="T10" lex="in_vivo">in vivo</term> and <term sem="SPAN" id="T11" lex="in_vitro">in vitro</term>) of the <term sem="Gene" id="T12" lex="hyp_and_hyc_genes">hyp and hyc genes</term> but not of the <term sem="Gene" id="T13" lex="fdhF_gene">fdhF gene</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="E8" />
+<clue>The integration host factor (IHF) had a direct <clueType>effect</clueType> on the expression (in vivo and in vitro) of the hyp and hyc genes but not of the fdhF gene.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T12" idref1="T13" />
+<Manner idref="T10" idref1="T11" />
+<clue>The integration host factor (IHF) had a direct effect on the <clueType>expression</clueType> (in vivo and in vitro) of the hyp and hyc genes but not of the fdhF gene.</clue>
+</event>
+<sentence id="S7">Binding of <term sem="Regulator" id="T14" lex="IHF">IHF</term> <term sem="SPAN" id="T15" lex="within_the_region">within <term sem="Locus" id="T16" lex="the_region">the region</term></term> between the hyp and the hyc operon could be shown.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Location idref="T15" />
+<clue><clueType>Binding</clueType> of IHF within the region between the hyp and the hyc operon could be shown.</clue>
+</event>
+<sentence id="S8">A model is proposed for the <term sem="SPAN" id="T17" lex="transcriptional">transcriptional</term> regulation of <term sem="Operon" id="T18" lex="the_inversely_oriented_hyp_and_hyc_operons">the inversely oriented hyp and hyc operons</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<Theme idref="T18" />
+<Manner idref="T17" />
+<clue>A model is proposed for the transcriptional <clueType>regulation</clueType> of the inversely oriented hyp and hyc operons.</clue>
+</event>
+<sentence id="S9"><term sem="SPAN" id="T19" lex="It">It</term> involves two upstream regulatory sequences, one between the hyp and the hyc operon (<term sem="Transcription_Binding_Site" id="T20" lex="IR1">IR1</term>), and the other between hycA and hycB (<term sem="Transcription_Binding_Site" id="T21" lex="IR2">IR2</term>).</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T19" />
+<Descriptive-Theme idref="T20" idref1="T21" />
+<clue>It <clueType>involves</clueType> two upstream regulatory sequences, one between the hyp and the hyc operon (IR1), and the other between hycA and hycB (IR2).</clue>
+</event>
+<sentence id="S10"><term sem="Enhancer" id="T22" lex="The_UAS">The UAS</term> situated within IR1 is responsible for activation of <term sem="Operon" id="T23" lex="the_hyc_operon">the hyc operon</term>, that within IR2 for activation of the hyp operon.</sentence>
+<event id="E12">
+<type class="Gene_Activation" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>The UAS situated within IR1 is responsible for <clueType>activation</clueType> of the hyc operon, that within IR2 for activation of the hyp operon.</clue>
+</event>
+<sentence id="S11"><term sem="Protein_Complex" id="T24" lex="A_supramolecular_transcription_complex">A supramolecular transcription complex</term> is proposed which involves the binding of <term sem="Regulator" id="T25" lex="IHF">IHF</term> to <term sem="Locus" id="T26" lex="a_site">a site</term> located between the UAS and the promoter responsible for transcription of <term sem="Operon" id="T27" lex="the_hyc_operon">the hyc operon</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T24" />
+<Descriptive-Theme idref="E14" />
+<clue>A supramolecular transcription complex is proposed which <clueType>involves</clueType> the binding of IHF to a site located between the UAS and the promoter responsible for transcription of the hyc operon.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T25" />
+<Destination idref="T26" />
+<clue>A supramolecular transcription complex is proposed which involves the <clueType>binding</clueType> of IHF to a site located between the UAS and the promoter responsible for transcription of the hyc operon.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<Theme idref="T27" />
+<clue>A supramolecular transcription complex is proposed which involves the binding of IHF to a site located between the UAS and the promoter responsible for <clueType>transcription</clueType> of the hyc operon.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

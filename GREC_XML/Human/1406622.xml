@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1406622">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1406622</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of Spi-B, a transcription factor related to the putative oncoprotein Spi-1/PU.1.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T1" lex="We">We</term> have cloned <term sem="DNA" id="T2" lex="a_human_cDNA">a human cDNA</term> from a new gene, <term sem="Gene" id="T3" lex="spi-B">spi-B</term>, on the basis of its homology with the DNA-binding domain of the Spi-1/PU.1 putative oncogene product.</sentence>
+<event id="E1">
+<type class="Laboratory_Technique" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Source idref="T3" />
+<clue>We have <clueType>cloned</clueType> a human cDNA from a new gene, spi-B, on the basis of its homology with the DNA-binding domain of the Spi-1/PU.1 putative oncogene product.</clue>
+</event>
+<sentence id="S4"><term sem="Gene" id="T4" lex="spi-B">spi-B</term> codes for <term sem="Protein" id="T5" lex="a_protein">a protein</term> of 262 amino acids presenting 43% overall identity with Spi-1.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>spi-B <clueType>codes</clueType> for a protein of 262 amino acids presenting 43% overall identity with Spi-1.</clue>
+</event>
+<sentence id="S5">Its highly basic carboxy-terminal region exhibits 34% sequence identity with the DNA-binding domain of the Ets-1 protein.</sentence>
+<sentence id="S6">We showed that <term sem="Activator" id="T6" lex="the_Spi-B_protein">the Spi-B protein</term> is able to bind the purine-rich sequence (<term sem="Transcription_Binding_Site" id="T7" lex="PU_box">PU box</term>) recognized by Spi-1/PU.1 and to activate transcription of <term sem="Plasmid" id="T8" lex="a_reporter_plasmid">a reporter plasmid</term> containing <term sem="Transcription_Binding_Site" id="T9" lex="PU_boxes">PU boxes</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Destination idref="T7" />
+<clue>We showed that the Spi-B protein is able to <clueType>bind</clueType> the purine-rich sequence (PU box) recognized by Spi-1/PU.1 and to activate transcription of a reporter plasmid containing PU boxes.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T6" />
+<Theme idref="E5" />
+<clue>We showed that the Spi-B protein is able to bind the purine-rich sequence (PU box) recognized by Spi-1/PU.1 and to <clueType>activate</clueType> transcription of a reporter plasmid containing PU boxes.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T8" />
+<clue>We showed that the Spi-B protein is able to bind the purine-rich sequence (PU box) recognized by Spi-1/PU.1 and to activate <clueType>transcription</clueType> of a reporter plasmid containing PU boxes.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T8" />
+<Descriptive-Theme idref="T9" />
+<clue>We showed that the Spi-B protein is able to bind the purine-rich sequence (PU box) recognized by Spi-1/PU.1 and to activate transcription of a reporter plasmid <clueType>containing</clueType> PU boxes.</clue>
+</event>
+<sentence id="S7">Chromosome in situ hybridization allowed us to map spi-B to the 19q13.3-19q13.4 region of the human genome.</sentence>
+<sentence id="S8"><term sem="Gene" id="T10" lex="spi-B">spi-B</term>, like <term sem="Gene" id="T11" lex="spi-1">spi-1</term>, was found to be expressed <term sem="SPAN" id="T12" lex="in_various_murine_and_human_hematopoietic_cell_lines">in <term sem="Cells" id="T13" lex="various_murine_and_human_hematopoietic_cell_lines">various murine and human hematopoietic cell lines</term></term> except T lymphoid cell lines.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T10" idref1="T11" />
+<Location idref="T12" />
+<clue>spi-B, like spi-1, was found to be <clueType>expressed</clueType> in various murine and human hematopoietic cell lines except T lymphoid cell lines.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

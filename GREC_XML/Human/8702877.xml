@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8702877">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8702877</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of the human forkhead gene FREAC-4.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Evidence for regulation by Wilms' tumor suppressor gene (<term sem="Gene" id="T1" lex="WT-1">WT-1</term>) and <term sem="Gene" id="T2" lex="p53">p53</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T1" idref1="T2" />
+<clue>Evidence for <clueType>regulation</clueType> by Wilms' tumor suppressor gene (WT-1) and p53.</clue>
+</event>
+<sentence id="S4">We describe the cloning and sequence analysis of a nearly full-length cDNA as well as <term sem="DNA" id="T3" lex="a_corresponding_5.2-kilobase_pair_genomic_fragment">a corresponding 5.2-kilobase pair genomic fragment</term> encoding <term sem="Transcription_Factor" id="T4" lex="FREAC-4">FREAC-4</term>, a member of the forkhead family of transcription factors.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>We describe the cloning and sequence analysis of a nearly full-length cDNA as well as a corresponding 5.2-kilobase pair genomic fragment <clueType>encoding</clueType> FREAC-4, a member of the forkhead family of transcription factors.</clue>
+</event>
+<sentence id="S5">The cDNA is collinear with respect to the coding region of the intronless genomic clone.</sentence>
+<sentence id="S6">The conceptual translation product predicts a protein of 465 amino acids with a hyperacidic amino-terminal end, a DNA binding forkhead domain and a carboxyl-terminal part that is rich in homopolymeric runs of prolines and alanines.</sentence>
+<sentence id="S7">The transcription start is identified using an RNase protection assay.</sentence>
+<sentence id="S8">A 2.7-kilobase pair genomic DNA fragment, located immediately upstream of the translation start, was fused to a luciferase reporter gene.</sentence>
+<sentence id="S9"><term sem="SPAN" id="T5" lex="Significant_levels_of_luciferase_activity">Significant levels of luciferase activity</term> were detected when <term sem="Plasmid" id="T6" lex="this_construct"><term sem="SPAN" id="T7" lex="this_construct_was_transfected_into_two_kidney-derived_cell_lines,_293_and_COS-7_cells">this construct was transfected into <term sem="Cells" id="T8" lex="two_kidney-derived_cell_lines">two kidney-derived cell lines</term>, 293 and COS-7 cells</term></term>, whereas only <term sem="Gene" id="T9" lex="background_reporter_gene">background reporter gene</term> expression was observed <term sem="SPAN" id="T10" lex="in_a_cell_line_of_nonkidney_origin">in <term sem="Cells" id="T11" lex="a_cell_line">a cell line</term> of nonkidney origin</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Temporal idref="T7" />
+<clue>Significant levels of luciferase activity were <clueType>detected</clueType> when this construct was transfected into two kidney-derived cell lines, 293 and COS-7 cells, whereas only background reporter gene expression was observed in a cell line of nonkidney origin.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<clue>Significant levels of luciferase activity were detected when this construct was transfected into two kidney-derived cell lines, 293 and COS-7 cells, whereas only background reporter gene <clueType>expression</clueType> was observed in a cell line of nonkidney origin.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="E4" />
+<Location idref="T10" />
+<clue>Significant levels of luciferase activity were detected when this construct was transfected into two kidney-derived cell lines, 293 and COS-7 cells, whereas only background reporter gene expression was <clueType>observed</clueType> in a cell line of nonkidney origin.</clue>
+</event>
+<sentence id="S10">Cotransfections with <term sem="Plasmid" id="T12" lex="plasmids">plasmids</term> expressing <term sem="Gene" id="T13" lex="WT-1">WT-1</term>, <term sem="Mutant_Gene" id="T14" lex="WTAR">WTAR</term> (a mutated form of WT-1), <term sem="Gene" id="T15" lex="p53">p53</term>, and <term sem="Mutant_Gene" id="T16" lex="a_mutated_form"><term sem="SPAN" id="T17" lex="a_mutated_form_of_p53">a mutated form of <term sem="Gene" id="T18" lex="p53">p53</term></term></term> revealed <term sem="SPAN" id="T19" lex="a_complex_pattern_of_regulation">a complex pattern of <term sem="Regulation" id="T20" lex="regulation">regulation</term></term> with a <term sem="SPAN" id="T21" lex="3-fold">3-fold</term> induction with <term sem="Gene" id="T22" lex="WT-1">WT-1</term>, a <term sem="SPAN" id="T23" lex="7-fold">7-fold</term> induction with <term sem="Mutant_Gene" id="T24" lex="mutated_p53">mutated p53</term>, and a <term sem="SPAN" id="T25" lex="4-fold">4-fold</term> repression with <term sem="Gene" id="T26" lex="wild-type_p53">wild-type p53</term>.</sentence>
+<event id="E6">
+<type class="Laboratory_Technique" />
+<Theme idref="T12" />
+<clue><clueType>Cotransfections</clueType> with plasmids expressing WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 revealed a complex pattern of regulation with a 3-fold induction with WT-1, a 7-fold induction with mutated p53, and a 4-fold repression with wild-type p53.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" idref1="T14" idref2="T15" idref3="T17" />
+<clue>Cotransfections with plasmids <clueType>expressing</clueType> WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 revealed a complex pattern of regulation with a 3-fold induction with WT-1, a 7-fold induction with mutated p53, and a 4-fold repression with wild-type p53.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="T19" />
+<clue>Cotransfections with plasmids expressing WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 <clueType>revealed</clueType> a complex pattern of regulation with a 3-fold induction with WT-1, a 7-fold induction with mutated p53, and a 4-fold repression with wild-type p53.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Activation" />
+<Condition idref="T22" />
+<Rate idref="T21" />
+<clue>Cotransfections with plasmids expressing WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 revealed a complex pattern of regulation with a 3-fold <clueType>induction</clueType> with WT-1, a 7-fold induction with mutated p53, and a 4-fold repression with wild-type p53.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Activation" />
+<Condition idref="T24" />
+<Rate idref="T23" />
+<clue>Cotransfections with plasmids expressing WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 revealed a complex pattern of regulation with a 3-fold induction with WT-1, a 7-fold <clueType>induction</clueType> with mutated p53, and a 4-fold repression with wild-type p53.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Repression" />
+<Condition idref="T26" />
+<Rate idref="T25" />
+<clue>Cotransfections with plasmids expressing WT-1, WTAR (a mutated form of WT-1), p53, and a mutated form of p53 revealed a complex pattern of regulation with a 3-fold induction with WT-1, a 7-fold induction with mutated p53, and a 4-fold <clueType>repression</clueType> with wild-type p53.</clue>
+</event>
+<sentence id="S11">A 5'-promoter deletion series delimits a DNA fragment necessary for WT-1 inducibility in cotransfection experiments.</sentence>
+<sentence id="S12">This fragment is shown to contain <term sem="Transcription_Binding_Site" id="T27" lex="at_least_one_cis-element">at least one cis-element</term> that is capable of interacting with <term sem="Activator" id="T28" lex="recombinant_WT-1">recombinant WT-1</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T27" />
+<Agent idref="T28" />
+<clue>This fragment is shown to contain at least one cis-element that is capable of <clueType>interacting</clueType> with recombinant WT-1.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

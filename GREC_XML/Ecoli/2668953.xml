@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2668953">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2668953</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Phosphorylation of <term sem="Regulator" id="T1" lex="OmpR">OmpR</term> by the osmosensor EnvZ modulates expression of <term sem="Gene" id="T2" lex="the_ompF_and_ompC_genes">the ompF and ompC genes</term> <term sem="SPAN" id="T3" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T4" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<clue><clueType>Phosphorylation</clueType> of OmpR by the osmosensor EnvZ modulates expression of the ompF and ompC genes in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="E1" />
+<Theme idref="E3" />
+<clue>Phosphorylation of OmpR by the osmosensor EnvZ <clueType>modulates</clueType> expression of the ompF and ompC genes in Escherichia coli.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<Location idref="T3" />
+<clue>Phosphorylation of OmpR by the osmosensor EnvZ modulates <clueType>expression</clueType> of the ompF and ompC genes in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">EnvZ and OmpR, the regulatory proteins for <term sem="Gene" id="T5" lex="ompF_and_ompC">ompF and ompC</term> expression <term sem="SPAN" id="T6" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T7" lex="Escherichia_coli">Escherichia coli</term></term>, belong to a modulator-effector family of regulatory proteins which are essential for the response to environmental signals.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>EnvZ and OmpR, the regulatory proteins for ompF and ompC <clueType>expression</clueType> in Escherichia coli, belong to a modulator-effector family of regulatory proteins which are essential for the response to environmental signals.</clue>
+</event>
+<sentence id="S4">We show that the soluble cytoplasmic domain of the transmembrane modulator protein EnvZ is phosphorylated in vitro by [gamma-32P]-ATP.</sentence>
+<sentence id="S5">We also demonstrate that <term sem="Inorganic_Compounds" id="T8" lex="the_phosphate_group">the phosphate group</term> can, in turn, be transferred to <term sem="Regulator" id="T9" lex="the_transcription_activator_protein_OmpR">the transcription activator protein OmpR</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<Destination idref="T9" />
+<clue>We also demonstrate that the phosphate group can, in turn, be <clueType>transferred</clueType> to the transcription activator protein OmpR.</clue>
+</event>
+<sentence id="S6">The pH stability properties of the phosphate groups linked to EnvZ indicate that this molecule contains histidyl phosphate.</sentence>
+<sentence id="S7">The invariant His-243 of EnvZ corresponds to the phosphorylated His-48 of the chemotactic modulator protein CheA.</sentence>
+<sentence id="S8">Substitution of His-243 with valine produces an EnvZ that is refractory to phosphorylation and can no longer catalyze the transfer of phosphate to OmpR.</sentence>
+<sentence id="S9">Furthermore, <term sem="SPAN" id="T10" lex="in_a_delta_envZ_strain_of_E._coli">in <term sem=" Mutant_Bacteria" id="T11" lex="a_delta_envZ_strain">a delta envZ strain</term> of E. coli</term>, containing the envZ Val-243 plasmid, <term sem="Gene" id="T12" lex="ompC">ompC</term> expression is elevated <term sem="SPAN" id="T13" lex="7-fold_relative">7-fold relative</term> to that found in cells carrying the wild-type envZ plasmid.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<Location idref="T10" />
+<clue>Furthermore, in a delta envZ strain of E. coli, containing the envZ Val-243 plasmid, ompC <clueType>expression</clueType> is elevated 7-fold relative to that found in cells carrying the wild-type envZ plasmid.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="E6" />
+<Rate idref="T13" />
+<clue>Furthermore, in a delta envZ strain of E. coli, containing the envZ Val-243 plasmid, ompC expression is <clueType>elevated</clueType> 7-fold relative to that found in cells carrying the wild-type envZ plasmid.</clue>
+</event>
+<sentence id="S10">Based on these results we propose a model in which <term sem="SPAN" id="T14" lex="the_phosphorylated_state">the phosphorylated state</term> of OmpR modulates the expression of <term sem="Gene" id="T15" lex="the_ompF_and_ompC_genes">the ompF and ompC genes</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="E9" />
+<clue>Based on these results we propose a model in which the phosphorylated state of OmpR <clueType>modulates</clueType> the expression of the ompF and ompC genes.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>Based on these results we propose a model in which the phosphorylated state of OmpR modulates the <clueType>expression</clueType> of the ompF and ompC genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

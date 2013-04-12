@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9371449">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9371449</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Organization and regulation of <term sem="Operon" id="T1" lex="the_D-xylose_operons">the D-xylose operons</term> <term sem="SPAN" id="T2" lex="in_Escherichia_coli_K-12">in <term sem="Bacteria" id="T3" lex="Escherichia_coli_K-12">Escherichia coli K-12</term></term>: <term sem="Activator" id="T4" lex="XylR">XylR</term> acts as <term sem="Activator" id="T5" lex="a_transcriptional_activator">a transcriptional activator</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<Location idref="T2" />
+<clue>Organization and <clueType>regulation</clueType> of the D-xylose operons in Escherichia coli K-12: XylR acts as a transcriptional activator.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T4" />
+<Descriptive-Theme idref="T5" />
+<clue>Organization and regulation of the D-xylose operons in Escherichia coli K-12: XylR <clueType>acts</clueType> as a transcriptional activator.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T6" lex="The_metabolism_of_D-xylose">The metabolism of <term sem="Organic_Compounds" id="T7" lex="D-xylose">D-xylose</term></term> in Escherichia coli K-12 is known to be mediated by <term sem="Gene" id="T8" lex="the_xylAB_gene">the xylAB gene</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T6" />
+<clue>The metabolism of D-xylose in Escherichia coli K-12 is known to be <clueType>mediated</clueType> by the xylAB gene.</clue>
+</event>
+<sentence id="S4">However, the nearby xylFGHR genes were found by genome sequencing and predicted to be responsible for transport and regulation for xylose based on their sequence similarities to other functionally related genes.</sentence>
+<sentence id="S5">Here, we investigated transcriptional organization and functions of the xyl genes.</sentence>
+<sentence id="S6">An analysis with random transposon insertions revealed that the xyl genes are organized into two major transcriptional units, <term sem="Gene" id="T9" lex="xylAB">xylAB</term> and <term sem="Gene" id="T10" lex="xylFGHR">xylFGHR</term>, governed by the promoters <term sem="Promoter" id="T11" lex="PA">PA</term> and <term sem="Promoter" id="T12" lex="PF">PF</term>, respectively.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T11" idref1="T12" />
+<Theme idref="T9" idref1="T10" />
+<clue>An analysis with random transposon insertions revealed that the xyl genes are organized into two major transcriptional units, xylAB and xylFGHR, <clueType>governed</clueType> by the promoters PA and PF, respectively.</clue>
+</event>
+<sentence id="S7">However, there is an additional weak promoter, PR, which is specific for xylR.</sentence>
+<sentence id="S8">Sites of transcription initiation were determined by primer extension analysis.</sentence>
+<sentence id="S9">When studied with operon fusions to lacZ, <term sem="Promoter" id="T13" lex="the_PA_and_PF_promoters">the PA and PF promoters</term> were activated by <term sem="Organic_Compounds" id="T14" lex="D-xylose">D-xylose</term> and repressed by <term sem="Organic_Compounds" id="T15" lex="glucose">glucose</term>.</sentence>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T14" />
+<Theme idref="T13" />
+<clue>When studied with operon fusions to lacZ, the PA and PF promoters were <clueType>activated</clueType> by D-xylose and repressed by glucose.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Repression" />
+<Agent idref="T15" />
+<Theme idref="T13" />
+<clue>When studied with operon fusions to lacZ, the PA and PF promoters were activated by D-xylose and <clueType>repressed</clueType> by glucose.</clue>
+</event>
+<sentence id="S10">In contrast, <term sem="SPAN" id="T16" lex="the_PR_promoter">the PR promoter</term> was not regulated by <term sem="Organic_Compounds" id="T17" lex="these_sugars">these sugars</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<Agent idref="T17" />
+<Theme idref="T16" />
+<clue>In contrast, the PR promoter was not <clueType>regulated</clueType> by these sugars.</clue>
+</event>
+<sentence id="S11"><term sem="SPAN" id="T18" lex="A_mutation_in_xylR">A mutation in xylR</term><term sem="Gene" id="T19" lex="xylR"></term> completely abolished expression from <term sem="Promoter" id="T20" lex="the_PA_and_PF_promoters">the PA and PF promoters</term>, causing a defect in both growth and transport.</sentence>
+<event id="E8">
+<type class="Mutation" />
+<Location idref="T19" />
+<clue>A <clueType>mutation</clueType> in xylR completely abolished expression from the PA and PF promoters, causing a defect in both growth and transport.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="E10" />
+<clue>A mutation in xylR completely <clueType>abolished</clueType> expression from the PA and PF promoters, causing a defect in both growth and transport.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Source idref="T20" />
+<clue>A mutation in xylR completely abolished <clueType>expression</clueType> from the PA and PF promoters, causing a defect in both growth and transport.</clue>
+</event>
+<sentence id="S12">Binding of <term sem="Activator" id="T21" lex="XylR">XylR</term> to <term sem="Promoter" id="T22" lex="the_xyl_promoter">the xyl promoter</term> was enhanced by the presence of <term sem="Organic_Compounds" id="T23" lex="D-xylose">D-xylose</term>, suggesting that <term sem="Transcription" id="T24" lex="transcription">transcription</term> was <term sem="SPAN" id="T25" lex="positively">positively</term> regulated by <term sem="Activator" id="T26" lex="XylR">XylR</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T21" />
+<Destination idref="T22" />
+<clue><clueType>Binding</clueType> of XylR to the xyl promoter was enhanced by the presence of D-xylose, suggesting that transcription was positively regulated by XylR.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="E11" />
+<clue>Binding of XylR to the xyl promoter was <clueType>enhanced</clueType> by the presence of D-xylose, suggesting that transcription was positively regulated by XylR.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<Agent idref="T26" />
+<Theme idref="T24" />
+<Manner idref="T25" />
+<clue>Binding of XylR to the xyl promoter was enhanced by the presence of D-xylose, suggesting that transcription was positively <clueType>regulated</clueType> by XylR.</clue>
+</event>
+<sentence id="S13">In vivo footprinting analysis revealed that <term sem="Activator" id="T27" lex="XylR">XylR</term> binds to at least two DNA regions, <term sem="Transcription_Binding_Site" id="T28" lex="IA">IA</term> and <term sem="Transcription_Binding_Site" id="T29" lex="IF">IF</term>, each with a direct repeat.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T27" />
+<Destination idref="T28" idref1="T29" />
+<clue>In vivo footprinting analysis revealed that XylR <clueType>binds</clueType> to at least two DNA regions, IA and IF, each with a direct repeat.</clue>
+</event>
+<sentence id="S14">It is very likely that <term sem="Activator" id="T30" lex="XylR">XylR</term> interacts with <term sem="Transcription_Binding_Site" id="T31" lex="IA">IA</term> and <term sem="Transcription_Binding_Site" id="T32" lex="IF">IF</term> as a dimer.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T30" />
+<Descriptive-Theme idref="T31" idref1="T32" />
+<clue>It is very likely that XylR <clueType>interacts</clueType> with IA and IF as a dimer.</clue>
+</event>
+<sentence id="S15">The presumed binding sites are located just upstream of the promoter consensus sequences (-35), while IA is additionally flanked by a cyclic AMP receptor protein-binding site on the other side.</sentence>
+<sentence id="S16">The proposed structure of xyl promoters is consistent with the regulation of <term sem="SPAN" id="T33" lex="xyl_gene">xyl gene</term> expression and with phenotypes of transposon insertions obtained in the promoter regions.</sentence>
+<event id="E16">
+<type class="Regulation" />
+<Theme idref="E17" />
+<clue>The proposed structure of xyl promoters is consistent with the <clueType>regulation</clueType> of xyl gene expression and with phenotypes of transposon insertions obtained in the promoter regions.</clue>
+</event>
+<event id="E17">
+<type class="Gene_Expression" />
+<Theme idref="T33" />
+<clue>The proposed structure of xyl promoters is consistent with the regulation of xyl gene <clueType>expression</clueType> and with phenotypes of transposon insertions obtained in the promoter regions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

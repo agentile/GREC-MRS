@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8248182">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8248182</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cell growth and lambda phage development controlled by the same essential Escherichia coli gene, ftsH/hflB.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The lambda phage choice between lysis and lysogeny is influenced by certain host functions in Escherichia coli.</sentence>
+<sentence id="S4">We found that the frequency of lambda lysogenization is markedly increased in the ftsH1 temperature-sensitive mutant.</sentence>
+<sentence id="S5"><term sem="Gene" id="T1" lex="The_ftsH_gene">The ftsH gene</term>, previously shown to code for <term sem="Protein" id="T2" lex="an_essential_inner_membrane_protein">an essential inner membrane protein</term> with putative ATPase activity, is identical to hflB, a gene involved in the stability of the phage cII activator protein.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The ftsH gene, previously shown to <clueType>code</clueType> for an essential inner membrane protein with putative ATPase activity, is identical to hflB, a gene involved in the stability of the phage cII activator protein.</clue>
+</event>
+<sentence id="S6">The lysogenic decision controlled by FtsH/HflB is independent of that controlled by the protease HflA.</sentence>
+<sentence id="S7">Overproduction of FtsH/HflB suppresses the high frequency of lysogenization in an hflA null mutant.</sentence>
+<sentence id="S8">The FtsH/HflB protein, which stimulates cII degradation, may be a component of an HflA-independent proteolytic pathway, or it may act as a chaperone, maintaining cII in a conformation subject to proteolysis via such a pathway.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

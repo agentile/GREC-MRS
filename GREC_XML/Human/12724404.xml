@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12724404">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12724404</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification and characterization of three new components of the mSin3A corepressor complex.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The mSin3A corepressor complex contains 7 to 10 tightly associated polypeptides and is utilized by many transcriptional repressors.</sentence>
+<sentence id="S4">Much of the corepressor function of mSin3A derives from associations with the histone deacetylases HDAC1 and HDAC2; however, the contributions of the other mSin3A-associated polypeptides remain largely unknown.</sentence>
+<sentence id="S5">We have purified an mSin3A complex from K562 erythroleukemia cells and identified three new mSin3A-associated proteins (SAP): SAP180, SAP130, and SAP45.</sentence>
+<sentence id="S6">SAP180 is 40% identical to a previously identified mSin3A-associated protein, RBP1.</sentence>
+<sentence id="S7">SAP45 is identical to mSDS3, the human ortholog of the SDS3p component of the Saccharomyces cerevisiae Sin3p-Rpd3p corepressor complex.</sentence>
+<sentence id="S8">SAP130 does not have detectable homology to other proteins.</sentence>
+<sentence id="S9">Coimmunoprecipitation and gel filtration data suggest that the new SAPs are, at the very least, components of the same mSin3A complex.</sentence>
+<sentence id="S10"><term sem="Repressor" id="T1" lex="Each_new_SAP">Each new SAP</term> repressed <term sem="Transcription" id="T2" lex="transcription">transcription</term> when tethered to DNA.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Each new SAP <clueType>repressed</clueType> transcription when tethered to DNA.</clue>
+</event>
+<sentence id="S11">Furthermore, <term sem="Gene_Repression" id="T3" lex="repression">repression</term> correlated with <term sem="Protein_Complex" id="T4" lex="mSin3A">mSin3A</term> binding, suggesting that the new SAPs are components of functional mSin3A corepressor complexes.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="E3" />
+<clue>Furthermore, repression <clueType>correlated</clueType> with mSin3A binding, suggesting that the new SAPs are components of functional mSin3A corepressor complexes.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<clue>Furthermore, repression correlated with mSin3A <clueType>binding</clueType>, suggesting that the new SAPs are components of functional mSin3A corepressor complexes.</clue>
+</event>
+<sentence id="S12">SAP180 has two repression domains: a C-terminal domain, which interacts with the mSin3A-HDAC complex, and an N-terminal domain, which functions independently of mSin3A-HDAC.</sentence>
+<sentence id="S13">SAP130 has a repression domain at its C terminus that interacts with the mSin3A-HDAC complex and an N-terminal domain that probably mediates an interaction with a transcriptional activator.</sentence>
+<sentence id="S14">Together, our data suggest that these novel SAPs function in the assembly and/or enzymatic activity of the mSin3A complex or in mediating interactions between the mSin3A complex and other regulatory complexes.</sentence>
+<sentence id="S15">Finally, all three SAPs bind to the HDAC-interaction domain (HID) of mSin3A, suggesting that the HID functions as the assembly interface for the mSin3A corepressor complex.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

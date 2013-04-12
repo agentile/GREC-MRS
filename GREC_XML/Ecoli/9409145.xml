@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9409145">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9409145</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Arac/XylS family of transcriptional regulators.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The ArC/XylS family of prokaryotic positive transcriptional regulators includes <term sem="Polypeptide" id="T1" lex="more_than_100_proteins_and_polypeptides">more than 100 proteins and polypeptides</term> derived from <term sem="ORF" id="T2" lex="open_reading_frames">open reading frames</term> translated from DNA sequences.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Source idref="T2" />
+<clue>The ArC/XylS family of prokaryotic positive transcriptional regulators includes more than 100 proteins and polypeptides <clueType>derived</clueType> from open reading frames translated from DNA sequences.</clue>
+</event>
+<sentence id="S4">Members of this family are widely distributed and have been found in the gamma subgroup of the proteobacteria, low- and high-G + C-content gram-positive bacteria, and cyanobacteria.</sentence>
+<sentence id="S5">These proteins are defined by a profile that can be accessed from PROSITE PS01124.</sentence>
+<sentence id="S6">Members of the family are about 300 amino acids long and have three main regulatory functions in common: carbon metabolism, stress response, and pathogenesis.</sentence>
+<sentence id="S7">Multiple alignments of the proteins of the family define a conserved stretch of 99 amino acids usually located at the C-terminal region of the regulator and connected to a nonconserved region via a linker.</sentence>
+<sentence id="S8"><term sem="DNA" id="T3" lex="The_conserved_stretch">The conserved stretch</term> contains <term sem="SPAN" id="T4" lex="all_the_elements">all the elements</term> required to bind <term sem="SPAN" id="T5" lex="DNA_target_sequences">DNA target sequences</term> and to activate transcription from <term sem="Promoter" id="T6" lex="cognate_promoters">cognate promoters</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Descriptive-Theme idref="E3" />
+<clue>The conserved stretch <clueType>contains</clueType> all the elements required to bind DNA target sequences and to activate transcription from cognate promoters.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T4" />
+<Destination idref="T5" />
+<clue>The conserved stretch contains all the elements required to <clueType>bind</clueType> DNA target sequences and to activate transcription from cognate promoters.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="E5" />
+<clue>The conserved stretch contains all the elements required to bind DNA target sequences and to <clueType>activate</clueType> transcription from cognate promoters.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<Source idref="T6" />
+<clue>The conserved stretch contains all the elements required to bind DNA target sequences and to activate <clueType>transcription</clueType> from cognate promoters.</clue>
+</event>
+<sentence id="S9">Secondary analysis of the conserved region suggests that it contains two potential alpha-helix-turn-alpha-helix DNA binding motifs.</sentence>
+<sentence id="S10">The first, and better-fitting motif is supported by biochemical data, whereas existing biochemical data neither support nor refute the proposal that the second region possesses this structure.</sentence>
+<sentence id="S11">The phylogenetic relationship suggests that members of the family have recruited the nonconserved domain(s) into a series of existing domains involved in DNA recognition and transcription stimulation and that this recruited domain governs the role that the regulator carries out.</sentence>
+<sentence id="S12">For some regulators, it has been demonstrated that the nonconserved region contains the dimerization domain.</sentence>
+<sentence id="S13">For the regulators involved in carbon metabolism, the effector binding determinants are also in this region.</sentence>
+<sentence id="S14"><term sem="Regulator" id="T7" lex="Most_regulators_belonging_to_the_AraC/XylS_family">Most regulators belonging to the AraC/XylS family</term> recognize <term sem="Transcription_Binding_Site" id="T8" lex="multiple_binding_sites">multiple binding sites</term> in the regulated promoters.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>Most regulators belonging to the AraC/XylS family <clueType>recognize</clueType> multiple binding sites in the regulated promoters.</clue>
+</event>
+<sentence id="S15">One of the motifs usually overlaps or is adjacent to the -35 region of the cognate promoters.</sentence>
+<sentence id="S16">Footprinting assays have suggested that <term sem="Regulator" id="T9" lex="these_regulators">these regulators</term> protect <term sem="SPAN" id="T10" lex="a_stretch_of_up_to_20_bp">a stretch of up to 20 bp</term> <term sem="SPAN" id="T11" lex="in_the_target_promoters">in <term sem="Promoter" id="T12" lex="the_target_promoters">the target promoters</term></term>, and multiple alignments of binding sites for a number of regulators have shown that <term sem="Protein" id="T13" lex="the_proteins">the proteins</term> recognize <term sem="DNA" id="T14" lex="short_motifs">short motifs</term> <term sem="SPAN" id="T15" lex="within_the_protected_region">within the protected region</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<Location idref="T11" />
+<clue>Footprinting assays have suggested that these regulators <clueType>protect</clueType> a stretch of up to 20 bp in the target promoters, and multiple alignments of binding sites for a number of regulators have shown that the proteins recognize short motifs within the protected region.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<Location idref="T15" />
+<clue>Footprinting assays have suggested that these regulators protect a stretch of up to 20 bp in the target promoters, and multiple alignments of binding sites for a number of regulators have shown that the proteins <clueType>recognize</clueType> short motifs within the protected region.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

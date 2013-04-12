@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11071896">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11071896</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The regulation of <term sem="Promoter" id="T1" lex="the_Escherichia_coli_mazEF_promoter">the Escherichia coli mazEF promoter</term> involves an unusual alternating palindrome.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<clue>The <clueType>regulation</clueType> of the Escherichia coli mazEF promoter involves an unusual alternating palindrome.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The Escherichia coli mazEF system is a chromosomal &quot;addiction module&quot; that, under starvation conditions in which guanosine-3',5'-bispyrophosphate (ppGpp) is produced, is responsible for programmed cell death.</sentence>
+<sentence id="S4">This module specifies for the toxic stable protein MazF and the labile antitoxic protein MazE.</sentence>
+<sentence id="S5">Upstream from the mazEF module are two promoters, <term sem="Promoter" id="T2" lex="P(2)">P(2)</term> and <term sem="Promoter" id="T3" lex="P(3)">P(3)</term> that are strongly <term sem="SPAN" id="T4" lex="negatively">negatively</term> autoregulated by <term sem="Regulator" id="T5" lex="MazE">MazE</term> and <term sem="Regulator" id="T6" lex="MazF">MazF</term>.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Agent idref="T5" idref1="T6" />
+<Theme idref="T2" idref1="T3" />
+<Manner idref="T4" />
+<clue>Upstream from the mazEF module are two promoters, P(2) and P(3) that are strongly negatively <clueType>autoregulated</clueType> by MazE and MazF.</clue>
+</event>
+<sentence id="S6">We show that the expression of <term sem="SPAN" id="T7" lex="this_module">this module</term> is <term sem="SPAN" id="T8" lex="positively">positively</term> regulated by <term sem="SPAN" id="T9" lex="the_factor">the factor</term> for <term sem="SPAN" id="T10" lex="inversion">inversion</term> stimulation.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T7" />
+<clue>We show that the <clueType>expression</clueType> of this module is positively regulated by the factor for inversion stimulation.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<Agent idref="T9" />
+<Theme idref="E3" />
+<Manner idref="T8" />
+<clue>We show that the expression of this module is positively <clueType>regulated</clueType> by the factor for inversion stimulation.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Manner idref="T10" />
+<clue>We show that the expression of this module is positively regulated by the factor for inversion <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S7">What seems to be responsible for the <term sem="SPAN" id="T11" lex="negative">negative</term> autoregulation of <term sem="Gene" id="T12" lex="mazEF">mazEF</term> is an unusual DNA structure, which we have called an &quot;alternating palindrome.&quot; The middle part, &quot;a,&quot; of this structure may complement either the downstream fragment, &quot;b,&quot; or the upstream fragment, &quot;c&quot;</sentence>
+<event id="E6">
+<type class="Regulation" />
+<Theme idref="T12" />
+<Manner idref="T11" />
+<clue>What seems to be responsible for the negative <clueType>autoregulation</clueType> of mazEF is an unusual DNA structure, which we have called an &quot;alternating palindrome.&quot; The middle part, &quot;a,&quot; of this structure may complement either the downstream fragment, &quot;b,&quot; or the upstream fragment, &quot;c&quot;</clue>
+</event>
+<sentence id="S8">When <term sem="Protein_Complex" id="T13" lex="the_MazE.MazF_complex">the MazE.MazF complex</term> binds either of <term sem="DNA" id="T14" lex="these_arms">these arms</term> of the alternating palindrome, strong <term sem="SPAN" id="T15" lex="negative">negative</term> autoregulation results.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T13" />
+<Destination idref="T14" />
+<clue>When the MazE.MazF complex <clueType>binds</clueType> either of these arms of the alternating palindrome, strong negative autoregulation results.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Manner idref="T15" />
+<clue>When the MazE.MazF complex binds either of these arms of the alternating palindrome, strong negative <clueType>autoregulation</clueType> results.</clue>
+</event>
+<sentence id="S9">We suggest that the combined presence of <term sem="Promoter" id="T16" lex="the_two_promoters">the two promoters</term>, <term sem="SPAN" id="T17" lex="the_alternating_palindrome_structure">the alternating palindrome structure</term> and <term sem="SPAN" id="T18" lex="the_factor">the factor</term> for inversion stimulation-binding site, all permit the expression of <term sem="SPAN" id="T19" lex="the_mazEF_module">the mazEF module</term> to be sensitively regulated under <term sem="SPAN" id="T20" lex="various_growth_conditions">various growth conditions</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="E10" />
+<Condition idref="T16" idref1="T17" idref2="T18" />
+<clue>We suggest that the combined presence of the two promoters, the alternating palindrome structure and the factor for inversion stimulation-binding site, all <clueType>permit</clueType> the expression of the mazEF module to be sensitively regulated under various growth conditions.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T19" />
+<clue>We suggest that the combined presence of the two promoters, the alternating palindrome structure and the factor for inversion stimulation-binding site, all permit the <clueType>expression</clueType> of the mazEF module to be sensitively regulated under various growth conditions.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<Theme idref="E10" />
+<Condition idref="T20" />
+<clue>We suggest that the combined presence of the two promoters, the alternating palindrome structure and the factor for inversion stimulation-binding site, all permit the expression of the mazEF module to be sensitively <clueType>regulated</clueType> under various growth conditions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

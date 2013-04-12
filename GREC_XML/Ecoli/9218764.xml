@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9218764">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9218764</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">DNA binding of Escherichia coli arginine repressor mutants altered in oligomeric state.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The Escherichia coli arginine repressor (<term sem="Repressor" id="T1" lex="ArgR">ArgR</term>) controls expression of <term sem="Gene" id="T2" lex="the_arginine_biosynthetic_genes">the arginine biosynthetic genes</term> and acts as <term sem="Protein" id="T3" lex="an_accessory_protein">an accessory protein</term> in Xer site-specific recombination at cer and related plasmid recombination sites.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>The Escherichia coli arginine repressor (ArgR) <clueType>controls</clueType> expression of the arginine biosynthetic genes and acts as an accessory protein in Xer site-specific recombination at cer and related plasmid recombination sites.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Descriptive-Agent idref="T3" />
+<clue>The Escherichia coli arginine repressor (ArgR) controls <clueType>expression</clueType> of the arginine biosynthetic genes and acts as an accessory protein in Xer site-specific recombination at cer and related plasmid recombination sites.</clue>
+</event>
+<sentence id="S4">The hexameric wild-type protein shows L-arginine-dependent DNA binding.</sentence>
+<sentence id="S5">In this work, <term sem="Mutant_Gene" id="T4" lex="ArgR_mutants">ArgR mutants</term> that are defective in trimer-trimer interactions and bind <term sem="DNA" id="T5" lex="DNA">DNA</term> as trimers in an L-arginine-independent manner are isolated and characterized.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<Destination idref="T5" />
+<clue>In this work, ArgR mutants that are defective in trimer-trimer interactions and <clueType>bind</clueType> DNA as trimers in an L-arginine-independent manner are isolated and characterized.</clue>
+</event>
+<sentence id="S6">Whereas the wild-type ArgR hexamer exhibits high-affinity binding to two repeated ARG boxes separated by 3 bp (each ARG box containing two identical dyad symmetrical 9 bp half-sites), the trimeric mutants bind to and footprint three adjacent half-sites of this 'idealized' substrate.</sentence>
+<sentence id="S7"><term sem="Repressor" id="T6" lex="Trimeric_ArgR">Trimeric ArgR</term> is impaired in its ability to repress <term sem="Gene" id="T7" lex="the_arginine_biosynthetic_genes">the arginine biosynthetic genes</term> and in Xer site-specific recombination.</sentence>
+<event id="E4">
+<type class="Gene_Repression" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>Trimeric ArgR is impaired in its ability to <clueType>repress</clueType> the arginine biosynthetic genes and in Xer site-specific recombination.</clue>
+</event>
+<sentence id="S8">In the absence of L-arginine, residual wild-type ArgR-binding occurs as trimers.</sentence>
+<sentence id="S9">The binding of an N-terminal 77-amino-acid DNA-binding domain to idealized ARG boxes is also characterized.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

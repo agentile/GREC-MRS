@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11810262">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11810262</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Differential control by <term sem="Regulator" id="T1" lex="IHF">IHF</term> and <term sem="Regulator" id="T2" lex="cAMP">cAMP</term> of two oppositely oriented genes, <term sem="Gene" id="T3" lex="hpt">hpt</term> and <term sem="Gene" id="T4" lex="gcd">gcd</term>, <term sem="SPAN" id="T5" lex="in_Escherichia_coli">in <term sem="Bacteria" id="T6" lex="Escherichia_coli">Escherichia coli</term></term>: significance of their partially overlapping regulatory elements.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" idref1="T2" />
+<Theme idref="T3" idref1="T4" />
+<Location idref="T5" />
+<clue>Differential <clueType>control</clueType> by IHF and cAMP of two oppositely oriented genes, hpt and gcd, in Escherichia coli: significance of their partially overlapping regulatory elements.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T7" lex="The_hpt_gene">The hpt gene</term>, which encodes <term sem="Enzyme" id="T8" lex="hypoxanthine_phosphoribosyltransferase">hypoxanthine phosphoribosyltransferase</term>, is located next to, but transcribed in <term sem="SPAN" id="T9" lex="the_opposite_direction">the opposite direction</term> to, <term sem="Gene" id="T10" lex="the_gcd_gene">the gcd gene</term>, which codes for <term sem="Enzyme" id="T11" lex="a_membrane-bound_glucose_dehydrogenase">a membrane-bound glucose dehydrogenase</term>, at 3.1 min on the Escherichia coli genome.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>The hpt gene, which <clueType>encodes</clueType> hypoxanthine phosphoribosyltransferase, is located next to, but transcribed in the opposite direction to, the gcd gene, which codes for a membrane-bound glucose dehydrogenase, at 3.1 min on the Escherichia coli genome.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<Theme idref="T7" />
+<Manner idref="T9" />
+<clue>The hpt gene, which encodes hypoxanthine phosphoribosyltransferase, is located next to, but <clueType>transcribed</clueType> in the opposite direction to, the gcd gene, which codes for a membrane-bound glucose dehydrogenase, at 3.1 min on the Escherichia coli genome.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" />
+<clue>The hpt gene, which encodes hypoxanthine phosphoribosyltransferase, is located next to, but transcribed in the opposite direction to, the gcd gene, which <clueType>codes</clueType> for a membrane-bound glucose dehydrogenase, at 3.1 min on the Escherichia coli genome.</clue>
+</event>
+<sentence id="S4">In their promoter-operator region, putative regulatory elements for integration host factor (IHF) and for the complex comprising 3', 5'-cyclic AMP (cAMP) and its receptor protein (CRP) are present, and they overlap the promoters for hpt and gcd, respectively.</sentence>
+<sentence id="S5">The involvement of IHF and cAMP-CRP, as well as the corresponding putative cis-acting elements, in the expression of <term sem="Gene" id="T12" lex="the_two_genes">the two genes</term> was investigated by using lacZ operon fusions.</sentence>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<clue>The involvement of IHF and cAMP-CRP, as well as the corresponding putative cis-acting elements, in the <clueType>expression</clueType> of the two genes was investigated by using lacZ operon fusions.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T13" lex="In_an_adenylate_cyclase-deficient_strain">In <term sem=" Mutant_Bacteria" id="T14" lex="an_adenylate_cyclase-deficient_strain">an adenylate cyclase-deficient strain</term></term>, addition of <term sem="Organic_Compounds" id="T15" lex="cAMP">cAMP</term> increased the expression of <term sem="Gene" id="T16" lex="hpt">hpt</term> and reduced the expression of <term sem="Gene" id="T17" lex="gcd">gcd</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T15" />
+<clue>In an adenylate cyclase-deficient strain, <clueType>addition</clueType> of cAMP increased the expression of hpt and reduced the expression of gcd.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="E8" />
+<Location idref="T13" />
+<clue>In an adenylate cyclase-deficient strain, addition of cAMP <clueType>increased</clueType> the expression of hpt and reduced the expression of gcd.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>In an adenylate cyclase-deficient strain, addition of cAMP increased the <clueType>expression</clueType> of hpt and reduced the expression of gcd.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="E10" />
+<Location idref="T13" />
+<clue>In an adenylate cyclase-deficient strain, addition of cAMP increased the expression of hpt and <clueType>reduced</clueType> the expression of gcd.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue>In an adenylate cyclase-deficient strain, addition of cAMP increased the expression of hpt and reduced the <clueType>expression</clueType> of gcd.</clue>
+</event>
+<sentence id="S7">In agreement with this observation, the introduction of <term sem="Mutation" id="T18" lex="mutations">mutations</term> <term sem="SPAN" id="T19" lex="into_the_putative_binding_element">into <term sem="DNA" id="T20" lex="the_putative_binding_element">the putative binding element</term></term> for the cAMP-CRP complex enhanced the expression of <term sem="Gene" id="T21" lex="gcd">gcd</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T18" />
+<Location idref="T19" />
+<clue>In agreement with this observation, the <clueType>introduction</clueType> of mutations into the putative binding element for the cAMP-CRP complex enhanced the expression of gcd.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="E11" />
+<Theme idref="E13" />
+<clue>In agreement with this observation, the introduction of mutations into the putative binding element for the cAMP-CRP complex <clueType>enhanced</clueType> the expression of gcd.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<clue>In agreement with this observation, the introduction of mutations into the putative binding element for the cAMP-CRP complex enhanced the <clueType>expression</clueType> of gcd.</clue>
+</event>
+<sentence id="S8">In contrast, <term sem="Mutation" id="T22" lex="mutations">mutations</term> introduced <term sem="SPAN" id="T23" lex="into_the_putative_IHF-binding_elements">into <term sem="DNA" id="T24" lex="the_putative_IHF-binding_elements">the putative IHF-binding elements</term></term> increased the level of <term sem="SPAN" id="T25" lex="hpt">hpt</term> expression.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T22" />
+<Location idref="T23" />
+<clue>In contrast, mutations <clueType>introduced</clueType> into the putative IHF-binding elements increased the level of hpt expression.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="E16" />
+<clue>In contrast, mutations introduced into the putative IHF-binding elements <clueType>increased</clueType> the level of hpt expression.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Expression" />
+<Theme idref="T25" />
+<clue>In contrast, mutations introduced into the putative IHF-binding elements increased the level of hpt <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S9">Similar results were obtained with IHF-defective strains.</sentence>
+<sentence id="S10">Thus, the expression of <term sem="Gene" id="T26" lex="the_two_genes">the two genes</term> is regulated in a mutually exclusive manner.</sentence>
+<event id="E17">
+<type class="Gene_Expression" />
+<Theme idref="T26" />
+<clue>Thus, the <clueType>expression</clueType> of the two genes is regulated in a mutually exclusive manner.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="E17" />
+<clue>Thus, the expression of the two genes is <clueType>regulated</clueType> in a mutually exclusive manner.</clue>
+</event>
+<sentence id="S11">Additional experiments with mutations <term sem="SPAN" id="T27" lex="at_the_-10_sequence_of_the_gcd_promoter">at the -10 sequence of <term sem="Promoter" id="T28" lex="the_gcd_promoter">the gcd promoter</term></term> suggest that the binding of <term sem="RNA_Polymerase" id="T29" lex="RNA_polymerase">RNA polymerase</term> to <term sem="Promoter" id="T30" lex="the_hpt_promoter">the hpt promoter</term> interferes with the interaction of <term sem="RNA_Polymerase" id="T31" lex="RNA_polymerase">RNA polymerase</term> with <term sem="Promoter" id="T32" lex="the_gcd_promoter">the gcd promoter</term>, and vice versa.</sentence>
+<event id="E19">
+<type class="Mutation" />
+<Location idref="T27" />
+<clue>Additional experiments with <clueType>mutations</clueType> at the -10 sequence of the gcd promoter suggest that the binding of RNA polymerase to the hpt promoter interferes with the interaction of RNA polymerase with the gcd promoter, and vice versa.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T29" />
+<Destination idref="T30" />
+<clue>Additional experiments with mutations at the -10 sequence of the gcd promoter suggest that the <clueType>binding</clueType> of RNA polymerase to the hpt promoter interferes with the interaction of RNA polymerase with the gcd promoter, and vice versa.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="E20" />
+<Theme idref="E22" />
+<clue>Additional experiments with mutations at the -10 sequence of the gcd promoter suggest that the binding of RNA polymerase to the hpt promoter <clueType>interferes</clueType> with the interaction of RNA polymerase with the gcd promoter, and vice versa.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T31" />
+<Agent idref="T32" />
+<clue>Additional experiments with mutations at the -10 sequence of the gcd promoter suggest that the binding of RNA polymerase to the hpt promoter interferes with the <clueType>interaction</clueType> of RNA polymerase with the gcd promoter, and vice versa.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

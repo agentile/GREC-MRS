@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9973351">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9973351</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification and characterization of a two-component sensor-kinase and response-regulator system (<term sem="Protein_Complex" id="T1" lex="DcuS-DcuR">DcuS-DcuR</term>) controlling <term sem="Gene" id="T2" lex="gene">gene</term> expression in response to <term sem="Organic_Compounds" id="T3" lex="C4-dicarboxylates">C4-dicarboxylates</term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<Location idref="T4" />
+<Condition idref="T3" />
+<clue>Identification and characterization of a two-component sensor-kinase and response-regulator system (DcuS-DcuR) <clueType>controlling</clueType> gene expression in response to C4-dicarboxylates in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>Identification and characterization of a two-component sensor-kinase and response-regulator system (DcuS-DcuR) controlling gene <clueType>expression</clueType> in response to C4-dicarboxylates in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T6" lex="The_dcuB_gene">The dcuB gene</term> of Escherichia coli encodes <term sem="Protein" id="T7" lex="an_anaerobic_C4-dicarboxylate_transporter">an anaerobic C4-dicarboxylate transporter</term> that is induced anaerobically by <term sem="Protein" id="T8" lex="FNR">FNR</term>, activated by <term sem="Activator" id="T9" lex="the_cyclic_AMP_receptor_protein">the cyclic AMP receptor protein</term>, and repressed in the presence of <term sem="Inorganic_Compounds" id="T10" lex="nitrate">nitrate</term> by <term sem="Repressor" id="T11" lex="NarL">NarL</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>The dcuB gene of Escherichia coli <clueType>encodes</clueType> an anaerobic C4-dicarboxylate transporter that is induced anaerobically by FNR, activated by the cyclic AMP receptor protein, and repressed in the presence of nitrate by NarL.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T6" />
+<clue>The dcuB gene of Escherichia coli encodes an anaerobic C4-dicarboxylate transporter that is <clueType>induced</clueType> anaerobically by FNR, activated by the cyclic AMP receptor protein, and repressed in the presence of nitrate by NarL.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T6" />
+<clue>The dcuB gene of Escherichia coli encodes an anaerobic C4-dicarboxylate transporter that is induced anaerobically by FNR, <clueType>activated</clueType> by the cyclic AMP receptor protein, and repressed in the presence of nitrate by NarL.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T6" />
+<Condition idref="T10" />
+<clue>The dcuB gene of Escherichia coli encodes an anaerobic C4-dicarboxylate transporter that is induced anaerobically by FNR, activated by the cyclic AMP receptor protein, and <clueType>repressed</clueType> in the presence of nitrate by NarL.</clue>
+</event>
+<sentence id="S4">In addition, <term sem="Gene" id="T12" lex="dcuB">dcuB</term> expression is strongly induced by <term sem="Organic_Compounds" id="T13" lex="C4-dicarboxylates">C4-dicarboxylates</term>, suggesting the presence of a novel C4-dicarboxylate-responsive regulator in E. coli.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<clue>In addition, dcuB <clueType>expression</clueType> is strongly induced by C4-dicarboxylates, suggesting the presence of a novel C4-dicarboxylate-responsive regulator in E. coli.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="E7" />
+<clue>In addition, dcuB expression is strongly <clueType>induced</clueType> by C4-dicarboxylates, suggesting the presence of a novel C4-dicarboxylate-responsive regulator in E. coli.</clue>
+</event>
+<sentence id="S5">This paper describes the isolation of a Tn10 mutant in which the <term sem="SPAN" id="T14" lex="160-fold">160-fold</term> induction of <term sem="Gene" id="T15" lex="dcuB">dcuB</term> expression by <term sem="Organic_Compounds" id="T16" lex="C4-dicarboxylates">C4-dicarboxylates</term> is absent.</sentence>
+<event id="E9">
+<type class="Gene_Activation" />
+<Agent idref="T16" />
+<Theme idref="E10" />
+<Rate idref="T14" />
+<clue>This paper describes the isolation of a Tn10 mutant in which the 160-fold <clueType>induction</clueType> of dcuB expression by C4-dicarboxylates is absent.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>This paper describes the isolation of a Tn10 mutant in which the 160-fold induction of dcuB <clueType>expression</clueType> by C4-dicarboxylates is absent.</clue>
+</event>
+<sentence id="S6">The corresponding Tn10 mutation resides in the yjdH gene, which is adjacent to the yjdG gene and close to the dcuB gene at approximately 93.5 min in the E. coli chromosome.</sentence>
+<sentence id="S7">The yjdHG genes (redesignated dcuSR) appear to constitute <term sem="Operon" id="T17" lex="an_operon">an operon</term> encoding a two-component sensor-regulator system (<term sem="Protein" id="T18" lex="DcuS-DcuR">DcuS-DcuR</term>).</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>The yjdHG genes (redesignated dcuSR) appear to constitute an operon <clueType>encoding</clueType> a two-component sensor-regulator system (DcuS-DcuR).</clue>
+</event>
+<sentence id="S8"><term sem="Plasmid" id="T19" lex="A_plasmid">A plasmid</term> carrying the dcuSR operon restored <term sem="SPAN" id="T20" lex="the_C4-dicarboxylate_inducibility_of_dcuB_expression">the C4-dicarboxylate inducibility of <term sem="Gene" id="T21" lex="dcuB">dcuB</term> expression</term> <term sem="SPAN" id="T22" lex="in_the_dcuS_mutant">in <term sem=" Mutant_Bacteria" id="T23" lex="the_dcuS_mutant">the dcuS mutant</term></term> to levels exceeding those of the dcuS+ strain by approximately 1.8-fold.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="T20" />
+<Location idref="T22" />
+<clue>A plasmid carrying the dcuSR operon <clueType>restored</clueType> the C4-dicarboxylate inducibility of dcuB expression in the dcuS mutant to levels exceeding those of the dcuS+ strain by approximately 1.8-fold.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<Location idref="T22" />
+<clue>A plasmid carrying the dcuSR operon restored the C4-dicarboxylate inducibility of dcuB <clueType>expression</clueType> in the dcuS mutant to levels exceeding those of the dcuS+ strain by approximately 1.8-fold.</clue>
+</event>
+<sentence id="S9"><term sem="Mutant_Gene" id="T24" lex="The_dcuS_mutation">The dcuS mutation</term> affected <term sem="SPAN" id="T25" lex="the_expression_of_other_genes">the expression of <term sem="Gene" id="T26" lex="other_genes">other genes</term></term> with roles in C4-dicarboxylate transport or metabolism.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="T25" />
+<clue>The dcuS mutation <clueType>affected</clueType> the expression of other genes with roles in C4-dicarboxylate transport or metabolism.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Expression" />
+<Theme idref="T26" />
+<clue>The dcuS mutation affected the <clueType>expression</clueType> of other genes with roles in C4-dicarboxylate transport or metabolism.</clue>
+</event>
+<sentence id="S10"><term sem="SPAN" id="T27" lex="Expression">Expression</term> <term sem="SPAN" id="T28" lex="of">of</term> the fumarate reductase (<term sem="Operon" id="T29" lex="frdABCD">frdABCD</term>) <term sem="SPAN" id="T30" lex="operon">operon</term> and the aerobic C4-dicarboxylate transporter (<term sem="Gene" id="T31" lex="dctA">dctA</term>) <term sem="SPAN" id="T32" lex="gene">gene</term> were induced <term sem="SPAN" id="T33" lex="22-_and_4-fold">22- and 4-fold</term>, respectively, by <term sem="Protein_Complex" id="T34" lex="the_DcuS-DcuR_system">the DcuS-DcuR system</term> in the presence of <term sem="Organic_Compounds" id="T35" lex="C4-dicarboxylates">C4-dicarboxylates</term>.</sentence>
+<event id="E16">
+<type class="Gene_Expression" />
+<Theme idref="T29" idref1="T30" idref2="T31" idref3="T32" />
+<clue><clueType>Expression</clueType> of the fumarate reductase (frdABCD) operon and the aerobic C4-dicarboxylate transporter (dctA) gene were induced 22- and 4-fold, respectively, by the DcuS-DcuR system in the presence of C4-dicarboxylates.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T34" />
+<Theme idref="T27" idref1="T28" idref2="T29" idref3="T30" idref4="T31" idref5="T32" />
+<Condition idref="T35" />
+<Rate idref="T33" />
+<clue>Expression of the fumarate reductase (frdABCD) operon and the aerobic C4-dicarboxylate transporter (dctA) gene <clueType>were induced</clueType> 22- and 4-fold, respectively, by the DcuS-DcuR system in the presence of C4-dicarboxylates.</clue>
+</event>
+<sentence id="S11">Surprisingly, anaerobic fumarate respiratory growth of the dcuS mutant was normal.</sentence>
+<sentence id="S12">However, under aerobic conditions with C4-dicarboxylates as sole carbon sources, the mutant exhibited a growth defect resembling that of a dctA mutant.</sentence>
+<sentence id="S13">Studies employing a dcuA dcuB dcuC triple mutant unable to transport C4-dicarboxylates anaerobically revealed that <term sem="SPAN" id="T36" lex="C4-dicarboxylate_transport">C4-dicarboxylate transport</term> is not required for <term sem="SPAN" id="T37" lex="C4-dicarboxylate-responsive">C4-dicarboxylate-responsive</term> <term sem="Gene" id="T38" lex="gene">gene</term> regulation.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T36" />
+<Purpose idref="E19" />
+<clue>Studies employing a dcuA dcuB dcuC triple mutant unable to transport C4-dicarboxylates anaerobically revealed that C4-dicarboxylate transport is not <clueType>required</clueType> for C4-dicarboxylate-responsive gene regulation.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<Theme idref="T38" />
+<Manner idref="T37" />
+<clue>Studies employing a dcuA dcuB dcuC triple mutant unable to transport C4-dicarboxylates anaerobically revealed that C4-dicarboxylate transport is not required for C4-dicarboxylate-responsive gene <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S14">This suggests that the DcuS-DcuR system responds to external substrates.</sentence>
+<sentence id="S15">Accordingly, topology studies using 14 DcuS-BlaM fusions showed that DcuS contains two putative transmembrane helices flanking a approximately 140-residue N-terminal domain apparently located in the periplasm.</sentence>
+<sentence id="S16">This topology strongly suggests that the periplasmic loop of DcuS serves as a C4-dicarboxylate sensor.</sentence>
+<sentence id="S17">The cytosolic region of DcuS (residues 203 to 543) contains two domains: a central PAS domain possibly acting as a second sensory domain and a C-terminal transmitter domain.</sentence>
+<sentence id="S18">Database searches showed that DcuS and DcuR are closely related to a subgroup of two-component sensor-regulators that includes the citrate-responsive CitA-CitB system of Klebsiella pneumoniae.</sentence>
+<sentence id="S19">DcuS is not closely related to the C4-dicarboxylate-sensing DctS or DctB protein of Rhodobacter capsulatus or rhizobial species, respectively.</sentence>
+<sentence id="S20">Although all three proteins have similar topologies and functions, and all are members of the two-component sensor-kinase family, their periplasmic domains appear to have evolved independently.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7007810">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7007810</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Altered regulation of <term sem="Gene" id="T1" lex="the_recA_gene">the recA gene</term> <term sem="SPAN" id="T2" lex="in_Escherichia_coli_strains">in <term sem=" Mutant_Bacteria" id="T3" lex="Escherichia_coli_strains">Escherichia coli strains</term></term> carrying <term sem="Repressor" id="T4" lex="a_recA-linked_suppressor"><term sem="SPAN" id="T5" lex="a_recA-linked_suppressor_of_lexA.">a recA-linked suppressor of <term sem="Gene" id="T6" lex="lexA">lexA</term>.</term></term></sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<Location idref="T2" />
+<clue>Altered <clueType>regulation</clueType> of the recA gene in Escherichia coli strains carrying a recA-linked suppressor of lexA.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Descriptive-Theme idref="T5" />
+<clue>Altered regulation of the recA gene in Escherichia coli strains <clueType>carrying</clueType> a recA-linked suppressor of lexA.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem=" Mutant_Bacteria" id="T7" lex="A_mutant_strain">A mutant strain</term> of E. coli displaying altered regulation of <term sem="Gene" id="T8" lex="the_recA_gene">the recA gene</term> was isolated as <term sem="SPAN" id="T9" lex="a_revertant_of_a_lexA3_recA200_double_mutant_which">a revertant of <term sem=" Mutant_Bacteria" id="T10" lex="a_lexA3_recA200_double_mutant">a lexA3 recA200 double mutant</term> which</term> showed improved DNA repair and recombination functions.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="E4" />
+<clue>A mutant strain of E. coli <clueType>displaying</clueType> altered regulation of the recA gene was isolated as a revertant of a lexA3 recA200 double mutant which showed improved DNA repair and recombination functions.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T8" />
+<clue>A mutant strain of E. coli displaying altered <clueType>regulation</clueType> of the recA gene was isolated as a revertant of a lexA3 recA200 double mutant which showed improved DNA repair and recombination functions.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="T9" />
+<clue>A mutant strain of E. coli displaying altered regulation of the recA gene was <clueType>isolated</clueType> as a revertant of a lexA3 recA200 double mutant which showed improved DNA repair and recombination functions.</clue>
+</event>
+<sentence id="S4">The mutant (alc-24) was located between srl and recA200 and caused synthesis of high levels of recA protein in both lexA+ and lexA3 strains.</sentence>
+<sentence id="S5">The possibility that alc-24 defines the regulatory site for recA is discussed.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

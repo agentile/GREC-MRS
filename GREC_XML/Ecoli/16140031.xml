@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=16140031">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>16140031</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Effect of oxygen, and ArcA and FNR regulators on the expression of genes related to the electron transfer chain and the TCA cycle in Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Microbial cells possess numerous sensing/regulator systems in order to respond rapidly to environmental changes.</sentence>
+<sentence id="S4">Escherichia coli has several elaborate sensing mechanisms for response to the availability of oxygen and the presence of other electron acceptors.</sentence>
+<sentence id="S5">A group of global regulators, which include the one component Fnr protein and the two-component Arc system, coordinate the adaptive responses.</sentence>
+<sentence id="S6">To quantitate the contribution of Arc and FNR-dependent regulation under microaerobic conditions, the gene expression pattern of the electron transfer chain genes and the TCA cycle genes in wild-type E. coli, an arcA mutant, an fnr mutant, and a double arcA, fnr mutant, in glucose limited cultures and different oxygen concentrations was studied in chemostat cultures at steady state using QRT-PCR.</sentence>
+<sentence id="S7">It was found that the TCA cycle genes, <term sem="Gene" id="T1" lex="icd">icd</term>, <term sem="Gene" id="T2" lex="gltA">gltA</term>, <term sem="Gene" id="T3" lex="sucC">sucC</term>, and <term sem="Gene" id="T4" lex="sdhC">sdhC</term> are repressed by <term sem="Gene" id="T5" lex="ArcA">ArcA</term> while Fnr has a minor or no effect on the expression of these genes under microaerobic conditions.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T5" />
+<Theme idref="T1" idref1="T2" idref2="T3" idref3="T4" />
+<clue>It was found that the TCA cycle genes, icd, gltA, sucC, and sdhC <clueType>are repressed</clueType> by ArcA while Fnr has a minor or no effect on the expression of these genes under microaerobic conditions.</clue>
+</event>
+<sentence id="S8">The expression levels of the electron transfer chain genes, <term sem="Gene" id="T6" lex="nuoA">nuoA</term>, <term sem="Gene" id="T7" lex="ndh">ndh</term>, and <term sem="Gene" id="T8" lex="ubiE">ubiE</term>, were not significantly affected by either <term sem="Protein" id="T9" lex="ArcA">ArcA</term> or <term sem="Protein" id="T10" lex="Fnr_regulation_proteins">Fnr regulation proteins</term>, while a lower expression of <term sem="Gene" id="T11" lex="cydA">cydA</term> (up to <term sem="SPAN" id="T12" lex="9-fold_lower">9-fold lower</term>) and a <term sem="SPAN" id="T13" lex="higher_expression">higher expression</term> of cyoA (up to 31-fold higher) were observed in cultures of the arcA mutant strain compared to those of the wild type.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T6" idref1="T7" idref2="T8" />
+<clue>The <clueType>expression levels</clueType> of the electron transfer chain genes, nuoA, ndh, and ubiE, were not significantly affected by either ArcA or Fnr regulation proteins, while a lower expression of cydA (up to 9-fold lower) and a higher expression of cyoA (up to 31-fold higher) were observed in cultures of the arcA mutant strain compared to those of the wild type.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T9" idref1="T10" />
+<Theme idref="E2" />
+<clue>The expression levels of the electron transfer chain genes, nuoA, ndh, and ubiE, were not significantly <clueType>affected</clueType> by either ArcA or Fnr regulation proteins, while a lower expression of cydA (up to 9-fold lower) and a higher expression of cyoA (up to 31-fold higher) were observed in cultures of the arcA mutant strain compared to those of the wild type.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T11" />
+<Rate idref="T12" />
+<clue>The expression levels of the electron transfer chain genes, nuoA, ndh, and ubiE, were not significantly affected by either ArcA or Fnr regulation proteins, while a lower <clueType>expression</clueType> of cydA (up to 9-fold lower) and a higher expression of cyoA (up to 31-fold higher) were observed in cultures of the arcA mutant strain compared to those of the wild type.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref ="E4" idref1="T13" />
+<clue>The expression levels of the electron transfer chain genes, nuoA, ndh, and ubiE, were not significantly affected by either ArcA or Fnr regulation proteins, while a lower expression of cydA (up to 9-fold lower) and a higher expression of cyoA (up to 31-fold higher) were <clueType>observed</clueType> in cultures of the arcA mutant strain compared to those of the wild type.</clue>
+</event>
+<sentence id="S9">Since significantly higher NADH/NAD+ ratios were previously observed in cultures of the arcA mutant strain compared to the wild type it seems that the cytochrome o oxidase (the product of cyoABCDE) cannot efficiently support aerobic respiration when the cells are grown under microaerobic conditions.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7934873">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7934873</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">DNA loop formation between <term sem="Repressor" id="T1" lex="Nag_repressor_molecules">Nag repressor molecules</term> bound to <term sem="Operator" id="T2" lex="its_two_operator_sites">its two operator sites</term> is necessary for repression of <term sem="Operon" id="T3" lex="the_nag_regulon">the nag regulon</term> of Escherichia coli <term sem="SPAN" id="T4" lex="in_vivo">in vivo</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue>DNA loop formation between Nag repressor molecules <clueType>bound</clueType> to its two operator sites is necessary for repression of the nag regulon of Escherichia coli in vivo.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Repression" />
+<Theme idref="T3" />
+<Manner idref="T4" />
+<clue>DNA loop formation between Nag repressor molecules bound to its two operator sites is necessary for <clueType>repression</clueType> of the nag regulon of Escherichia coli in vivo.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Transcription_Binding_Site" id="T5" lex="Binding_sites">Binding sites</term> for the Nag repressor overlap <term sem="Promoter" id="T6" lex="the_transcription_start_sites">the transcription start sites</term> of the divergent nagE and nagB genes, such that the centres of the sites are separated by nine turns of the B-DNA helix.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Descriptive-Theme idref="T6" />
+<clue>Binding sites for the Nag repressor <clueType>overlap</clueType> the transcription start sites of the divergent nagE and nagB genes, such that the centres of the sites are separated by nine turns of the B-DNA helix.</clue>
+</event>
+<sentence id="S4"><term sem="Mutation" id="T7" lex="Mutations">Mutations</term> which prevent <term sem="Repressor" id="T8" lex="repressor">repressor</term> binding to <term sem="Transcription_Binding_Site" id="T9" lex="either_site">either site</term> or alter the phasing of the binding sites result in simultaneous derepression of <term sem="Gene" id="T10" lex="both_genes">both genes</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="E5" />
+<clue>Mutations which <clueType>prevent</clueType> repressor binding to either site or alter the phasing of the binding sites result in simultaneous derepression of both genes.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T8" />
+<Destination idref="T9" />
+<clue>Mutations which prevent repressor <clueType>binding</clueType> to either site or alter the phasing of the binding sites result in simultaneous derepression of both genes.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T7" />
+<Descriptive-Agent idref="E7" />
+<clue>Mutations which prevent repressor binding to either site or alter the phasing of the binding sites <clueType>result</clueType> in simultaneous derepression of both genes.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Activation" />
+<Theme idref="T10" />
+<clue>Mutations which prevent repressor binding to either site or alter the phasing of the binding sites result in simultaneous <clueType>derepression</clueType> of both genes.</clue>
+</event>
+<sentence id="S5"><term sem="Mutation" id="T11" lex="An_additional_mutation">An additional mutation</term> which restores the phasing of the two sites permits <term sem="Gene_Repression" id="T12" lex="repression">repression</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T12" />
+<clue>An additional mutation which restores the phasing of the two sites <clueType>permits</clueType> repression.</clue>
+</event>
+<sentence id="S6">These observations show that repression is the result of <term sem="SPAN" id="T13" lex="co-operative">co-operative</term> binding of <term sem="SPAN" id="T14" lex="the_repressor">the repressor</term> to <term sem="Transcription_Binding_Site" id="T15" lex="its_two_sites">its two sites</term>, resulting in the formation of a loop of DNA.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Manner idref="T13" />
+<Destination idref="T15" />
+<clue>These observations show that repression is the result of co-operative <clueType>binding</clueType> of the repressor to its two sites, resulting in the formation of a loop of DNA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11446515">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11446515</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Operon" id="T1" lex="microcin_C51_operon">microcin C51 operon</term> expression: the role of global regulators of transcription.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="E2" />
+<clue><clueType>Regulation</clueType> of microcin C51 operon expression: the role of global regulators of transcription.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue>Regulation of microcin C51 operon <clueType>expression</clueType>: the role of global regulators of transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression of <term sem="Operon" id="T2" lex="the_microcin_C51_operon">the microcin C51 operon</term> <term sem="SPAN" id="T3" lex="in_Escherichia_coli_cells">in <term sem="Wild_Type_Bacteria" id="T4" lex="Escherichia_coli_cells">Escherichia coli cells</term></term> is regulated <term sem="SPAN" id="T5" lex="as_a_function_of_the_phase_of_growth">as a function of the phase of growth</term>; it is stimulated <term sem="SPAN" id="T6" lex="during_the_decelerating_phase">during the decelerating phase</term> of growth.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<Location idref="T3" />
+<clue><clueType>Expression</clueType> of the microcin C51 operon in Escherichia coli cells is regulated as a function of the phase of growth; it is stimulated during the decelerating phase of growth.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="E3" />
+<Manner idref="T5" />
+<clue>Expression of the microcin C51 operon in Escherichia coli cells is <clueType>regulated</clueType> as a function of the phase of growth; it is stimulated during the decelerating phase of growth.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Activation" />
+<Theme idref="E3" />
+<Temporal idref="T6" />
+<clue>Expression of the microcin C51 operon in Escherichia coli cells is regulated as a function of the phase of growth; it is <clueType>stimulated</clueType> during the decelerating phase of growth.</clue>
+</event>
+<sentence id="S4">Using single-copy P(mcc)-lac transcriptional fusion (<term sem="Promoter" id="T7" lex="the_promoter_region">the promoter region</term> of the microcin C51 operon fused to <term sem="Operon" id="T8" lex="a_promoterless_lac_operon">a promoterless lac operon</term> <term sem="SPAN" id="T9" lex="in_lambda_phage">in <term sem="Virus" id="T10" lex="lambda_phage">lambda phage</term></term>), we showed that transcription from <term sem="Promoter" id="T11" lex="the_microcin_operon_promoter">the microcin operon promoter</term> is dependent on sigma(s) (RpoS) factor.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T7" />
+<Theme idref="T8" />
+<Location idref="T9" />
+<clue>Using single-copy P(mcc)-lac transcriptional fusion (the promoter region of the microcin C51 operon <clueType>fused</clueType> to a promoterless lac operon in lambda phage), we showed that transcription from the microcin operon promoter is dependent on sigma(s) (RpoS) factor.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<Source idref="T11" />
+<clue>Using single-copy P(mcc)-lac transcriptional fusion (the promoter region of the microcin C51 operon fused to a promoterless lac operon in lambda phage), we showed that <clueType>transcription</clueType> from the microcin operon promoter is dependent on sigma(s) (RpoS) factor.</clue>
+</event>
+<sentence id="S5">However, some level of P(mcc)<term sem="Gene" id="T12" lex="-lac">-lac</term> expression is possible <term sem="SPAN" id="T13" lex="in_rpoS_null_mutants">in <term sem=" Mutant_Bacteria" id="T14" lex="rpoS_null_mutants">rpoS null mutants</term></term>, indicating that <term sem="Sigma_Factor" id="T15" lex="another_sigma_factor">another sigma factor</term> might be involved in transcription of <term sem="Operon" id="T16" lex="the_microcin_C51_operon">the microcin C51 operon</term>.</sentence>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<Location idref="T13" />
+<clue>However, some level of P(mcc)-lac <clueType>expression</clueType> is possible in rpoS null mutants, indicating that another sigma factor might be involved in transcription of the microcin C51 operon.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Purpose idref="E10" />
+<clue>However, some level of P(mcc)-lac expression is possible in rpoS null mutants, indicating that another sigma factor might be <clueType>involved</clueType> in transcription of the microcin C51 operon.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<Theme idref="T16" />
+<clue>However, some level of P(mcc)-lac expression is possible in rpoS null mutants, indicating that another sigma factor might be involved in <clueType>transcription</clueType> of the microcin C51 operon.</clue>
+</event>
+<sentence id="S6">Overproduction of <term sem="Sigma_Factor" id="T17" lex="sigma70">sigma70</term> decreased <term sem="Promoter" id="T18" lex="Pmcc-directed">Pmcc-directed</term> transcription, presumably as a result of competition of sigma factors for the limited amount of core RNA polymerase.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T17" />
+<clue><clueType>Overproduction</clueType> of sigma70 decreased Pmcc-directed transcription, presumably as a result of competition of sigma factors for the limited amount of core RNA polymerase.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Repression" />
+<Agent idref="E11" />
+<Theme idref="E13" />
+<clue>Overproduction of sigma70 <clueType>decreased</clueType> Pmcc-directed transcription, presumably as a result of competition of sigma factors for the limited amount of core RNA polymerase.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<Manner idref="T18" />
+<clue>Overproduction of sigma70 decreased Pmcc-directed <clueType>transcription</clueType>, presumably as a result of competition of sigma factors for the limited amount of core RNA polymerase.</clue>
+</event>
+<sentence id="S7"><term sem="Activator" id="T19" lex="The_cyclic_AMP-CRP_complex">The cyclic AMP-CRP complex</term> was shown to stimulate transcription from <term sem="Promoter" id="T20" lex="Pmcc">Pmcc</term>: <term sem="SPAN" id="T21" lex="the_absence_of_CRP_or_cAMP">the absence of <term sem="Activator" id="T22" lex="CRP_or_cAMP">CRP or cAMP</term></term> <term sem="SPAN" id="T23" lex="in_crp_or_cya_mutant_cells">in <term sem=" Mutant_Bacteria" id="T24" lex="crp_or_cya_mutant_cells">crp or cya mutant cells</term></term> <term sem="SPAN" id="T25" lex="strongly">strongly</term> decreased the level of P(mcc)<term sem="Gene" id="T26" lex="-lac">-lac</term> expression.</sentence>
+<event id="E14">
+<type class="Gene_Activation" />
+<Agent idref="T19" />
+<Theme idref="E15" />
+<clue>The cyclic AMP-CRP complex was shown to <clueType>stimulate</clueType> transcription from Pmcc: the absence of CRP or cAMP in crp or cya mutant cells strongly decreased the level of P(mcc)-lac expression.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<Source idref="T20" />
+<clue>The cyclic AMP-CRP complex was shown to stimulate <clueType>transcription</clueType> from Pmcc: the absence of CRP or cAMP in crp or cya mutant cells strongly decreased the level of P(mcc)-lac expression.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Repression" />
+<Agent idref="T21" />
+<Theme idref="E17" />
+<Manner idref="T25" />
+<Location idref="T23" />
+<clue>The cyclic AMP-CRP complex was shown to stimulate transcription from Pmcc: the absence of CRP or cAMP in crp or cya mutant cells strongly <clueType>decreased</clueType> the level of P(mcc)-lac expression.</clue>
+</event>
+<event id="E17">
+<type class="Gene_Expression" />
+<Theme idref="T26" />
+<clue>The cyclic AMP-CRP complex was shown to stimulate transcription from Pmcc: the absence of CRP or cAMP in crp or cya mutant cells strongly decreased the level of P(mcc)-lac <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">The production of <term sem="Protein" id="T27" lex="C51_microcin">C51 microcin</term> decreased or was absent <term sem="SPAN" id="T28" lex="in_rpoS,_crp_and_cya_mutant_cells">in <term sem=" Mutant_Bacteria" id="T29" lex="rpoS,_crp_and_cya_mutant_cells">rpoS, crp and cya mutant cells</term></term>.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T27" />
+<Location idref="T28" />
+<clue>The <clueType>production</clueType> of C51 microcin decreased or was absent in rpoS, crp and cya mutant cells.</clue>
+</event>
+<sentence id="S9">Leucine-responsive protein <term sem="Repressor" id="T30" lex="Lrp">Lrp</term> and histone-like protein <term sem="Repressor" id="T31" lex="H-NS">H-NS</term> repressed P(mcc)<term sem="Gene" id="T32" lex="-lac">-lac</term> expression <term sem="SPAN" id="T33" lex="in_the_exponential_and_decelerating_phases_of_growth">in the exponential and decelerating phases of growth</term>.</sentence>
+<event id="E19">
+<type class="Gene_Repression" />
+<Agent idref="T30" idref1="T31" />
+<Theme idref="E20" />
+<Temporal idref="T33" />
+<clue>Leucine-responsive protein Lrp and histone-like protein H-NS <clueType>repressed</clueType> P(mcc)-lac expression in the exponential and decelerating phases of growth.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue>Leucine-responsive protein Lrp and histone-like protein H-NS repressed P(mcc)-lac <clueType>expression</clueType> in the exponential and decelerating phases of growth.</clue>
+</event>
+<sentence id="S10">In studies of P(mcc)<term sem="Gene" id="T34" lex="-lac">-lac</term> expression <term sem="SPAN" id="T35" lex="in_double_mutant_cells">in <term sem=" Mutant_Bacteria" id="T36" lex="double_mutant_cells">double mutant cells</term></term>, we showed that proteins <term sem="Repressor" id="T37" lex="CRP">CRP</term>, <term sem="Repressor" id="T38" lex="Lrp">Lrp</term> and <term sem="Repressor" id="T39" lex="H-NS">H-NS</term> acted in <term sem="SPAN" id="T40" lex="rpoS-dependent_and_rpoS-independent_ways">rpoS-dependent and rpoS-independent ways</term> <term sem="SPAN" id="T41" lex="in_transcription">in transcription</term> of <term sem="Operon" id="T42" lex="the_microcin_C51_operon">the microcin C51 operon</term>.</sentence>
+<event id="E21">
+<type class="Gene_Expression" />
+<Theme idref="T34" />
+<Location idref="T35" />
+<clue>In studies of P(mcc)-lac <clueType>expression</clueType> in double mutant cells, we showed that proteins CRP, Lrp and H-NS acted in rpoS-dependent and rpoS-independent ways in transcription of the microcin C51 operon.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T37" idref1="T38" idref2="T39" />
+<Descriptive-Agent idref="T40" />
+<Temporal idref="T41" />
+<clue>In studies of P(mcc)-lac expression in double mutant cells, we showed that proteins CRP, Lrp and H-NS <clueType>acted</clueType> in rpoS-dependent and rpoS-independent ways in transcription of the microcin C51 operon.</clue>
+</event>
+<event id="E23">
+<type class="Transcription" />
+<Theme idref="T42" />
+<clue>In studies of P(mcc)-lac expression in double mutant cells, we showed that proteins CRP, Lrp and H-NS acted in rpoS-dependent and rpoS-independent ways in <clueType>transcription</clueType> of the microcin C51 operon.</clue>
+</event>
+<sentence id="S11"><term sem=" Null_Mutation" id="T43" lex="Mutation_hns">Mutation hns</term>(-) resulted in an increase in P(mcc)<term sem="Gene" id="T44" lex="-lac">-lac</term> expression <term sem="SPAN" id="T45" lex="in_crp,_rpoS_and_lrp_mutant_cells">in <term sem=" Mutant_Bacteria" id="T46" lex="crp">crp</term>, rpoS and lrp mutant cells</term>, as in wild-type cells.</sentence>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="T43" />
+<Theme idref="E25" />
+<clue>Mutation hns(-) <clueType>resulted</clueType> in an increase in P(mcc)-lac expression in crp, rpoS and lrp mutant cells, as in wild-type cells.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Theme idref="E26" />
+<Location idref="T45" />
+<clue>Mutation hns(-) resulted in an <clueType>increase</clueType> in P(mcc)-lac expression in crp, rpoS and lrp mutant cells, as in wild-type cells.</clue>
+</event>
+<event id="E26">
+<type class="Gene_Expression" />
+<Theme idref="T44" />
+<clue>Mutation hns(-) resulted in an increase in P(mcc)-lac <clueType>expression</clueType> in crp, rpoS and lrp mutant cells, as in wild-type cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

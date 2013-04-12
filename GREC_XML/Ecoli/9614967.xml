@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9614967">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9614967</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of transcription of <term sem="Gene" id="T1" lex="cell_division_genes">cell division genes</term> in the Escherichia coli dcw cluster.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="E2" />
+<clue><clueType>Regulation</clueType> of transcription of cell division genes in the Escherichia coli dcw cluster.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T1" />
+<clue>Regulation of <clueType>transcription</clueType> of cell division genes in the Escherichia coli dcw cluster.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The Escherichia coli dcw cluster contains cell division genes, such as the phylogenetically ubiquitous ftsZ, and <term sem="SPAN" id="T2" lex="genes">genes</term> involved in <term sem="SPAN" id="T3" lex="peptidoglycan_synthesis">peptidoglycan synthesis</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T2" />
+<Descriptive-Agent idref="T3" />
+<clue>The Escherichia coli dcw cluster contains cell division genes, such as the phylogenetically ubiquitous ftsZ, and genes <clueType>involved</clueType> in peptidoglycan synthesis.</clue>
+</event>
+<sentence id="S4">Transcription <term sem="SPAN" id="T4" lex="in_the_cluster">in <term sem="DNA" id="T5" lex="the_cluster">the cluster</term></term> proceeds in <term sem="SPAN" id="T6" lex="the_same_direction">the same direction</term> as the progress of the replication fork along the chromosome.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<Location idref="T4" />
+<clue><clueType>Transcription</clueType> in the cluster proceeds in the same direction as the progress of the replication fork along the chromosome.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="E4" />
+<Manner idref="T6" />
+<clue>Transcription in the cluster <clueType>proceeds</clueType> in the same direction as the progress of the replication fork along the chromosome.</clue>
+</event>
+<sentence id="S5"><term sem="SPAN" id="T7" lex="Regulation">Regulation</term> is exerted at <term sem="SPAN" id="T8" lex="the_transcriptional_and_post-transcriptional_levels">the transcriptional and post-transcriptional levels</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T7" />
+<Manner idref="T8" />
+<clue>Regulation <clueType>is exerted</clueType> at the transcriptional and post-transcriptional levels.</clue>
+</event>
+<sentence id="S6">The absence of transcriptional termination signals may, in principle, allow extension of <term sem="mRNA" id="T9" lex="the_transcripts">the transcripts</term> initiated <term sem="SPAN" id="T10" lex="at">at</term> the up-stream promoter (<term sem="Promoter" id="T11" lex="mraZ1p">mraZ1p</term>) even to the furthest down-stream gene (envA).</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T9" />
+<clue>The absence of transcriptional termination signals may, in principle, allow <clueType>extension</clueType> of the transcripts initiated at the up-stream promoter (mraZ1p) even to the furthest down-stream gene (envA).</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T9" />
+<Location idref="T10" idref1="T11" />
+<clue>The absence of transcriptional termination signals may, in principle, allow extension of the transcripts <clueType>initiated</clueType> at the up-stream promoter (mraZ1p) even to the furthest down-stream gene (envA).</clue>
+</event>
+<sentence id="S7">Complementation tests suggest that they extend into ftsW in the central part of the cluster.</sentence>
+<sentence id="S8">In addition, <term sem="DNA" id="T12" lex="the_cluster">the cluster</term> contains <term sem="Promoter" id="T13" lex="other_promoters">other promoters</term> <term sem="SPAN" id="T14" lex="individually">individually</term> regulated by <term sem="SPAN" id="T15" lex="cis-_and_trans-acting_signals">cis- and trans-acting signals</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T12" />
+<Descriptive-Theme idref="T13" />
+<clue>In addition, the cluster <clueType>contains</clueType> other promoters individually regulated by cis- and trans-acting signals.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T13" />
+<Manner idref="T14" />
+<clue>In addition, the cluster contains other promoters individually <clueType>regulated</clueType> by cis- and trans-acting signals.</clue>
+</event>
+<sentence id="S9">Dissociation of the expression of <term sem="Gene" id="T16" lex="the_ftsZ_gene">the ftsZ gene</term>, located after ftsQ and A near the 3' end of the cluster, from its natural regulatory signals leads to an alteration in the physiology of cell division.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="E12" />
+<clue><clueType>Dissociation</clueType> of the expression of the ftsZ gene, located after ftsQ and A near the 3' end of the cluster, from its natural regulatory signals leads to an alteration in the physiology of cell division.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>Dissociation of the <clueType>expression</clueType> of the ftsZ gene, located after ftsQ and A near the 3' end of the cluster, from its natural regulatory signals leads to an alteration in the physiology of cell division.</clue>
+</event>
+<sentence id="S10">The complexities observed in the regulation of <term sem="Gene" id="T17" lex="gene">gene</term> expression <term sem="SPAN" id="T18" lex="in_the_cluster">in the cluster</term> may then have an important biological role.</sentence>
+<event id="E13">
+<type class="Regulation" />
+<Theme idref="E14" />
+<clue>The complexities observed in the <clueType>regulation</clueType> of gene expression in the cluster may then have an important biological role.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<Location idref="T18" />
+<clue>The complexities observed in the regulation of gene <clueType>expression</clueType> in the cluster may then have an important biological role.</clue>
+</event>
+<sentence id="S11">Among them, LexA-binding SOS boxes have been found at the 5' end of the cluster, preceding <term sem="Promoter" id="T19" lex="promoters">promoters</term> which direct the expression of <term sem="Gene" id="T20" lex="ftsI">ftsI</term> (coding for <term sem="Protein" id="T21" lex="PBP3">PBP3</term>, the penicillin-binding protein involved in septum formation).</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E16" />
+<clue>Among them, LexA-binding SOS boxes have been found at the 5' end of the cluster, preceding promoters which <clueType>direct</clueType> the expression of ftsI (coding for PBP3, the penicillin-binding protein involved in septum formation).</clue>
+</event>
+<event id="E16">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>Among them, LexA-binding SOS boxes have been found at the 5' end of the cluster, preceding promoters which direct the <clueType>expression</clueType> of ftsI (coding for PBP3, the penicillin-binding protein involved in septum formation).</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T21" />
+<clue>Among them, LexA-binding SOS boxes have been found at the 5' end of the cluster, preceding promoters which direct the expression of ftsI (<clueType>coding</clueType> for PBP3, the penicillin-binding protein involved in septum formation).</clue>
+</event>
+<sentence id="S12">A gearbox promoter, <term sem="Promoter" id="T22" lex="ftsQ1p">ftsQ1p</term>, forms part of <term sem="SPAN" id="T23" lex="the_signals">the signals</term> regulating the transcription of <term sem="Gene" id="T24" lex="ftsQ">ftsQ</term>, <term sem="Gene" id="T25" lex="A">A</term> and <term sem="Gene" id="T26" lex="Z">Z</term>.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>A gearbox promoter, ftsQ1p, <clueType>forms</clueType> part of the signals regulating the transcription of ftsQ, A and Z.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="E20" />
+<clue>A gearbox promoter, ftsQ1p, forms part of the signals <clueType>regulating</clueType> the transcription of ftsQ, A and Z.</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<Theme idref="T24" idref1="T25" idref2="T26" />
+<clue>A gearbox promoter, ftsQ1p, forms part of the signals regulating the <clueType>transcription</clueType> of ftsQ, A and Z.</clue>
+</event>
+<sentence id="S13"><term sem="SPAN" id="T27" lex="It">It</term> is an inversely growth-dependent mechanism driven by <term sem="RNA_Polymerase" id="T28" lex="RNA_polymerase">RNA polymerase</term> containing <term sem="Transcription_Factor" id="T29" lex="sigma_s">sigma s</term>, the factor involved in the expression of <term sem="Gene" id="T30" lex="stationary_phase-specific_genes">stationary phase-specific genes</term>.</sentence>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="T27" />
+<clue>It is an inversely growth-dependent mechanism <clueType>driven</clueType> by RNA polymerase containing sigma s, the factor involved in the expression of stationary phase-specific genes.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T28" />
+<Descriptive-Theme idref="T29" />
+<clue>It is an inversely growth-dependent mechanism driven by RNA polymerase <clueType>containing</clueType> sigma s, the factor involved in the expression of stationary phase-specific genes.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="T29" />
+<Descriptive-Agent idref="E24" />
+<clue>It is an inversely growth-dependent mechanism driven by RNA polymerase containing sigma s, the factor <clueType>involved</clueType> in the expression of stationary phase-specific genes.</clue>
+</event>
+<event id="E24">
+<type class="Gene_Expression" />
+<Theme idref="T30" />
+<clue>It is an inversely growth-dependent mechanism driven by RNA polymerase containing sigma s, the factor involved in the <clueType>expression</clueType> of stationary phase-specific genes.</clue>
+</event>
+<sentence id="S14">Although the dcw cluster is conserved to a different extent in a variety of bacteria, the regulation of <term sem="Gene" id="T31" lex="gene">gene</term> expression, the presence or absence of <term sem="Gene" id="T32" lex="individual_genes">individual genes</term>, and even the essentiality of some of them, show variations in the phylogenetic scale which may reflect adaptation to specific life cycles.</sentence>
+<event id="E25">
+<type class="Regulation" />
+<Theme idref="E26" />
+<clue>Although the dcw cluster is conserved to a different extent in a variety of bacteria, <clueType>the regulation</clueType> of gene expression, the presence or absence of individual genes, and even the essentiality of some of them, show variations in the phylogenetic scale which may reflect adaptation to specific life cycles.</clue>
+</event>
+<event id="E26">
+<type class="Gene_Expression" />
+<Theme idref="T31" />
+<clue>Although the dcw cluster is conserved to a different extent in a variety of bacteria, the regulation of gene <clueType>expression</clueType>, the presence or absence of individual genes, and even the essentiality of some of them, show variations in the phylogenetic scale which may reflect adaptation to specific life cycles.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=14651625">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>14651625</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Modulation of <term sem="SPAN" id="T1" lex="CRP-dependent">CRP-dependent</term> transcription <term sem="SPAN" id="T2" lex="at_the_Escherichia_coli_acsP2_promoter">at <term sem="Promoter" id="T3" lex="the_Escherichia_coli_acsP2_promoter">the Escherichia coli acsP2 promoter</term></term> by <term sem="Protein_Complex" id="T4" lex="nucleoprotein_complexes">nucleoprotein complexes</term>: <term sem="Gene_Repression" id="T5" lex="anti-activation">anti-activation</term> by <term sem="Regulator" id="T6" lex="the_nucleoid_proteins_FIS_and_IHF">the nucleoid proteins FIS and IHF</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="E2" />
+<Location idref="T2" />
+<clue><clueType>Modulation</clueType> of CRP-dependent transcription at the Escherichia coli acsP2 promoter by nucleoprotein complexes: anti-activation by the nucleoid proteins FIS and IHF.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Manner idref="T1" />
+<clue>Modulation of CRP-dependent <clueType>transcription</clueType> at the Escherichia coli acsP2 promoter by nucleoprotein complexes: anti-activation by the nucleoid proteins FIS and IHF.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T7" lex="acs">acs</term> encodes <term sem="Enzyme" id="T8" lex="acetyl-coenzyme_A_synthetase">acetyl-coenzyme A synthetase</term>, a high-affinity enzyme that allows cells to scavenge for acetate during carbon starvation.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>acs <clueType>encodes</clueType> acetyl-coenzyme A synthetase, a high-affinity enzyme that allows cells to scavenge for acetate during carbon starvation.</clue>
+</event>
+<sentence id="S4"><term sem="Activator" id="T9" lex="CRP">CRP</term> activates <term sem="Transcription" id="T10" lex="acs_transcription">acs transcription</term> by binding <term sem="Transcription_Binding_Site" id="T11" lex="tandem_DNA_sites">tandem DNA sites</term> located upstream of the major promoter, acsP2.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<Manner idref="E5" />
+<clue>CRP <clueType>activates</clueType> acs transcription by binding tandem DNA sites located upstream of the major promoter, acsP2.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T9" />
+<Destination idref="T11" />
+<clue>CRP activates acs transcription by <clueType>binding</clueType> tandem DNA sites located upstream of the major promoter, acsP2.</clue>
+</event>
+<sentence id="S5">Here, we used electrophoretic mobility shift assays and DNase I footprint analyses to demonstrate that <term sem="Regulator" id="T12" lex="the_nucleoid_proteins_FIS_and_IHF">the nucleoid proteins FIS and IHF</term> each bind <term sem="Locus" id="T13" lex="multiple_sites">multiple sites</term> within the acs regulatory region, that <term sem="Regulator" id="T14" lex="FIS">FIS</term> competes successfully with <term sem="Regulator" id="T15" lex="CRP">CRP</term> for binding to <term sem="Transcription_Binding_Site" id="T16" lex="their_overlapping_and_neighbouring_sites">their overlapping and neighbouring sites</term> and that <term sem="Regulator" id="T17" lex="IHF">IHF</term> binds <term sem="SPAN" id="T18" lex="independently">independently</term> of either FIS or CRP.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" />
+<clue>Here, we used electrophoretic mobility shift assays and DNase I footprint analyses to demonstrate that the nucleoid proteins FIS and IHF each <clueType>bind</clueType> multiple sites within the acs regulatory region, that FIS competes successfully with CRP for binding to their overlapping and neighbouring sites and that IHF binds independently of either FIS or CRP.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T14" />
+<Agent idref="T15" />
+<Purpose idref="E8" />
+<clue>Here, we used electrophoretic mobility shift assays and DNase I footprint analyses to demonstrate that the nucleoid proteins FIS and IHF each bind multiple sites within the acs regulatory region, that FIS <clueType>competes</clueType> successfully with CRP for binding to their overlapping and neighbouring sites and that IHF binds independently of either FIS or CRP.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T16" />
+<clue>Here, we used electrophoretic mobility shift assays and DNase I footprint analyses to demonstrate that the nucleoid proteins FIS and IHF each bind multiple sites within the acs regulatory region, that FIS competes successfully with CRP for <clueType>binding</clueType> to their overlapping and neighbouring sites and that IHF binds independently of either FIS or CRP.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T17" />
+<Manner idref="T18" />
+<clue>Here, we used electrophoretic mobility shift assays and DNase I footprint analyses to demonstrate that the nucleoid proteins FIS and IHF each bind multiple sites within the acs regulatory region, that FIS competes successfully with CRP for binding to their overlapping and neighbouring sites and that IHF <clueType>binds</clueType> independently of either FIS or CRP.</clue>
+</event>
+<sentence id="S6">Using in vitro transcription assays, we demonstrated that <term sem="Regulator" id="T19" lex="FIS_and_IHF">FIS and IHF</term> <term sem="SPAN" id="T20" lex="independently">independently</term> reduce <term sem="SPAN" id="T21" lex="CRP-dependent">CRP-dependent</term> <term sem="Gene" id="T22" lex="acs">acs</term> transcription.</sentence>
+<event id="E10">
+<type class="Gene_Repression" />
+<Agent idref="T19" />
+<Theme idref="E11" />
+<Manner idref="T20" />
+<clue>Using in vitro transcription assays, we demonstrated that FIS and IHF independently <clueType>reduce</clueType> CRP-dependent acs transcription.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<Theme idref="T22" />
+<Manner idref="T21" />
+<clue>Using in vitro transcription assays, we demonstrated that FIS and IHF independently reduce CRP-dependent acs <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S7">Using in vivo reporter assays, we showed that disruption of <term sem="Locus" id="T23" lex="DNA_sites">DNA sites</term> for FIS or deletion of <term sem="Transcription_Binding_Site" id="T24" lex="DNA_sites">DNA sites</term> for IHF increases <term sem="Gene" id="T25" lex="acs">acs</term> transcription.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T23" />
+<clue>Using in vivo reporter assays, we showed that <clueType>disruption</clueType> of DNA sites for FIS or deletion of DNA sites for IHF increases acs transcription.</clue>
+</event>
+<event id="E13">
+<type class="Mutation" />
+<Theme idref="T24" />
+<clue>Using in vivo reporter assays, we showed that disruption of DNA sites for FIS or <clueType>deletion</clueType> of DNA sites for IHF increases acs transcription.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Agent idref ="E12" idref1="E13" />
+<Theme idref="E15" />
+<clue>Using in vivo reporter assays, we showed that disruption of DNA sites for FIS or deletion of DNA sites for IHF <clueType>increases</clueType> acs transcription.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<Theme idref="T25" />
+<clue>Using in vivo reporter assays, we showed that disruption of DNA sites for FIS or deletion of DNA sites for IHF increases acs <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S8">We propose that <term sem="Regulator" id="T26" lex="FIS_and_IHF">FIS and IHF</term> each function directly as anti-activators of CRP, each working <term sem="SPAN" id="T27" lex="independently">independently</term> <term sem="SPAN" id="T28" lex="at_different_times_during_growth">at different times during growth</term> <term sem="SPAN" id="T29" lex="to_set_the_levels">to set the levels</term> of <term sem="SPAN" id="T30" lex="CRP-dependent">CRP-dependent</term> <term sem="Gene" id="T31" lex="acs">acs</term> transcription.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T26" />
+<Manner idref="T27" />
+<Purpose idref="T29" />
+<Temporal idref="T28" />
+<clue>We propose that FIS and IHF each function directly as anti-activators of CRP, each <clueType>working</clueType> independently at different times during growth to set the levels of CRP-dependent acs transcription.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<Theme idref="T31" />
+<Manner idref="T30" />
+<clue>We propose that FIS and IHF each function directly as anti-activators of CRP, each working independently at different times during growth to set the levels of CRP-dependent acs <clueType>transcription</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

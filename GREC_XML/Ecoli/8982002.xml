@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8982002">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8982002</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional characterization of roles of GalR and GalS as regulators of the gal regulon.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">An isorepressor of the gal regulon in Escherichia coli, GalS, has been purified to homogeneity.</sentence>
+<sentence id="S4">In vitro DNase I protection experiments indicated that among operators of the gal regulon, <term sem="Regulator" id="T1" lex="GalS">GalS</term> binds most strongly to <term sem="Operator" id="T2" lex="the_external_operator">the external operator</term> of <term sem="Operon" id="T3" lex="the_mgl_operon">the mgl operon</term>, which encodes <term sem="Protein" id="T4" lex="the_high-affinity_beta-methylgalactoside_galactose_transport_system">the high-affinity beta-methylgalactoside galactose transport system</term>, and with less affinity to <term sem="Operator" id="T5" lex="the_operators">the operators</term> controlling expression of <term sem="Operon" id="T6" lex="the_gal_operon">the gal operon</term>, which codes for <term sem="Enzyme" id="T7" lex="enzymes">enzymes</term> of galactose metabolism.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" idref1="T5" />
+<clue>In vitro DNase I protection experiments indicated that among operators of the gal regulon, GalS <clueType>binds</clueType> most strongly to the external operator of the mgl operon, which encodes the high-affinity beta-methylgalactoside galactose transport system, and with less affinity to the operators controlling expression of the gal operon, which codes for enzymes of galactose metabolism.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>In vitro DNase I protection experiments indicated that among operators of the gal regulon, GalS binds most strongly to the external operator of the mgl operon, which <clueType>encodes</clueType> the high-affinity beta-methylgalactoside galactose transport system, and with less affinity to the operators controlling expression of the gal operon, which codes for enzymes of galactose metabolism.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="E4" />
+<clue>In vitro DNase I protection experiments indicated that among operators of the gal regulon, GalS binds most strongly to the external operator of the mgl operon, which encodes the high-affinity beta-methylgalactoside galactose transport system, and with less affinity to the operators <clueType>controlling</clueType> expression of the gal operon, which codes for enzymes of galactose metabolism.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T6" />
+<clue>In vitro DNase I protection experiments indicated that among operators of the gal regulon, GalS binds most strongly to the external operator of the mgl operon, which encodes the high-affinity beta-methylgalactoside galactose transport system, and with less affinity to the operators controlling <clueType>expression</clueType> of the gal operon, which codes for enzymes of galactose metabolism.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>In vitro DNase I protection experiments indicated that among operators of the gal regulon, GalS binds most strongly to the external operator of the mgl operon, which encodes the high-affinity beta-methylgalactoside galactose transport system, and with less affinity to the operators controlling expression of the gal operon, which <clueType>codes</clueType> for enzymes of galactose metabolism.</clue>
+</event>
+<sentence id="S5">GalS has even less affinity for the external operator of <term sem="Gene" id="T8" lex="galP">galP</term>, which codes for <term sem="Enzyme" id="T9" lex="galactose_permease">galactose permease</term>, the major low-affinity galactose transporter in the cell.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<clue>GalS has even less affinity for the external operator of galP, which <clueType>codes</clueType> for galactose permease, the major low-affinity galactose transporter in the cell.</clue>
+</event>
+<sentence id="S6">This order of affinities is the reverse of that of <term sem="Regulator" id="T10" lex="GalR">GalR</term>, which binds most strongly to <term sem="Operator" id="T11" lex="the_operator"><term sem="SPAN" id="T12" lex="the_operator_of_galP">the operator of <term sem="Gene" id="T13" lex="galP">galP</term></term></term> and most weakly to <term sem="SPAN" id="T14" lex="that_of_mgl">that of mgl</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T12" idref1="T14" />
+<clue>This order of affinities is the reverse of that of GalR, which <clueType>binds</clueType> most strongly to the operator of galP and most weakly to that of mgl.</clue>
+</event>
+<sentence id="S7">Our results also show that <term sem="Regulator" id="T15" lex="GalS">GalS</term>, like its homolog, GalR, is a dimeric protein which in binding to <term sem="Operator" id="T16" lex="the_bipartite_operators">the bipartite operators</term> of the gal operon <term sem="SPAN" id="T17" lex="selectively">selectively</term> represses <term sem="Promoter" id="T18" lex="its_P1_promoter">its P1 promoter</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T16" />
+<clue>Our results also show that GalS, like its homolog, GalR, is a dimeric protein which in <clueType>binding</clueType> to the bipartite operators of the gal operon selectively represses its P1 promoter.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T18" />
+<Manner idref="T17" />
+<clue>Our results also show that GalS, like its homolog, GalR, is a dimeric protein which in binding to the bipartite operators of the gal operon selectively <clueType>represses</clueType> its P1 promoter.</clue>
+</event>
+<sentence id="S8">Consistent with the fact that GalR is the exclusive regulator of the low-affinity galactose transporter, galactose permease, and that the major role of <term sem="Regulator" id="T19" lex="GalS">GalS</term> is in regulating expression of <term sem="Protein" id="T20" lex="the_high-affinity_galactose_transporter">the high-affinity galactose transporter</term> encoded by <term sem="Operon" id="T21" lex="the_mgl_operon">the mgl operon</term>, we found that the <term sem="DNA" id="T22" lex="DNA">DNA</term> binding of <term sem="Regulator" id="T23" lex="GalS">GalS</term> is 15-fold more sensitive than that of GalR to galactose.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E11" />
+<clue>Consistent with the fact that GalR is the exclusive regulator of the low-affinity galactose transporter, galactose permease, and that the major role of GalS is in <clueType>regulating</clueType> expression of the high-affinity galactose transporter encoded by the mgl operon, we found that the DNA binding of GalS is 15-fold more sensitive than that of GalR to galactose.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>Consistent with the fact that GalR is the exclusive regulator of the low-affinity galactose transporter, galactose permease, and that the major role of GalS is in regulating <clueType>expression</clueType> of the high-affinity galactose transporter encoded by the mgl operon, we found that the DNA binding of GalS is 15-fold more sensitive than that of GalR to galactose.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T20" />
+<clue>Consistent with the fact that GalR is the exclusive regulator of the low-affinity galactose transporter, galactose permease, and that the major role of GalS is in regulating expression of the high-affinity galactose transporter <clueType>encoded</clueType> by the mgl operon, we found that the DNA binding of GalS is 15-fold more sensitive than that of GalR to galactose.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T23" />
+<Destination idref="T22" />
+<clue>Consistent with the fact that GalR is the exclusive regulator of the low-affinity galactose transporter, galactose permease, and that the major role of GalS is in regulating expression of the high-affinity galactose transporter encoded by the mgl operon, we found that the DNA <clueType>binding</clueType> of GalS is 15-fold more sensitive than that of GalR to galactose.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

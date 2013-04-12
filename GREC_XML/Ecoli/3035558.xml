@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=3035558">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>3035558</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulator" id="T1" lex="The_narL_gene_product">The narL gene product</term> activates <term sem="Operon" id="T2" lex="the_nitrate_reductase_operon">the nitrate reductase operon</term> and represses <term sem="Operon" id="T3" lex="the_fumarate_reductase_and_trimethylamine_N-oxide_reductase_operons">the fumarate reductase and trimethylamine N-oxide reductase operons</term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Location idref="T4" />
+<clue>The narL gene product <clueType>activates</clueType> the nitrate reductase operon and represses the fumarate reductase and trimethylamine N-oxide reductase operons in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="T3" />
+<Location idref="T4" />
+<clue>The narL gene product activates the nitrate reductase operon and <clueType>represses</clueType> the fumarate reductase and trimethylamine N-oxide reductase operons in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Escherichia coli, which can utilize O2, nitrate, fumarate, or trimethylamine N-oxide (Me3NO) as terminal electron acceptor, preferentially utilizes the one with the highest redox potential.</sentence>
+<sentence id="S4"><term sem="Inorganic_Compounds" id="T6" lex="Thus_O2">Thus O2</term> prevents induction of <term sem="Enzyme" id="T7" lex="nitrate,_fumarate,_and_Me3NO_reductases">nitrate, fumarate, and Me3NO reductases</term>, and <term sem="Inorganic_Compounds" id="T8" lex="nitrate">nitrate</term> curtails the induction of <term sem="Enzyme" id="T9" lex="fumarate_and_Me3NO_reductases">fumarate and Me3NO reductases</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="E4" />
+<clue>Thus O2 <clueType>prevents</clueType> induction of nitrate, fumarate, and Me3NO reductases, and nitrate curtails the induction of fumarate and Me3NO reductases.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Theme idref="T7" />
+<clue>Thus O2 prevents <clueType>induction</clueType> of nitrate, fumarate, and Me3NO reductases, and nitrate curtails the induction of fumarate and Me3NO reductases.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="E6" />
+<clue>Thus O2 prevents induction of nitrate, fumarate, and Me3NO reductases, and nitrate <clueType>curtails</clueType> the induction of fumarate and Me3NO reductases.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Theme idref="T9" />
+<clue>Thus O2 prevents induction of nitrate, fumarate, and Me3NO reductases, and nitrate curtails the <clueType>induction</clueType> of fumarate and Me3NO reductases.</clue>
+</event>
+<sentence id="S5">Under <term sem="SPAN" id="T10" lex="anaerobic_conditions">anaerobic conditions</term> <term sem="Regulator" id="T11" lex="the_narL_gene_product">the narL gene product</term>, in <term sem="SPAN" id="T12" lex="the_presence_of_nitrate">the presence of <term sem="Inorganic_Compounds" id="T13" lex="nitrate">nitrate</term></term>, is known to activate transcription of <term sem="Operon" id="T14" lex="the_narC_operon">the narC operon</term>, which encodes <term sem="Enzyme" id="T15" lex="nitrate_reductase">nitrate reductase</term>.</sentence>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="T11" />
+<Theme idref="E8" />
+<Condition idref="T10" idref1="T12" />
+<clue>Under anaerobic conditions the narL gene product, in the presence of nitrate, is known to <clueType>activate</clueType> transcription of the narC operon, which encodes nitrate reductase.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T14" />
+<clue>Under anaerobic conditions the narL gene product, in the presence of nitrate, is known to activate <clueType>transcription</clueType> of the narC operon, which encodes nitrate reductase.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>Under anaerobic conditions the narL gene product, in the presence of nitrate, is known to activate transcription of the narC operon, which <clueType>encodes</clueType> nitrate reductase.</clue>
+</event>
+<sentence id="S6">This study shows that the same product plays a role in the repression by <term sem="Inorganic_Compounds" id="T16" lex="nitrate">nitrate</term> of the operons (<term sem="Operon" id="T17" lex="frd">frd</term> and <term sem="Operon" id="T18" lex="tor">tor</term>) that encode <term sem="Enzyme" id="T19" lex="fumarate_and_Me3NO_reductases">fumarate and Me3NO reductases</term>.</sentence>
+<event id="E10">
+<type class="Gene_Repression" />
+<Agent idref="T16" />
+<Theme idref="T17" idref1="T18" />
+<clue>This study shows that the same product plays a role in the <clueType>repression</clueType> by nitrate of the operons (frd and tor) that encode fumarate and Me3NO reductases.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T17" idref1="T18" />
+<Theme idref="T19" />
+<clue>This study shows that the same product plays a role in the repression by nitrate of the operons (frd and tor) that <clueType>encode</clueType> fumarate and Me3NO reductases.</clue>
+</event>
+<sentence id="S7">In contrast, the <term sem="SPAN" id="T20" lex="anaerobic">anaerobic</term> repression of <term sem="Enzyme" id="T21" lex="ethanol_dehydrogenase">ethanol dehydrogenase</term> by <term sem="Inorganic_Compounds" id="T22" lex="nitrate">nitrate</term> does not require <term sem="Protein" id="T23" lex="the_narL_product">the narL product</term>.</sentence>
+<event id="E12">
+<type class="Gene_Repression" />
+<Agent idref="T22" />
+<Theme idref="T21" />
+<Condition idref="T20" />
+<clue>In contrast, the anaerobic <clueType>repression</clueType> of ethanol dehydrogenase by nitrate does not require the narL product.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="T23" />
+<clue>In contrast, the anaerobic repression of ethanol dehydrogenase by nitrate does not <clueType>require</clueType> the narL product.</clue>
+</event>
+<sentence id="S8">Expression of <term sem="Gene" id="T24" lex="narL">narL</term> does not require <term sem="Activator" id="T25" lex="the_fnr_gene_product">the fnr gene product</term>, a pleiotropic activator that is required for full expression of <term sem="Gene" id="T26" lex="narC">narC</term>, <term sem="Gene" id="T27" lex="frd">frd</term>, and <term sem="Gene" id="T28" lex="tor">tor</term>.</sentence>
+<event id="E14">
+<type class="Gene_Expression" />
+<Theme idref="T24" />
+<clue><clueType>Expression</clueType> of narL does not require the fnr gene product, a pleiotropic activator that is required for full expression of narC, frd, and tor.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E14" />
+<Theme idref="T25" />
+<clue>Expression of narL does not <clueType>require</clueType> the fnr gene product, a pleiotropic activator that is required for full expression of narC, frd, and tor.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T25" />
+<Purpose idref="E17" />
+<clue>Expression of narL does not require the fnr gene product, a pleiotropic activator that is <clueType>required</clueType> for full expression of narC, frd, and tor.</clue>
+</event>
+<event id="E17">
+<type class="Gene_Expression" />
+<Theme idref="T26" idref1="T27" idref2="T28" />
+<clue>Expression of narL does not require the fnr gene product, a pleiotropic activator that is required for full <clueType>expression</clueType> of narC, frd, and tor.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

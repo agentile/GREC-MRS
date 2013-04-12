@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=13129959">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>13129959</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Dual overlapping promoters control napF (periplasmic nitrate reductase) <term sem="Operon" id="T1" lex="operon">operon</term> expression <term sem="SPAN" id="T2" lex="in_Escherichia_coli_K-12">in <term sem="Wild_Type_Bacteria" id="T3" lex="Escherichia_coli_K-12">Escherichia coli K-12</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<Location idref="T2" />
+<clue>Dual overlapping promoters control napF (periplasmic nitrate reductase) operon <clueType>expression</clueType> in Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Escherichia coli elaborates a flexible respiratory metabolism, involving differential synthesis of isoenzymes for many oxidation and reduction reactions.</sentence>
+<sentence id="S4"><term sem="Enzyme" id="T4" lex="Periplasmic_nitrate_reductase">Periplasmic nitrate reductase</term>, encoded by <term sem="Operon" id="T5" lex="the_napFDAGHBC_operon">the napFDAGHBC operon</term>, functions with concentrations of nitrate that are too low to support respiration by membrane-bound nitrate reductase.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T4" />
+<clue>Periplasmic nitrate reductase, <clueType>encoded</clueType> by the napFDAGHBC operon, functions with concentrations of nitrate that are too low to support respiration by membrane-bound nitrate reductase.</clue>
+</event>
+<sentence id="S5">The napF operon control region exhibits unusual organization of DNA binding sites for <term sem="Activator" id="T6" lex="the_transcription_regulators_Fnr_and_NarP">the transcription regulators Fnr and NarP</term>, which activate <term sem="Transcription" id="T7" lex="transcription">transcription</term> in response to <term sem="SPAN" id="T8" lex="anaerobiosis_and_nitrate">anaerobiosis and nitrate</term>, respectively.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<Condition idref="T8" />
+<clue>The napF operon control region exhibits unusual organization of DNA binding sites for the transcription regulators Fnr and NarP, which <clueType>activate</clueType> transcription in response to anaerobiosis and nitrate, respectively.</clue>
+</event>
+<sentence id="S6">Previous studies have shown that <term sem="Transcription_Binding_Site" id="T9" lex="the_napF_operon_control_region">the napF operon control region</term> directs synthesis of <term sem="mRNA" id="T10" lex="two_transcripts">two transcripts</term> whose 5' ends differ by about 3 nucleotides.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="E5" />
+<clue>Previous studies have shown that the napF operon control region <clueType>directs</clueType> synthesis of two transcripts whose 5' ends differ by about 3 nucleotides.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T10" />
+<clue>Previous studies have shown that the napF operon control region directs <clueType>synthesis</clueType> of two transcripts whose 5' ends differ by about 3 nucleotides.</clue>
+</event>
+<sentence id="S7">We constructed mutant control regions in which either of the two promoter -10 regions is inactivated.</sentence>
+<sentence id="S8">Results indicate that the downstream promoter (P1) was responsible for Fnr- and <term sem="Activator" id="T11" lex="NarP-regulated">NarP-regulated</term> <term sem="Operon" id="T12" lex="napF_operon">napF operon</term> expression, whereas transcription from the upstream promoter (<term sem="Promoter" id="T13" lex="P2">P2</term>) was activated <term sem="SPAN" id="T14" lex="only_weakly">only weakly</term> by <term sem="Activator" id="T15" lex="the_Fnr_protein">the Fnr protein</term> and was inhibited by <term sem="Regulator" id="T16" lex="phospho-NarP_and_-NarL_proteins">phospho-NarP and -NarL proteins</term>.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<Manner idref="T11" />
+<clue>Results indicate that the downstream promoter (P1) was responsible for Fnr- and NarP-regulated napF operon <clueType>expression</clueType>, whereas transcription from the upstream promoter (P2) was activated only weakly by the Fnr protein and was inhibited by phospho-NarP and -NarL proteins.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<Source idref="T13" />
+<clue>Results indicate that the downstream promoter (P1) was responsible for Fnr- and NarP-regulated napF operon expression, whereas <clueType>transcription</clueType> from the upstream promoter (P2) was activated only weakly by the Fnr protein and was inhibited by phospho-NarP and -NarL proteins.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Activation" />
+<Agent idref="T15" />
+<Theme idref="E7" />
+<Manner idref="T14" />
+<clue>Results indicate that the downstream promoter (P1) was responsible for Fnr- and NarP-regulated napF operon expression, whereas transcription from the upstream promoter (P2) was <clueType>activated</clueType> only weakly by the Fnr protein and was inhibited by phospho-NarP and -NarL proteins.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Repression" />
+<Agent idref="T16" />
+<Theme idref="E7" />
+<clue>Results indicate that the downstream promoter (P1) was responsible for Fnr- and NarP-regulated napF operon expression, whereas transcription from the upstream promoter (P2) was activated only weakly by the Fnr protein and was <clueType>inhibited</clueType> by phospho-NarP and -NarL proteins.</clue>
+</event>
+<sentence id="S9">The physiological function of promoter P2 is unknown.</sentence>
+<sentence id="S10">These results establish the unconventional napF operon control region architecture, in which <term sem="Promoter" id="T17" lex="the_major_promoter_P1">the major promoter P1</term> is activated by <term sem="Activator" id="T18" lex="the_Fnr_protein">the Fnr protein</term> bound to <term sem="Locus" id="T19" lex="a_site">a site</term> centered at -64.5 with respect to the transcription initiation site, working in conjunction with <term sem="Regulator" id="T20" lex="the_phospho-NarP_protein">the phospho-NarP protein</term> bound to <term sem="Locus" id="T21" lex="a_site">a site</term> centered at -44.5.</sentence>
+<event id="E10">
+<type class="Gene_Activation" />
+<Agent idref="T18" />
+<Theme idref="T17" />
+<clue>These results establish the unconventional napF operon control region architecture, in which the major promoter P1 is <clueType>activated</clueType> by the Fnr protein bound to a site centered at -64.5 with respect to the transcription initiation site, working in conjunction with the phospho-NarP protein bound to a site centered at -44.5.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T18" />
+<Destination idref="T19" />
+<clue>These results establish the unconventional napF operon control region architecture, in which the major promoter P1 is activated by the Fnr protein <clueType>bound</clueType> to a site centered at -64.5 with respect to the transcription initiation site, working in conjunction with the phospho-NarP protein bound to a site centered at -44.5.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T20" />
+<Destination idref="T21" />
+<clue>These results establish the unconventional napF operon control region architecture, in which the major promoter P1 is activated by the Fnr protein bound to a site centered at -64.5 with respect to the transcription initiation site, working in conjunction with the phospho-NarP protein <clueType>bound</clueType> to a site centered at -44.5.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

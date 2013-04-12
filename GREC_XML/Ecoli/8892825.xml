@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8892825">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8892825</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Transcriptional_control">Transcriptional control</term> mediated by <term sem="Protein" id="T2" lex="the_ArcA_two-component_response_regulator_protein">the ArcA two-component response regulator protein</term> of Escherichia coli: characterization of DNA binding at target promoters.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue>Transcriptional control <clueType>mediated</clueType> by the ArcA two-component response regulator protein of Escherichia coli: characterization of DNA binding at target promoters.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">ArcA protein bearing an amino-terminal, oligohistidine extension has been purified, and its DNA binding activity has been characterized with or without prior incubation with carbamoyl phosphate.</sentence>
+<sentence id="S4">Electrophoretic mobility shift assays and DNase I protection assays indicate that where the phosphorylated form of the ArcA protein (<term sem="Protein" id="T3" lex="ArcA-P">ArcA-P</term>) is expected to act as <term sem="Repressor" id="T4" lex="a_transcriptional_repressor">a transcriptional repressor</term> (e.g., of lctPRD and gltA-sdhCDAB), <term sem="SPAN" id="T5" lex="the_effect">the effect</term> is likely to be mediated by sequestration of <term sem="SPAN" id="T6" lex="cis-controlling_transcriptional_regulatory_elements">cis-controlling transcriptional regulatory elements</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Descriptive-Theme idref="T4" />
+<clue>Electrophoretic mobility shift assays and DNase I protection assays indicate that where the phosphorylated form of the ArcA protein (ArcA-P) is expected to <clueType>act</clueType> as a transcriptional repressor (e.g., of lctPRD and gltA-sdhCDAB), the effect is likely to be mediated by sequestration of cis-controlling transcriptional regulatory elements.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T5" />
+<clue>Electrophoretic mobility shift assays and DNase I protection assays indicate that where the phosphorylated form of the ArcA protein (ArcA-P) is expected to act as a transcriptional repressor (e.g., of lctPRD and gltA-sdhCDAB), the effect is likely to be <clueType>mediated</clueType> by sequestration of cis-controlling transcriptional regulatory elements.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T6" />
+<clue>Electrophoretic mobility shift assays and DNase I protection assays indicate that where the phosphorylated form of the ArcA protein (ArcA-P) is expected to act as a transcriptional repressor (e.g., of lctPRD and gltA-sdhCDAB), the effect is likely to be mediated by <clueType>sequestration</clueType> of cis-controlling transcriptional regulatory elements.</clue>
+</event>
+<sentence id="S5">In contrast, in the case of cydAB, for which <term sem="Protein" id="T7" lex="ArcA-P">ArcA-P</term> is expected to function as <term sem="Activator" id="T8" lex="a_transcriptional_activator">a transcriptional activator</term>, two discrete binding sites have been identified upstream of a known promoter, and activation from these sites is likely to be mediated by a mechanism typical of the type I class of prokaryotic transcriptional activators.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="T8" />
+<clue>In contrast, in the case of cydAB, for which ArcA-P is expected to <clueType>function</clueType> as a transcriptional activator, two discrete binding sites have been identified upstream of a known promoter, and activation from these sites is likely to be mediated by a mechanism typical of the type I class of prokaryotic transcriptional activators.</clue>
+</event>
+<sentence id="S6">An additional ArcA-P binding site has also been located downstream of the known promoter, and a distinct role for this site in the regulation of the cydAB operon during anoxic growth transitions is suggested.</sentence>
+<sentence id="S7">These results are discussed within the framework of an overall model of signaling by the Arc two-component signal transduction system in response to changes in aerobiosis.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

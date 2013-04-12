@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9115366">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9115366</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Laboratory_Technique" id="T1" lex="A_novel_genetic_system">A novel genetic system</term> to isolate <term sem="Protein" id="T2" lex="a_dominant_negative_effector">a dominant negative effector</term> on DNA-binding activity of Oct-2.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>A novel genetic system to <clueType>isolate</clueType> a dominant negative effector on DNA-binding activity of Oct-2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Recent studies have revealed that interactions between <term sem="Transcription_Factor" id="T3" lex="transcription_factors">transcription factors</term> play <term sem="SPAN" id="T4" lex="an_important_role">an important role</term> in regulation of <term sem="Gene" id="T5" lex="gene">gene</term> expression <term sem="SPAN" id="T6" lex="in_eukaryotic_cells">in <term sem="Cells" id="T7" lex="eukaryotic_cells">eukaryotic cells</term></term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<clue>Recent studies have revealed that <clueType>interactions</clueType> between transcription factors play an important role in regulation of gene expression in eukaryotic cells.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="E2" />
+<Theme idref="T4" />
+<Descriptive-Agent idref="E4" />
+<clue>Recent studies have revealed that interactions between transcription factors <clueType>play</clueType> an important role in regulation of gene expression in eukaryotic cells.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="E5" />
+<clue>Recent studies have revealed that interactions between transcription factors play an important role in <clueType>regulation</clueType> of gene expression in eukaryotic cells.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Activation" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>Recent studies have revealed that interactions between transcription factors play an important role in regulation of gene <clueType>expression</clueType> in eukaryotic cells.</clue>
+</event>
+<sentence id="S4">To isolate <term sem="Cells" id="T8" lex="cDNA_clones">cDNA clones</term> that <term sem="SPAN" id="T9" lex="dominantly">dominantly</term> inhibit <term sem="SPAN" id="T10" lex="the_DNA-binding_activity">the DNA-binding activity</term> of Oct-2, chosen as a representative factor, we have developed a novel screening system.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T10" />
+<Manner idref="T9" />
+<clue>To isolate cDNA clones that dominantly <clueType>inhibit</clueType> the DNA-binding activity of Oct-2, chosen as a representative factor, we have developed a novel screening system.</clue>
+</event>
+<sentence id="S5">This employs an Escherichia coli tester strain carrying a modified lac operon as a reporter gene, with the lac operator sequence replaced by an octamer sequence.</sentence>
+<sentence id="S6"><term sem="Repressor" id="T11" lex="Oct-2">Oct-2</term> expressed <term sem="SPAN" id="T12" lex="in_this_tester_strain">in <term sem="Wild_Type_Bacteria" id="T13" lex="this_tester_strain">this tester strain</term></term> represses the expression of <term sem="Gene" id="T14" lex="the_reporter_gene">the reporter gene</term> and changes <term sem="SPAN" id="T15" lex="the_phenotype">the phenotype</term> of the cell from Lac+to Lac-.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T11" />
+<Location idref="T12" />
+<clue>Oct-2 <clueType>expressed</clueType> in this tester strain represses the expression of the reporter gene and changes the phenotype of the cell from Lac+to Lac-.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E9" />
+<clue>Oct-2 expressed in this tester strain <clueType>represses</clueType> the expression of the reporter gene and changes the phenotype of the cell from Lac+to Lac-.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Activation" />
+<Theme idref="T14" />
+<clue>Oct-2 expressed in this tester strain represses the <clueType>expression</clueType> of the reporter gene and changes the phenotype of the cell from Lac+to Lac-.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T15" />
+<clue>Oct-2 expressed in this tester strain represses the expression of the reporter gene and <clueType>changes</clueType> the phenotype of the cell from Lac+to Lac-.</clue>
+</event>
+<sentence id="S7">Introduction of <term sem="SPAN" id="T16" lex="a_cDNA_expression_library">a cDNA expression library</term> prepared from <term sem="Cells" id="T17" lex="a_human_T-cell_line">a human T-cell line</term> into <term sem="Wild_Type_Bacteria" id="T18" lex="the_Oct-2-harboring_tester_strain">the Oct-2-harboring tester strain</term> allowed <term sem="SPAN" id="T19" lex="selection">selection</term> of three Lac+clones out of 1 x 10(5) transformants.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T16" />
+<Destination idref="T18" />
+<clue><clueType>Introduction</clueType> of a cDNA expression library prepared from a human T-cell line into the Oct-2-harboring tester strain allowed selection of three Lac+clones out of 1 x 10(5) transformants.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T16" />
+<Source idref="T17" />
+<clue>Introduction of a cDNA expression library <clueType>prepared</clueType> from a human T-cell line into the Oct-2-harboring tester strain allowed selection of three Lac+clones out of 1 x 10(5) transformants.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E11" />
+<Theme idref="T19" />
+<clue>Introduction of a cDNA expression library prepared from a human T-cell line into the Oct-2-harboring tester strain <clueType>allowed</clueType> selection of three Lac+clones out of 1 x 10(5) transformants.</clue>
+</event>
+<sentence id="S8">One of them, <term sem="Gene" id="T20" lex="hT86">hT86</term>, encoding <term sem="Protein" id="T21" lex="a_putative_zinc_finger_protein">a putative zinc finger protein</term> was found to derepress <term sem="SPAN" id="T22" lex="beta-galactosidase_activity">beta-galactosidase activity</term> <term sem="SPAN" id="T23" lex="in_the_Oct-2-harboring_tester_strain">in <term sem="Wild_Type_Bacteria" id="T24" lex="the_Oct-2-harboring_tester_strain">the Oct-2-harboring tester strain</term></term> at the transcriptional level.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T21" />
+<clue>One of them, hT86, <clueType>encoding</clueType> a putative zinc finger protein was found to derepress beta-galactosidase activity in the Oct-2-harboring tester strain at the transcriptional level.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T22" />
+<Location idref="T23" />
+<clue>One of them, hT86, encoding a putative zinc finger protein was found to <clueType>derepress</clueType> beta-galactosidase activity in the Oct-2-harboring tester strain at the transcriptional level.</clue>
+</event>
+<sentence id="S9">In gel mobility shift assays, <term sem="Gene" id="T25" lex="hT86">hT86</term> attenuated <term sem="SPAN" id="T26" lex="the_intensity">the intensity</term> of the retarded band composed of the octamer probe and Oct-2, suggesting a <term sem="SPAN" id="T27" lex="dominant_negative">dominant negative</term> effect on <term sem="SPAN" id="T28" lex="the_DNA-binding_activity">the DNA-binding activity</term> of <term sem="Repressor" id="T29" lex="Oct-2">Oct-2</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T25" />
+<Theme idref="T26" />
+<clue>In gel mobility shift assays, hT86 <clueType>attenuated</clueType> the intensity of the retarded band composed of the octamer probe and Oct-2, suggesting a dominant negative effect on the DNA-binding activity of Oct-2.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="T28" />
+<Manner idref="T27" />
+<clue>In gel mobility shift assays, hT86 attenuated the intensity of the retarded band composed of the octamer probe and Oct-2, suggesting a dominant negative <clueType>effect</clueType> on the DNA-binding activity of Oct-2.</clue>
+</event>
+<sentence id="S10">The strategy described here provides a new approach for studying <term sem="SPAN" id="T30" lex="protein-protein">protein-protein</term> interactions that govern the complex regulation of <term sem="Gene" id="T31" lex="gene">gene</term> expression.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T30" />
+<clue>The strategy described here provides a new approach for studying protein-protein <clueType>interactions</clueType> that govern the complex regulation of gene expression.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="E20" />
+<clue>The strategy described here provides a new approach for studying protein-protein interactions that <clueType>govern</clueType> the complex regulation of gene expression.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<Theme idref="E21" />
+<clue>The strategy described here provides a new approach for studying protein-protein interactions that govern the complex <clueType>regulation</clueType> of gene expression.</clue>
+</event>
+<event id="E21">
+<type class="Gene_Activation" />
+<Theme idref="T31" />
+<clue>The strategy described here provides a new approach for studying protein-protein interactions that govern the complex regulation of gene <clueType>expression</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

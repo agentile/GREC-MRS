@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7511582">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7511582</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Repressor" id="T1" lex="Alp">Alp</term> suppression of <term sem="Protein" id="T2" lex="Lon">Lon</term>: dependence on the slpA gene.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Alp <clueType>suppression</clueType> of Lon: dependence on the slpA gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have previously found that plasmids carrying the Escherichia coli alp gene (now to be called alpA) suppress two phenotypes of a delta lon protease mutant, overproduction of capsular polysaccharide and sensitivity to UV light.</sentence>
+<sentence id="S4">Suppression of these lon phenotypes is most likely explained by the increased degradation of the Lon substrates responsible for these phenotypes.</sentence>
+<sentence id="S5">We have called this suppressing protease activity Alp protease.</sentence>
+<sentence id="S6">The Alp protease activity is detected in cells after introduction of plasmids carrying <term sem="Gene" id="T3" lex="the_alpA_gene">the alpA gene</term>, which encodes <term sem="ORF" id="T4" lex="an_open_reading_frame">an open reading frame</term> of 70 amino acids.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>The Alp protease activity is detected in cells after introduction of plasmids carrying the alpA gene, which <clueType>encodes</clueType> an open reading frame of 70 amino acids.</clue>
+</event>
+<sentence id="S7"><term sem="Mutation" id="T5" lex="Insertions">Insertions</term> which abolish <term sem="SPAN" id="T6" lex="Alp_activity">Alp activity</term> interrupt this open reading frame.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>Insertions which <clueType>abolish</clueType> Alp activity interrupt this open reading frame.</clue>
+</event>
+<sentence id="S8">We have used <term sem="Laboratory_Technique" id="T7" lex="Tn10_and_lambda_placMu_mutagenesis">Tn10 and lambda placMu mutagenesis</term> to identify a chromosomal locus, <term sem="Locus" id="T8" lex="slpA">slpA</term>, that is required for <term sem="SPAN" id="T9" lex="alpA+"><term sem="SPAN" id="T10" lex="alpA+_suppression">alpA+ suppression</term></term> of <term sem="SPAN" id="T11" lex="delta_lon">delta lon</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T8" />
+<Instrument idref="T7" />
+<clue>We have used Tn10 and lambda placMu mutagenesis to <clueType>identify</clueType> a chromosomal locus, slpA, that is required for alpA+ suppression of delta lon.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T10" />
+<clue>We have used Tn10 and lambda placMu mutagenesis to identify a chromosomal locus, slpA, that is <clueType>required</clueType> for alpA+ suppression of delta lon.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Repression" />
+<Agent idref="T9" />
+<Theme idref="T11" />
+<clue>We have used Tn10 and lambda placMu mutagenesis to identify a chromosomal locus, slpA, that is required for alpA+ <clueType>suppression</clueType> of delta lon.</clue>
+</event>
+<sentence id="S9"><term sem="Protein" id="T12" lex="This_locus">This locus</term> maps at 57 min, close to the chromosomal location of alpA.</sentence>
+<sentence id="S10">The expression of <term sem="Enzyme" id="T13" lex="beta-galactosidase">beta-galactosidase</term> from <term sem="SPAN" id="T14" lex="a_lac_transcriptional_fusion_to_slpA">a lac transcriptional fusion to <term sem="Locus" id="T15" lex="slpA">slpA</term></term> is increased <term sem="SPAN" id="T16" lex="six-_to_eightfold">six- to eightfold</term> when the alpA+ gene is present on a multicopy plasmid.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<Source idref="T14" />
+<clue>The <clueType>expression</clueType> of beta-galactosidase from a lac transcriptional fusion to slpA is increased six- to eightfold when the alpA+ gene is present on a multicopy plasmid.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="E7" />
+<Rate idref="T16" />
+<clue>The expression of beta-galactosidase from a lac transcriptional fusion to slpA is <clueType>increased</clueType> six- to eightfold when the alpA+ gene is present on a multicopy plasmid.</clue>
+</event>
+<sentence id="S11">Therefore, AlpA acts as a transcriptional regulator of the slpA gene(s); <term sem="SPAN" id="T17" lex="activation_of_slpA_transcription">activation of <term sem="Locus" id="T18" lex="slpA"><term sem="SPAN" id="T19" lex="slpA_transcription">slpA transcription</term></term></term> is necessary to suppress <term sem="SPAN" id="T20" lex="the_phenotypes_of_a_delta_lon_mutation">the phenotypes of <term sem="Mutation" id="T21" lex="a_delta_lon_mutation">a delta lon mutation</term></term>.</sentence>
+<event id="E9">
+<type class="Gene_Activation" />
+<Theme idref="T19" />
+<clue>Therefore, AlpA acts as a transcriptional regulator of the slpA gene(s); <clueType>activation</clueType> of slpA transcription is necessary to suppress the phenotypes of a delta lon mutation.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<Theme idref="T18" />
+<clue>Therefore, AlpA acts as a transcriptional regulator of the slpA gene(s); activation of slpA <clueType>transcription</clueType> is necessary to suppress the phenotypes of a delta lon mutation.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Repression" />
+<Agent idref="T17" />
+<Theme idref="T20" />
+<clue>Therefore, AlpA acts as a transcriptional regulator of the slpA gene(s); activation of slpA transcription is necessary to <clueType>suppress</clueType> the phenotypes of a delta lon mutation.</clue>
+</event>
+<sentence id="S12">In an accompanying paper (J.E. Kirby, J.E. Trempy, and S. Gottesman, J. Bacteriol. 176:2068-2081, 1994), we show that neither AlpA nor SlpA is a component of the protease itself but that they are part of <term sem="SPAN" id="T22" lex="a_regulatory_cascade">a regulatory cascade</term> which leads to expression of <term sem="Protein" id="T23" lex="the_Alp_protease">the Alp protease</term>.</sentence>
+<event id="E12">
+<type class="Gene_Expression" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>In an accompanying paper (J.E. Kirby, J.E. Trempy, and S. Gottesman, J. Bacteriol. 176:2068-2081, 1994), we show that neither AlpA nor SlpA is a component of the protease itself but that they are part of a regulatory cascade which leads to <clueType>expression</clueType> of the Alp protease.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12446650">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12446650</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Collaborative">Collaborative</term> regulation of <term sem="SPAN" id="T2" lex="Escherichia_coli_glutamate-dependent_acid_resistance">Escherichia coli glutamate-dependent acid resistance</term> by two AraC-like regulators, <term sem="Regulator" id="T3" lex="GadX">GadX</term> and <term sem="Regulator" id="T4" lex="GadW">GadW</term> (YhiW).</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T3" idref1="T4" />
+<Theme idref="T2" />
+<Manner idref="T1" />
+<clue>Collaborative <clueType>regulation</clueType> of Escherichia coli glutamate-dependent acid resistance by two AraC-like regulators, GadX and GadW (YhiW).</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">An important feature of Escherichia coli pathogenesis is an ability to withstand extremely acidic environments of pH 2 or lower.</sentence>
+<sentence id="S4">This acid resistance property contributes to the low infectious dose of pathogenic E. coli species.</sentence>
+<sentence id="S5">One very efficient E. coli acid resistance system encompasses two isoforms of glutamate decarboxylase (gadA and gadB) and a putative glutamate:gamma-amino butyric acid (GABA) antiporter (gadC).</sentence>
+<sentence id="S6">The system is subject to complex controls that vary with growth media, growth phase, and growth pH.</sentence>
+<sentence id="S7">Previous work has revealed that <term sem="SPAN" id="T5" lex="the_system">the system</term> is controlled by <term sem="Sigma_Factor" id="T6" lex="two_sigma_factors">two sigma factors</term>, two negative regulators (cyclic AMP receptor protein [<term sem="Regulator" id="T7" lex="CRP">CRP</term>] and <term sem="Regulator" id="T8" lex="H-NS">H-NS</term>), and an AraC-like regulator called <term sem="Regulator" id="T9" lex="GadX">GadX</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T6" idref1="T7" idref2="T8" idref3="T9" />
+<Theme idref="T5" />
+<clue>Previous work has revealed that the system is <clueType>controlled</clueType> by two sigma factors, two negative regulators (cyclic AMP receptor protein [CRP] and H-NS), and an AraC-like regulator called GadX.</clue>
+</event>
+<sentence id="S8">Earlier evidence suggested that <term sem="Regulator" id="T10" lex="the_GadX_protein">the GadX protein</term> acts both as <term sem="Regulator" id="T11" lex="a_positive_and_negative_regulator">a positive and negative regulator</term> of <term sem="Gene" id="T12" lex="the_gadA_and_gadBC_genes">the gadA and gadBC genes</term> depending on <term sem="SPAN" id="T13" lex="environmental_conditions">environmental conditions</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T12" />
+<Condition idref="T13" />
+<Descriptive-Agent idref="T11" />
+<clue>Earlier evidence suggested that the GadX protein <clueType>acts</clueType> both as a positive and negative regulator of the gadA and gadBC genes depending on environmental conditions.</clue>
+</event>
+<sentence id="S9">New data clarify this finding, revealing a <term sem="SPAN" id="T14" lex="collaborative">collaborative</term> regulation between <term sem="Regulator" id="T15" lex="GadX">GadX</term> and another AraC-like regulator called <term sem="Regulator" id="T16" lex="GadW">GadW</term> (previously YhiW).</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T15" idref1="T16" />
+<Manner idref="T14" />
+<clue>New data clarify this finding, revealing a collaborative <clueType>regulation</clueType> between GadX and another AraC-like regulator called GadW (previously YhiW).</clue>
+</event>
+<sentence id="S10">GadX and GadW are DNA binding proteins that form homodimers in vivo and are 42% homologous to each other.</sentence>
+<sentence id="S11"><term sem="Regulator" id="T17" lex="GadX">GadX</term> activates expression of <term sem="Gene" id="T18" lex="gadA">gadA</term> and <term sem="Gene" id="T19" lex="gadBC">gadBC</term> at <term sem="SPAN" id="T20" lex="any_pH">any pH</term>, while <term sem="Regulator" id="T21" lex="GadW">GadW</term> inhibits <term sem="SPAN" id="T22" lex="GadX-dependent">GadX-dependent</term> activation.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="E6" />
+<Condition idref="T20" />
+<clue>GadX <clueType>activates</clueType> expression of gadA and gadBC at any pH, while GadW inhibits GadX-dependent activation.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T18" idref1="T19" />
+<clue>GadX activates <clueType>expression</clueType> of gadA and gadBC at any pH, while GadW inhibits GadX-dependent activation.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="E8" />
+<clue>GadX activates expression of gadA and gadBC at any pH, while GadW <clueType>inhibits</clueType> GadX-dependent activation.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Manner idref="T22" />
+<clue>GadX activates expression of gadA and gadBC at any pH, while GadW inhibits GadX-dependent <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S12">Regulation of <term sem="Gene" id="T23" lex="gadA">gadA</term> and <term sem="Gene" id="T24" lex="gadBC">gadBC</term> by <term sem="Regulator" id="T25" lex="either_regulator">either regulator</term> requires <term sem="DNA" id="T26" lex="an_upstream,_20-bp_GAD_box_sequence">an upstream, 20-bp GAD box sequence</term>.</sentence>
+<event id="E9">
+<type class="Regulation" />
+<Agent idref="T25" />
+<Theme idref="T23" idref1="T24" />
+<clue><clueType>Regulation</clueType> of gadA and gadBC by either regulator requires an upstream, 20-bp GAD box sequence.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T26" />
+<clue>Regulation of gadA and gadBC by either regulator <clueType>requires</clueType> an upstream, 20-bp GAD box sequence.</clue>
+</event>
+<sentence id="S13">Northern blot analysis further indicates that <term sem="Regulator" id="T27" lex="GadW">GadW</term> represses expression of <term sem="Gene" id="T28" lex="gadX">gadX</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T27" />
+<Theme idref="E12" />
+<clue>Northern blot analysis further indicates that GadW <clueType>represses</clueType> expression of gadX.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T28" />
+<clue>Northern blot analysis further indicates that GadW represses <clueType>expression</clueType> of gadX.</clue>
+</event>
+<sentence id="S14">The results suggest a control circuit whereby <term sem="Regulator" id="T29" lex="GadW">GadW</term> interacts with both <term sem="Promoter" id="T30" lex="the_gadA_and_gadX_promoters">the gadA and gadX promoters</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T29" />
+<Agent idref="T30" />
+<clue>The results suggest a control circuit whereby GadW <clueType>interacts</clueType> with both the gadA and gadX promoters.</clue>
+</event>
+<sentence id="S15"><term sem="Regulator" id="T31" lex="GadW">GadW</term> clearly represses <term sem="Gene" id="T32" lex="gadX">gadX</term> and, in situations where <term sem="Regulator" id="T33" lex="GadX"><term sem="SPAN" id="T34" lex="GadX_is_missing">GadX is missing</term></term>, activates <term sem="Gene" id="T35" lex="gadA">gadA</term> and <term sem="Gene" id="T36" lex="gadBC">gadBC</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="T32" />
+<clue>GadW clearly <clueType>represses</clueType> gadX and, in situations where GadX is missing, activates gadA and gadBC.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="T35" idref1="T36" />
+<Condition idref="T34" />
+<clue>GadW clearly represses gadX and, in situations where GadX is missing, <clueType>activates</clueType> gadA and gadBC.</clue>
+</event>
+<sentence id="S16"><term sem="Regulator" id="T37" lex="GadX">GadX</term>, however, activates only <term sem="Gene" id="T38" lex="gadA">gadA</term> and <term sem="Gene" id="T39" lex="gadBC">gadBC</term> expression.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T37" />
+<Theme idref="E17" />
+<clue>GadX, however, <clueType>activates</clueType> only gadA and gadBC expression.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T38" idref1="T39" />
+<clue>GadX, however, activates only gadA and gadBC <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S17"><term sem="Regulator" id="T40" lex="CRP">CRP</term> also represses <term sem="Gene" id="T41" lex="gadX">gadX</term> expression.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T40" />
+<Theme idref="E19" />
+<clue>CRP also <clueType>represses</clueType> gadX expression.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T41" />
+<clue>CRP also represses gadX <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S18">It does this primarily by repressing production of <term sem="Sigma_Factor" id="T42" lex="sigma_S">sigma S</term>, the sigma factor responsible for <term sem="Gene" id="T43" lex="gadX">gadX</term> expression.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Theme idref="E21" />
+<clue>It does this primarily by <clueType>repressing</clueType> production of sigma S, the sigma factor responsible for gadX expression.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Theme idref="T42" />
+<clue>It does this primarily by repressing <clueType>production</clueType> of sigma S, the sigma factor responsible for gadX expression.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T43" />
+<clue>It does this primarily by repressing production of sigma S, the sigma factor responsible for gadX <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S19">In fact, the <term sem="SPAN" id="T44" lex="acid">acid</term> induction of <term sem="Gene" id="T45" lex="gadA">gadA</term> and <term sem="Gene" id="T46" lex="gadBC">gadBC</term> observed when rich-medium cultures enter stationary phase corresponds to the <term sem="SPAN" id="T47" lex="acid">acid</term> induction of <term sem="Sigma_Factor" id="T48" lex="sigma_S">sigma S</term> production.</sentence>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="T44" />
+<Theme idref="T45" idref1="T46" />
+<clue>In fact, the acid <clueType>induction</clueType> of gadA and gadBC observed when rich-medium cultures enter stationary phase corresponds to the acid induction of sigma S production.</clue>
+</event>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="E23" />
+<Theme idref="E25" />
+<clue>In fact, the acid induction of gadA and gadBC observed when rich-medium cultures enter stationary phase <clueType>corresponds</clueType> to the acid induction of sigma S production.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="T47" />
+<Theme idref="E26" />
+<clue>In fact, the acid induction of gadA and gadBC observed when rich-medium cultures enter stationary phase corresponds to the acid <clueType>induction</clueType> of sigma S production.</clue>
+</event>
+<event id="E26">
+<type class="GRE" />
+<Theme idref="T48" />
+<clue>In fact, the acid induction of gadA and gadBC observed when rich-medium cultures enter stationary phase corresponds to the acid induction of sigma S <clueType>production</clueType>.</clue>
+</event>
+<sentence id="S20"><term sem="SPAN" id="T49" lex="These_complex_control_circuits">These complex control circuits</term> impose tight rein over expression of <term sem="Gene" id="T50" lex="the_gadA_and_gadBC_system">the gadA and gadBC system</term> yet provide <term sem="SPAN" id="T51" lex="flexibility">flexibility</term> for inducing <term sem="SPAN" id="T52" lex="acid_resistance">acid resistance</term> under many conditions that presage <term sem="SPAN" id="T53" lex="acid_stress">acid stress</term>.</sentence>
+<event id="E27">
+<type class="GRE" />
+<Theme idref="T50" />
+<clue>These complex control circuits impose tight rein over <clueType>expression</clueType> of the gadA and gadBC system yet provide flexibility for inducing acid resistance under many conditions that presage acid stress.</clue>
+</event>
+<event id="E28">
+<type class="GRE" />
+<Agent idref="T49" />
+<Theme idref="T51" />
+<clue>These complex control circuits impose tight rein over expression of the gadA and gadBC system yet <clueType>provide</clueType> flexibility for inducing acid resistance under many conditions that presage acid stress.</clue>
+</event>
+<event id="E29">
+<type class="GRE" />
+<Theme idref="T52" />
+<Condition idref="T53" />
+<clue>These complex control circuits impose tight rein over expression of the gadA and gadBC system yet provide flexibility for <clueType>inducing</clueType> acid resistance under many conditions that presage acid stress.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

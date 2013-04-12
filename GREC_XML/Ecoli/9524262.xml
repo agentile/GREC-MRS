@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9524262">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9524262</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning and analysis of <term sem="Gene" id="T1" lex="the_shiA_gene">the shiA gene</term>, which encodes <term sem="Protein" id="T2" lex="the_shikimate_transport_system">the shikimate transport system</term> of escherichia coli K-12.</sentence>
+<event id="E1">
+<type class="Experimental_Technique" />
+<Theme idref="T1" />
+<clue>Cloning and <clueType>analysis</clueType> of the shiA gene, which encodes the shikimate transport system of escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Cloning and analysis of the shiA gene, which <clueType>encodes</clueType> the shikimate transport system of escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">In Escherichia coli K-12, <term sem="Gene" id="T3" lex="the_shiA_gene">the shiA gene</term> is involved in <term sem="SPAN" id="T4" lex="the_uptake">the uptake</term> of shikimate.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Descriptive-Agent idref="T4" />
+<clue>In Escherichia coli K-12, the shiA gene <clueType>is involved</clueType> in the uptake of shikimate.</clue>
+</event>
+<sentence id="S4">This gene has been cloned and its nucleotide sequence determined.</sentence>
+<sentence id="S5"><term sem="Gene" id="T5" lex="The_gene">The gene</term> is predicted to encode <term sem="Protein" id="T6" lex="a_protein">a protein</term> of 438 amino acids and lies adjacent to the amn gene.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>The gene is predicted to <clueType>encode</clueType> a protein of 438 amino acids and lies adjacent to the amn gene.</clue>
+</event>
+<sentence id="S6">The hydropathy profile and the amino acid sequence indicate that the ShiA protein is a polytopic membrane protein that shows a homology with members of the major facilitator superfamily of transport proteins.</sentence>
+<sentence id="S7">Recombining <term sem="Gene" id="T7" lex="an_inactive_form">an inactive form</term> of the cloned gene into <term sem="Chromosome" id="T8" lex="the_chromosome">the chromosome</term> creates <term sem="Mutant_Gene" id="T9" lex="mutants">mutants</term> unable to transport shikimate.</sentence>
+<event id="E5">
+<type class="Recombination" />
+<Theme idref="T7" />
+<Destination idref="T8" />
+<clue><clueType>Recombining</clueType> an inactive form of the cloned gene into the chromosome creates mutants unable to transport shikimate.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E5" />
+<Theme idref="T9" />
+<clue>Recombining an inactive form of the cloned gene into the chromosome <clueType>creates</clueType> mutants unable to transport shikimate.</clue>
+</event>
+<sentence id="S8">Introducing a wild-type gene on a multicopy plasmid into a shiA mutant restores the ability to transport shikimate.</sentence>
+<sentence id="S9">When this multicopy shiA plasmid is introduced into an aroE strain, this strain is now able to grow with shikimate as the aromatic supplement, consistent with the notion that dehydroshikimate (DHS) accumulated in an aroE strain prevents uptake of shikimate by competition.</sentence>
+<sentence id="S10">Expression of <term sem="Gene" id="T10" lex="the_shiA_gene">the shiA gene</term> does not appear to be regulated by <term sem="Regulator" id="T11" lex="the_TyrR_protein">the TyrR protein</term>, a repressor/activator that controls the expression of <term sem="Gene" id="T12" lex="other_genes">other genes</term> involved with <term sem="SPAN" id="T13" lex="the_biosynthesis_or_transport">the biosynthesis or transport</term> of the aromatic amino acids.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue><clueType>Expression</clueType> of the shiA gene does not appear to be regulated by the TyrR protein, a repressor/activator that controls the expression of other genes involved with the biosynthesis or transport of the aromatic amino acids.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E7" />
+<clue>Expression of the shiA gene does not appear to be <clueType>regulated</clueType> by the TyrR protein, a repressor/activator that controls the expression of other genes involved with the biosynthesis or transport of the aromatic amino acids.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E10" />
+<clue>Expression of the shiA gene does not appear to be regulated by the TyrR protein, a repressor/activator that <clueType>controls</clueType> the expression of other genes involved with the biosynthesis or transport of the aromatic amino acids.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<clue>Expression of the shiA gene does not appear to be regulated by the TyrR protein, a repressor/activator that controls the <clueType>expression</clueType> of other genes involved with the biosynthesis or transport of the aromatic amino acids.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T12" />
+<Descriptive-Agent idref="T13" />
+<clue>Expression of the shiA gene does not appear to be regulated by the TyrR protein, a repressor/activator that controls the expression of other genes <clueType>involved</clueType> with the biosynthesis or transport of the aromatic amino acids.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

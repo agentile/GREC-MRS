@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2886490">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2886490</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Fimbrial phase variation in Escherichia coli: dependence on integration host factor and homologies with other site-specific recombinases.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression of <term sem="Gene" id="T1" lex="fimA">fimA</term>, the structural gene for type 1 fimbriae of Escherichia coli, is phase variable.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue><clueType>Expression</clueType> of fimA, the structural gene for type 1 fimbriae of Escherichia coli, is phase variable.</clue>
+</event>
+<sentence id="S4">Significant homologies were identified between the recombinases which control fimbrial phase variation, FimB and FimE, and the integrase class of site-specific recombinases.</sentence>
+<sentence id="S5">Normal expression of <term sem="Gene" id="T2" lex="fimA">fimA</term> was shown to require the integration host factor (<term sem="Protein" id="T3" lex="IHF">IHF</term>).</sentence>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>Normal <clueType>expression</clueType> of fimA was shown to require the integration host factor (IHF).</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="E2" />
+<Theme idref="T3" />
+<clue>Normal expression of fimA was shown to <clueType>require</clueType> the integration host factor (IHF).</clue>
+</event>
+<sentence id="S6">Mutations <term sem="SPAN" id="T4" lex="in_either_the_himA-or_the_himD">in <term sem="Gene" id="T5" lex="either_the_himA-or_the_himD">either the himA-or the himD</term></term> (hip) <term sem="SPAN" id="T6" lex="gene">gene</term>, which encode <term sem="Sub_Unit" id="T7" lex="the_alpha_and_beta_subunits">the alpha and beta subunits</term> of IHF, respectively, prevented <term sem="SPAN" id="T8" lex="phase_variation">phase variation</term> and locked expression of <term sem="Gene" id="T9" lex="fimA">fimA</term> in either the &quot;on&quot; or &quot;off&quot; phase.</sentence>
+<event id="E4">
+<type class="Mutation" />
+<Location idref="T4" idref1="T6" />
+<clue><clueType>Mutations</clueType> in either the himA-or the himD (hip) gene, which encode the alpha and beta subunits of IHF, respectively, prevented phase variation and locked expression of fimA in either the &quot;on&quot; or &quot;off&quot; phase.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T7" />
+<clue>Mutations in either the himA-or the himD (hip) gene, which <clueType>encode</clueType> the alpha and beta subunits of IHF, respectively, prevented phase variation and locked expression of fimA in either the &quot;on&quot; or &quot;off&quot; phase.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T8" />
+<clue>Mutations in either the himA-or the himD (hip) gene, which encode the alpha and beta subunits of IHF, respectively, <clueType>prevented</clueType> phase variation and locked expression of fimA in either the &quot;on&quot; or &quot;off&quot; phase.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="E8" />
+<clue>Mutations in either the himA-or the himD (hip) gene, which encode the alpha and beta subunits of IHF, respectively, prevented phase variation and <clueType>locked</clueType> expression of fimA in either the &quot;on&quot; or &quot;off&quot; phase.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<clue>Mutations in either the himA-or the himD (hip) gene, which encode the alpha and beta subunits of IHF, respectively, prevented phase variation and locked <clueType>expression</clueType> of fimA in either the &quot;on&quot; or &quot;off&quot; phase.</clue>
+</event>
+<sentence id="S7">In addition, both <term sem="SPAN" id="T10" lex="himA_and_himD_lesions">himA and himD lesions</term> caused <term sem="SPAN" id="T11" lex="a_sevenfold_reduction">a sevenfold reduction</term> in expression of <term sem="Gene" id="T12" lex="a_phi(fimA-lacZ)_operon_fusion">a phi(fimA-lacZ) operon fusion</term> <term sem="SPAN" id="T13" lex="in_strains">in <term sem=" Mutant_Bacteria" id="T14" lex="strains">strains</term></term> in which fimA was locked in the on phase.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" />
+<clue>In addition, both himA and himD lesions <clueType>caused</clueType> a sevenfold reduction in expression of a phi(fimA-lacZ) operon fusion in strains in which fimA was locked in the on phase.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T12" />
+<Location idref="T13" />
+<Rate idref="T11" />
+<clue>In addition, both himA and himD lesions caused a sevenfold reduction in <clueType>expression</clueType> of a phi(fimA-lacZ) operon fusion in strains in which fimA was locked in the on phase.</clue>
+</event>
+<sentence id="S8">Thus, <term sem="Regulator" id="T15" lex="IHF">IHF</term> plays a dual role in controlling <term sem="Gene" id="T16" lex="fimA">fimA</term> expression: it is required both for inversion of <term sem="SPAN" id="T17" lex="the_fimA_control_region">the fimA control region</term> and for efficient expression from <term sem="Promoter" id="T18" lex="the_fimA_promoter">the fimA promoter</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="E12" />
+<clue>Thus, IHF plays a dual role in <clueType>controlling</clueType> fimA expression: it is required both for inversion of the fimA control region and for efficient expression from the fimA promoter.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>Thus, IHF plays a dual role in controlling fimA <clueType>expression</clueType>: it is required both for inversion of the fimA control region and for efficient expression from the fimA promoter.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T15" />
+<Purpose idref ="E14" idref1="E15" />
+<clue>Thus, IHF plays a dual role in controlling fimA expression: it is <clueType>required</clueType> both for inversion of the fimA control region and for efficient expression from the fimA promoter.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T17" />
+<clue>Thus, IHF plays a dual role in controlling fimA expression: it is required both for <clueType>inversion</clueType> of the fimA control region and for efficient expression from the fimA promoter.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Source idref="T18" />
+<clue>Thus, IHF plays a dual role in controlling fimA expression: it is required both for inversion of the fimA control region and for efficient <clueType>expression</clueType> from the fimA promoter.</clue>
+</event>
+<sentence id="S9">A mechanism by which <term sem="Regulator" id="T19" lex="IHF">IHF</term> may exert control over <term sem="Gene" id="T20" lex="fimA">fimA</term> expression is discussed.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E17" />
+<clue>A mechanism by which IHF may <clueType>exert</clueType> control over fimA expression is discussed.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="E18" />
+<clue>A mechanism by which IHF may exert <clueType>control</clueType> over fimA expression is discussed.</clue>
+</event>
+<event id="E18">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>A mechanism by which IHF may exert control over fimA <clueType>expression</clueType> is discussed.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

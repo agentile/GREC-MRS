@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10760178">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10760178</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Transcription">Transcription</term> activation at <term sem="Promoter" id="T2" lex="the_Escherichia_coli_melAB_promoter">the Escherichia coli melAB promoter</term>: the role of MelR and the cyclic AMP receptor protein.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Theme idref="T2" />
+<Manner idref="T1" />
+<clue>Transcription <clueType>activation</clueType> at the Escherichia coli melAB promoter: the role of MelR and the cyclic AMP receptor protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">MelR is a melibiose-triggered transcription activator that belongs to the AraC family of transcription factors.</sentence>
+<sentence id="S4">Using purified Escherichia coli RNA polymerase and a cloned DNA fragment carrying the entire melibiose operon intergenic region, we have demonstrated in vitro open complex formation and activation of <term sem="SPAN" id="T3" lex="transcription">transcription</term> initiation <term sem="SPAN" id="T4" lex="at_the_melAB_promoter">at <term sem="Promoter" id="T5" lex="the_melAB_promoter">the melAB promoter</term></term>.</sentence>
+<event id="E2">
+<type class="Gene_Activation" />
+<Theme idref="E3" />
+<clue>Using purified Escherichia coli RNA polymerase and a cloned DNA fragment carrying the entire melibiose operon intergenic region, we have demonstrated in vitro open complex formation and <clueType>activation</clueType> of transcription initiation at the melAB promoter.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<Manner idref="T3" />
+<Location idref="T4" />
+<clue>Using purified Escherichia coli RNA polymerase and a cloned DNA fragment carrying the entire melibiose operon intergenic region, we have demonstrated in vitro open complex formation and activation of transcription <clueType>initiation</clueType> at the melAB promoter.</clue>
+</event>
+<sentence id="S5"><term sem="Gene_Activation" id="T6" lex="This_activation">This activation</term> is dependent on <term sem="Organic_Compounds" id="T7" lex="MelR">MelR</term> and <term sem="Organic_Compounds" id="T8" lex="melibiose">melibiose</term>.</sentence>
+<sentence id="S6">These studies also show that the cyclic AMP receptor protein (<term sem="Activator" id="T9" lex="CRP">CRP</term>) interacts with <term sem="Promoter" id="T10" lex="the_melAB_promoter">the melAB promoter</term> and increases <term sem="SPAN" id="T11" lex="MelR-dependent_transcription">MelR-dependent transcription</term> activation.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Agent idref="T10" />
+<clue>These studies also show that the cyclic AMP receptor protein (CRP) <clueType>interacts</clueType> with the melAB promoter and increases MelR-dependent transcription activation.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="E6" />
+<clue>These studies also show that the cyclic AMP receptor protein (CRP) interacts with the melAB promoter and <clueType>increases</clueType> MelR-dependent transcription activation.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Manner idref="T11" />
+<clue>These studies also show that the cyclic AMP receptor protein (CRP) interacts with the melAB promoter and increases MelR-dependent transcription <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S7">DNAase I footprinting has been exploited to investigate the location of MelR-and CRP-binding sites at the melAB promoter.</sentence>
+<sentence id="S8">We showed previously that <term sem="Activator" id="T12" lex="MelR">MelR</term> binds to <term sem="DNA" id="T13" lex="two_identical_18_bp_target_sequences">two identical 18 bp target sequences</term> centred at position -100.5 (Site 1) and position -62.5 (Site 2).</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" />
+<Destination idref="T13" />
+<clue>We showed previously that MelR <clueType>binds</clueType> to two identical 18 bp target sequences centred at position -100.5 (Site 1) and position -62.5 (Site 2).</clue>
+</event>
+<sentence id="S9">In this work, we show that <term sem="Activator" id="T14" lex="MelR">MelR</term> additionally binds to <term sem="DNA" id="T15" lex="two_other_related_18_bp_sequences">two other related 18 bp sequences</term>: Site 1', centred at position -120.5, located immediately upstream of Site 1, and Site R, at position -238.5, which overlaps the transcription start site of the divergent melR promoter.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T14" />
+<Destination idref="T15" />
+<clue>In this work, we show that MelR additionally <clueType>binds</clueType> to two other related 18 bp sequences: Site 1', centred at position -120.5, located immediately upstream of Site 1, and Site R, at position -238.5, which overlaps the transcription start site of the divergent melR promoter.</clue>
+</event>
+<sentence id="S10"><term sem="Activator" id="T16" lex="MelR">MelR</term> can bind to <term sem="Locus" id="T17" lex="Site">Site</term> <term sem="Locus" id="T18" lex="1'">1'</term>, <term sem="Locus" id="T19" lex="Site_1">Site 1</term>, <term sem="Locus" id="T20" lex="Site_2">Site 2</term> and <term sem="Locus" id="T21" lex="Site_R">Site R</term>, in both the absence and the presence of <term sem="Organic_Compounds" id="T22" lex="melibiose">melibiose</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T16" />
+<Destination idref="T17" idref1="T18" idref2="T19" idref3="T20" idref4="T21" />
+<Condition idref="T22" />
+<clue>MelR can <clueType>bind</clueType> to Site 1', Site 1, Site 2 and Site R, in both the absence and the presence of melibiose.</clue>
+</event>
+<sentence id="S11">However, in the presence of <term sem="Organic_Compounds" id="T23" lex="melibiose">melibiose</term>, <term sem="Activator" id="T24" lex="MelR">MelR</term> also binds to <term sem="Locus" id="T25" lex="a_fifth_site">a fifth site</term> (Site 2', centred at position -42.5) located immediately downstream of Site 2, and overlapping the -35 region of the melAB promoter.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T24" />
+<Destination idref="T25" />
+<Condition idref="T23" />
+<clue>However, in the presence of melibiose, MelR also <clueType>binds</clueType> to a fifth site (Site 2', centred at position -42.5) located immediately downstream of Site 2, and overlapping the -35 region of the melAB promoter.</clue>
+</event>
+<sentence id="S12">Additionally, although <term sem="Activator" id="T26" lex="CRP">CRP</term> is unable to bind to <term sem="Promoter" id="T27" lex="the_melAB_promoter">the melAB promoter</term> in the absence of <term sem="Activator" id="T28" lex="MelR">MelR</term>, in the presence of <term sem="Activator" id="T29" lex="MelR">MelR</term>, it binds to <term sem="Locus" id="T30" lex="a_site">a site</term> located between MelR binding Site 1 and Site 2.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T26" />
+<Destination idref="T27" />
+<Condition idref="T28" />
+<clue>Additionally, although CRP is unable to <clueType>bind</clueType> to the melAB promoter in the absence of MelR, in the presence of MelR, it binds to a site located between MelR binding Site 1 and Site 2.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T26" />
+<Destination idref="T30" />
+<Condition idref="T29" />
+<clue>Additionally, although CRP is unable to bind to the melAB promoter in the absence of MelR, in the presence of MelR, it <clueType>binds</clueType> to a site located between MelR binding Site 1 and Site 2.</clue>
+</event>
+<sentence id="S13">Thus, tandem-bound MelR recruits CRP to the MelR.</sentence>
+<sentence id="S14">We propose that expression from <term sem="Promoter" id="T31" lex="the_melAB_promoter">the melAB promoter</term> has an absolute requirement for <term sem="Activator" id="T32" lex="MelR">MelR</term> binding to <term sem="Locus" id="T33" lex="Site_2"><term sem="SPAN" id="T34" lex="Site_2'">Site 2'</term></term>.</sentence>
+<event id="E13">
+<type class="Gene_Expression" />
+<Source idref="T31" />
+<clue>We propose that <clueType>expression</clueType> from the melAB promoter has an absolute requirement for MelR binding to Site 2'.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T32" />
+<Destination idref="T34" />
+<clue>We propose that expression from the melAB promoter has an absolute requirement for MelR <clueType>binding</clueType> to Site 2'.</clue>
+</event>
+<sentence id="S15">Optimal expression of <term sem="Promoter" id="T35" lex="the_melAB_promoter">the melAB promoter</term> requires <term sem="Locus" id="T36" lex="Sites_1"><term sem="SPAN" id="T37" lex="Sites_1'">Sites 1'</term></term>, <term sem="Locus" id="T38" lex="Site_1">Site 1</term>, <term sem="Locus" id="T39" lex="Site_2">Site 2</term> and <term sem="Locus" id="T40" lex="Site_2"><term sem="SPAN" id="T41" lex="Site_2'">Site 2'</term></term>; <term sem="SPAN" id="T42" lex="CRP">CRP</term> acts as a 'bridge' between <term sem="Activator" id="T43" lex="MelR">MelR</term> bound at <term sem="Locus" id="T44" lex="Sites_1'_and_1_and_at_Sites_2_and_2'">Sites 1' and 1 and at Sites 2 and 2'</term>, increasing expression from <term sem="Promoter" id="T45" lex="the_melAB_promoter">the melAB promoter</term>.</sentence>
+<event id="E15">
+<type class="Gene_Expression" />
+<Theme idref="T35" />
+<clue>Optimal <clueType>expression</clueType> of the melAB promoter requires Sites 1', Site 1, Site 2 and Site 2'; CRP acts as a 'bridge' between MelR bound at Sites 1' and 1 and at Sites 2 and 2', increasing expression from the melAB promoter.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T37" idref1="T38" idref2="T39" idref3="T41" />
+<Purpose idref="E15" />
+<clue>Optimal expression of the melAB promoter <clueType>requires</clueType> Sites 1', Site 1, Site 2 and Site 2'; CRP acts as a 'bridge' between MelR bound at Sites 1' and 1 and at Sites 2 and 2', increasing expression from the melAB promoter.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T43" />
+<Destination idref="T44" />
+<clue>Optimal expression of the melAB promoter requires Sites 1', Site 1, Site 2 and Site 2'; CRP acts as a 'bridge' between MelR <clueType>bound</clueType> at Sites 1' and 1 and at Sites 2 and 2', increasing expression from the melAB promoter.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T42" />
+<Theme idref="E19" />
+<clue>Optimal expression of the melAB promoter requires Sites 1', Site 1, Site 2 and Site 2'; CRP acts as a 'bridge' between MelR bound at Sites 1' and 1 and at Sites 2 and 2', <clueType>increasing</clueType> expression from the melAB promoter.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Expression" />
+<Source idref="T45" />
+<clue>Optimal expression of the melAB promoter requires Sites 1', Site 1, Site 2 and Site 2'; CRP acts as a 'bridge' between MelR bound at Sites 1' and 1 and at Sites 2 and 2', increasing <clueType>expression</clueType> from the melAB promoter.</clue>
+</event>
+<sentence id="S16">In support of this model, we show that improvement of the base sequence of Site 2' removes the requirement for Site 1' and Site 1, and short circuits the effects of CRP.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

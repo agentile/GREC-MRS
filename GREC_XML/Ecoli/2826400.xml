@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2826400">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2826400</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Activator" id="T1" lex="EnvZ">EnvZ</term> functions <term sem="SPAN" id="T2" lex="through_OmpR">through <term sem="Regulator" id="T3" lex="OmpR">OmpR</term></term> to control <term sem="Gene" id="T4" lex="porin_gene">porin gene</term> expression <term sem="SPAN" id="T5" lex="in_Escherichia_coli_K-12">in <term sem="Wild_Type_Bacteria" id="T6" lex="Escherichia_coli_K-12">Escherichia coli K-12</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Manner idref="T2" />
+<clue>EnvZ <clueType>functions</clueType> through OmpR to control porin gene expression in Escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E3" />
+<Location idref="T5" />
+<clue>EnvZ functions through OmpR to <clueType>control</clueType> porin gene expression in Escherichia coli K-12.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T4" />
+<clue>EnvZ functions through OmpR to control porin gene <clueType>expression</clueType> in Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Regulator" id="T7" lex="The_regulatory_proteins_OmpR_and_EnvZ">The regulatory proteins OmpR and EnvZ</term> are both required to activate expression of <term sem="Gene" id="T8" lex="the_genes">the genes</term> for the major outer membrane porin proteins, OmpF and OmpC, of Escherichia coli K-12.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T7" />
+<Purpose idref="E5" />
+<clue>The regulatory proteins OmpR and EnvZ are both <clueType>required</clueType> to activate expression of the genes for the major outer membrane porin proteins, OmpF and OmpC, of Escherichia coli K-12.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Activation" />
+<Theme idref="E6" />
+<clue>The regulatory proteins OmpR and EnvZ are both required to <clueType>activate</clueType> expression of the genes for the major outer membrane porin proteins, OmpF and OmpC, of Escherichia coli K-12.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>The regulatory proteins OmpR and EnvZ are both required to activate <clueType>expression</clueType> of the genes for the major outer membrane porin proteins, OmpF and OmpC, of Escherichia coli K-12.</clue>
+</event>
+<sentence id="S4">Here we show that <term sem="Activator" id="T9" lex="OmpR">OmpR</term>, under <term sem="SPAN" id="T10" lex="certain_conditions">certain conditions</term>, could activate <term sem="SPAN" id="T11" lex="porin">porin</term> expression <term sem="SPAN" id="T12" lex="in_the_complete_absence_of_EnvZ">in the complete absence of <term sem="Activator" id="T13" lex="EnvZ">EnvZ</term></term>.</sentence>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="T9" />
+<Theme idref="E8" />
+<Condition idref="T10" />
+<clue>Here we show that OmpR, under certain conditions, could <clueType>activate</clueType> porin expression in the complete absence of EnvZ.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T11" />
+<Condition idref="T12" />
+<clue>Here we show that OmpR, under certain conditions, could activate porin <clueType>expression</clueType> in the complete absence of EnvZ.</clue>
+</event>
+<sentence id="S5">In addition, <term sem="Phenotype" id="T14" lex="the_pleiotropic_phenotypes">the pleiotropic phenotypes</term> conferred by a particular envZ mutation (<term sem="Mutation" id="T15" lex="envZ473">envZ473</term>) required <term sem="SPAN" id="T16" lex="the_presence_of_functional_OmpR_protein">the presence of <term sem="Activator" id="T17" lex="functional_OmpR_protein">functional OmpR protein</term></term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T14" />
+<clue>In addition, the pleiotropic phenotypes <clueType>conferred</clueType> by a particular envZ mutation (envZ473) required the presence of functional OmpR protein.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T16" />
+<clue>In addition, the pleiotropic phenotypes conferred by a particular envZ mutation (envZ473) <clueType>required</clueType> the presence of functional OmpR protein.</clue>
+</event>
+<sentence id="S6">These results lead us to conclude that <term sem="SPAN" id="T18" lex="EnvZ_and_OmpR">EnvZ and OmpR</term> act in <term sem="SPAN" id="T19" lex="sequential_fashion">sequential fashion</term> to activate <term sem="Gene" id="T20" lex="porin_gene">porin gene</term> expression; i.e., <term sem="Regulator" id="T21" lex="EnvZ">EnvZ</term> modifies or in some way directs <term sem="Activator" id="T22" lex="OmpR">OmpR</term>, which in turn acts <term sem="SPAN" id="T23" lex="at_the_appropriate_porin_gene_promoter.">at <term sem="Promoter" id="T24" lex="the_appropriate_porin_gene_promoter">the appropriate porin gene promoter</term>.</term></sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T18" />
+<Manner idref="T19" />
+<Purpose idref="E12" />
+<clue>These results lead us to conclude that EnvZ and OmpR <clueType>act</clueType> in sequential fashion to activate porin gene expression; i.e., EnvZ modifies or in some way directs OmpR, which in turn acts at the appropriate porin gene promoter.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Activation" />
+<Theme idref="E13" />
+<clue>These results lead us to conclude that EnvZ and OmpR act in sequential fashion to <clueType>activate</clueType> porin gene expression; i.e., EnvZ modifies or in some way directs OmpR, which in turn acts at the appropriate porin gene promoter.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>These results lead us to conclude that EnvZ and OmpR act in sequential fashion to activate porin gene <clueType>expression</clueType>; i.e., EnvZ modifies or in some way directs OmpR, which in turn acts at the appropriate porin gene promoter.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T22" />
+<clue>These results lead us to conclude that EnvZ and OmpR act in sequential fashion to activate porin gene expression; i.e., EnvZ <clueType>modifies</clueType> or in some way directs OmpR, which in turn acts at the appropriate porin gene promoter.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T22" />
+<clue>These results lead us to conclude that EnvZ and OmpR act in sequential fashion to activate porin gene expression; i.e., EnvZ modifies or in some way <clueType>directs</clueType> OmpR, which in turn acts at the appropriate porin gene promoter.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T22" />
+<Location idref="T23" />
+<clue>These results lead us to conclude that EnvZ and OmpR act in sequential fashion to activate porin gene expression; i.e., EnvZ modifies or in some way directs OmpR, which in turn <clueType>acts</clueType> at the appropriate porin gene promoter.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

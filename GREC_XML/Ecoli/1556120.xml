@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1556120">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1556120</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Interaction at a distance between <term sem="Operator" id="T1" lex="multiple_operators">multiple operators</term> controls <term sem="Operon" id="T2" lex="the_adjacent,_divergently_transcribed_glpTQ-glpACB_operons">the adjacent, divergently transcribed glpTQ-glpACB operons</term> of Escherichia coli K-12.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<clue><clueType>Interaction</clueType> at a distance between multiple operators controls the adjacent, divergently transcribed glpTQ-glpACB operons of Escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="E1" />
+<Theme idref="T2" />
+<clue>Interaction at a distance between multiple operators <clueType>controls</clueType> the adjacent, divergently transcribed glpTQ-glpACB operons of Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Operon" id="T3" lex="The_glp_regulon">The glp regulon</term> of Escherichia coli encodes <term sem="Protein" id="T4" lex="the_proteins">the proteins</term> required for utilization of sn-glycerol 3-phosphate and its precursors.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>The glp regulon of Escherichia coli <clueType>encodes</clueType> the proteins required for utilization of sn-glycerol 3-phosphate and its precursors.</clue>
+</event>
+<sentence id="S4">Transcription of <term sem="Operon" id="T5" lex="the_divergently_transcribed_glpTQ_and_glpACB_operons">the divergently transcribed glpTQ and glpACB operons</term> is initiated <term sem="SPAN" id="T6" lex="at_sites">at <term sem="Locus" id="T7" lex="sites">sites</term></term> separated by 132 base pairs (bp) of DNA.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<Theme idref="T5" />
+<clue><clueType>Transcription</clueType> of the divergently transcribed glpTQ and glpACB operons is initiated at sites separated by 132 base pairs (bp) of DNA.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="E4" />
+<Location idref="T6" />
+<clue>Transcription of the divergently transcribed glpTQ and glpACB operons is <clueType>initiated</clueType> at sites separated by 132 base pairs (bp) of DNA.</clue>
+</event>
+<sentence id="S5"><term sem="Operon" id="T8" lex="These_operons">These operons</term> are controlled <term sem="SPAN" id="T9" lex="negatively">negatively</term> by <term sem="Repressor" id="T10" lex="glp_repressor">glp repressor</term> and <term sem="SPAN" id="T11" lex="positively">positively</term> by <term sem="Protein_Complex" id="T12" lex="the_cAMP-cAMP_receptor_protein_(CRP)_complex">the cAMP-cAMP receptor protein (CRP) complex</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T8" />
+<Manner idref="T9" />
+<clue>These operons are <clueType>controlled</clueType> negatively by glp repressor and positively by the cAMP-cAMP receptor protein (CRP) complex.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T8" />
+<Manner idref="T11" />
+<clue>These operons are <clueType>controlled</clueType> negatively by glp repressor and positively by the cAMP-cAMP receptor protein (CRP) complex.</clue>
+</event>
+<sentence id="S6"><term sem="Locus" id="T13" lex="The_locations">The locations</term> of <term sem="Transcription_Binding_Site" id="T14" lex="the_binding_sites">the binding sites</term> for the glp repressor and for cAMP.CRP in the control regions of these operons were determined by <term sem="Laboratory_Technique" id="T15" lex="DNase_I_footprinting">DNase I footprinting</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T13" />
+<Instrument idref="T15" />
+<clue>The locations of the binding sites for the glp repressor and for cAMP.CRP in the control regions of these operons were <clueType>determined</clueType> by DNase I footprinting.</clue>
+</event>
+<sentence id="S7">Binding of <term sem="Repressor" id="T16" lex="the_glp_repressor">the glp repressor</term> protected <term sem="Locus" id="T17" lex="the_region_-32_to_-51">the region -32 to -51</term> (OT) <term sem="SPAN" id="T18" lex="in_the_glpTQ_promoter">in <term sem="Promoter" id="T19" lex="the_glpTQ_promoter">the glpTQ promoter</term></term>, which was also the binding site for cAMP.CRP.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T16" />
+<clue><clueType>Binding</clueType> of the glp repressor protected the region -32 to -51 (OT) in the glpTQ promoter, which was also the binding site for cAMP.CRP.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T17" />
+<Location idref="T18" />
+<clue>Binding of the glp repressor <clueType>protected</clueType> the region -32 to -51 (OT) in the glpTQ promoter, which was also the binding site for cAMP.CRP.</clue>
+</event>
+<sentence id="S8"><term sem="Transcription_Binding_Site" id="T20" lex="Four_repressor_binding_sites">Four repressor binding sites</term> (-41 to -60 (OA1), -9 to -28 (OA2), +12 to -8 (OA3), and +52 to +33 (OA4)) and two cAMP.CRP binding sites (+11 to -11 and -30 to -51) were found <term sem="SPAN" id="T21" lex="in_the_glpACB_promoter_region">in <term sem="Promoter" id="T22" lex="the_glpACB_promoter_region">the glpACB promoter region</term></term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T20" />
+<Location idref="T21" />
+<clue>Four repressor binding sites (-41 to -60 (OA1), -9 to -28 (OA2), +12 to -8 (OA3), and +52 to +33 (OA4)) and two cAMP.CRP binding sites (+11 to -11 and -30 to -51) were <clueType>found</clueType> in the glpACB promoter region.</clue>
+</event>
+<sentence id="S9">Comparison of the sequences of the repressor binding sites found in the glpTQ-glpACB control region with those operators previously described in the glpD operon allowed formulation of a consensus operator sequence which was the palindrome 5'-WATGTTCGWTAWC-GAACATW-3' (W is A or T).</sentence>
+<sentence id="S10">The role of each operator was assessed by measuring repression in <term sem="Plasmid" id="T23" lex="constructs">constructs</term> where individual operators were altered by site-directed mutagenesis.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="E13" />
+<clue>The role of each operator was assessed by <clueType>measuring</clueType> repression in constructs where individual operators were altered by site-directed mutagenesis.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Repression" />
+<Theme idref="T23" />
+<clue>The role of each operator was assessed by measuring <clueType>repression</clueType> in constructs where individual operators were altered by site-directed mutagenesis.</clue>
+</event>
+<sentence id="S11">Alteration of <term sem="Transcription_Binding_Site" id="T24" lex="OT">OT</term> did not significantly decrease repression of <term sem="Operon" id="T25" lex="either_operon">either operon</term>.</sentence>
+<event id="E14">
+<type class="Mutation" />
+<Theme idref="T24" />
+<clue><clueType>Alteration</clueType> of OT did not significantly decrease repression of either operon.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E14" />
+<Theme idref="E16" />
+<clue>Alteration of OT did not significantly <clueType>decrease</clueType> repression of either operon.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Repression" />
+<Theme idref="T25" />
+<clue>Alteration of OT did not significantly decrease <clueType>repression</clueType> of either operon.</clue>
+</event>
+<sentence id="S12">Each of <term sem="Operator" id="T26" lex="the_glpACB_operators">the glpACB operators</term> contributed to repression of <term sem="Operon" id="T27" lex="both_operons">both operons</term>.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T26" />
+<Descriptive-Theme idref="E18" />
+<clue>Each of the glpACB operators <clueType>contributed</clueType> to repression of both operons.</clue>
+</event>
+<event id="E18">
+<type class="Gene_Repression" />
+<Theme idref="T27" />
+<clue>Each of the glpACB operators contributed to <clueType>repression</clueType> of both operons.</clue>
+</event>
+<sentence id="S13">These results suggest involvement of glpACB operator(s) in control of <term sem="Operon" id="T28" lex="glpTQ">glpTQ</term> expression perhaps via formation of a repression loop.</sentence>
+<event id="E19">
+<type class="Gene_Expression" />
+<Theme idref="T28" />
+<clue>These results suggest involvement of glpACB operator(s) in control of glpTQ <clueType>expression</clueType> perhaps via formation of a repression loop.</clue>
+</event>
+<sentence id="S14">Evidence supporting this hypothesis was obtained by measuring the degree of repression of <term sem="Promoter" id="T29" lex="the_glpTQ_promoter">the glpTQ promoter</term> <term sem="SPAN" id="T30" lex="in_constructs">in <term sem="Plasmid" id="T31" lex="constructs">constructs</term></term> containing <term sem="Insertion" id="T32" lex="6-_or_10-bp_insertions">6- or 10-bp insertions</term> between the glpTQ and glpACB operators.</sentence>
+<event id="E20">
+<type class="Gene_Repression" />
+<Theme idref="T29" />
+<Location idref="T30" />
+<clue>Evidence supporting this hypothesis was obtained by measuring the degree of <clueType>repression</clueType> of the glpTQ promoter in constructs containing 6- or 10-bp insertions between the glpTQ and glpACB operators.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Theme idref="T31" />
+<Descriptive-Theme idref="T32" />
+<clue>Evidence supporting this hypothesis was obtained by measuring the degree of repression of the glpTQ promoter in constructs <clueType>containing</clueType> 6- or 10-bp insertions between the glpTQ and glpACB operators.</clue>
+</event>
+<sentence id="S15"><term sem="Insertion" id="T33" lex="A_6-bp_insertion">A 6-bp insertion</term> located within OA2 or between OT and OA1 eliminated repression of <term sem="Promoter" id="T34" lex="the_glpTQ_promoter">the glpTQ promoter</term>, whereas significant repression was maintained in the case of a 10-bp insertion within OA2.</sentence>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T33" />
+<Theme idref="E23" />
+<clue>A 6-bp insertion located within OA2 or between OT and OA1 <clueType>eliminated</clueType> repression of the glpTQ promoter, whereas significant repression was maintained in the case of a 10-bp insertion within OA2.</clue>
+</event>
+<event id="E23">
+<type class="Gene_Repression" />
+<Theme idref="T34" />
+<clue>A 6-bp insertion located within OA2 or between OT and OA1 eliminated <clueType>repression</clueType> of the glpTQ promoter, whereas significant repression was maintained in the case of a 10-bp insertion within OA2.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=6802798">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>6802798</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Operon" id="T1" lex="the_Escherichia_coli_K-12_uvrB_operon">the Escherichia coli K-12 uvrB operon</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<clue><clueType>Regulation</clueType> of the Escherichia coli K-12 uvrB operon.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The UV light inducibility of the uvrB operon of Escherichia coli K-12 was previously demonstrated by exploiting a strain in which <term sem="Gene" id="T2" lex="the_gene"><term sem="SPAN" id="T3" lex="the_gene_for_the_enzyme_beta-galactosidase">the gene for <term sem="Enzyme" id="T4" lex="the_enzyme_beta-galactosidase">the enzyme beta-galactosidase</term></term></term> was inserted into <term sem="Operon" id="T5" lex="the_uvrB_operon">the uvrB operon</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Destination idref="T5" />
+<clue>The UV light inducibility of the uvrB operon of Escherichia coli K-12 was previously demonstrated by exploiting a strain in which the gene for the enzyme beta-galactosidase was <clueType>inserted</clueType> into the uvrB operon.</clue>
+</event>
+<sentence id="S4">This insert is now shown to be located within the structural gene for the uvrB enzyme, leaving the regulatory sequences of the operon intact.</sentence>
+<sentence id="S5">Analyses to quantitate the induction of <term sem="SPAN" id="T6" lex="this_system">this system</term> show that derepression of <term sem="Operon" id="T7" lex="the_operon">the operon</term> is first detectable 5 min after UV exposure, with <term sem="SPAN" id="T8" lex="the_rate_of_synthesis">the rate of synthesis</term> increasing to <term sem="SPAN" id="T9" lex="four_to_six_times_the_uninduced_rate">four to six times the uninduced rate</term> during the subsequent 30 min.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Theme idref="T6" />
+<clue>Analyses to quantitate the <clueType>induction</clueType> of this system show that derepression of the operon is first detectable 5 min after UV exposure, with the rate of synthesis increasing to four to six times the uninduced rate during the subsequent 30 min.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Theme idref="T7" />
+<clue>Analyses to quantitate the induction of this system show that <clueType>derepression</clueType> of the operon is first detectable 5 min after UV exposure, with the rate of synthesis increasing to four to six times the uninduced rate during the subsequent 30 min.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<Rate idref="T9" />
+<clue>Analyses to quantitate the induction of this system show that derepression of the operon is first detectable 5 min after UV exposure, with the rate of synthesis <clueType>increasing</clueType> to four to six times the uninduced rate during the subsequent 30 min.</clue>
+</event>
+<sentence id="S6">Induction is unaffected by mutations in other components of nucleotide excision repair.</sentence>
+<sentence id="S7"><term sem="SPAN" id="T10" lex="The_control_of_uvrB">The control of <term sem="Operon" id="T11" lex="uvrB">uvrB</term></term> was found to result from <term sem="SPAN" id="T12" lex="direct">direct</term> repression by <term sem="Repressor" id="T13" lex="the_lexA_gene_product">the lexA gene product</term>, with the recA gene product playing an indirect role.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T10" />
+<clue>The control of uvrB was found to <clueType>result</clueType> from direct repression by the lexA gene product, with the recA gene product playing an indirect role.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Repression" />
+<Agent idref="T13" />
+<Manner idref="T12" />
+<clue>The control of uvrB was found to result from direct <clueType>repression</clueType> by the lexA gene product, with the recA gene product playing an indirect role.</clue>
+</event>
+<sentence id="S8">Nucleotide excision repair thus seems to be part of the SOS response.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10766858">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10766858</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Transcriptional">Transcriptional</term> regulation of <term sem="Operon" id="T2" lex="the_divergent_paa_catabolic_operons">the divergent paa catabolic operons</term> for phenylacetic acid degradation <term sem="SPAN" id="T3" lex="in_Escherichia_coli">in <term sem="Bacteria" id="T4" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T2" />
+<Manner idref="T1" />
+<Location idref="T3" />
+<clue>Transcriptional <clueType>regulation</clueType> of the divergent paa catabolic operons for phenylacetic acid degradation in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The expression of <term sem="Operon" id="T5" lex="the_divergently_transcribed_paaZ_and_paaABCDEFGHIJK_catabolic_operons">the divergently transcribed paaZ and paaABCDEFGHIJK catabolic operons</term>, which are responsible for phenylacetic acid (PA) degradation <term sem="SPAN" id="T6" lex="in_Escherichia_coli">in <term sem="Bacteria" id="T7" lex="Escherichia_coli">Escherichia coli</term></term>, is driven by <term sem="Promoter" id="T8" lex="the_Pz_and_Pa_promoters">the Pz and Pa promoters</term>, respectively.</sentence>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>The <clueType>expression</clueType> of the divergently transcribed paaZ and paaABCDEFGHIJK catabolic operons, which are responsible for phenylacetic acid (PA) degradation in Escherichia coli, is driven by the Pz and Pa promoters, respectively.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="E2" />
+<clue>The expression of the divergently transcribed paaZ and paaABCDEFGHIJK catabolic operons, which are responsible for phenylacetic acid (PA) degradation in Escherichia coli, is <clueType>driven</clueType> by the Pz and Pa promoters, respectively.</clue>
+</event>
+<sentence id="S4">To study the <term sem="SPAN" id="T9" lex="transcriptional">transcriptional</term> regulation of <term sem="Gene" id="T10" lex="the_inducible_paa_catabolic_genes">the inducible paa catabolic genes</term>, genetic and biochemical approaches were used.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="T10" />
+<Manner idref="T9" />
+<clue>To study the transcriptional <clueType>regulation</clueType> of the inducible paa catabolic genes, genetic and biochemical approaches were used.</clue>
+</event>
+<sentence id="S5">Gel retardation assays showing that <term sem="Regulator" id="T11" lex="the_PaaX_regulator">the PaaX regulator</term> binds specifically to <term sem="Promoter" id="T12" lex="the_Pa_and_Pz_promoters">the Pa and Pz promoters</term> were complemented with in vivo experiments that indicated a <term sem="SPAN" id="T13" lex="PaaX-mediated">PaaX-mediated</term> repression effect on the expression of <term sem="Gene" id="T14" lex="Pa-lacZ_and_Pz-lacZ_reporter_fusions">Pa-lacZ and Pz-lacZ reporter fusions</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T11" />
+<Destination idref="T12" />
+<clue>Gel retardation assays showing that the PaaX regulator <clueType>binds</clueType> specifically to the Pa and Pz promoters were complemented with in vivo experiments that indicated a PaaX-mediated repression effect on the expression of Pa-lacZ and Pz-lacZ reporter fusions.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Repression" />
+<Manner idref="T13" />
+<clue>Gel retardation assays showing that the PaaX regulator binds specifically to the Pa and Pz promoters were complemented with in vivo experiments that indicated a PaaX-mediated <clueType>repression</clueType> effect on the expression of Pa-lacZ and Pz-lacZ reporter fusions.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="E8" />
+<clue>Gel retardation assays showing that the PaaX regulator binds specifically to the Pa and Pz promoters were complemented with in vivo experiments that indicated a PaaX-mediated repression <clueType>effect</clueType> on the expression of Pa-lacZ and Pz-lacZ reporter fusions.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T14" />
+<clue>Gel retardation assays showing that the PaaX regulator binds specifically to the Pa and Pz promoters were complemented with in vivo experiments that indicated a PaaX-mediated repression effect on the <clueType>expression</clueType> of Pa-lacZ and Pz-lacZ reporter fusions.</clue>
+</event>
+<sentence id="S6"><term sem="Locus" id="T15" lex="The_region">The region</term> within <term sem="Promoter" id="T16" lex="the_Pa_and_Pz_promoters">the Pa and Pz promoters</term> that is protected by <term sem="Repressor" id="T17" lex="the_PaaX_repressor">the PaaX repressor</term> in DNase I footprinting assays contains a conserved 15-base pair imperfect palindromic sequence motif that was shown, through mutational analysis, to be indispensable for <term sem="Repressor" id="T18" lex="PaaX">PaaX</term> binding and repression.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T17" />
+<clue>The region within the Pa and Pz promoters that is <clueType>protected</clueType> by the PaaX repressor in DNase I footprinting assays contains a conserved 15-base pair imperfect palindromic sequence motif that was shown, through mutational analysis, to be indispensable for PaaX binding and repression.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T18" />
+<clue>The region within the Pa and Pz promoters that is protected by the PaaX repressor in DNase I footprinting assays contains a conserved 15-base pair imperfect palindromic sequence motif that was shown, through mutational analysis, to be indispensable for PaaX <clueType>binding</clueType> and repression.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Repression" />
+<Agent idref="T18" />
+<clue>The region within the Pa and Pz promoters that is protected by the PaaX repressor in DNase I footprinting assays contains a conserved 15-base pair imperfect palindromic sequence motif that was shown, through mutational analysis, to be indispensable for PaaX binding and <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S7">PA-coenzyme A (<term sem="Enzyme" id="T19" lex="PA-CoA">PA-CoA</term>), but not PA, specifically inhibited binding of <term sem="Repressor" id="T20" lex="PaaX">PaaX</term> to <term sem="DNA" id="T21" lex="the_target_sequences">the target sequences</term>, thus confirming the first intermediate of the pathway as the true inducer and PaaX as the only bacterial regulatory protein described so far that responds to an aryl-CoA compound.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E13" />
+<clue>PA-coenzyme A (PA-CoA), but not PA, specifically <clueType>inhibited</clueType> binding of PaaX to the target sequences, thus confirming the first intermediate of the pathway as the true inducer and PaaX as the only bacterial regulatory protein described so far that responds to an aryl-CoA compound.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T20" />
+<Destination idref="T21" />
+<clue>PA-coenzyme A (PA-CoA), but not PA, specifically inhibited <clueType>binding</clueType> of PaaX to the target sequences, thus confirming the first intermediate of the pathway as the true inducer and PaaX as the only bacterial regulatory protein described so far that responds to an aryl-CoA compound.</clue>
+</event>
+<sentence id="S8">Superimposed in the specific <term sem="SPAN" id="T22" lex="PaaX-mediated">PaaX-mediated</term> regulation is <term sem="SPAN" id="T23" lex="transcriptional">transcriptional</term> activation by <term sem="Activator" id="T24" lex="the_cAMP_receptor_protein">the cAMP receptor protein</term> and <term sem="Activator" id="T25" lex="the_integration_host_factor_protein">the integration host factor protein</term>.</sentence>
+<event id="E14">
+<type class="Regulation" />
+<Manner idref="T22" />
+<clue>Superimposed in the specific PaaX-mediated <clueType>regulation</clueType> is transcriptional activation by the cAMP receptor protein and the integration host factor protein.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Activation" />
+<Agent idref="T24" idref1="T25" />
+<Manner idref="T23" />
+<clue>Superimposed in the specific PaaX-mediated regulation is transcriptional <clueType>activation</clueType> by the cAMP receptor protein and the integration host factor protein.</clue>
+</event>
+<sentence id="S9">These global regulators may adjust the transcriptional output from Pa and Pz promoters to the overall growth status of the cell.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

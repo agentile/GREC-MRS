@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8423996">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8423996</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Chromosomal localization of <term sem="Gene" id="T1" lex="genes">genes</term> encoding the transcription factors, <term sem="Transcription_Factor" id="T2" lex="c-rel">c-rel</term>, <term sem="Transcription_Factor" id="T3" lex="NF-kappa_Bp50">NF-kappa Bp50</term>, <term sem="Transcription_Factor" id="T4" lex="NF-kappa">NF-kappa</term> <term sem="Transcription_Factor" id="T5" lex="Bp65">Bp65</term>, and <term sem="Transcription_Factor" id="T6" lex="lyt-10">lyt-10</term> by fluorescence in situ hybridization.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" idref1="T3" idref2="T4" idref3="T5" idref4="T6" />
+<clue>Chromosomal localization of genes <clueType>encoding</clueType> the transcription factors, c-rel, NF-kappa Bp50, NF-kappa Bp65, and lyt-10 by fluorescence in situ hybridization.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have used fluorescence in situ hybridization (FISH) to perform precise chromosomal mapping of <term sem="Gene" id="T7" lex="the_genes">the genes</term> encoding the transcription factors <term sem="Transcription_Factor" id="T8" lex="c-rel">c-rel</term>, <term sem="Transcription_Factor" id="T9" lex="NF-kappa_Bp50">NF-kappa Bp50</term>, <term sem="Transcription_Factor" id="T10" lex="NF-kappa_Bp65">NF-kappa Bp65</term>, and <term sem="Transcription_Factor" id="T11" lex="lyt-10">lyt-10</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" idref1="T9" idref2="T10" idref3="T11" />
+<clue>We have used fluorescence in situ hybridization (FISH) to perform precise chromosomal mapping of the genes <clueType>encoding</clueType> the transcription factors c-rel, NF-kappa Bp50, NF-kappa Bp65, and lyt-10.</clue>
+</event>
+<sentence id="S4">The previously published assignments of c-rel and NF-kappa Bp50 have been refined to specific bands.</sentence>
+<sentence id="S5">The map position of lyt-10, inferred from its isolation from a t(10;14)(q24;q32) translocation, has been confirmed.</sentence>
+<sentence id="S6">NF-kappa Bp65 has now been mapped to 11q13, a site of frequent involvement in aberration in multiple tumor types.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

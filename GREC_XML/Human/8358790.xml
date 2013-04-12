@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8358790">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8358790</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Bcl-2 heterodimerizes in vivo with a conserved homolog, Bax, that accelerates programmed cell death.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Bcl-2 protein is able to repress a number of apoptotic death programs.</sentence>
+<sentence id="S4">To investigate the mechanism of Bcl-2's effect, we examined whether Bcl-2 interacted with other proteins.</sentence>
+<sentence id="S5">We identified an associated 21 kd protein partner, Bax, that has extensive amino acid homology with Bcl-2, focused within highly conserved domains I and II.</sentence>
+<sentence id="S6"><term sem="Protein" id="T1" lex="Bax">Bax</term> is encoded by <term sem="DNA" id="T2" lex="six_exons">six exons</term> and demonstrates a complex pattern of alternative RNA splicing that predicts a 21 kd membrane (alpha) and two forms of cytosolic protein (beta and gamma).</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue>Bax is <clueType>encoded</clueType> by six exons and demonstrates a complex pattern of alternative RNA splicing that predicts a 21 kd membrane (alpha) and two forms of cytosolic protein (beta and gamma).</clue>
+</event>
+<sentence id="S7">Bax homodimerizes and forms heterodimers with Bcl-2 in vivo.</sentence>
+<sentence id="S8">Overexpressed Bax accelerates apoptotic death induced by cytokine deprivation in an IL-3-dependent cell line.</sentence>
+<sentence id="S9">Overexpressed Bax also counters the death repressor activity of Bcl-2.</sentence>
+<sentence id="S10">These data suggest a model in which the ratio of Bcl-2 to Bax determines survival or death following an apoptotic stimulus.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

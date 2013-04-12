@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8596446">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8596446</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Binding of <term sem="Regulator" id="T1" lex="the_TorR_regulator">the TorR regulator</term> to <term sem="DNA" id="T2" lex="cis-acting_direct_repeats">cis-acting direct repeats</term> activates <term sem="Operon" id="T3" lex="tor_operon">tor operon</term> expression.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue><clueType>Binding</clueType> of the TorR regulator to cis-acting direct repeats activates tor operon expression.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="E1" />
+<Theme idref="E3" />
+<clue>Binding of the TorR regulator to cis-acting direct repeats <clueType>activates</clueType> tor operon expression.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<clue>Binding of the TorR regulator to cis-acting direct repeats activates tor operon <clueType>expression</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The expression of <term sem="Operon" id="T4" lex="the_Escherichia_coli_torCAD_operon">the Escherichia coli torCAD operon</term>, which encodes the anaerobically expressed trimethylamine N-oxide (<term sem="Protein" id="T5" lex="TMAO)_reductase_respiratory_system">TMAO) reductase respiratory system</term>, requires the presence of <term sem="Organic_Compounds" id="T6" lex="TMAO">TMAO</term> in the medium.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T4" />
+<clue>The <clueType>expression</clueType> of the Escherichia coli torCAD operon, which encodes the anaerobically expressed trimethylamine N-oxide (TMAO) reductase respiratory system, requires the presence of TMAO in the medium.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>The expression of the Escherichia coli torCAD operon, which <clueType>encodes</clueType> the anaerobically expressed trimethylamine N-oxide (TMAO) reductase respiratory system, requires the presence of TMAO in the medium.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T6" />
+<clue>The expression of the Escherichia coli torCAD operon, which encodes the anaerobically expressed trimethylamine N-oxide (TMAO) reductase respiratory system, <clueType>requires</clueType> the presence of TMAO in the medium.</clue>
+</event>
+<sentence id="S4">The response regulator, <term sem="Regulator" id="T7" lex="TorR">TorR</term>, has recently been identified as <term sem="Regulator" id="T8" lex="the_regulatory_protein">the regulatory protein</term> that controls the expression of <term sem="Operon" id="T9" lex="the_torCAD_operon">the torCAD operon</term> in response to <term sem="Organic_Compounds" id="T10" lex="TMAO">TMAO</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="T8" />
+<clue>The response regulator, TorR, has recently been <clueType>identified</clueType> as the regulatory protein that controls the expression of the torCAD operon in response to TMAO.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Activation" />
+<Theme idref="T9" />
+<Condition idref="T10" />
+<clue>The response regulator, TorR, has recently been identified as the regulatory protein that controls <clueType>the expression</clueType> of the torCAD operon in response to TMAO.</clue>
+</event>
+<sentence id="S5">The torC regulatory region contains four direct repeats of a decameric consensus motif designated the tor boxes.</sentence>
+<sentence id="S6"><term sem="SPAN" id="T11" lex="Alteration">Alteration</term> by <term sem="DNA" id="T12" lex="base">base</term> substitutions of <term sem="DNA" id="T13" lex="any_of_the_four_tor_boxes">any of the four tor boxes</term> in <term sem="Plasmid" id="T14" lex="a_plasmid">a plasmid</term> containing <term sem="Gene" id="T15" lex="a_torC'-lacZ_fusion">a torC'-lacZ fusion</term> <term sem="SPAN" id="T16" lex="dramatically">dramatically</term> reduces <term sem="SPAN" id="T17" lex="TorR-dependent">TorR-dependent</term> <term sem="Gene" id="T18" lex="torC">torC</term> expression.</sentence>
+<event id="E9">
+<type class="Laboratory_Technique" />
+<Theme idref="T12" />
+<clue>Alteration by base <clueType>substitutions</clueType> of any of the four tor boxes in a plasmid containing a torC'-lacZ fusion dramatically reduces TorR-dependent torC expression.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E11" />
+<Manner idref="T16" />
+<clue>Alteration by base substitutions of any of the four tor boxes in a plasmid containing a torC'-lacZ fusion dramatically <clueType>reduces</clueType> TorR-dependent torC expression.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Theme idref="T18" />
+<Manner idref="T17" />
+<clue>Alteration by base substitutions of any of the four tor boxes in a plasmid containing a torC'-lacZ fusion dramatically reduces TorR-dependent torC <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S7">In addition, deletion of the distal tor box (<term sem="DNA" id="T19" lex="box1">box1</term>) abolishes <term sem="Gene" id="T20" lex="torC">torC</term> induction whereas the presence of a DNA fragment starting three bases upstream from box1 suffices for normal <term sem="Gene" id="T21" lex="torC">torC</term> expression.</sentence>
+<event id="E12">
+<type class="Deletion" />
+<Theme idref="T19" />
+<clue>In addition, <clueType>deletion</clueType> of the distal tor box (box1) abolishes torC induction whereas the presence of a DNA fragment starting three bases upstream from box1 suffices for normal torC expression.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="E14" />
+<clue>In addition, deletion of the distal tor box (box1) <clueType>abolishes</clueType> torC induction whereas the presence of a DNA fragment starting three bases upstream from box1 suffices for normal torC expression.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Theme idref="T20" />
+<clue>In addition, deletion of the distal tor box (box1) abolishes torC <clueType>induction</clueType> whereas the presence of a DNA fragment starting three bases upstream from box1 suffices for normal torC expression.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Activation" />
+<Theme idref="T21" />
+<clue>In addition, deletion of the distal tor box (box1) abolishes torC induction whereas the presence of a DNA fragment starting three bases upstream from box1 suffices for normal torC <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">Footprinting and gel-retardation experiments unambiguously demonstrated that <term sem="Regulator" id="T22" lex="TorR">TorR</term> binds to <term sem="Operator" id="T23" lex="the_torC_regulatory_region">the torC regulatory region</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>Footprinting and gel-retardation experiments unambiguously demonstrated that TorR <clueType>binds</clueType> to the torC regulatory region.</clue>
+</event>
+<sentence id="S9">Three distinct regions are protected by <term sem="Regulator" id="T24" lex="TorR">TorR</term> binding.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T24" />
+<clue>Three distinct regions are protected by TorR <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S10">One of approximately 24 nucleotides covers the first two tor boxes (box1 and box2); the second is located upstream from the -35 promoter sequence and includes the third tor box (box3); the last is found downstream from the -35 sequence and corresponds to the fourth tor box (box4).</sentence>
+<sentence id="S11">Binding to the upstream tor boxes (<term sem="DNA" id="T25" lex="box1">box1</term> and <term sem="DNA" id="T26" lex="box2">box2</term>) appears to be stronger than binding to the downstream tor boxes (<term sem="DNA" id="T27" lex="box3">box3</term> and <term sem="DNA" id="T28" lex="box4">box4</term>) since only the upstream region is protected at the lower concentration of TorR used in the footprinting experiments.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Destination idref="T25" idref1="T26" />
+<clue><clueType>Binding</clueType> to the upstream tor boxes (box1 and box2) appears to be stronger than binding to the downstream tor boxes (box3 and box4) since only the upstream region is protected at the lower concentration of TorR used in the footprinting experiments.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Destination idref="T27" idref1="T28" />
+<clue>Binding to the upstream tor boxes (box1 and box2) appears to be stronger than <clueType>binding</clueType> to the downstream tor boxes (box3 and box4) since only the upstream region is protected at the lower concentration of TorR used in the footprinting experiments.</clue>
+</event>
+<sentence id="S12">We propose a model in which multiple binding sites (i.e. the tor boxes) contribute to the formation of <term sem="Protein_Complex" id="T29" lex="a_nucleoprotein_complex">a nucleoprotein complex</term>, but <term sem="DNA" id="T30" lex="only_one_particular_proximal_site">only one particular proximal site</term> positions <term sem="Regulator" id="T31" lex="TorR">TorR</term> properly so that it interacts with <term sem="RNA_Polymerase" id="T32" lex="RNA_polymerase">RNA polymerase</term>.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Theme idref="T29" />
+<clue>We propose a model in which multiple binding sites (i.e. the tor boxes) contribute to the <clueType>formation</clueType> of a nucleoprotein complex, but only one particular proximal site positions TorR properly so that it interacts with RNA polymerase.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T31" />
+<Agent idref="T32" />
+<clue>We propose a model in which multiple binding sites (i.e. the tor boxes) contribute to the formation of a nucleoprotein complex, but only one particular proximal site positions TorR properly so that it <clueType>interacts</clueType> with RNA polymerase.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2499572">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2499572</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Molecular analysis by deletion and site-directed mutagenesis of <term sem="Operator" id="T1" lex="the_cis-acting_upstream_sequence">the cis-acting upstream sequence</term> involved in activation of <term sem="Promoter" id="T2" lex="the_ompF_promoter">the ompF promoter</term> <term sem="SPAN" id="T3" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T4" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="Deletion" />
+<Theme idref="T1" />
+<clue>Molecular analysis by <clueType>deletion</clueType> and site-directed mutagenesis of the cis-acting upstream sequence involved in activation of the ompF promoter in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T1" />
+<Location idref="T3" />
+<Descriptive-Theme idref="E3" />
+<clue>Molecular analysis by deletion and site-directed mutagenesis of the cis-acting upstream sequence <clueType>involved</clueType> in activation of the ompF promoter in Escherichia coli.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Activation" />
+<Theme idref="T2" />
+<Location idref="T3" />
+<clue>Molecular analysis by deletion and site-directed mutagenesis of the cis-acting upstream sequence involved in <clueType>activation</clueType> of the ompF promoter in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression of <term sem="Gene" id="T5" lex="the_ompF_gene">the ompF gene</term> coding for <term sem="Protein" id="T6" lex="an_outer_membrane_protein">an outer membrane protein</term> of Escherichia coli is regulated by a <term sem="SPAN" id="T7" lex="transcriptional">transcriptional</term> activation mechanism that requires <term sem="Protein" id="T8" lex="the_ompR_gene_product">the ompR gene product</term> that acts <term sem="SPAN" id="T9" lex="on_nucleotides">on <term sem="Locus" id="T10" lex="nucleotides">nucleotides</term></term> located upstream of the -35 and -10 regions of the ompF promoter.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue><clueType>Expression</clueType> of the ompF gene coding for an outer membrane protein of Escherichia coli is regulated by a transcriptional activation mechanism that requires the ompR gene product that acts on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T5" />
+<Descriptive-Theme idref="T6" />
+<clue>Expression of the ompF gene <clueType>coding</clueType> for an outer membrane protein of Escherichia coli is regulated by a transcriptional activation mechanism that requires the ompR gene product that acts on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<Agent idref="E7" />
+<Theme idref="E4" />
+<clue>Expression of the ompF gene coding for an outer membrane protein of Escherichia coli is <clueType>regulated</clueType> by a transcriptional activation mechanism that requires the ompR gene product that acts on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Activation" />
+<Manner idref="T7" />
+<clue>Expression of the ompF gene coding for an outer membrane protein of Escherichia coli is regulated by a transcriptional <clueType>activation</clueType> mechanism that requires the ompR gene product that acts on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T8" />
+<clue>Expression of the ompF gene coding for an outer membrane protein of Escherichia coli is regulated by a transcriptional activation mechanism that <clueType>requires</clueType> the ompR gene product that acts on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T8" />
+<Location idref="T9" />
+<clue>Expression of the ompF gene coding for an outer membrane protein of Escherichia coli is regulated by a transcriptional activation mechanism that requires the ompR gene product that <clueType>acts</clueType> on nucleotides located upstream of the -35 and -10 regions of the ompF promoter.</clue>
+</event>
+<sentence id="S4">We previously demonstrated that this cis-acting upstream sequence displays a sequence-directed curvature of the DNA helix.</sentence>
+<sentence id="S5">To characterize the structure and function of this upstream sequence, a series of deletion mutants and base-substitution mutants of the upstream sequence of the ompF promoter were constructed, and their abilities as to OmpR-binding and activities of the ompF promoter were examined after they had been connected to the lacZ gene.</sentence>
+<sentence id="S6"><term sem="Locus" id="T11" lex="The_nucleotides">The nucleotides</term> extending from position -91 to -79 are essential not only for <term sem="SPAN" id="T12" lex="sequence-specific">sequence-specific</term> recognition of <term sem="Promoter" id="T13" lex="the_ompF_promoter">the ompF promoter</term> by <term sem="SPAN" id="T14" lex="the_OmpR_protein">the OmpR protein</term>, but also for <term sem="SPAN" id="T15" lex="OmpR-dependent">OmpR-dependent</term> activation of <term sem="Promoter" id="T16" lex="the_ompF_promoter">the ompF promoter</term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T13" />
+<Manner idref="T12" />
+<Condition idref="T11" />
+<clue>The nucleotides extending from position -91 to -79 are essential not only for sequence-specific <clueType>recognition</clueType> of the ompF promoter by the OmpR protein, but also for OmpR-dependent activation of the ompF promoter.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Theme idref="T16" />
+<Manner idref="T15" />
+<Condition idref="T11" />
+<clue>The nucleotides extending from position -91 to -79 are essential not only for sequence-specific recognition of the ompF promoter by the OmpR protein, but also for OmpR-dependent <clueType>activation</clueType> of the ompF promoter.</clue>
+</event>
+<sentence id="S7">It was also demonstrated that <term sem="Locus" id="T17" lex="the_nucleotides">the nucleotides</term> extending from position -111 to -92 play <term sem="SPAN" id="T18" lex="a_role_in_stimulation">a role in stimulation</term> of the <term sem="Gene" id="T19" lex="ompF">ompF</term> expression.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T17" />
+<Descriptive-Agent idref="T18" />
+<clue>It was also demonstrated that the nucleotides extending from position -111 to -92 <clueType>play</clueType> a role in stimulation of the ompF expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Activation" />
+<Theme idref="E14" />
+<clue>It was also demonstrated that the nucleotides extending from position -111 to -92 play a role in <clueType>stimulation</clueType> of the ompF expression.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Expression" />
+<Theme idref="T19" />
+<clue>It was also demonstrated that the nucleotides extending from position -111 to -92 play a role in stimulation of the ompF <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">A local structural alteration in the ompF promoter was observed in some of the base-substitution mutants.</sentence>
+<sentence id="S9">Based on the results, the structure and function of the upstream sequence of the ompF promoter are discussed in relation to activation of <term sem="Promoter" id="T20" lex="the_ompF_promoter">the ompF promoter</term> by <term sem="Activator" id="T21" lex="the_OmpR_protein">the OmpR protein</term>.</sentence>
+<event id="E15">
+<type class="Gene_Activation" />
+<Agent idref="T21" />
+<Theme idref="T20" />
+<clue>Based on the results, the structure and function of the upstream sequence of the ompF promoter are discussed in relation to <clueType>activation</clueType> of the ompF promoter by the OmpR protein.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

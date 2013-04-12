@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7715442">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7715442</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Expression of <term sem="Gene" id="T1" lex="the_genes">the genes</term> coding for <term sem="Regulator" id="T2" lex="the_Escherichia_coli_integration_host_factor">the Escherichia coli integration host factor</term> are controlled by <term sem="SPAN" id="T3" lex="growth_phase">growth phase</term>, <term sem="Sigma_Factor" id="T4" lex="rpoS">rpoS</term>, <term sem="Inorganic_Compounds" id="T5" lex="ppGpp">ppGpp</term> and by <term sem="Regulation" id="T6" lex="autoregulation">autoregulation</term>.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue><clueType>Expression</clueType> of the genes coding for the Escherichia coli integration host factor are controlled by growth phase, rpoS, ppGpp and by autoregulation.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Expression of the genes <clueType>coding</clueType> for the Escherichia coli integration host factor are controlled by growth phase, rpoS, ppGpp and by autoregulation.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" idref1="T4" idref2="T5" idref3="T6" />
+<Theme idref="E1" />
+<clue>Expression of the genes coding for the Escherichia coli integration host factor are <clueType>controlled</clueType> by growth phase, rpoS, ppGpp and by autoregulation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Transcriptional control of <term sem="Gene" id="T7" lex="the_himA_and_the_himD/hip_genes">the himA and the himD/hip genes</term> coding for <term sem="Sub_Unit" id="T8" lex="the_two_subunits">the two subunits</term> of the integration host factor (IHF) was investigated.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>Transcriptional control of the himA and the himD/hip genes <clueType>coding</clueType> for the two subunits of the integration host factor (IHF) was investigated.</clue>
+</event>
+<sentence id="S4">The promoters for the two genes were identified by the use of primer extension and S1 analysis.</sentence>
+<sentence id="S5">Expression from <term sem="Promoter" id="T9" lex="both_promoters">both promoters</term> was found to increase as <term sem="SPAN" id="T10" lex="the_cells_enter_stationary_phase">the cells enter stationary phase</term>.</sentence>
+<event id="E5">
+<type class="Gene_Expression" />
+<Source idref="T9" />
+<clue><clueType>Expression</clueType> from both promoters was found to increase as the cells enter stationary phase.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="E5" />
+<Temporal idref="T10" />
+<clue>Expression from both promoters was found to <clueType>increase</clueType> as the cells enter stationary phase.</clue>
+</event>
+<sentence id="S6">Mutation <term sem="SPAN" id="T11" lex="in_rpoS">in <term sem="Sigma_Factor" id="T12" lex="rpoS">rpoS</term></term>, known to be induced <term sem="SPAN" id="T13" lex="upon_entry_to_stationary_phase">upon entry to stationary phase</term>, dramatically reduced <term sem="SPAN" id="T14" lex="the_growth-phase_response">the growth-phase response</term> of the himA P4 promoter but had only a small effect on the induction of <term sem="Promoter" id="T15" lex="the_himD/hip_promoter">the himD/hip promoter</term>.</sentence>
+<event id="E7">
+<type class="Mutation" />
+<Location idref="T11" />
+<clue><clueType>Mutation</clueType> in rpoS, known to be induced upon entry to stationary phase, dramatically reduced the growth-phase response of the himA P4 promoter but had only a small effect on the induction of the himD/hip promoter.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Activation" />
+<Theme idref="T12" />
+<Temporal idref="T13" />
+<clue>Mutation in rpoS, known to be <clueType>induced</clueType> upon entry to stationary phase, dramatically reduced the growth-phase response of the himA P4 promoter but had only a small effect on the induction of the himD/hip promoter.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T14" />
+<clue>Mutation in rpoS, known to be induced upon entry to stationary phase, dramatically <clueType>reduced</clueType> the growth-phase response of the himA P4 promoter but had only a small effect on the induction of the himD/hip promoter.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T15" />
+<clue>Mutation in rpoS, known to be induced upon entry to stationary phase, dramatically reduced the growth-phase response of the himA P4 promoter but had only a small effect on the <clueType>induction</clueType> of the himD/hip promoter.</clue>
+</event>
+<sentence id="S7"><term sem="Gene_Expression" id="T16" lex="The_increased_activity">The increased activity</term> of both promoters required the presence of <term sem="Gene" id="T17" lex="the_relA_and_spoT_genes">the relA and spoT genes</term>, suggesting that ppGpp plays a major role in the response to stationary phase.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T17" />
+<clue>The increased activity of both promoters <clueType>required</clueType> the presence of the relA and spoT genes, suggesting that ppGpp plays a major role in the response to stationary phase.</clue>
+</event>
+<sentence id="S8"><term sem="Inorganic_Compounds" id="T18" lex="An_artificial_increase_in_ppGpp">An artificial increase in ppGpp</term> <term sem="SPAN" id="T19" lex="in_exponentially_growing_cells">in <term sem="Wild_Type_Bacteria" id="T20" lex="exponentially_growing_cells">exponentially growing cells</term></term> induced a rapid increase in <term sem="mRNA" id="T21" lex="himA_P4_and_himD/hip_mRNA_levels">himA P4 and himD/hip mRNA levels</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="E13" />
+<Location idref="T19" />
+<clue>An artificial increase in ppGpp in exponentially growing cells <clueType>induced</clueType> a rapid increase in himA P4 and himD/hip mRNA levels.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T21" />
+<clue>An artificial increase in ppGpp in exponentially growing cells induced a rapid <clueType>increase</clueType> in himA P4 and himD/hip mRNA levels.</clue>
+</event>
+<sentence id="S9">Experiments with a mutant defective in rpoS showed that the response of the himA P4 promoter to high ppGpp levels was greatly reduced while that of himD/hip was only slightly affected.</sentence>
+<sentence id="S10">Therefore, it seems that <term sem="SPAN" id="T22" lex="different_mechanisms">different mechanisms</term> involving <term sem="Sigma_Factor" id="T23" lex="RpoS_and_ppGpp">RpoS and ppGpp</term> regulate <term sem="SPAN" id="T24" lex="the_growth-phase_response">the growth-phase response</term> of the two promoters.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T22" />
+<Descriptive-Agent idref="T23" />
+<clue>Therefore, it seems that different mechanisms <clueType>involving</clueType> RpoS and ppGpp regulate the growth-phase response of the two promoters.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<Agent idref="T22" />
+<Theme idref="T24" />
+<clue>Therefore, it seems that different mechanisms involving RpoS and ppGpp <clueType>regulate</clueType> the growth-phase response of the two promoters.</clue>
+</event>
+<sentence id="S11">We propose that the effect of <term sem="Inorganic_Compounds" id="T25" lex="ppGpp">ppGpp</term> on <term sem="Promoter" id="T26" lex="himA_P4">himA P4</term> is mediated via <term sem="Sigma_Factor" id="T27" lex="RpoS">RpoS</term> whereas <term sem="Promoter" id="T28" lex="the_himD/hip_promoter">the himD/hip promoter</term> is affected by <term sem="Inorganic_Compounds" id="T29" lex="ppGpp">ppGpp</term> <term sem="SPAN" id="T30" lex="independently_of_RpoS">independently of <term sem="Sigma_Factor" id="T31" lex="RpoS">RpoS</term></term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T25" />
+<Theme idref="T26" />
+<clue>We propose that the <clueType>effect</clueType> of ppGpp on himA P4 is mediated via RpoS whereas the himD/hip promoter is affected by ppGpp independently of RpoS.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T27" />
+<Theme idref="E16" />
+<clue>We propose that the effect of ppGpp on himA P4 is <clueType>mediated</clueType> via RpoS whereas the himD/hip promoter is affected by ppGpp independently of RpoS.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="T28" />
+<Condition idref="T30" />
+<clue>We propose that the effect of ppGpp on himA P4 is mediated via RpoS whereas the himD/hip promoter is <clueType>affected</clueType> by ppGpp independently of RpoS.</clue>
+</event>
+<sentence id="S12">Expression of <term sem="Gene" id="T32" lex="the_himD/hip_and_himA_genes">the himD/hip and himA genes</term> was found to be subject to negative autoregulation.</sentence>
+<event id="E19">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue><clueType>Expression</clueType> of the himD/hip and himA genes was found to be subject to negative autoregulation.</clue>
+</event>
+<sentence id="S13"><term sem="Transcription_Binding_Site" id="T33" lex="IHF-binding_sites">IHF-binding sites</term>, implicated in <term sem="Regulation" id="T34" lex="autoregulation">autoregulation</term>, were found to overlap both <term sem="Promoter" id="T35" lex="the_himD/hip_and_himA_P4_promoters">the himD/hip and himA P4 promoters</term>.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T33" />
+<Descriptive-Agent idref="T34" />
+<clue>IHF-binding sites, <clueType>implicated</clueType> in autoregulation, were found to overlap both the himD/hip and himA P4 promoters.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T33" />
+<Theme idref="T35" />
+<clue>IHF-binding sites, implicated in autoregulation, were found to <clueType>overlap</clueType> both the himD/hip and himA P4 promoters.</clue>
+</event>
+<sentence id="S14"><term sem="Transcription_Binding_Site" id="T36" lex="An_additional_IHF-binding_site">An additional IHF-binding site</term> was found <term sem="SPAN" id="T37" lex="upstream_of_the_himD/hip_promoter">upstream of <term sem="Promoter" id="T38" lex="the_himD/hip_promoter">the himD/hip promoter</term></term>.</sentence>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T36" />
+<Location idref="T37" />
+<clue>An additional IHF-binding site was <clueType>found</clueType> upstream of the himD/hip promoter.</clue>
+</event>
+<sentence id="S15">All three sites show low binding affinity to IHF suggesting that autoregulation can take place only after sufficiently high levels of IHF accumulate in the cell.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

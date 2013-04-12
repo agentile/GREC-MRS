@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15252051">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15252051</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Expression of <term sem="Gene" id="T1" lex="ptsG">ptsG</term> encoding <term sem="Protein" id="T2" lex="the_major_glucose_transporter">the major glucose transporter</term> is regulated by <term sem="Regulator" id="T3" lex="ArcA">ArcA</term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue><clueType>Expression</clueType> of ptsG encoding the major glucose transporter is regulated by ArcA in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Expression of ptsG <clueType>encoding</clueType> the major glucose transporter is regulated by ArcA in Escherichia coli.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="E1" />
+<Location idref="T4" />
+<clue>Expression of ptsG encoding the major glucose transporter is <clueType>regulated</clueType> by ArcA in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Because the phosphoenolpyruvate:sugar phosphotransferase system plays multiple regulatory roles in addition to the phosphorylation-coupled transport of many sugars in bacteria, synthesis of its protein components is regulated in a highly sophisticated way.</sentence>
+<sentence id="S4">Thus far, the cAMP receptor protein (CRP) complex and Mlc are known to be the major regulators of <term sem="Gene" id="T6" lex="ptsHIcrr">ptsHIcrr</term> and <term sem="Gene" id="T7" lex="ptsG">ptsG</term> expression in response to <term sem="SPAN" id="T8" lex="the_availability">the availability</term> of carbon sources.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T6" idref1="T6" idref2="T7" />
+<Condition idref="T8" />
+<clue>Thus far, the cAMP receptor protein (CRP) complex and Mlc are known to be the major regulators of ptsHIcrr and ptsG <clueType>expression</clueType> in response to the availability of carbon sources.</clue>
+</event>
+<sentence id="S5">In this report, we performed ligand fishing experiments by using the promoters of ptsHIcrr and ptsG as bait to find out <term sem="Transcription_Factor" id="T9" lex="new_factors">new factors</term> involved in the transcriptional regulation of <term sem="SPAN" id="T10" lex="the_phosphoenolpyruvate:sugar_phosphotransferase_system"><term sem="Organic_Compounds" id="T11" lex="the_phosphoenolpyruvate">the phosphoenolpyruvate</term>:sugar phosphotransferase system</term> <term sem="SPAN" id="T12" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T13" lex="Escherichia_coli">Escherichia coli</term></term>, and we found that <term sem="Regulator" id="T14" lex="the_anaerobic_regulator_ArcA">the anaerobic regulator ArcA</term> <term sem="SPAN" id="T15" lex="specifically">specifically</term> binds to <term sem="Promoter" id="T16" lex="the_promoters">the promoters</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T9" />
+<Location idref="T12" />
+<Purpose idref="E6" />
+<clue>In this report, we performed ligand fishing experiments by using the promoters of ptsHIcrr and ptsG as bait to find out new factors <clueType>involved</clueType> in the transcriptional regulation of the phosphoenolpyruvate:sugar phosphotransferase system in Escherichia coli, and we found that the anaerobic regulator ArcA specifically binds to the promoters.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T10" />
+<clue>In this report, we performed ligand fishing experiments by using the promoters of ptsHIcrr and ptsG as bait to find out new factors involved in the transcriptional <clueType>regulation</clueType> of the phosphoenolpyruvate:sugar phosphotransferase system in Escherichia coli, and we found that the anaerobic regulator ArcA specifically binds to the promoters.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T14" />
+<Manner idref="T15" />
+<Destination idref="T16" />
+<clue>In this report, we performed ligand fishing experiments by using the promoters of ptsHIcrr and ptsG as bait to find out new factors involved in the transcriptional regulation of the phosphoenolpyruvate:sugar phosphotransferase system in Escherichia coli, and we found that the anaerobic regulator ArcA specifically <clueType>binds</clueType> to the promoters.</clue>
+</event>
+<sentence id="S6">Deletion of <term sem="Gene" id="T17" lex="the_arcA_gene">the arcA gene</term> caused about a <term sem="SPAN" id="T18" lex="2-fold">2-fold</term> <term sem="SPAN" id="T19" lex="increase">increase</term> in the <term sem="Gene" id="T20" lex="ptsG">ptsG</term> expression, and overexpression of <term sem="Regulator" id="T21" lex="ArcA">ArcA</term> significantly decreased <term sem="SPAN" id="T22" lex="glucose_consumption">glucose consumption</term>.</sentence>
+<event id="E8">
+<type class="Deletion" />
+<Theme idref="T17" />
+<clue><clueType>Deletion</clueType> of the arcA gene caused about a 2-fold increase in the ptsG expression, and overexpression of ArcA significantly decreased glucose consumption.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E8" />
+<Theme idref="T19" />
+<Rate idref="T18" />
+<clue>Deletion of the arcA gene <clueType>caused</clueType> about a 2-fold increase in the ptsG expression, and overexpression of ArcA significantly decreased glucose consumption.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T20" />
+<clue>Deletion of the arcA gene caused about a 2-fold increase in the ptsG <clueType>expression</clueType>, and overexpression of ArcA significantly decreased glucose consumption.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<clue>Deletion of the arcA gene caused about a 2-fold increase in the ptsG expression, and <clueType>overexpression</clueType> of ArcA significantly decreased glucose consumption.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="E11" />
+<Theme idref="T22" />
+<clue>Deletion of the arcA gene caused about a 2-fold increase in the ptsG expression, and overexpression of ArcA significantly <clueType>decreased</clueType> glucose consumption.</clue>
+</event>
+<sentence id="S7">In vitro transcription assays showed that phospho-ArcA (<term sem="Regulator" id="T23" lex="ArcA-P">ArcA-P</term>) represses <term sem="Gene" id="T24" lex="ptsG"><term sem="SPAN" id="T25" lex="ptsG_P1">ptsG P1</term></term> transcription.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="E14" />
+<clue>In vitro transcription assays showed that phospho-ArcA (ArcA-P) <clueType>represses</clueType> ptsG P1 transcription.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T25" />
+<clue>In vitro transcription assays showed that phospho-ArcA (ArcA-P) represses ptsG P1 <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S8">DNase I footprinting experiments revealed that <term sem="Regulator" id="T26" lex="ArcA-P">ArcA-P</term> binds to <term sem="Operator" id="T27" lex="three_sites">three sites</term> upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the <term sem="Regulator" id="T28" lex="ArcA-P">ArcA-P</term> binding decreases the <term sem="Regulator" id="T29" lex="CRP">CRP</term> binding that is essential for the <term sem="Promoter" id="T30" lex="ptsG_P1">ptsG P1</term> transcription.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T26" />
+<Theme idref="T27" />
+<clue>DNase I footprinting experiments revealed that ArcA-P <clueType>binds</clueType> to three sites upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the ArcA-P binding decreases the CRP binding that is essential for the ptsG P1 transcription.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T28" />
+<clue>DNase I footprinting experiments revealed that ArcA-P binds to three sites upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the ArcA-P <clueType>binding</clueType> decreases the CRP binding that is essential for the ptsG P1 transcription.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="E16" />
+<Theme idref="E18" />
+<clue>DNase I footprinting experiments revealed that ArcA-P binds to three sites upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the ArcA-P binding <clueType>decreases</clueType> the CRP binding that is essential for the ptsG P1 transcription.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T29" />
+<clue>DNase I footprinting experiments revealed that ArcA-P binds to three sites upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the ArcA-P binding decreases the CRP <clueType>binding</clueType> that is essential for the ptsG P1 transcription.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T30" />
+<clue>DNase I footprinting experiments revealed that ArcA-P binds to three sites upstream of the ptsG P1 promoter, two of which overlap the CRP-binding sites, and the ArcA-P binding decreases the CRP binding that is essential for the ptsG P1 <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S9">These results suggest that <term sem="Regulator" id="T31" lex="the_response_regulator_ArcA">the response regulator ArcA</term> regulates expression of enzyme IICB(<term sem="Enzyme" id="T32" lex="Glc">Glc</term>) mediating the first step of glucose metabolism in response to the redox conditions of growth in E. coli.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="E21" />
+<clue>These results suggest that the response regulator ArcA <clueType>regulates</clueType> expression of enzyme IICB(Glc) mediating the first step of glucose metabolism in response to the redox conditions of growth in E. coli.</clue>
+</event>
+<event id="E21">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue>These results suggest that the response regulator ArcA regulates <clueType>expression</clueType> of enzyme IICB(Glc) mediating the first step of glucose metabolism in response to the redox conditions of growth in E. coli.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

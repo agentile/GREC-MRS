@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11315969">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11315969</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Electron microscopic in situ hybridization study of simultaneous expression of TNP1 and PRM1 genes in human spermatids.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Nuclear changes in the basic nucleoprotein complement occur during human spermiogenesis.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Nuclear changes in the basic nucleoprotein complement <clueType>occur</clueType> during human spermiogenesis.</clue>
+</event>
+<sentence id="S4">Somatic type histones are displaced by transition proteins which are replaced themselves by protamines, the major nuclear proteins found in late spermatids and spermatozoa nuclei.</sentence>
+<sentence id="S5">Digoxigenin or Biotin labeled probes, coding respectively for human transition protein 1 (TP1) and protamine 1 (HP1), were used for double EM in situ hybridization.</sentence>
+<sentence id="S6">Immunodetection of hybrids with specific antibodies coupled to colloidal gold particles of different size (10 nm and 15 nm) was performed on the same preparations.</sentence>
+<sentence id="S7">Quantitative analysis of the nuclear and cytoplasmic labeling densities for <term sem="mRNA" id="T1" lex="the_mRNAs">the mRNAs</term> coding for <term sem="Protein" id="T2" lex="TP1_and_HP1">TP1 and HP1</term> showed <term sem="SPAN" id="T3" lex="the_presence_of_transcripts">the presence of <term sem="mRNA" id="T4" lex="transcripts">transcripts</term></term> in <term sem="SPAN" id="T5" lex="both_the_nucleus_and_cytoplasm">both the nucleus and cytoplasm</term> of round spermatids until the elongation phase.</sentence>
+<sentence id="S8"><term sem="mRNA" id="T6" lex="Transcripts">Transcripts</term> accumulated in <term sem="SPAN" id="T7" lex="the_spermatid_cytoplasm">the spermatid cytoplasm</term> without any particular cellular compartmentalization.</sentence>
+<sentence id="S9">At the end of the spermatid elongation phase, the disappearing of TP1 and HP1 transcripts may be related to the arrest of transcriptional activity while the deposition of transition proteins and protamines successively occurs within spermatid nuclei.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T3" />
+<Location idref="T5" />
+<clue>At the end of the spermatid elongation phase, the disappearing of TP1 and HP1 transcripts may be related to the arrest of transcriptional activity while the deposition of transition proteins and protamines successively <clueType>occurs</clueType> within spermatid nuclei.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T6" />
+<Descriptive-Theme idref="T7" />
+<clue>At the end of the spermatid elongation phase, the disappearing of TP1 and HP1 transcripts may be related to the arrest of transcriptional activity while the deposition of transition proteins and protamines successively <clueType>occurs</clueType> within spermatid nuclei.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15225315">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15225315</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Transcription activation by remodelling of a nucleoprotein assembly: the role of NarL at the FNR-dependent Escherichia coli nir promoter.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression from the Escherichia coli nir promoter is co-dependent on both the FNR protein (an anaerobically triggered transcription activator) and NarL or NarP proteins (transcription activators triggered by nitrite and nitrate).</sentence>
+<sentence id="S4">We found previously that <term sem="Protein" id="T1" lex="FNR">FNR</term> binds to <term sem="SPAN" id="T2" lex="a_site_centred_at_position_-_41.5">a site centred at position - 41.5</term> at <term sem="Promoter" id="T3" lex="the_nir_promoter">the nir promoter</term>, but that <term sem="SPAN" id="T4" lex="FNR-dependent">FNR-dependent</term> activation is repressed by <term sem="Protein" id="T5" lex="IHF">IHF</term> binding to a site centred at position -88 (<term sem="SPAN" id="T6" lex="IHF_I">IHF I</term>) and <term sem="SPAN" id="T7" lex="Fis">Fis</term> binding to sites centred at positions -142 (<term sem="SPAN" id="T8" lex="Fis_I">Fis I</term>) and +23 (<term sem="SPAN" id="T9" lex="Fis_II">Fis II</term>).</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Location idref="T3" />
+<Destination idref="T2" />
+<clue>We found previously that FNR <clueType>binds</clueType> to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent activation is repressed by IHF binding to a site centred at position -88 (IHF I) and Fis binding to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<event id="E2">
+<type class="Gene_Activation" />
+<Manner idref="T4" />
+<clue>We found previously that FNR binds to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent <clueType>activation</clueType> is repressed by IHF binding to a site centred at position -88 (IHF I) and Fis binding to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<event id="E3">
+<type class="Gene_Repression" />
+<Agent idref="E5" />
+<Theme idref="E2" />
+<clue>We found previously that FNR binds to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent activation is <clueType>repressed</clueType> by IHF binding to a site centred at position -88 (IHF I) and Fis binding to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<event id="E4">
+<type class="Gene_Repression" />
+<Agent idref="E6" />
+<Theme idref="E2" />
+<clue>We found previously that FNR binds to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent activation is <clueType>repressed</clueType> by IHF binding to a site centred at position -88 (IHF I) and Fis binding to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T5" />
+<Destination idref="T6" />
+<clue>We found previously that FNR binds to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent activation is repressed by IHF <clueType>binding</clueType> to a site centred at position -88 (IHF I) and Fis binding to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T7" />
+<Destination idref="T8" idref1="T9" />
+<clue>We found previously that FNR binds to a site centred at position - 41.5 at the nir promoter, but that FNR-dependent activation is repressed by IHF binding to a site centred at position -88 (IHF I) and Fis <clueType>binding</clueType> to sites centred at positions -142 (Fis I) and +23 (Fis II).</clue>
+</event>
+<sentence id="S5">Here, we have studied the binding of purified IHF, Fis and FNR to the nir promoter in vitro.</sentence>
+<sentence id="S6">Our results show that the nir promoter contains a second IHF site at position -115 (IHF II) and a third Fis site at position -97 (Fis III), and that <term sem="Protein" id="T10" lex="IHF,_Fis_and_FNR">IHF, Fis and FNR</term> can bind together to form <term sem="Protein_Complex" id="T11" lex="multiprotein_complexes">multiprotein complexes</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Purpose idref="T11" />
+<clue>Our results show that the nir promoter contains a second IHF site at position -115 (IHF II) and a third Fis site at position -97 (Fis III), and that IHF, Fis and FNR can <clueType>bind</clueType> together to form multiprotein complexes.</clue>
+</event>
+<sentence id="S7">Surprisingly, <term sem="Transcription_Factor" id="T12" lex="IHF">IHF</term> binding at <term sem="SPAN" id="T13" lex="the_IHF_II_site">the IHF II site</term> increases <term sem="SPAN" id="T14" lex="FNR-dependent">FNR-dependent</term> activation by decreasing <term sem="Gene_Repression" id="T15" lex="the_repression">the repression</term> mediated by <term sem="SPAN" id="T16" lex="IHF_and_Fis_binding">IHF and Fis binding</term> at the other sites.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T12" />
+<Location idref="T13" />
+<clue>Surprisingly, IHF <clueType>binding</clueType> at the IHF II site increases FNR-dependent activation by decreasing the repression mediated by IHF and Fis binding at the other sites.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E8" />
+<Theme idref="E10" />
+<clue>Surprisingly, IHF binding at the IHF II site <clueType>increases</clueType> FNR-dependent activation by decreasing the repression mediated by IHF and Fis binding at the other sites.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Activation" />
+<Manner idref="T14" />
+<clue>Surprisingly, IHF binding at the IHF II site increases FNR-dependent <clueType>activation</clueType> by decreasing the repression mediated by IHF and Fis binding at the other sites.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T15" />
+<clue>Surprisingly, IHF binding at the IHF II site increases FNR-dependent activation by decreasing the repression <clueType>mediated</clueType> by IHF and Fis binding at the other sites.</clue>
+</event>
+<sentence id="S8">In previous work, we found that <term sem="Protein" id="T17" lex="NarL_or_NarP">NarL or NarP</term> activates <term sem="Promoter" id="T18" lex="the_nir_promoter">the nir promoter</term> by binding to <term sem="SPAN" id="T19" lex="a_site_centred_at_position_-69.5">a site centred at position -69.5</term> and counteracting the repressive effects of <term sem="Protein" id="T20" lex="IHF_and_Fis">IHF and Fis</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>In previous work, we found that NarL or NarP <clueType>activates</clueType> the nir promoter by binding to a site centred at position -69.5 and counteracting the repressive effects of IHF and Fis.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T17" />
+<Destination idref="T19" />
+<clue>In previous work, we found that NarL or NarP activates the nir promoter by <clueType>binding</clueType> to a site centred at position -69.5 and counteracting the repressive effects of IHF and Fis.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="E15" />
+<clue>In previous work, we found that NarL or NarP activates the nir promoter by binding to a site centred at position -69.5 and <clueType>counteracting</clueType> the repressive effects of IHF and Fis.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T20" />
+<clue>In previous work, we found that NarL or NarP activates the nir promoter by binding to a site centred at position -69.5 and counteracting the repressive <clueType>effects</clueType> of IHF and Fis.</clue>
+</event>
+<sentence id="S9">We now show that NarL can displace <term sem="Protein" id="T21" lex="IHF">IHF</term> bound at <term sem="Protein" id="T22" lex="the_IHF_I_site">the IHF I site</term>, but IHF is unable to displace bound NarL.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T21" />
+<Destination idref="T22" />
+<clue>We now show that NarL can displace IHF <clueType>bound</clueType> at the IHF I site, but IHF is unable to displace bound NarL.</clue>
+</event>
+<sentence id="S10">We suggest that <term sem="Gene" id="T23" lex="NarL">NarL</term> interferes with <term sem="Protein" id="T24" lex="IHF">IHF</term> binding at <term sem="SPAN" id="T25" lex="the_nir_promoter">the nir promoter</term> by distorting the minor groove at its target site, and we argue that the resulting activation by <term sem="SPAN" id="T26" lex="NarL">NarL</term> results from remodelling of the local nucleoprotein structure to facilitate <term sem="SPAN" id="T27" lex="FNR-dependent">FNR-dependent</term> transcription.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="E18" />
+<Location idref="T25" />
+<clue>We suggest that NarL <clueType>interferes</clueType> with IHF binding at the nir promoter by distorting the minor groove at its target site, and we argue that the resulting activation by NarL results from remodelling of the local nucleoprotein structure to facilitate FNR-dependent transcription.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T24" />
+<clue>We suggest that NarL interferes with IHF <clueType>binding</clueType> at the nir promoter by distorting the minor groove at its target site, and we argue that the resulting activation by NarL results from remodelling of the local nucleoprotein structure to facilitate FNR-dependent transcription.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="T26" />
+<Theme idref="E20" />
+<clue>We suggest that NarL interferes with IHF binding at the nir promoter by distorting the minor groove at its target site, and we argue that the resulting activation by NarL results from remodelling of the local nucleoprotein structure to <clueType>facilitate</clueType> FNR-dependent transcription.</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<Manner idref="T27" />
+<clue>We suggest that NarL interferes with IHF binding at the nir promoter by distorting the minor groove at its target site, and we argue that the resulting activation by NarL results from remodelling of the local nucleoprotein structure to facilitate FNR-dependent <clueType>transcription</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

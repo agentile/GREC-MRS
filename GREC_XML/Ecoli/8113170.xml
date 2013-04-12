@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8113170">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8113170</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="DNA" id="T1" lex="A_distant_upstream_site">A distant upstream site</term> involved in the <term sem="SPAN" id="T2" lex="negative">negative</term> regulation of <term sem="Gene" id="T3" lex="the_Escherichia_coli_ompF_gene">the Escherichia coli ompF gene</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Descriptive-Agent idref="E2" />
+<clue>A distant upstream site <clueType>involved</clueType> in the negative regulation of the Escherichia coli ompF gene.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<Theme idref="T3" />
+<Manner idref="T2" />
+<clue>A distant upstream site involved in the negative <clueType>regulation</clueType> of the Escherichia coli ompF gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The two-component regulatory system, OmpR-EnvZ, of Escherichia coli K-12 regulates the expression of the major outer membrane porin protein, OmpF.</sentence>
+<sentence id="S4"><term sem="Protein" id="T4" lex="OmpR">OmpR</term> is a DNA-binding protein which acts as both <term sem="Activator" id="T5" lex="an_activator">an activator</term> and <term sem="Repressor" id="T6" lex="a_repressor">a repressor</term> to control <term sem="Gene" id="T7" lex="ompF">ompF</term> transcription.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<Descriptive-Agent idref="T5" idref1="T6" />
+<clue>OmpR is a DNA-binding protein which <clueType>acts</clueType> as both an activator and a repressor to control ompF transcription.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="E5" />
+<clue>OmpR is a DNA-binding protein which acts as both an activator and a repressor to <clueType>control</clueType> ompF transcription.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T7" />
+<clue>OmpR is a DNA-binding protein which acts as both an activator and a repressor to control ompF <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S5">In this article, we describe a new OmpR-binding site that is located between 384 to 351 bp upstream from the ompF start point of transcription.</sentence>
+<sentence id="S6">Inactivation of <term sem="DNA" id="T8" lex="this_site">this site</term> by insertion of <term sem="DNA" id="T9" lex="a_22-bp_fragment">a 22-bp fragment</term> prevents the repression of <term sem="Gene" id="T10" lex="ompF"><term sem="SPAN" id="T11" lex="ompF_expression">ompF expression</term></term> conferred by the dominant negative mutation, envZ473.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T8" />
+<Instrument idref="E7" />
+<clue><clueType>Inactivation</clueType> of this site by insertion of a 22-bp fragment prevents the repression of ompF expression conferred by the dominant negative mutation, envZ473.</clue>
+</event>
+<event id="E7">
+<type class="Insertion" />
+<Theme idref="T9" />
+<clue>Inactivation of this site by <clueType>insertion</clueType> of a 22-bp fragment prevents the repression of ompF expression conferred by the dominant negative mutation, envZ473.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="E9" />
+<clue>Inactivation of this site by insertion of a 22-bp fragment <clueType>prevents</clueType> the repression of ompF expression conferred by the dominant negative mutation, envZ473.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<Theme idref="T11" />
+<clue>Inactivation of this site by insertion of a 22-bp fragment prevents the <clueType>repression</clueType> of ompF expression conferred by the dominant negative mutation, envZ473.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue>Inactivation of this site by insertion of a 22-bp fragment prevents the repression of ompF <clueType>expression</clueType> conferred by the dominant negative mutation, envZ473.</clue>
+</event>
+<sentence id="S7">On the basis of the location of this binding site, the presence of bent DNA in the ompF regulatory region (T.</sentence>
+<sentence id="S8">Mizuno, Gene 54:57-64, 1987), and the fact that <term sem="Mutation" id="T12" lex="mutations">mutations</term> altering integration host factor result in <term sem="SPAN" id="T13" lex="constitutive_ompF_expression">constitutive <term sem="Gene" id="T14" lex="ompF">ompF</term> expression</term> (P. Tsui, V. Helu, and M. Freundlich, J. Bacteriol. 170:4950-4953, 1988), we propose that the <term sem="SPAN" id="T15" lex="negative">negative</term> regulation of <term sem="Gene" id="T16" lex="ompF">ompF</term> involves a DNA loop structure.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" />
+<clue>Mizuno, Gene 54:57-64, 1987), and the fact that mutations altering integration host factor <clueType>result</clueType> in constitutive ompF expression (P. Tsui, V. Helu, and M. Freundlich, J. Bacteriol. 170:4950-4953, 1988), we propose that the negative regulation of ompF involves a DNA loop structure.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T14" />
+<clue>Mizuno, Gene 54:57-64, 1987), and the fact that mutations altering integration host factor result in constitutive ompF <clueType>expression</clueType> (P. Tsui, V. Helu, and M. Freundlich, J. Bacteriol. 170:4950-4953, 1988), we propose that the negative regulation of ompF involves a DNA loop structure.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<Theme idref="T16" />
+<Manner idref="T15" />
+<clue>Mizuno, Gene 54:57-64, 1987), and the fact that mutations altering integration host factor result in constitutive ompF expression (P. Tsui, V. Helu, and M. Freundlich, J. Bacteriol. 170:4950-4953, 1988), we propose that the negative <clueType>regulation</clueType> of ompF involves a DNA loop structure.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

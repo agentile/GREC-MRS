@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8425218">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8425218</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Mad: a heterodimeric partner for Max that antagonizes Myc transcriptional activity.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Myc family proteins appear to function through heterodimerization with the stable, constitutively expressed bHLH-Zip protein, Max.</sentence>
+<sentence id="S4">To determine whether Max mediates the function of regulatory proteins other than Myc, we screened a lambda gt11 expression library with radiolabeled Max protein.</sentence>
+<sentence id="S5"><term sem="DNA" id="T1" lex="One_cDNA">One cDNA</term> identified encodes a new member of the bHLH-Zip protein family, <term sem="Protein" id="T2" lex="Mad">Mad</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>One cDNA identified <clueType>encodes</clueType> a new member of the bHLH-Zip protein family, Mad.</clue>
+</event>
+<sentence id="S6"><term sem="Protein" id="T3" lex="Human_Mad_protein">Human Mad protein</term> homodimerizes poorly but binds <term sem="Protein" id="T4" lex="Max">Max</term> <term sem="SPAN" id="T5" lex="in_vitro">in vitro</term>, forming <term sem="SPAN" id="T6" lex="a_sequence-specific_DNA_binding_complex">a sequence-specific DNA binding complex</term> with properties very similar to those of Myc-Max.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Agent idref="T4" />
+<Manner idref="T5" />
+<clue>Human Mad protein homodimerizes poorly but <clueType>binds</clueType> Max in vitro, forming a sequence-specific DNA binding complex with properties very similar to those of Myc-Max.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" idref1="T4" />
+<Theme idref="T6" />
+<clue>Human Mad protein homodimerizes poorly but binds Max in vitro, <clueType>forming</clueType> a sequence-specific DNA binding complex with properties very similar to those of Myc-Max.</clue>
+</event>
+<sentence id="S7">Both Myc-Max and Mad-Max heterocomplexes are favored over Max homodimers, and, unlike Max homodimers, the DNA binding activity of the heterodimers is unaffected by CKII phosphorylation.</sentence>
+<sentence id="S8">Mad does not associate with Myc or with representative bHLH, bZip, or bHLH-Zip proteins.</sentence>
+<sentence id="S9">In vivo transactivation assays suggest that Myc-Max and Mad-Max complexes have opposing functions in transcription and that Max plays a central role in this network of transcription factors.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15790729">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15790729</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of 14-3-3 eta as a positive regulator of <term sem="SPAN" id="T1" lex="the_glucocorticoid_receptor_transcriptional">the glucocorticoid receptor transcriptional</term> activation.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Manner idref="T1" />
+<clue>Role of 14-3-3 eta as a positive regulator of the glucocorticoid receptor transcriptional <clueType>activation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The glucocorticoid receptor (GR), a member of the nuclear receptor superfamily, mediates the effects of glucocorticoids.</sentence>
+<sentence id="S4">It is known that <term sem="Regulator" id="T2" lex="14-3-3_family_proteins">14-3-3 family proteins</term> interact with GR and regulate <term sem="SPAN" id="T3" lex="its_transcriptional_activity">its transcriptional activity</term>.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Agent idref="T2" />
+<Theme idref="T3" />
+<clue>It is known that 14-3-3 family proteins interact with GR and <clueType>regulate</clueType> its transcriptional activity.</clue>
+</event>
+<sentence id="S5">They also bind to several molecules and influence many cellular events by altering their subcellular localization and/or acting as a chaperone.</sentence>
+<sentence id="S6">Recently, it has been proposed that ligand-activated degradation of GR occurs via the ubiquitin-proteasomal degradation pathway and that <term sem="SPAN" id="T4" lex="inhibition">inhibition</term> of proteasomal activity induces up-regulation of <term sem="Protein" id="T5" lex="GR">GR</term> and enhances <term sem="SPAN" id="T6" lex="the_transcriptional_activity_of_GR">the transcriptional activity of <term sem="Protein" id="T7" lex="GR">GR</term></term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="E4" />
+<clue>Recently, it has been proposed that ligand-activated degradation of GR occurs via the ubiquitin-proteasomal degradation pathway and that inhibition of proteasomal activity <clueType>induces</clueType> up-regulation of GR and enhances the transcriptional activity of GR.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>Recently, it has been proposed that ligand-activated degradation of GR occurs via the ubiquitin-proteasomal degradation pathway and that inhibition of proteasomal activity induces <clueType>up-regulation</clueType> of GR and enhances the transcriptional activity of GR.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T6" />
+<clue>Recently, it has been proposed that ligand-activated degradation of GR occurs via the ubiquitin-proteasomal degradation pathway and that inhibition of proteasomal activity induces up-regulation of GR and <clueType>enhances</clueType> the transcriptional activity of GR.</clue>
+</event>
+<sentence id="S7">To examine the function of 14-3-3eta in the glucocorticoid-dependent signal pathway, we studied the regulatory role of 14-3-3eta in <term sem="SPAN" id="T8" lex="ligand-induced_GR_transcriptional">ligand-induced GR transcriptional</term> activation.</sentence>
+<event id="E6">
+<type class="Gene_Activation" />
+<Theme idref="T8" />
+<clue>To examine the function of 14-3-3eta in the glucocorticoid-dependent signal pathway, we studied the regulatory role of 14-3-3eta in ligand-induced GR transcriptional <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S8"><term sem="Regulator" id="T9" lex="14-3-3eta">14-3-3eta</term> Enhanced <term sem="SPAN" id="T10" lex="the_transcriptional_activity_of_GR">the transcriptional activity of <term sem="Protein" id="T11" lex="GR">GR</term></term>, and the levels of GR were higher in cells transfected with the 14-3-3eta expression vector in response to glucocorticoid.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<clue>14-3-3eta <clueType>Enhanced</clueType> the transcriptional activity of GR, and the levels of GR were higher in cells transfected with the 14-3-3eta expression vector in response to glucocorticoid.</clue>
+</event>
+<sentence id="S9">The GR level increased in both cytosol and nucleus, and <term sem="SPAN" id="T12" lex="endogenous_GR">endogenous GR</term> was also elevated by <term sem="SPAN" id="T13" lex="14-3-3eta">14-3-3eta</term> <term sem="SPAN" id="T14" lex="in_HeLa_cells">in HeLa cells</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T12" />
+<Location idref="T14" />
+<clue>The GR level increased in both cytosol and nucleus, and endogenous GR was also <clueType>elevated</clueType> by 14-3-3eta in HeLa cells.</clue>
+</event>
+<sentence id="S10"><term sem="Protein" id="T15" lex="14-3-3eta">14-3-3eta</term> Inhibited <term sem="SPAN" id="T16" lex="ligand-induced">ligand-induced</term> down-regulation of <term sem="Protein" id="T17" lex="GR">GR</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="E10" />
+<clue>14-3-3eta <clueType>Inhibited</clueType> ligand-induced down-regulation of GR.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Theme idref="T17" />
+<Manner idref="T16" />
+<clue>14-3-3eta Inhibited ligand-induced <clueType>down-regulation</clueType> of GR.</clue>
+</event>
+<sentence id="S11">Proteasomal inhibition did not induce any synergistic effect on the 14-3-3eta-induced increase in GR in response to glucocorticoid, and inhibition of <term sem="SPAN" id="T18" lex="translation">translation</term> did not block elevation of <term sem="Protein" id="T19" lex="GR">GR</term> by <term sem="Regulator" id="T20" lex="14-3-3eta">14-3-3eta</term>, indicating that 14-3-3eta induces stabilization of GR.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T18" />
+<clue>Proteasomal inhibition did not induce any synergistic effect on the 14-3-3eta-induced increase in GR in response to glucocorticoid, and <clueType>inhibition</clueType> of translation did not block elevation of GR by 14-3-3eta, indicating that 14-3-3eta induces stabilization of GR.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T19" />
+<clue>Proteasomal inhibition did not induce any synergistic effect on the 14-3-3eta-induced increase in GR in response to glucocorticoid, and inhibition of translation did not block <clueType>elevation</clueType> of GR by 14-3-3eta, indicating that 14-3-3eta induces stabilization of GR.</clue>
+</event>
+<sentence id="S12">These results suggest that <term sem="SPAN" id="T21" lex="14-3-3eta">14-3-3eta</term> functions as a positive regulator in the glucocorticoid signal pathway by blocking the degradation of GR and inducing an elevation of <term sem="Protein" id="T22" lex="GR">GR</term>, thus enhancing <term sem="SPAN" id="T23" lex="the_transcriptional_activity_of_GR">the transcriptional activity of GR</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="E14" />
+<clue>These results suggest that 14-3-3eta functions as a positive regulator in the glucocorticoid signal pathway by blocking the degradation of GR and <clueType>inducing</clueType> an elevation of GR, thus enhancing the transcriptional activity of GR.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T22" />
+<clue>These results suggest that 14-3-3eta functions as a positive regulator in the glucocorticoid signal pathway by blocking the degradation of GR and inducing an <clueType>elevation</clueType> of GR, thus enhancing the transcriptional activity of GR.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T23" />
+<clue>These results suggest that 14-3-3eta functions as a positive regulator in the glucocorticoid signal pathway by blocking the degradation of GR and inducing an elevation of GR, thus <clueType>enhancing</clueType> the transcriptional activity of GR.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

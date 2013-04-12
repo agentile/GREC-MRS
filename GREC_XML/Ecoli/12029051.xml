@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12029051">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12029051</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Dam- and OxyR-dependent phase variation of agn43: essential elements and evidence for a new role of DNA methylation.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Phase variation of the outer membrane protein Ag43 in E. coli requires deoxyadenosine methylase (Dam) and OxyR.</sentence>
+<sentence id="S4">Previously, it was shown that <term sem="Repressor" id="T1" lex="OxyR">OxyR</term> is required for repression of the Ag43-encoding gene, <term sem="Gene" id="T2" lex="agn43">agn43</term>, and that <term sem="SPAN" id="T3" lex="Dam-dependent">Dam-dependent</term> methylation of <term sem="SPAN" id="T4" lex="three_GATC_target_sequences">three GATC target sequences</term> <term sem="SPAN" id="T5" lex="in_the_regulatory_region">in the regulatory region</term> abrogates <term sem="SPAN" id="T6" lex="OxyR_binding">OxyR binding</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Purpose idref="E2" />
+<clue>Previously, it was shown that OxyR is <clueType>required</clueType> for repression of the Ag43-encoding gene, agn43, and that Dam-dependent methylation of three GATC target sequences in the regulatory region abrogates OxyR binding.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Repression" />
+<Theme idref="T2" />
+<clue>Previously, it was shown that OxyR is required for <clueType>repression</clueType> of the Ag43-encoding gene, agn43, and that Dam-dependent methylation of three GATC target sequences in the regulatory region abrogates OxyR binding.</clue>
+</event>
+<event id="E3">
+<type class="Methylation" />
+<Theme idref="T4" />
+<Manner idref="T3" />
+<Location idref="T5" />
+<clue>Previously, it was shown that OxyR is required for repression of the Ag43-encoding gene, agn43, and that Dam-dependent <clueType>methylation</clueType> of three GATC target sequences in the regulatory region abrogates OxyR binding.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="E3" />
+<Theme idref="T6" />
+<clue>Previously, it was shown that OxyR is required for repression of the Ag43-encoding gene, agn43, and that Dam-dependent methylation of three GATC target sequences in the regulatory region <clueType>abrogates</clueType> OxyR binding.</clue>
+</event>
+<sentence id="S5">Here we report further characterization of <term sem="Gene" id="T7" lex="agn43">agn43</term> transcription and its regulation.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T7" />
+<clue>Here we report further characterization of agn43 <clueType>transcription</clueType> and its regulation.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<Theme idref="T7" />
+<clue>Here we report further characterization of agn43 transcription and its <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S6"><term sem="Transcription" id="T8" lex="Transcription">Transcription</term> was initiated from <term sem="Promoter" id="T9" lex="a_sigma(70)-dependent_promoter">a sigma(70)-dependent promoter</term> at the G residue of the upstream GATC sequence.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T8" />
+<Source idref="T9" />
+<clue>Transcription was <clueType>initiated</clueType> from a sigma(70)-dependent promoter at the G residue of the upstream GATC sequence.</clue>
+</event>
+<sentence id="S7">Template DNA and RNA polymerase were sufficient to obtain <term sem="Transcription" id="T10" lex="transcription">transcription</term> <term sem="SPAN" id="T11" lex="in_vitro">in vitro</term>, but <term sem="DNA" id="T12" lex="DNA">DNA</term> methylation enhanced <term sem="SPAN" id="T13" lex="the_level_of_transcription">the level of <term sem="Transcription" id="T14" lex="transcription">transcription</term></term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T10" />
+<Condition idref="T11" />
+<clue>Template DNA and RNA polymerase were sufficient to <clueType>obtain</clueType> transcription in vitro, but DNA methylation enhanced the level of transcription.</clue>
+</event>
+<event id="E9">
+<type class="Methylation" />
+<Theme idref="T12" />
+<clue>Template DNA and RNA polymerase were sufficient to obtain transcription in vitro, but DNA <clueType>methylation</clueType> enhanced the level of transcription.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T13" />
+<clue>Template DNA and RNA polymerase were sufficient to obtain transcription in vitro, but DNA methylation <clueType>enhanced</clueType> the level of transcription.</clue>
+</event>
+<sentence id="S8">Analyses of transcription <term sem="SPAN" id="T15" lex="in_vivo">in vivo</term> of <term sem="Gene" id="T16" lex="agn'-lacZ">agn'-lacZ</term> with mutated Dam target sequences support this conclusion.</sentence>
+<event id="E11">
+<type class="Transcription" />
+<Theme idref="T16" />
+<Condition idref="T15" />
+<clue>Analyses of <clueType>transcription</clueType> in vivo of agn'-lacZ with mutated Dam target sequences support this conclusion.</clue>
+</event>
+<sentence id="S9">Since <term sem="Methylation" id="T17" lex="methylation">methylation</term> also abrogates <term sem="SPAN" id="T18" lex="OxyR_binding">OxyR binding</term>, this indicates that <term sem="Methylation" id="T19" lex="methylation">methylation</term> plays a dual role in facilitating <term sem="Gene" id="T20" lex="agn43">agn43</term> transcription.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>Since methylation also <clueType>abrogates</clueType> OxyR binding, this indicates that methylation plays a dual role in facilitating agn43 transcription.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E14" />
+<clue>Since methylation also abrogates OxyR binding, this indicates that methylation plays a dual role in <clueType>facilitating</clueType> agn43 transcription.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<Theme idref="T20" />
+<clue>Since methylation also abrogates OxyR binding, this indicates that methylation plays a dual role in facilitating agn43 <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S10"><term sem="SPAN" id="T21" lex="In_vitro">In vitro</term> transcription from <term sem="DNA" id="T22" lex="an_unmethylated_template">an unmethylated template</term> was repressed by <term sem="Repressor" id="T23" lex="OxyR(C199S)">OxyR(C199S)</term>, which resembles the reduced form of OxyR.</sentence>
+<event id="E15">
+<type class="Transcription" />
+<Manner idref="T21" />
+<Source idref="T22" />
+<clue>In vitro <clueType>transcription</clueType> from an unmethylated template was repressed by OxyR(C199S), which resembles the reduced form of OxyR.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Repression" />
+<Agent idref="T23" />
+<Theme idref="E15" />
+<clue>In vitro transcription from an unmethylated template was <clueType>repressed</clueType> by OxyR(C199S), which resembles the reduced form of OxyR.</clue>
+</event>
+<sentence id="S11">Consistent with this and the role of Dam in OxyR binding, OxyR(C199S) protected from DNase I digestion the agn43 regulatory region from -16 to +42, which includes the three GATC sequences.</sentence>
+<sentence id="S12">Deletion analyses of the regulatory region showed that <term sem="SPAN" id="T24" lex="a_101-nucleotide_region">a 101-nucleotide region</term> of the agn43 regulatory region containing <term sem="Promoter" id="T25" lex="the_promoter">the promoter</term> and this OxyR binding region was sufficient for Dam- and OxyR-dependent phase variation.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T24" />
+<Descriptive-Theme idref="T25" />
+<clue>Deletion analyses of the regulatory region showed that a 101-nucleotide region of the agn43 regulatory region <clueType>containing</clueType> the promoter and this OxyR binding region was sufficient for Dam- and OxyR-dependent phase variation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

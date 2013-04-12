@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1569101">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1569101</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The human T cell transcription factor-1 gene.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Structure, localization, and promoter characterization.</sentence>
+<sentence id="S4">We have recently isolated cDNA clones representing four alternative splice forms of a T cell-specific transcription factor, TCF-1.</sentence>
+<sentence id="S5">Here we report the characterization of <term sem="Gene" id="T1" lex="the_human_gene">the human gene</term> encoding <term sem="Transcription_Factor" id="T2" lex="this_factor">this factor</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Here we report the characterization of the human gene <clueType>encoding</clueType> this factor.</clue>
+</event>
+<sentence id="S6">The TCF-1 gene is contained in 10 exons including an untranslated first exon.</sentence>
+<sentence id="S7">The DNA-binding high mobility group <term sem="Transcription_Binding_Site" id="T3" lex="(HMG)_box">(HMG) box</term> of TCF-1 is encoded by the closely spaced exons <term sem="Locus" id="T4" lex="VI_and_VII">VI and VII</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<clue>The DNA-binding high mobility group (HMG) box of TCF-1 is <clueType>encoded</clueType> by the closely spaced exons VI and VII.</clue>
+</event>
+<sentence id="S8"><term sem="SPAN" id="T5" lex="Differential_splicing">Differential splicing</term> involves an alternative exon (<term sem="Locus" id="T6" lex="IX">IX</term>) and <term sem="Locus" id="T7" lex="three_splice_acceptor_sites">three splice acceptor sites</term> in exon X.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Descriptive-Theme idref="T6" idref1="T7" />
+<clue>Differential splicing <clueType>involves</clueType> an alternative exon (IX) and three splice acceptor sites in exon X.</clue>
+</event>
+<sentence id="S9">Based on comparison of sequence and on the placement of an alternative exon, TCF-1 appears closely related to the recently characterized HMG box transcription factor TCF-1 alpha/LEF.</sentence>
+<sentence id="S10">In particular, <term sem="Transcription_Binding_Site" id="T8" lex="the_HMG_boxes">the HMG boxes</term> encoded by <term sem="Gene" id="T9" lex="the_two_TCF_genes">the two TCF genes</term> are virtually identical.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T8" />
+<clue>In particular, the HMG boxes <clueType>encoded</clueType> by the two TCF genes are virtually identical.</clue>
+</event>
+<sentence id="S11">The TCF-1 gene resides on chromosome 5 band q31.1.</sentence>
+<sentence id="S12">The TCF-1 promoter coincides with a CpG island.</sentence>
+<sentence id="S13">As determined by chloramphenicol acetyltransferase analysis, the promoter is preferentially active in T cells.</sentence>
+<sentence id="S14"><term sem="Promoter" id="T10" lex="The_promoter">The promoter</term> does not contain <term sem="Transcription_Binding_Site" id="T11" lex="TCF-1/TCF-1_alpha_binding_sites">TCF-1/TCF-1 alpha binding sites</term> and is therefore not autoregulated.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T10" />
+<Descriptive-Theme idref="T11" />
+<clue>The promoter does not <clueType>contain</clueType> TCF-1/TCF-1 alpha binding sites and is therefore not autoregulated.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<Theme idref="T10" />
+<clue>The promoter does not contain TCF-1/TCF-1 alpha binding sites and is therefore not <clueType>autoregulated</clueType>.</clue>
+</event>
+<sentence id="S15">This observation implies the existence of yet uncharacterized T cell transcription factors that are active during early T cell differentiation.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

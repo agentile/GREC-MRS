@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10463182">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10463182</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Genetic analysis of the GcvA binding site in the gcvA control region.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Regulator" id="T1" lex="The_GcvA_protein">The GcvA protein</term> both activates and represses <term sem="Operon" id="T2" lex="the_gcv_operon">the gcv operon</term> and <term sem="SPAN" id="T3" lex="negatively">negatively</term> regulates <term sem="Transcription" id="T4" lex="its_own_transcription">its own transcription</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The GcvA protein both <clueType>activates</clueType> and represses the gcv operon and negatively regulates its own transcription.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The GcvA protein both activates and <clueType>represses</clueType> the gcv operon and negatively regulates its own transcription.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T4" />
+<Manner idref="T3" />
+<clue>The GcvA protein both activates and represses the gcv operon and negatively <clueType>regulates</clueType> its own transcription.</clue>
+</event>
+<sentence id="S4"><term sem="Regulator" id="T5" lex="GcvA">GcvA</term> binds to <term sem="DNA" id="T6" lex="three_sites">three sites</term> <term sem="SPAN" id="T7" lex="in_the_gcv_control_region">in <term sem="DNA" id="T8" lex="the_gcv_control_region">the gcv control region</term></term> and to <term sem="DNA" id="T9" lex="one_site">one site</term> in the gcvA control region; each of <term sem="DNA" id="T10" lex="these_binding_sites">these binding sites</term> contains <term sem="DNA" id="T11" lex="the_conserved_5_bp_DNA_sequence_5'-CTAAT-3">the conserved 5 bp DNA sequence 5'-CTAAT-3</term>'.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Location idref="T7" />
+<Destination idref="T6" idref1="T9" />
+<clue>GcvA <clueType>binds</clueType> to three sites in the gcv control region and to one site in the gcvA control region; each of these binding sites contains the conserved 5 bp DNA sequence 5'-CTAAT-3'.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T10" />
+<Descriptive-Theme idref="T11" />
+<clue>GcvA binds to three sites in the gcv control region and to one site in the gcvA control region; each of these binding sites <clueType>contains</clueType> the conserved 5 bp DNA sequence 5'-CTAAT-3'.</clue>
+</event>
+<sentence id="S5">This report describes the role <term sem="SPAN" id="T12" lex="this_DNA_sequence">this DNA sequence</term> plays in <term sem="SPAN" id="T13" lex="autoregulation">autoregulation</term> and <term sem="SPAN" id="T14" lex="expression">expression</term> of <term sem="SPAN" id="T15" lex="gcvA">gcvA</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Descriptive-Agent idref="T13" idref1="T14" />
+<clue>This report describes the role this DNA sequence <clueType>plays</clueType> in autoregulation and expression of gcvA.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<Theme idref="T15" />
+<clue>This report describes the role this DNA sequence plays in <clueType>autoregulation</clueType> and expression of gcvA.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>This report describes the role this DNA sequence plays in autoregulation and <clueType>expression</clueType> of gcvA.</clue>
+</event>
+<sentence id="S6">Through single base-pair mutations, the importance of three of these five basepairs in the autoregulation of <term sem="Gene" id="T16" lex="gcvA">gcvA</term> expression is shown.</sentence>
+<event id="E9">
+<type class="Regulation" />
+<Theme idref="E10" />
+<clue>Through single base-pair mutations, the importance of three of these five basepairs in the <clueType>autoregulation</clueType> of gcvA expression is shown.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>Through single base-pair mutations, the importance of three of these five basepairs in the autoregulation of gcvA <clueType>expression</clueType> is shown.</clue>
+</event>
+<sentence id="S7"><term sem="SPAN" id="T17" lex="Two_of_the_gcvA_control_region_mutations">Two of the gcvA control region mutations</term> described cause <term sem="Mutant_Gene" id="T18" lex="a_gcvA::lacZ_fusion">a gcvA::lacZ fusion</term> to be overexpressed at <term sem="SPAN" id="T19" lex="9-24_times_the_wild-type_level">9-24 times the wild-type level</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="E12" />
+<clue>Two of the gcvA control region mutations described <clueType>cause</clueType> a gcvA::lacZ fusion to be overexpressed at 9-24 times the wild-type level.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T18" />
+<Rate idref="T19" />
+<clue>Two of the gcvA control region mutations described cause a gcvA::lacZ fusion to be <clueType>overexpressed</clueType> at 9-24 times the wild-type level.</clue>
+</event>
+<sentence id="S8">The increase in <term sem="Gene_Expression" id="T20" lex="expression">expression</term> is due in part to a complete loss of autoregulation and in part to a GcvA-independent mechanism.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T20" />
+<clue>The <clueType>increase</clueType> in expression is due in part to a complete loss of autoregulation and in part to a GcvA-independent mechanism.</clue>
+</event>
+<sentence id="S9">One of the mutants was shown by Western blot analysis to increase the intracellular concentration of GcvA.</sentence>
+<sentence id="S10">This high level of <term sem="Gene" id="T21" lex="gcvA">gcvA</term> expression subsequently causes the loss of <term sem="SPAN" id="T22" lex="purine-mediated">purine-mediated</term> repression of <term sem="Mutant_Gene" id="T23" lex="a_gcvT::lacZ_fusion">a gcvT::lacZ fusion</term>.</sentence>
+<event id="E14">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<clue>This high level of gcvA <clueType>expression</clueType> subsequently causes the loss of purine-mediated repression of a gcvT::lacZ fusion.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E14" />
+<Theme idref="E16" />
+<clue>This high level of gcvA expression subsequently <clueType>causes</clueType> the loss of purine-mediated repression of a gcvT::lacZ fusion.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="E17" />
+<clue>This high level of gcvA expression subsequently causes the <clueType>loss</clueType> of purine-mediated repression of a gcvT::lacZ fusion.</clue>
+</event>
+<event id="E17">
+<type class="Gene_Repression" />
+<Theme idref="T23" />
+<Manner idref="T22" />
+<clue>This high level of gcvA expression subsequently causes the loss of purine-mediated <clueType>repression</clueType> of a gcvT::lacZ fusion.</clue>
+</event>
+<sentence id="S11">However, overexpression of <term sem="Gene" id="T24" lex="gcvR">gcvR</term> re-established <term sem="SPAN" id="T25" lex="purine-mediated">purine-mediated</term> repression of <term sem="Mutant_Gene" id="T26" lex="the_gcvT::lacZ_fusion">the gcvT::lacZ fusion</term>, supporting the model for <term sem="Gene" id="T27" lex="gcv">gcv</term> regulation that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate regulation of <term sem="Gene" id="T28" lex="gcv">gcv</term> expression in response to <term sem="SPAN" id="T29" lex="glycine_and_purine_availability">glycine and purine availability</term>.</sentence>
+<event id="E18">
+<type class="Gene_Expression" />
+<Theme idref="T24" />
+<clue>However, <clueType>overexpression</clueType> of gcvR re-established purine-mediated repression of the gcvT::lacZ fusion, supporting the model for gcv regulation that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate regulation of gcv expression in response to glycine and purine availability.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Repression" />
+<Theme idref="T26" />
+<Manner idref="T25" />
+<clue>However, overexpression of gcvR re-established purine-mediated <clueType>repression</clueType> of the gcvT::lacZ fusion, supporting the model for gcv regulation that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate regulation of gcv expression in response to glycine and purine availability.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<Theme idref="T27" />
+<clue>However, overexpression of gcvR re-established purine-mediated repression of the gcvT::lacZ fusion, supporting the model for gcv <clueType>regulation</clueType> that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate regulation of gcv expression in response to glycine and purine availability.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Theme idref="E22" />
+<Condition idref="T29" />
+<clue>However, overexpression of gcvR re-established purine-mediated repression of the gcvT::lacZ fusion, supporting the model for gcv regulation that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate <clueType>regulation</clueType> of gcv expression in response to glycine and purine availability.</clue>
+</event>
+<event id="E22">
+<type class="Gene_Expression" />
+<Theme idref="T28" />
+<clue>However, overexpression of gcvR re-established purine-mediated repression of the gcvT::lacZ fusion, supporting the model for gcv regulation that suggests the need for a relatively constant GcvA to GcvR ratio for appropriate regulation of gcv <clueType>expression</clueType> in response to glycine and purine availability.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8955407">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8955407</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Lrp is a direct repressor of the dad operon in Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression of the degradative D-amino acid dehydrogenase <term sem="Operon" id="T1" lex="(dad)_operon">(dad) operon</term> is known to be increased when <term sem="Wild_Type_Bacteria" id="T2" lex="Escherichia_coli"><term sem="SPAN" id="T3" lex="Escherichia_coli_is_grown_in_the_presence_of_D-_or_L-alanine">Escherichia coli is grown in the presence of <term sem="Amino_Acids" id="T4" lex="D-_or_L-alanine">D- or L-alanine</term></term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue><clueType>Expression</clueType> of the degradative D-amino acid dehydrogenase (dad) operon is known to be increased when Escherichia coli is grown in the presence of D- or L-alanine.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="E1" />
+<Temporal idref="T3" />
+<clue>Expression of the degradative D-amino acid dehydrogenase (dad) operon is known to be <clueType>increased</clueType> when Escherichia coli is grown in the presence of D- or L-alanine.</clue>
+</event>
+<sentence id="S4"><term sem="Amino_Acids" id="T5" lex="Alanine">Alanine</term> is thought to act as <term sem="SPAN" id="T6" lex="an_inducer">an inducer</term> to block <term sem="SPAN" id="T7" lex="the_action">the action</term> of <term sem="Repressor" id="T8" lex="a_postulated_repressor">a postulated repressor</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Descriptive-Agent idref="T6" />
+<Purpose idref="E5" />
+<clue>Alanine is thought to <clueType>act</clueType> as an inducer to block the action of a postulated repressor.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T7" />
+<clue>Alanine is thought to act as an inducer to <clueType>block</clueType> the action of a postulated repressor.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T8" />
+<clue>Alanine is thought to act as an inducer to block the <clueType>action</clueType> of a postulated repressor.</clue>
+</event>
+<sentence id="S5"><term sem="Operon" id="T9" lex="This_operon">This operon</term> is also believed to be regulated by <term sem="Organic_Compounds" id="T10" lex="catabolite">catabolite</term> repression.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T9" />
+<clue>This operon is also believed to be <clueType>regulated</clueType> by catabolite repression.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Repression" />
+<Agent idref="T10" />
+<clue>This operon is also believed to be regulated by catabolite <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S6">We have used in vivo and in vitro experiments that show that the dad repressor is the leucine-responsive regulatory protein (Lrp).</sentence>
+<sentence id="S7"><term sem="Gene" id="T11" lex="dad">dad</term> expression <term sem="SPAN" id="T12" lex="in_a_dad-lacZ_operon_fusion_strain">in <term sem=" Mutant_Bacteria" id="T13" lex="a_dad-lacZ_operon_fusion_strain">a dad-lacZ operon fusion strain</term></term> was increased <term sem="SPAN" id="T14" lex="four-_to_sevenfold">four- to sevenfold</term> when <term sem="Bacteria" id="T15" lex="cells"><term sem="SPAN" id="T16" lex="cells_were_grown_in_minimal_medium_containing_alanine_or_leucine">cells were grown in minimal medium containing <term sem="Amino_Acids" id="T17" lex="alanine_or_leucine">alanine or leucine</term></term></term>.</sentence>
+<event id="E8">
+<type class="Gene_Activation" />
+<Theme idref="T11" />
+<Location idref="T12" />
+<clue>dad <clueType>expression</clueType> in a dad-lacZ operon fusion strain was increased four- to sevenfold when cells were grown in minimal medium containing alanine or leucine.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="E8" />
+<Rate idref="T14" />
+<Temporal idref="T16" />
+<clue>dad expression in a dad-lacZ operon fusion strain was <clueType>increased</clueType> four- to sevenfold when cells were grown in minimal medium containing alanine or leucine.</clue>
+</event>
+<sentence id="S8">A strain lacking Lrp had <term sem="SPAN" id="T18" lex="high-level_constitutive">high-level constitutive</term> <term sem="Gene" id="T19" lex="dad">dad</term> expression.</sentence>
+<event id="E10">
+<type class="Gene_Activation" />
+<Theme idref="T19" />
+<Manner idref="T18" />
+<clue>A strain lacking Lrp had high-level constitutive dad <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S9">Gel retardation and footprinting studies revealed that <term sem="Repressor" id="T20" lex="Lrp">Lrp</term> binds <term sem="SPAN" id="T21" lex="in_vitro">in vitro</term> to <term sem="DNA" id="T22" lex="multiple_sites"><term sem="SPAN" id="T23" lex="multiple_sites_over_a_large_area_in_the_dad_promoter_region">multiple sites over a large area in <term sem="Promoter" id="T24" lex="the_dad_promoter_region">the dad promoter region</term></term></term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T20" />
+<Manner idref="T21" />
+<Destination idref="T23" />
+<clue>Gel retardation and footprinting studies revealed that Lrp <clueType>binds</clueType> in vitro to multiple sites over a large area in the dad promoter region.</clue>
+</event>
+<sentence id="S10"><term sem="SPAN" id="T25" lex="This_binding">This binding</term> was reduced by <term sem="Amino_Acids" id="T26" lex="alanine">alanine</term> or <term sem="Amino_Acids" id="T27" lex="leucine">leucine</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T26" idref1="T27" />
+<Theme idref="T25" />
+<clue>This binding was <clueType>reduced</clueType> by alanine or leucine.</clue>
+</event>
+<sentence id="S11">In vitro transcription assays, using a plasmid template and primer extension analysis, identified three major dad transcripts (Tr1, Tr2, and Tr3).</sentence>
+<sentence id="S12">The formation of <term sem="mRNA" id="T28" lex="these_transcripts">these transcripts</term> was <term sem="SPAN" id="T29" lex="differentially">differentially</term> regulated by <term sem="Protein_Complex" id="T30" lex="cyclic_AMP-cyclic_AMP_receptor_protein_complex">cyclic AMP-cyclic AMP receptor protein complex</term>, and each was strongly repressed by <term sem="Repressor" id="T31" lex="Lrp">Lrp</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T28" />
+<clue><clueType>The formation</clueType> of these transcripts was differentially regulated by cyclic AMP-cyclic AMP receptor protein complex, and each was strongly repressed by Lrp.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T30" />
+<Theme idref="E13" />
+<Manner idref="T29" />
+<clue>The formation of these transcripts was differentially <clueType>regulated</clueType> by cyclic AMP-cyclic AMP receptor protein complex, and each was strongly repressed by Lrp.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="E13" />
+<clue>The formation of these transcripts was differentially regulated by cyclic AMP-cyclic AMP receptor protein complex, and each was strongly <clueType>repressed</clueType> by Lrp.</clue>
+</event>
+<sentence id="S13"><term sem="Amino_Acids" id="T32" lex="Alanine">Alanine</term> or <term sem="Amino_Acids" id="T33" lex="leucine">leucine</term> <term sem="SPAN" id="T34" lex="completely">completely</term> (for Tr1 and Tr2) or <term sem="SPAN" id="T35" lex="partially">partially</term> (for Tr3) reversed <term sem="Repressor" id="T36" lex="Lrp">Lrp</term> inhibition.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T32" idref1="T33" />
+<Theme idref="E17" />
+<Manner idref="T34" idref1="T35" />
+<clue>Alanine or leucine completely (for Tr1 and Tr2) or partially (for Tr3) <clueType>reversed</clueType> Lrp inhibition.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T36" />
+<clue>Alanine or leucine completely (for Tr1 and Tr2) or partially (for Tr3) reversed Lrp <clueType>inhibition</clueType>.</clue>
+</event>
+<sentence id="S14"><term sem="SPAN" id="T37" lex="Site-directed">Site-directed</term> mutagenesis of an Lrp binding site strongly reduced <term sem="Repressor" id="T38" lex="Lrp">Lrp</term> binding and prevented <term sem="Repressor" id="T39" lex="Lrp">Lrp</term> repression of <term sem="Gene" id="T40" lex="dad">dad</term> transcription <term sem="SPAN" id="T41" lex="in_vivo">in vivo</term> and <term sem="SPAN" id="T42" lex="in_vitro">in vitro</term>.</sentence>
+<event id="E18">
+<type class="Laboratory_Technique" />
+<Manner idref="T37" />
+<clue>Site-directed <clueType>mutagenesis</clueType> of an Lrp binding site strongly reduced Lrp binding and prevented Lrp repression of dad transcription in vivo and in vitro.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="E20" />
+<Manner idref="T41" idref1="T42" />
+<clue>Site-directed mutagenesis of an Lrp binding site strongly <clueType>reduced</clueType> Lrp binding and prevented Lrp repression of dad transcription in vivo and in vitro.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T38" />
+<clue>Site-directed mutagenesis of an Lrp binding site strongly reduced Lrp <clueType>binding</clueType> and prevented Lrp repression of dad transcription in vivo and in vitro.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="E22" />
+<Manner idref="T41" idref1="T42" />
+<clue>Site-directed mutagenesis of an Lrp binding site strongly reduced Lrp binding and <clueType>prevented</clueType> Lrp repression of dad transcription in vivo and in vitro.</clue>
+</event>
+<event id="E22">
+<type class="Gene_Repression" />
+<Agent idref="T39" />
+<Theme idref="E23" />
+<clue>Site-directed mutagenesis of an Lrp binding site strongly reduced Lrp binding and prevented Lrp <clueType>repression</clueType> of dad transcription in vivo and in vitro.</clue>
+</event>
+<event id="E23">
+<type class="Transcription" />
+<Theme idref="T40" />
+<clue>Site-directed mutagenesis of an Lrp binding site strongly reduced Lrp binding and prevented Lrp repression of dad <clueType>transcription</clueType> in vivo and in vitro.</clue>
+</event>
+<sentence id="S15">Taken together, these results strongly suggest that <term sem="Repressor" id="T43" lex="Lrp">Lrp</term> and <term sem="Amino_Acids" id="T44" lex="alanine">alanine</term> or <term sem="Amino_Acids" id="T45" lex="leucine">leucine</term> act <term sem="SPAN" id="T46" lex="directly">directly</term> to repress and induce, <term sem="SPAN" id="T47" lex="respectively">respectively</term>, transcription of <term sem="Operon" id="T48" lex="the_dad_operon">the dad operon</term>.</sentence>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="T43" />
+<Agent idref="T44" idref1="T45" />
+<Manner idref="T46" />
+<Purpose idref="E25" />
+<clue>Taken together, these results strongly suggest that Lrp and alanine or leucine <clueType>act</clueType> directly to repress and induce, respectively, transcription of the dad operon.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="T43" />
+<Agent idref="T44" idref1="T45" />
+<Theme idref="E26" />
+<Manner idref="T47" />
+<clue>Taken together, these results strongly suggest that Lrp and alanine or leucine act directly to <clueType>repress</clueType> and induce, respectively, transcription of the dad operon.</clue>
+</event>
+<event id="E26">
+<type class="Transcription" />
+<Theme idref="T48" />
+<clue>Taken together, these results strongly suggest that Lrp and alanine or leucine act directly to repress and induce, respectively, <clueType>transcription</clueType> of the dad operon.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

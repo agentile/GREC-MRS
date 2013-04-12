@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8921387">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8921387</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of EZH1, a human homolog of Drosophila Enhancer of zeste near BRCA1.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Recent transcription mapping efforts within chromosome 17q21 have led to the identification of a human homolog of the Drosophila gene Enhancer of zeste, E(z).</sentence>
+<sentence id="S4">A member of the Polycomb group (Pc-G) of proteins, <term sem="Regulator" id="T1" lex="Drosophila_E(z)">Drosophila E(z)</term> acts as <term sem="Regulator" id="T2" lex="a_negative_regulator">a negative regulator</term> of the segment identity genes of the Antennapedia and Bithorax complexes.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Descriptive-Agent idref="T2" />
+<clue>A member of the Polycomb group (Pc-G) of proteins, Drosophila E(z) <clueType>acts</clueType> as a negative regulator of the segment identity genes of the Antennapedia and Bithorax complexes.</clue>
+</event>
+<sentence id="S5">Here we report the full-length protein coding sequence of human EZH1 (Enhancer of zeste homolog 1) and compare the respective protein sequences in both species.</sentence>
+<sentence id="S6"><term sem="Gene" id="T3" lex="EZH1">EZH1</term> encodes <term sem="Protein" id="T4" lex="a_protein">a protein</term> of 747 amino acids that displays 55% amino acid identity overall (70% similarity) with Drosophila E(z).</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>EZH1 <clueType>encodes</clueType> a protein of 747 amino acids that displays 55% amino acid identity overall (70% similarity) with Drosophila E(z).</clue>
+</event>
+<sentence id="S7">The strongest homology was noted (79% identity, 89% similarity) within the carboxy-terminal 245 amino acids, including the SET domain, a region of E(z) also conserved in other Drosophila proteins with roles in development and/or chromatin structure.</sentence>
+<sentence id="S8">A large Cysrich region with a novel spatial pattern of cysteine residues was also conserved in both EZH1 and E(z).</sentence>
+<sentence id="S9">The strong sequence conservation suggest potential roles for EZH1 in human development as a transcriptional regulator and as a component of <term sem="Protein_Complex" id="T5" lex="protein_complexes">protein complexes</term> that stably maintain <term sem="SPAN" id="T6" lex="heterochromatin">heterochromatin</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>The strong sequence conservation suggest potential roles for EZH1 in human development as a transcriptional regulator and as a component of protein complexes that stably <clueType>maintain</clueType> heterochromatin.</clue>
+</event>
+<sentence id="S10"><term sem="Gene" id="T7" lex="EZH1">EZH1</term> is expressed as <term sem="mRNA" id="T8" lex="two_major_transcripts">two major transcripts</term> <term sem="SPAN" id="T9" lex="in_all_adult_and_fetal_human_tissues">in <term sem="Tissue" id="T10" lex="all_adult_and_fetal_human_tissues">all adult and fetal human tissues</term></term> surveyed; comparison of cloned cDNAs suggests that alternative splicing may account for at least part of the transcript size difference.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T7" />
+<Location idref="T9" />
+<Descriptive-Theme idref="T8" />
+<clue>EZH1 is <clueType>expressed</clueType> as two major transcripts in all adult and fetal human tissues surveyed; comparison of cloned cDNAs suggests that alternative splicing may account for at least part of the transcript size difference.</clue>
+</event>
+<sentence id="S11">Analysis of one cDNA revealed <term sem="SPAN" id="T11" lex="an_unusual_splicing_event">an unusual splicing event</term> involving <term sem="Gene" id="T12" lex="EZH1">EZH1</term> and <term sem="Gene" id="T13" lex="a_tandemly_linked_gene_GPR2">a tandemly linked gene GPR2</term> and suggests a potential mechanism for modifying <term sem="Protein" id="T14" lex="the_EZH1_protein">the EZH1 protein</term> in the conserved C-terminal domain.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T12" idref1="T13" />
+<clue>Analysis of one cDNA revealed an unusual splicing event <clueType>involving</clueType> EZH1 and a tandemly linked gene GPR2 and suggests a potential mechanism for modifying the EZH1 protein in the conserved C-terminal domain.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T14" />
+<clue>Analysis of one cDNA revealed an unusual splicing event involving EZH1 and a tandemly linked gene GPR2 and suggests a potential mechanism for <clueType>modifying</clueType> the EZH1 protein in the conserved C-terminal domain.</clue>
+</event>
+<sentence id="S12">The sequence and isolated cDNAs will provide useful reagents for determining the function of EZH1 and the importance of the evolutionarily conserved domains.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

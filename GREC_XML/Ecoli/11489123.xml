@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11489123">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11489123</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">MlrA, a novel regulator of curli (AgF) and extracellular matrix synthesis by Escherichia coli and Salmonella enterica serovar Typhimurium.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Production of curli (AgF) adhesins by Escherichia coli and Salmonella enterica serovar Typhimurium (S. typhimurium) is associated with extracellular matrix production and is optimal at low temperature during stationary phase.</sentence>
+<sentence id="S4">Curli and extracellular matrix synthesis involves a complex regulatory network that is dependent on the CsgD (AgfD) regulator.</sentence>
+<sentence id="S5">We have identified a novel regulator, termed <term sem="Regulator" id="T1" lex="MlrA">MlrA</term>, that is required for <term sem="SPAN" id="T2" lex="curli_production">curli production</term> and <term sem="SPAN" id="T3" lex="extracellular_matrix_formation">extracellular matrix formation</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Purpose idref="T2" idref1="T3" />
+<clue>We have identified a novel regulator, termed MlrA, that is <clueType>required</clueType> for curli production and extracellular matrix formation.</clue>
+</event>
+<sentence id="S6">Two cosmids from a genomic library of avian pathogenic E. coli chi7122 conferred mannose-resistant haemagglutination (HA) and curli production to E. coli HB101, which is unable to produce curli owing to a defective regulatory pathway.</sentence>
+<sentence id="S7"><term sem="Gene" id="T4" lex="The_rpoS_gene">The rpoS gene</term>, encoding <term sem="Activator" id="T5" lex="a_known_positive_regulator">a known positive regulator</term> of curli synthesis, and the E. coli open reading frame (ORF) of unknown function, <term sem="Gene" id="T6" lex="yehV">yehV</term>, identified on each of these cosmids, respectively, conferred <term sem="SPAN" id="T7" lex="curli_production">curli production</term> and <term sem="SPAN" id="T8" lex="HA">HA</term> to E. coli HB101.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>The rpoS gene, <clueType>encoding</clueType> a known positive regulator of curli synthesis, and the E. coli open reading frame (ORF) of unknown function, yehV, identified on each of these cosmids, respectively, conferred curli production and HA to E. coli HB101.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" idref1="T6" />
+<Theme idref="T7" idref1="T8" />
+<clue>The rpoS gene, encoding a known positive regulator of curli synthesis, and the E. coli open reading frame (ORF) of unknown function, yehV, identified on each of these cosmids, respectively, <clueType>conferred</clueType> curli production and HA to E. coli HB101.</clue>
+</event>
+<sentence id="S8">We have designated yehV as the mlrA gene for MerR-like regulator A because its product shares similarities with regulatory proteins of the MerR family.</sentence>
+<sentence id="S9"><term sem="SPAN" id="T9" lex="HA_and_curli_production">HA and curli production</term> by strain chi7122 were abolished by disruption of <term sem="Gene" id="T10" lex="rpoS">rpoS</term>, <term sem="Gene" id="T11" lex="mlrA">mlrA</term> or <term sem="Gene" id="T12" lex="csgA">csgA</term>, the curli subunit gene.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="E5" />
+<Theme idref="T9" />
+<clue>HA and curli production by strain chi7122 were <clueType>abolished</clueType> by disruption of rpoS, mlrA or csgA, the curli subunit gene.</clue>
+</event>
+<event id="E5">
+<type class="Mutation" />
+<Theme idref="T10" idref1="T11" idref2="T12" />
+<clue>HA and curli production by strain chi7122 were abolished by <clueType>disruption</clueType> of rpoS, mlrA or csgA, the curli subunit gene.</clue>
+</event>
+<sentence id="S10">Both <term sem="Gene" id="T13" lex="csgD">csgD</term> and <term sem="Gene" id="T14" lex="csgBA">csgBA</term> transcription, required for expression of <term sem="SPAN" id="T15" lex="curli">curli</term>, were inactive in an mlrA mutant grown under <term sem="SPAN" id="T16" lex="conditions">conditions</term> that promote <term sem="SPAN" id="T17" lex="curli_production">curli production</term>.</sentence>
+<event id="E6">
+<type class="Transcription" />
+<Theme idref="T13" idref1="T14" />
+<clue>Both csgD and csgBA <clueType>transcription</clueType>, required for expression of curli, were inactive in an mlrA mutant grown under conditions that promote curli production.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="E6" />
+<Purpose idref="E8" />
+<clue>Both csgD and csgBA transcription, <clueType>required</clueType> for expression of curli, were inactive in an mlrA mutant grown under conditions that promote curli production.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>Both csgD and csgBA transcription, required for <clueType>expression</clueType> of curli, were inactive in an mlrA mutant grown under conditions that promote curli production.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T17" />
+<clue>Both csgD and csgBA transcription, required for expression of curli, were inactive in an mlrA mutant grown under conditions that <clueType>promote</clueType> curli production.</clue>
+</event>
+<sentence id="S11">An mlrA homologue was identified in S. typhimurium.</sentence>
+<sentence id="S12">Analysis of mlrA-lac operon fusions demonstrated that <term sem="Gene" id="T18" lex="mlrA">mlrA</term> was <term sem="SPAN" id="T19" lex="positively">positively</term> regulated by <term sem="Sigma_Factor" id="T20" lex="rpoS">rpoS</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<Agent idref="T20" />
+<Theme idref="T18" />
+<Manner idref="T19" />
+<clue>Analysis of mlrA-lac operon fusions demonstrated that mlrA was positively <clueType>regulated</clueType> by rpoS.</clue>
+</event>
+<sentence id="S13">mlrA mutants of wild-type S. typhimurium SL1344 or SR-11 no longer produced curli or rugose colony morphology, and exhibited enhanced aggregation and extracellular matrix formation when complemented with the mlrA gene from either S. typhimurium or E. coli present on a low-copy-number plasmid.</sentence>
+<sentence id="S14">However, inactivation of <term sem="Gene" id="T21" lex="mlrA">mlrA</term> did not affect <term sem="SPAN" id="T22" lex="curli_production">curli production</term> and <term sem="SPAN" id="T23" lex="aggregative_morphology">aggregative morphology</term> <term sem="SPAN" id="T24" lex="in_an_upregulated_curli_producing_S._typhimurium_derivative">in an upregulated curli producing <term sem=" Mutant_Bacteria" id="T25" lex="S._typhimurium_derivative">S. typhimurium derivative</term></term> containing a temperature- and RpoS-independent agfD promoter region.</sentence>
+<event id="E11">
+<type class="Mutation" />
+<Theme idref="T21" />
+<clue>However, <clueType>inactivation</clueType> of mlrA did not affect curli production and aggregative morphology in an upregulated curli producing S. typhimurium derivative containing a temperature- and RpoS-independent agfD promoter region.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="E11" />
+<Theme idref="T22" idref1="T23" />
+<Location idref="T24" />
+<clue>However, inactivation of mlrA did not <clueType>affect</clueType> curli production and aggregative morphology in an upregulated curli producing S. typhimurium derivative containing a temperature- and RpoS-independent agfD promoter region.</clue>
+</event>
+<sentence id="S15">These results indicate that <term sem="Regulator" id="T26" lex="MlrA">MlrA</term> is a newly defined transcriptional regulator of csgD/agfD that acts as <term sem="Activator" id="T27" lex="a_positive_regulator">a positive regulator</term> of RpoS-dependent curli and extracellular matrix production by E. coli and S. typhimurium.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T26" />
+<Descriptive-Agent idref="T27" />
+<clue>These results indicate that MlrA is a newly defined transcriptional regulator of csgD/agfD that <clueType>acts</clueType> as a positive regulator of RpoS-dependent curli and extracellular matrix production by E. coli and S. typhimurium.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

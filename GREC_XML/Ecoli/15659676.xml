@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15659676">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15659676</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional interactions between the carbon and iron utilization regulators, Crp and Fur, in Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">In Escherichia coli, the ferric uptake regulator (<term sem="Protein" id="T1" lex="Fur">Fur</term>) controls expression of <term sem="Gene" id="T2" lex="the_iron_regulon">the iron regulon</term> in response to <term sem="SPAN" id="T3" lex="iron_availability">iron availability</term> while the cyclic AMP receptor protein (<term sem="Protein" id="T4" lex="Crp">Crp</term>) regulates expression of <term sem="Gene" id="T5" lex="the_carbon_regulon">the carbon regulon</term> in response to <term sem="SPAN" id="T6" lex="carbon_availability">carbon availability</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<Condition idref="T3" />
+<clue>In Escherichia coli, the ferric uptake regulator (Fur) <clueType>controls</clueType> expression of the iron regulon in response to iron availability while the cyclic AMP receptor protein (Crp) regulates expression of the carbon regulon in response to carbon availability.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>In Escherichia coli, the ferric uptake regulator (Fur) controls <clueType>expression</clueType> of the iron regulon in response to iron availability while the cyclic AMP receptor protein (Crp) regulates expression of the carbon regulon in response to carbon availability.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T4" />
+<Theme idref="E4" />
+<Condition idref="T6" />
+<clue>In Escherichia coli, the ferric uptake regulator (Fur) controls expression of the iron regulon in response to iron availability while the cyclic AMP receptor protein (Crp) <clueType>regulates</clueType> expression of the carbon regulon in response to carbon availability.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue>In Escherichia coli, the ferric uptake regulator (Fur) controls expression of the iron regulon in response to iron availability while the cyclic AMP receptor protein (Crp) regulates <clueType>expression</clueType> of the carbon regulon in response to carbon availability.</clue>
+</event>
+<sentence id="S4">We here identify genes subject to significant changes in expression level in response to the loss of both Fur and Crp.</sentence>
+<sentence id="S5"><term sem="Gene" id="T7" lex="Many_iron_transport_genes">Many iron transport genes</term> and <term sem="SPAN" id="T8" lex="several_carbon_metabolic_genes">several carbon metabolic genes</term> are subject to dual control, being repressed by the loss of <term sem="Protein" id="T9" lex="Crp">Crp</term> and activated by the loss of <term sem="Protein" id="T10" lex="Fur">Fur</term>.</sentence>
+<event id="E5">
+<type class="Gene_Repression" />
+<Agent idref="E6" />
+<Theme idref="T7" idref1="T8" />
+<clue>Many iron transport genes and several carbon metabolic genes are subject to dual control, being <clueType>repressed</clueType> by the loss of Crp and activated by the loss of Fur.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T9" />
+<clue>Many iron transport genes and several carbon metabolic genes are subject to dual control, being repressed by the <clueType>loss</clueType> of Crp and activated by the loss of Fur.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="E8" />
+<Theme idref="T7" idref1="T8" />
+<clue>Many iron transport genes and several carbon metabolic genes are subject to dual control, being repressed by the loss of Crp and <clueType>activated</clueType> by the loss of Fur.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T10" />
+<clue>Many iron transport genes and several carbon metabolic genes are subject to dual control, being repressed by the loss of Crp and activated by <clueType>the loss</clueType> of Fur.</clue>
+</event>
+<sentence id="S6">However, <term sem="Gene" id="T11" lex="the_sodB_gene">the sodB gene</term>, encoding <term sem="Enzyme" id="T12" lex="superoxide_dismutase">superoxide dismutase</term>, and <term sem="Operon" id="T13" lex="the_aceBAK_operon">the aceBAK operon</term>, encoding <term sem="Enzyme" id="T14" lex="the_glyoxalate_shunt_enzymes">the glyoxalate shunt enzymes</term>, show the opposite responses, being activated by the loss of <term sem="Protein" id="T15" lex="Crp">Crp</term> and repressed by the loss of <term sem="Protein" id="T16" lex="Fur">Fur</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T11" idref1="T13" />
+<Theme idref="T12" />
+<clue>However, the sodB gene, <clueType>encoding</clueType> superoxide dismutase, and the aceBAK operon, encoding the glyoxalate shunt enzymes, show the opposite responses, being activated by the loss of Crp and repressed by the loss of Fur.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T11" idref1="T13" />
+<Theme idref="T14" />
+<clue>However, the sodB gene, encoding superoxide dismutase, and the aceBAK operon, <clueType>encoding</clueType> the glyoxalate shunt enzymes, show the opposite responses, being activated by the loss of Crp and repressed by the loss of Fur.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Agent idref="E17" />
+<Theme idref="T11" idref1="T13" />
+<clue>However, the sodB gene, encoding superoxide dismutase, and the aceBAK operon, encoding the glyoxalate shunt enzymes, show the opposite responses, being <clueType>activated</clueType> by the loss of Crp and repressed by the loss of Fur.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Repression" />
+<Agent idref="E17" />
+<Theme idref="T11" idref1="T13" />
+<clue>However, the sodB gene, encoding superoxide dismutase, and the aceBAK operon, encoding the glyoxalate shunt enzymes, show the opposite responses, being activated by the loss of Crp and <clueType>repressed</clueType> by the loss of Fur.</clue>
+</event>
+<sentence id="S7">Several other genes including <term sem="Gene" id="T17" lex="the_sdhA-D"><term sem="SPAN" id="T18" lex="the_sdhA-D,_sucA-D">the sdhA-D, sucA-D</term></term>, and <term sem="Gene" id="T19" lex="fumA_genes">fumA genes</term>, encoding <term sem="SPAN" id="T20" lex="key_constituents_of_the_Krebs_cycle">key constituents of the Krebs cycle</term>, proved to be repressed by the loss of <term sem="Transcription_Factor" id="T21" lex="both_transcription_factors">both transcription factors</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T18" idref1="T19" />
+<Theme idref="T20" />
+<clue>Several other genes including the sdhA-D, sucA-D, and fumA genes, <clueType>encoding</clueType> key constituents of the Krebs cycle, proved to be repressed by the loss of both transcription factors.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="E17" />
+<Theme idref="T18" idref1="T19" />
+<clue>Several other genes including the sdhA-D, sucA-D, and fumA genes, encoding key constituents of the Krebs cycle, proved to be <clueType>repressed</clueType> by the loss of both transcription factors.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T15" />
+<clue>Several other genes including the sdhA-D, sucA-D, and fumA genes, encoding key constituents of the Krebs cycle, proved to be repressed by the <clueType>loss</clueType> of both transcription factors.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T16" />
+<clue>Several other genes including the sdhA-D, sucA-D, and fumA genes, encoding key constituents of the Krebs cycle, proved to be repressed by the <clueType>loss</clueType> of both transcription factors.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T21" />
+<clue>Several other genes including the sdhA-D, sucA-D, and fumA genes, encoding key constituents of the Krebs cycle, proved to be repressed by the <clueType>loss</clueType> of both transcription factors.</clue>
+</event>
+<sentence id="S8">Finally, the loss of <term sem="Protein" id="T22" lex="both_Crp_and_Fur">both Crp and Fur</term> activated <term sem="SPAN" id="T23" lex="a_heterogeneous_group_of_genes">a heterogeneous group of <term sem="Gene" id="T24" lex="genes">genes</term></term> under <term sem="Sigma_Factor" id="T25" lex="sigmaS_control">sigmaS control</term> encoding, for example, <term sem="Enzyme" id="T26" lex="the_cyclopropane_fatty_acid_synthase,_Cfa,_the_glycogen_synthesis_protein,_GlgS,_the_30S_ribosomal_protein,_S22,_and_the_mechanosensitive_channel_protein,_YggB.">the cyclopropane fatty acid synthase, Cfa, the glycogen synthesis protein, GlgS, the 30S ribosomal protein, S22, and the mechanosensitive channel protein, YggB.</term></sentence>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T22" />
+<clue>Finally, the <clueType>loss</clueType> of both Crp and Fur activated a heterogeneous group of genes under sigmaS control encoding, for example, the cyclopropane fatty acid synthase, Cfa, the glycogen synthesis protein, GlgS, the 30S ribosomal protein, S22, and the mechanosensitive channel protein, YggB.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="T23" />
+<clue>Finally, the loss of both Crp and Fur <clueType>activated</clueType> a heterogeneous group of genes under sigmaS control encoding, for example, the cyclopropane fatty acid synthase, Cfa, the glycogen synthesis protein, GlgS, the 30S ribosomal protein, S22, and the mechanosensitive channel protein, YggB.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="T26" />
+<Condition idref="T25" />
+<clue>Finally, the loss of both Crp and Fur activated a heterogeneous group of genes under sigmaS control <clueType>encoding</clueType>, for example, the cyclopropane fatty acid synthase, Cfa, the glycogen synthesis protein, GlgS, the 30S ribosomal protein, S22, and the mechanosensitive channel protein, YggB.</clue>
+</event>
+<sentence id="S9"><term sem="Gene" id="T27" lex="Many_genes">Many genes</term> appeared to be regulated by <term sem="Transcription_Factor" id="T28" lex="the_two_transcription_factors">the two transcription factors</term> in an apparently additive fashion, but apparent positive or negative cooperativity characterized several putative Crp/Fur interactions.</sentence>
+<event id="E21">
+<type class="Regulation" />
+<Agent idref="T28" />
+<Theme idref="T27" />
+<clue>Many genes appeared to be <clueType>regulated</clueType> by the two transcription factors in an apparently additive fashion, but apparent positive or negative cooperativity characterized several putative Crp/Fur interactions.</clue>
+</event>
+<sentence id="S10">Relevant published data were evaluated, putative Crp and Fur binding sites were identified, and representative results were confirmed by real-time PCR.</sentence>
+<sentence id="S11">Molecular explanations for some, but not all, of these effects are provided.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

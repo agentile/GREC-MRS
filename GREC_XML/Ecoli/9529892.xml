@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9529892">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9529892</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Maltose/maltodextrin system of Escherichia coli: transport, metabolism, and regulation.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The maltose system of Escherichia coli offers an unusually rich set of enzymes, transporters, and regulators as objects of study.</sentence>
+<sentence id="S4">This system is responsible for the uptake and metabolism of glucose polymers (maltodextrins), which must be a preferred class of nutrients for E. coli in both mammalian hosts and in the environment.</sentence>
+<sentence id="S5">Because the metabolism of glucose polymers must be coordinated with both the anabolic and catabolic uses of glucose and glycogen, an intricate set of <term sem="SPAN" id="T1" lex="regulatory_mechanisms">regulatory mechanisms</term> controls the expression of <term sem="Gene" id="T2" lex="mal_genes">mal genes</term>, the activity of the maltose transporter, and the activities of the maltose/maltodextrin catabolic enzymes.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>Because the metabolism of glucose polymers must be coordinated with both the anabolic and catabolic uses of glucose and glycogen, an intricate set of regulatory mechanisms <clueType>controls</clueType> the expression of mal genes, the activity of the maltose transporter, and the activities of the maltose/maltodextrin catabolic enzymes.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>Because the metabolism of glucose polymers must be coordinated with both the anabolic and catabolic uses of glucose and glycogen, an intricate set of regulatory mechanisms controls the <clueType>expression</clueType> of mal genes, the activity of the maltose transporter, and the activities of the maltose/maltodextrin catabolic enzymes.</clue>
+</event>
+<sentence id="S6">The ease of isolating many of the mal gene products has contributed greatly to the understanding of the structures and functions of several classes of proteins.</sentence>
+<sentence id="S7">Not only was the outer membrane maltoporin, LamB, or the phage lambda receptor, the first virus receptor to be isolated, but also its three-dimensional structure, together with extensive knowledge of functional sites for ligand binding as well as for phage lambda binding, has led to a relatively complete description of this sugar-specific aqueous channel.</sentence>
+<sentence id="S8">The periplasmic maltose binding protein (MBP) has been studied with respect to its role in both maltose transport and maltose taxis.</sentence>
+<sentence id="S9">Again, the combination of structural and functional information has led to a significant understanding of how this soluble receptor participates in signaling the presence of sugar to the chemosensory apparatus as well as how it participates in sugar transport.</sentence>
+<sentence id="S10">The maltose transporter belongs to the ATP binding cassette family, and although its structure is not yet known at atomic resolution, there is some insight into the structures of several functional sites, including those that are involved in interactions with MBP and recognition of substrates and ATP.</sentence>
+<sentence id="S11">A particularly astonishing discovery is the direct participation of <term sem="SPAN" id="T3" lex="the_transporter">the transporter</term> in <term sem="SPAN" id="T4" lex="transcriptional">transcriptional</term> control of <term sem="Operon" id="T5" lex="the_mal_regulon">the mal regulon</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T5" />
+<Manner idref="T4" />
+<clue>A particularly astonishing discovery is the direct participation of the transporter in transcriptional <clueType>control</clueType> of the mal regulon.</clue>
+</event>
+<sentence id="S12"><term sem="Activator" id="T6" lex="The_MalT_protein">The MalT protein</term> activates <term sem="Transcription" id="T7" lex="transcription">transcription</term> <term sem="SPAN" id="T8" lex="at_all_mal_promoters">at <term sem="Promoter" id="T9" lex="all_mal_promoters">all mal promoters</term></term>.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<Location idref="T8" />
+<clue>The MalT protein <clueType>activates</clueType> transcription at all mal promoters.</clue>
+</event>
+<sentence id="S13"><term sem="SPAN" id="T10" lex="A_subset">A subset</term> also requires <term sem="Protein" id="T11" lex="the_cyclic_AMP_receptor_protein">the cyclic AMP receptor protein</term> for transcription.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T10" />
+<Condition idref="T11" />
+<clue>A subset also requires the cyclic AMP receptor protein for <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S14"><term sem="Protein" id="T12" lex="The_MalT_protein">The MalT protein</term> requires maltotriose and ATP as ligands for binding to <term sem="Transcription_Binding_Site" id="T13" lex="a_dodecanucleotide_MalT_box">a dodecanucleotide MalT box</term> that appears in multiple copies <term sem="SPAN" id="T14" lex="upstream_of_all_mal_promoters">upstream of <term sem="Promoter" id="T15" lex="all_mal_promoters">all mal promoters</term></term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Location idref="T14" />
+<Destination idref="T13" />
+<clue>The MalT protein requires maltotriose and ATP as ligands for <clueType>binding</clueType> to a dodecanucleotide MalT box that appears in multiple copies upstream of all mal promoters.</clue>
+</event>
+<sentence id="S15">Recent data indicate that the ATP binding cassette transporter subunit MalK can directly inhibit MalT when the transporter is inactive due to the absence of substrate.</sentence>
+<sentence id="S16">Despite this wealth of knowledge, there are still basic issues that require clarification concerning the mechanism of <term sem="SPAN" id="T16" lex="MalT-mediated">MalT-mediated</term> activation, repression by the transporter, biosynthesis and assembly of the outer membrane and inner membrane transporter proteins, and interrelationships between the mal enzymes and those of glucose and glycogen metabolism.</sentence>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="T16" />
+<clue>Despite this wealth of knowledge, there are still basic issues that require clarification concerning the mechanism of MalT-mediated <clueType>activation</clueType>, repression by the transporter, biosynthesis and assembly of the outer membrane and inner membrane transporter proteins, and interrelationships between the mal enzymes and those of glucose and glycogen metabolism.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=14702398">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>14702398</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Activator" id="T1" lex="GadE">GadE</term> (YhiE): a novel activator involved <term sem="SPAN" id="T2" lex="in_the_response">in the response</term> to acid environment in Escherichia coli.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Descriptive-Theme idref="T2" />
+<clue>GadE (YhiE): a novel activator <clueType>involved</clueType> in the response to acid environment in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">In several Gram-positive and Gram-negative bacteria glutamate decarboxylases play an important role in the maintenance of cellular homeostasis in acid environments.</sentence>
+<sentence id="S4">Here, new insight is brought to the regulation of <term sem="Phenotype" id="T3" lex="the_acid_response">the acid response</term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Theme idref="T3" />
+<Location idref="T4" />
+<clue>Here, new insight is brought to the <clueType>regulation</clueType> of the acid response in Escherichia coli.</clue>
+</event>
+<sentence id="S5">Overexpression of <term sem="Gene" id="T6" lex="yhiE">yhiE</term>, similarly to overexpression of <term sem="Regulator" id="T7" lex="gadX">gadX</term>, a known regulator of <term sem="Enzyme" id="T8" lex="glutamate_decarboxylase">glutamate decarboxylase</term> expression, leads to increased resistance of E. coli strains under high acid conditions, suggesting that YhiE is a regulator of <term sem="Gene" id="T9" lex="gene">gene</term> expression in <term sem="SPAN" id="T10" lex="the_acid_response">the acid response</term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T6" />
+<clue><clueType>Overexpression</clueType> of yhiE, similarly to overexpression of gadX, a known regulator of glutamate decarboxylase expression, leads to increased resistance of E. coli strains under high acid conditions, suggesting that YhiE is a regulator of gene expression in the acid response.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T7" />
+<clue>Overexpression of yhiE, similarly to <clueType>overexpression</clueType> of gadX, a known regulator of glutamate decarboxylase expression, leads to increased resistance of E. coli strains under high acid conditions, suggesting that YhiE is a regulator of gene expression in the acid response.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>Overexpression of yhiE, similarly to overexpression of gadX, a known regulator of glutamate decarboxylase <clueType>expression</clueType>, leads to increased resistance of E. coli strains under high acid conditions, suggesting that YhiE is a regulator of gene expression in the acid response.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<Temporal idref="T10" />
+<clue>Overexpression of yhiE, similarly to overexpression of gadX, a known regulator of glutamate decarboxylase expression, leads to increased resistance of E. coli strains under high acid conditions, suggesting that YhiE is a regulator of gene <clueType>expression</clueType> in the acid response.</clue>
+</event>
+<sentence id="S6">Target genes of both YhiE (renamed GadE) and GadX were identified by a transcriptomic approach.</sentence>
+<sentence id="S7">In vitro experiments with <term sem="Regulator" id="T11" lex="GadE_purified_protein">GadE purified protein</term> provided evidence that this regulator binds to <term sem="Promoter" id="T12" lex="the_promoter_region">the promoter region</term> of these target genes.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T11" />
+<Destination idref="T12" />
+<clue>In vitro experiments with GadE purified protein provided evidence that this regulator <clueType>binds</clueType> to the promoter region of these target genes.</clue>
+</event>
+<sentence id="S8">Several of them are clustered together on the chromosome and this chromosomal organization is conserved in many E. coli strains.</sentence>
+<sentence id="S9">Detailed structural (in silico) analysis of this chromosomal region suggests that the promoters of the corresponding genes are preferentially denatured.</sentence>
+<sentence id="S10">These results, along with the G+C signature of the chromosomal region, support the existence of a fitness island for acid adaptation on the E. coli chromosome.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

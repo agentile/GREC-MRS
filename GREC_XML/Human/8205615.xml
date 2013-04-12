@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8205615">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8205615</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulator" id="T1" lex="Nuclear_receptor_steroidogenic_factor_1">Nuclear receptor steroidogenic factor 1</term> regulates <term sem="Gene" id="T2" lex="the_müllerian_inhibiting_substance_gene">the müllerian inhibiting substance gene</term>: a link to the sex determination cascade.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Nuclear receptor steroidogenic factor 1 <clueType>regulates</clueType> the müllerian inhibiting substance gene: a link to the sex determination cascade.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Normal male sex differentiation requires that Sertoli cells in the embryonic testes produce müllerian inhibiting substance (MIS), a TGF beta-like hormone that causes müllerian duct regression.</sentence>
+<sentence id="S4">In primary Sertoli cells, the orphan nuclear receptor, steroidogenic factor 1 (<term sem="Regulator" id="T3" lex="SF-1">SF-1</term>), regulates <term sem="Gene" id="T4" lex="the_MIS_gene">the MIS gene</term> by binding to <term sem="DNA" id="T5" lex="a_conserved_upstream_regulatory_element">a conserved upstream regulatory element</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<Condition idref="E3" />
+<clue>In primary Sertoli cells, the orphan nuclear receptor, steroidogenic factor 1 (SF-1), <clueType>regulates</clueType> the MIS gene by binding to a conserved upstream regulatory element.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Destination idref="T5" />
+<clue>In primary Sertoli cells, the orphan nuclear receptor, steroidogenic factor 1 (SF-1), regulates the MIS gene by <clueType>binding</clueType> to a conserved upstream regulatory element.</clue>
+</event>
+<sentence id="S5"><term sem="SPAN" id="T6" lex="In">In</term> heterologous (<term sem="SPAN" id="T7" lex="HeLa"><term sem="Cells" id="T8" lex="HeLa)_cells">HeLa) <term sem="SPAN" id="T9" lex="cells">cells</term></term></term>, <term sem="Gene" id="T10" lex="MIS_gene">MIS gene</term> activation by <term sem="Activator" id="T11" lex="SF-1">SF-1</term> requires <term sem="SPAN" id="T12" lex="removal_of_the_SF-1_ligand-binding_domain">removal of the SF-1 ligand-binding domain</term>, implicating a Sertoli cell-specific ligand or cofactor.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T11" />
+<Theme idref="T10" />
+<Location idref="T6" idref1="T7" idref2="T9" />
+<clue>In heterologous (HeLa) cells, MIS gene <clueType>activation</clueType> by SF-1 requires removal of the SF-1 ligand-binding domain, implicating a Sertoli cell-specific ligand or cofactor.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T12" />
+<Location idref="T6" idref1="T7" idref2="T9" />
+<clue>In heterologous (HeLa) cells, MIS gene activation by SF-1 <clueType>requires</clueType> removal of the SF-1 ligand-binding domain, implicating a Sertoli cell-specific ligand or cofactor.</clue>
+</event>
+<sentence id="S6">Finally, the <term sem="SPAN" id="T13" lex="sexually_dimorphic">sexually dimorphic</term> expression of <term sem="SPAN" id="T14" lex="SF-1">SF-1</term> <term sem="SPAN" id="T15" lex="during_development_coincides">during development coincides</term> with <term sem="Gene" id="T16" lex="MIS">MIS</term> expression and müllerian duct regression.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T14" />
+<Manner idref="T13" />
+<Temporal idref="T15" />
+<clue>Finally, the sexually dimorphic <clueType>expression</clueType> of SF-1 during development coincides with MIS expression and müllerian duct regression.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>Finally, the sexually dimorphic expression of SF-1 during development coincides with MIS <clueType>expression</clueType> and müllerian duct regression.</clue>
+</event>
+<sentence id="S7">We propose that <term sem="Regulator" id="T17" lex="SF-1">SF-1</term> regulates <term sem="Gene" id="T18" lex="MIS">MIS</term> <term sem="SPAN" id="T19" lex="in_vivo">in vivo</term> and participates directly in the process of mammalian sex determination.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<Manner idref="T19" />
+<clue>We propose that SF-1 <clueType>regulates</clueType> MIS in vivo and participates directly in the process of mammalian sex determination.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

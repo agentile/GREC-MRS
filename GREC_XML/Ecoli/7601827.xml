@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7601827">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7601827</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Inorganic_Compounds" id="T1" lex="Nitrate">Nitrate</term> repression of <term sem="Operon" id="T2" lex="the_Escherichia_coli_pfl_operon">the Escherichia coli pfl operon</term> is mediated by <term sem="Protein" id="T3" lex="the_dual_sensors_NarQ_and_NarX">the dual sensors NarQ and NarX</term> and <term sem="Regulator" id="T4" lex="the_dual_regulators_NarL_and_NarP">the dual regulators NarL and NarP</term>.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>Nitrate <clueType>repression</clueType> of the Escherichia coli pfl operon is mediated by the dual sensors NarQ and NarX and the dual regulators NarL and NarP.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" idref1="T4" />
+<Theme idref="E1" />
+<clue>Nitrate repression of the Escherichia coli pfl operon is <clueType>mediated</clueType> by the dual sensors NarQ and NarX and the dual regulators NarL and NarP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Operon" id="T5" lex="The_pfl_operon">The pfl operon</term> is expressed at <term sem="SPAN" id="T6" lex="high_levels">high levels</term> <term sem="SPAN" id="T7" lex="anaerobically">anaerobically</term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<Manner idref="T7" />
+<Rate idref="T6" />
+<clue>The pfl operon is <clueType>expressed</clueType> at high levels anaerobically.</clue>
+</event>
+<sentence id="S4"><term sem="SPAN" id="T8" lex="Growth">Growth</term> of Escherichia coli in the presence of nitrate or nitrite led to a <term sem="SPAN" id="T9" lex="45%">45%</term> decrease in <term sem="Gene_Expression" id="T10" lex="expression">expression</term> <term sem="SPAN" id="T11" lex="when_cells_were_cultivated_in_rich_medium">when cells were cultivated in rich medium</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="E5" />
+<clue>Growth of Escherichia coli in the presence of nitrate or nitrite <clueType>led</clueType> to a 45% decrease in expression when cells were cultivated in rich medium.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T10" />
+<Rate idref="T9" />
+<Temporal idref="T11" />
+<clue>Growth of Escherichia coli in the presence of nitrate or nitrite led to a 45% <clueType>decrease</clueType> in expression when cells were cultivated in rich medium.</clue>
+</event>
+<sentence id="S5"><term sem="Inorganic_Compounds" id="T12" lex="Nitrate">Nitrate</term> repression, however, was significantly enhanced (<term sem="SPAN" id="T13" lex="sevenfold">sevenfold</term>) <term sem="SPAN" id="T14" lex="when_the_cells_were_cultured_in_minimal_medium">when the cells were cultured in minimal medium</term>.</sentence>
+<event id="E6">
+<type class="Gene_Repression" />
+<Agent idref="T12" />
+<clue>Nitrate <clueType>repression</clueType>, however, was significantly enhanced (sevenfold) when the cells were cultured in minimal medium.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="E6" />
+<Rate idref="T13" />
+<Temporal idref="T14" />
+<clue>Nitrate repression, however, was significantly <clueType>enhanced</clueType> (sevenfold) when the cells were cultured in minimal medium.</clue>
+</event>
+<sentence id="S6">Regulation of <term sem="Operon" id="T15" lex="pfl">pfl</term> expression by <term sem="Inorganic_Compounds" id="T16" lex="nitrate">nitrate</term> was dependent on <term sem="Protein" id="T17" lex="the_NarL,_NarP,_NarQ,_and_NarX_proteins">the NarL, NarP, NarQ, and NarX proteins</term> but independent of FNR, ArcA, and integration host factor, which are additional regulators of <term sem="Operon" id="T18" lex="pfl">pfl</term> expression.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<Agent idref="T16" />
+<Theme idref="E9" />
+<Condition idref="T17" />
+<clue><clueType>Regulation</clueType> of pfl expression by nitrate was dependent on the NarL, NarP, NarQ, and NarX proteins but independent of FNR, ArcA, and integration host factor, which are additional regulators of pfl expression.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>Regulation of pfl <clueType>expression</clueType> by nitrate was dependent on the NarL, NarP, NarQ, and NarX proteins but independent of FNR, ArcA, and integration host factor, which are additional regulators of pfl expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T18" />
+<clue>Regulation of pfl expression by nitrate was dependent on the NarL, NarP, NarQ, and NarX proteins but independent of FNR, ArcA, and integration host factor, which are additional regulators of pfl <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S7"><term sem=" Mutant_Bacteria" id="T19" lex="Strains">Strains</term> unable to synthesize any one of the NarL, NarP, NarQ, or NarX proteins, but retaining the capacity to synthesize the remaining three, exhibited essentially normal <term sem="Inorganic_Compounds" id="T20" lex="nitrate">nitrate</term> regulation.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="E12" />
+<clue>Strains unable to synthesize any one of the NarL, NarP, NarQ, or NarX proteins, but retaining the capacity to synthesize the remaining three, <clueType>exhibited</clueType> essentially normal nitrate regulation.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<Agent idref="T20" />
+<clue>Strains unable to synthesize any one of the NarL, NarP, NarQ, or NarX proteins, but retaining the capacity to synthesize the remaining three, exhibited essentially normal nitrate <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S8">In contrast, <term sem=" Mutant_Bacteria" id="T21" lex="narL_narP_and_narX_narQ_double_null_mutants">narL narP and narX narQ double null mutants</term> were devoid of <term sem="Inorganic_Compounds" id="T22" lex="nitrate">nitrate</term> regulation when cultured in rich medium but they retained some <term sem="Inorganic_Compounds" id="T23" lex="nitrate">nitrate</term> repression (<term sem="SPAN" id="T24" lex="1.3-fold">1.3-fold</term>) <term sem="SPAN" id="T25" lex="when_grown_in_minimal_medium">when grown in minimal medium</term>.</sentence>
+<event id="E13">
+<type class="Regulation" />
+<Agent idref="T22" />
+<clue>In contrast, narL narP and narX narQ double null mutants were devoid of nitrate <clueType>regulation</clueType> when cultured in rich medium but they retained some nitrate repression (1.3-fold) when grown in minimal medium.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="E15" />
+<Rate idref="T24" />
+<Temporal idref="T25" />
+<clue>In contrast, narL narP and narX narQ double null mutants were devoid of nitrate regulation when cultured in rich medium but they <clueType>retained</clueType> some nitrate repression (1.3-fold) when grown in minimal medium.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Repression" />
+<Agent idref="T23" />
+<clue>In contrast, narL narP and narX narQ double null mutants were devoid of nitrate regulation when cultured in rich medium but they retained some nitrate <clueType>repression</clueType> (1.3-fold) when grown in minimal medium.</clue>
+</event>
+<sentence id="S9">By using lacZ fusions, it was possible to localize <term sem="DNA" id="T26" lex="the_DNA_sequences">the DNA sequences</term> required to mediate <term sem="Inorganic_Compounds" id="T27" lex="nitrate">nitrate</term> repression to <term sem="Promoter" id="T28" lex="the_pfl_promoter-regulatory_region">the pfl promoter-regulatory region</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T26" />
+<Destination idref="T28" />
+<clue>By using lacZ fusions, it was possible to <clueType>localize</clueType> the DNA sequences required to mediate nitrate repression to the pfl promoter-regulatory region.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T26" />
+<Purpose idref="E18" />
+<clue>By using lacZ fusions, it was possible to localize the DNA sequences <clueType>required</clueType> to mediate nitrate repression to the pfl promoter-regulatory region.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="E19" />
+<clue>By using lacZ fusions, it was possible to localize the DNA sequences required to <clueType>mediate</clueType> nitrate repression to the pfl promoter-regulatory region.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Repression" />
+<Agent idref="T27" />
+<clue>By using lacZ fusions, it was possible to localize the DNA sequences required to mediate nitrate <clueType>repression</clueType> to the pfl promoter-regulatory region.</clue>
+</event>
+<sentence id="S10"><term sem="Laboratory_Technique" id="T29" lex="DNase_I_footprinting_studies">DNase I footprinting studies</term> identified <term sem="Transcription_Binding_Site" id="T30" lex="five_potential_binding_sites">five potential binding sites</term> for the wild-type NarL protein in the pfl promoter-regulatory region.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Theme idref="T30" />
+<Instrument idref="T29" />
+<clue>DNase I footprinting studies <clueType>identified</clueType> five potential binding sites for the wild-type NarL protein in the pfl promoter-regulatory region.</clue>
+</event>
+<sentence id="S11">Specific footprints were obtained only when NarL was phosphorylated with acetyl phosphate before the binding reaction was performed.</sentence>
+<sentence id="S12">Each of the protected regions contained at least one heptamer sequence which has been deduced from mutagenesis studies to be essential for NarL binding (K. Tyson, A. Bell, J. Cole, and S. Busby, Mol. Microbiol. 7:151-157, 1993).</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

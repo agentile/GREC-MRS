@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8437517">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8437517</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Definition of nitrite and nitrate response elements at the anaerobically inducible Escherichia coli nirB promoter: interactions between <term sem="Transcription_Factor" id="T1" lex="FNR">FNR</term> and <term sem="Regulator" id="T2" lex="NarL">NarL</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Agent idref="T2" />
+<clue>Definition of nitrite and nitrate response elements at the anaerobically inducible Escherichia coli nirB promoter: <clueType>interactions</clueType> between FNR and NarL.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Transcription initiation <term sem="SPAN" id="T3" lex="at_the_Escherichia_coli_nirB_promoter">at <term sem="Promoter" id="T4" lex="the_Escherichia_coli_nirB_promoter">the Escherichia coli nirB promoter</term></term> is induced by <term sem="SPAN" id="T5" lex="anaerobic_growth">anaerobic growth</term> and <term sem="SPAN" id="T6" lex="further">further</term> increased by the presence of <term sem="Inorganic_Compounds" id="T7" lex="nitrite">nitrite</term> or <term sem="Inorganic_Compounds" id="T8" lex="nitrate">nitrate</term> in the growth medium.</sentence>
+<event id="E2">
+<type class="Transcription" />
+<Source idref="T3" />
+<clue><clueType>Transcription</clueType> initiation at the Escherichia coli nirB promoter is induced by anaerobic growth and further increased by the presence of nitrite or nitrate in the growth medium.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="E2" />
+<clue>Transcription <clueType>initiation</clueType> at the Escherichia coli nirB promoter is induced by anaerobic growth and further increased by the presence of nitrite or nitrate in the growth medium.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="E3" />
+<clue>Transcription initiation at the Escherichia coli nirB promoter is <clueType>induced</clueType> by anaerobic growth and further increased by the presence of nitrite or nitrate in the growth medium.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T7" idref1="T8" />
+<Theme idref="E3" />
+<Manner idref="T6" />
+<clue>Transcription initiation at the Escherichia coli nirB promoter is induced by anaerobic growth and further <clueType>increased</clueType> by the presence of nitrite or nitrate in the growth medium.</clue>
+</event>
+<sentence id="S4">Expression from <term sem="Promoter" id="T9" lex="this_promoter">this promoter</term> is totally dependent on the transcription factor, <term sem="Activator" id="T10" lex="FNR">FNR</term>, which binds <term sem="SPAN" id="T11" lex="between_positions_-52_and_-30">between <term sem="DNA" id="T12" lex="positions">positions</term> -52 and -30</term> upstream of the transcription startsite.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Source idref="T9" />
+<clue><clueType>Expression</clueType> from this promoter is totally dependent on the transcription factor, FNR, which binds between positions -52 and -30 upstream of the transcription startsite.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Destination idref="T11" />
+<clue>Expression from this promoter is totally dependent on the transcription factor, FNR, which <clueType>binds</clueType> between positions -52 and -30 upstream of the transcription startsite.</clue>
+</event>
+<sentence id="S5">The 20 base pairs from position -79 to -60 contain an inverted repeat of two 10-base sequence elements that are related to sequences at the NarL-binding site at the E. coli narG promoter.</sentence>
+<sentence id="S6">Comparison of these, and sequence elements at <term sem="Promoter" id="T13" lex="other_promoters">other promoters</term> regulated by <term sem="Regulator" id="T14" lex="NarL">NarL</term>, suggests a consensus NarL-binding sequence.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T13" />
+<clue>Comparison of these, and sequence elements at other promoters <clueType>regulated</clueType> by NarL, suggests a consensus NarL-binding sequence.</clue>
+</event>
+<sentence id="S7">Mutations in <term sem="Operator" id="T15" lex="the_putative_NarL-binding_site">the putative NarL-binding site</term> <term sem="SPAN" id="T16" lex="at_the_nirB_promoter">at <term sem="Promoter" id="T17" lex="the_nirB_promoter">the nirB promoter</term></term> decrease <term sem="SPAN" id="T18" lex="FNR-dependent_anaerobic">FNR-dependent anaerobic</term> induction, suggesting that <term sem="Regulator" id="T19" lex="NarL">NarL</term> acts as <term sem="SPAN" id="T20" lex="a_helper">a helper</term> to FNR during <term sem="Transcription" id="T21" lex="transcription">transcription</term> activation.</sentence>
+<event id="E9">
+<type class="Mutation" />
+<Theme idref="T15" />
+<Location idref="T16" />
+<clue><clueType>Mutations</clueType> in the putative NarL-binding site at the nirB promoter decrease FNR-dependent anaerobic induction, suggesting that NarL acts as a helper to FNR during transcription activation.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="E11" />
+<clue>Mutations in the putative NarL-binding site at the nirB promoter <clueType>decrease</clueType> FNR-dependent anaerobic induction, suggesting that NarL acts as a helper to FNR during transcription activation.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Manner idref="T18" />
+<clue>Mutations in the putative NarL-binding site at the nirB promoter decrease FNR-dependent anaerobic <clueType>induction</clueType>, suggesting that NarL acts as a helper to FNR during transcription activation.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T19" />
+<Descriptive-Agent idref="T20" />
+<Temporal idref="E13" />
+<clue>Mutations in the putative NarL-binding site at the nirB promoter decrease FNR-dependent anaerobic induction, suggesting that NarL <clueType>acts</clueType> as a helper to FNR during transcription activation.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Activation" />
+<Theme idref="T21" />
+<clue>Mutations in the putative NarL-binding site at the nirB promoter decrease FNR-dependent anaerobic induction, suggesting that NarL acts as a helper to FNR during transcription <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S8"><term sem="SPAN" id="T22" lex="These_mutations">These <term sem="Mutation" id="T23" lex="mutations">mutations</term></term> also suppress induction by <term sem="Inorganic_Compounds" id="T24" lex="nitrite">nitrite</term>: <term sem="SPAN" id="T25" lex="single">single</term> mutations <term sem="SPAN" id="T26" lex="at_symmetry-related_positions">at symmetry-related positions</term> have similar effects, whilst <term sem="SPAN" id="T27" lex="double">double</term> mutations have more severe effects, probably because <term sem="Sub_Unit" id="T28" lex="two_NarL_subunits">two NarL subunits</term> bind to <term sem="DNA" id="T29" lex="the_inverted_repeat">the inverted repeat</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="E15" />
+<clue>These mutations also <clueType>suppress</clueType> induction by nitrite: single mutations at symmetry-related positions have similar effects, whilst double mutations have more severe effects, probably because two NarL subunits bind to the inverted repeat.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Activation" />
+<Agent idref="T24" />
+<clue>These mutations also suppress <clueType>induction</clueType> by nitrite: single mutations at symmetry-related positions have similar effects, whilst double mutations have more severe effects, probably because two NarL subunits bind to the inverted repeat.</clue>
+</event>
+<event id="E16">
+<type class="Mutation" />
+<Manner idref="T25" />
+<Location idref="T26" />
+<clue>These mutations also suppress induction by nitrite: single <clueType>mutations</clueType> at symmetry-related positions have similar effects, whilst double mutations have more severe effects, probably because two NarL subunits bind to the inverted repeat.</clue>
+</event>
+<event id="E17">
+<type class="Mutation" />
+<Manner idref="T27" />
+<clue>These mutations also suppress induction by nitrite: single mutations at symmetry-related positions have similar effects, whilst double <clueType>mutations</clueType> have more severe effects, probably because two NarL subunits bind to the inverted repeat.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T28" />
+<Destination idref="T29" />
+<clue>These mutations also suppress induction by nitrite: single mutations at symmetry-related positions have similar effects, whilst double mutations have more severe effects, probably because two NarL subunits <clueType>bind</clueType> to the inverted repeat.</clue>
+</event>
+<sentence id="S9">Disruption of <term sem="Gene" id="T30" lex="narL">narL</term> decreases <term sem="Inorganic_Compounds" id="T31" lex="nitrite">nitrite</term> induction of <term sem="Promoter" id="T32" lex="the_nirB_promoter">the nirB promoter</term> whilst not suppressing induction by <term sem="Inorganic_Compounds" id="T33" lex="nitrate">nitrate</term>, suggesting that there may be a second nitrate-responsive factor.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T30" />
+<clue><clueType>Disruption</clueType> of narL decreases nitrite induction of the nirB promoter whilst not suppressing induction by nitrate, suggesting that there may be a second nitrate-responsive factor.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="E19" />
+<Theme idref="E21" />
+<clue>Disruption of narL <clueType>decreases</clueType> nitrite induction of the nirB promoter whilst not suppressing induction by nitrate, suggesting that there may be a second nitrate-responsive factor.</clue>
+</event>
+<event id="E21">
+<type class="Gene_Expression" />
+<Agent idref="T31" />
+<Theme idref="T32" />
+<clue>Disruption of narL decreases nitrite <clueType>induction</clueType> of the nirB promoter whilst not suppressing induction by nitrate, suggesting that there may be a second nitrate-responsive factor.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="E19" />
+<Theme idref="E23" />
+<clue>Disruption of narL decreases nitrite induction of the nirB promoter whilst not <clueType>suppressing</clueType> induction by nitrate, suggesting that there may be a second nitrate-responsive factor.</clue>
+</event>
+<event id="E23">
+<type class="Gene_Activation" />
+<Agent idref="T33" />
+<clue>Disruption of narL decreases nitrite induction of the nirB promoter whilst not suppressing <clueType>induction</clueType> by nitrate, suggesting that there may be a second nitrate-responsive factor.</clue>
+</event>
+<sentence id="S10"><term sem="Inorganic_Compounds" id="T34" lex="Nitrate">Nitrate</term> induction was, however, suppressed by <term sem="SPAN" id="T35" lex="double">double</term> mutations <term sem="SPAN" id="T36" lex="at_symmetry-related_positions">at <term sem="DNA" id="T37" lex="symmetry-related_positions">symmetry-related positions</term></term> in the NarL-binding site, suggesting that <term sem="Regulator" id="T38" lex="this_putative_second_factor">this putative second factor</term> may bind to <term sem="Transcription_Binding_Site" id="T39" lex="sequences">sequences</term> similar to <term sem="Operator" id="T40" lex="those">those</term> recognized by <term sem="Regulator" id="T41" lex="NarL">NarL</term>.</sentence>
+<event id="E24">
+<type class="Gene_Activation" />
+<Agent idref="T34" />
+<clue>Nitrate <clueType>induction</clueType> was, however, suppressed by double mutations at symmetry-related positions in the NarL-binding site, suggesting that this putative second factor may bind to sequences similar to those recognized by NarL.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="E26" />
+<Theme idref="E24" />
+<clue>Nitrate induction was, however, <clueType>suppressed</clueType> by double mutations at symmetry-related positions in the NarL-binding site, suggesting that this putative second factor may bind to sequences similar to those recognized by NarL.</clue>
+</event>
+<event id="E26">
+<type class="Mutation" />
+<Manner idref="T35" />
+<Location idref="T36" />
+<clue>Nitrate induction was, however, suppressed by double <clueType>mutations</clueType> at symmetry-related positions in the NarL-binding site, suggesting that this putative second factor may bind to sequences similar to those recognized by NarL.</clue>
+</event>
+<event id="E27">
+<type class="GRE" />
+<Agent idref="T38" />
+<Destination idref="T39" />
+<clue>Nitrate induction was, however, suppressed by double mutations at symmetry-related positions in the NarL-binding site, suggesting that this putative second factor may <clueType>bind</clueType> to sequences similar to those recognized by NarL.</clue>
+</event>
+<event id="E28">
+<type class="GRE" />
+<Agent idref="T41" />
+<Theme idref="T40" />
+<clue>Nitrate induction was, however, suppressed by double mutations at symmetry-related positions in the NarL-binding site, suggesting that this putative second factor may bind to sequences similar to those <clueType>recognized</clueType> by NarL.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

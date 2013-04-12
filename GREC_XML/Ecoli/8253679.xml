@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8253679">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8253679</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Complex transcriptional control of the sigma s-dependent stationary-phase-induced and osmotically regulated osmY (csi-5) gene suggests novel roles for Lrp, cyclic AMP (cAMP) receptor protein-cAMP complex, and integration host factor in the stationary-phase response of Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T1" lex="osmY">osmY</term> (csi-5) is a representative of a large group of sigma s-dependent genes in Escherichia coli that exhibit both <term sem="SPAN" id="T2" lex="stationary-phase">stationary-phase</term><term sem="SPAN" id="T3" lex="stationary-phase_induction"> induction</term> and <term sem="SPAN" id="T4" lex="osmotic">osmotic</term><term sem="SPAN" id="T5" lex="osmotic_regulation"> regulation</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Descriptive-Agent idref="T3" idref1="T5" />
+<clue>osmY (csi-5) is a representative of a large group of sigma s-dependent genes in Escherichia coli that <clueType>exhibit</clueType> both stationary-phase induction and osmotic regulation.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Activation" />
+<Manner idref="T2" />
+<clue>osmY (csi-5) is a representative of a large group of sigma s-dependent genes in Escherichia coli that exhibit both stationary-phase <clueType>induction</clueType> and osmotic regulation.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<Manner idref="T4" />
+<clue>osmY (csi-5) is a representative of a large group of sigma s-dependent genes in Escherichia coli that exhibit both stationary-phase induction and osmotic <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S4">A chromosomal transcriptional lacZ fusion (csi-5::lacZ) was used to study the regulation of <term sem="Gene" id="T6" lex="osmY">osmY</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="T6" />
+<clue>A chromosomal transcriptional lacZ fusion (csi-5::lacZ) was used to study the <clueType>regulation</clueType> of osmY.</clue>
+</event>
+<sentence id="S5">We show here that in addition to sigma s, the global regulators <term sem="Regulator" id="T7" lex="Lrp">Lrp</term>, cyclic AMP (cAMP) receptor protein-cAMP complex (<term sem="Regulator" id="T8" lex="cAMP-CRP">cAMP-CRP</term>), and integration host factor (<term sem="Regulator" id="T9" lex="IHF">IHF</term>) are involved in <term sem="Regulation" id="T10" lex="the_control">the control</term> of osmY.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T7" idref1="T8" idref2="T9" />
+<Descriptive-Theme idref="T10" />
+<clue>We show here that in addition to sigma s, the global regulators Lrp, cyclic AMP (cAMP) receptor protein-cAMP complex (cAMP-CRP), and integration host factor (IHF) are <clueType>involved</clueType> in the control of osmY.</clue>
+</event>
+<sentence id="S6"><term sem="Regulator" id="T11" lex="All_three_regulators">All three regulators</term> <term sem="SPAN" id="T12" lex="negatively">negatively</term> modulate the expression of <term sem="Gene" id="T13" lex="osmY">osmY</term>, and they act <term sem="SPAN" id="T14" lex="independently_from_sigma_s">independently from sigma s</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="E7" />
+<Manner idref="T12" />
+<clue>All three regulators negatively <clueType>modulate</clueType> the expression of osmY, and they act independently from sigma s.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<clue>All three regulators negatively modulate the <clueType>expression</clueType> of osmY, and they act independently from sigma s.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T11" />
+<Descriptive-Agent idref="T14" />
+<clue>All three regulators negatively modulate the expression of osmY, and they <clueType>act</clueType> independently from sigma s.</clue>
+</event>
+<sentence id="S7"><term sem="SPAN" id="T15" lex="Stationary-phase">Stationary-phase</term> induction of <term sem="SPAN" id="T16" lex="osmY">osmY</term> <term sem="SPAN" id="T17" lex="in_minimal_medium">in minimal medium</term> can be explained by stimulation by <term sem="Sigma_Factor" id="T18" lex="sigma_s">sigma s</term> combined with a relief of <term sem="Repressor" id="T19" lex="Lrp">Lrp</term> repression.</sentence>
+<event id="E9">
+<type class="Gene_Activation" />
+<Theme idref="T16" />
+<Manner idref="T15" />
+<Location idref="T17" />
+<clue>Stationary-phase <clueType>induction</clueType> of osmY in minimal medium can be explained by stimulation by sigma s combined with a relief of Lrp repression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Activation" />
+<Agent idref="T18" />
+<clue>Stationary-phase induction of osmY in minimal medium can be explained by <clueType>stimulation</clueType> by sigma s combined with a relief of Lrp repression.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Repression" />
+<Agent idref="T19" />
+<clue>Stationary-phase induction of osmY in minimal medium can be explained by stimulation by sigma s combined with a relief of Lrp <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S8"><term sem="SPAN" id="T20" lex="Stationary-phase">Stationary-phase</term> induction of <term sem="Gene" id="T21" lex="osmY">osmY</term> <term sem="SPAN" id="T22" lex="in_rich_medium">in rich medium</term> is mediated by the combined action of <term sem="Sigma_Factor" id="T23" lex="sigma_s">sigma s</term>, <term sem="Regulator" id="T24" lex="Lrp">Lrp</term>, <term sem="Regulator" id="T25" lex="cAMP-CRP">cAMP-CRP</term>, and <term sem="Regulator" id="T26" lex="IHF">IHF</term>, with the latter three proteins acting as <term sem="Regulator" id="T27" lex="transition_state_regulators">transition state regulators</term>.</sentence>
+<event id="E12">
+<type class="Gene_Activation" />
+<Theme idref="T21" />
+<Manner idref="T20" />
+<Location idref="T22" />
+<clue>Stationary-phase <clueType>induction</clueType> of osmY in rich medium is mediated by the combined action of sigma s, Lrp, cAMP-CRP, and IHF, with the latter three proteins acting as transition state regulators.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T23" idref1="T24" idref2="T25" idref3="T26" />
+<Theme idref="E12" />
+<clue>Stationary-phase induction of osmY in rich medium is <clueType>mediated</clueType> by the combined action of sigma s, Lrp, cAMP-CRP, and IHF, with the latter three proteins acting as transition state regulators.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T24" idref1="T25" idref2="T26" />
+<Descriptive-Agent idref="T27" />
+<clue>Stationary-phase induction of osmY in rich medium is mediated by the combined action of sigma s, Lrp, cAMP-CRP, and IHF, with the latter three proteins <clueType>acting</clueType> as transition state regulators.</clue>
+</event>
+<sentence id="S9">The transcriptional start site of osmY was determined and revealed an mRNA with an unusual long nontranslated leader of 244 nucleotides.</sentence>
+<sentence id="S10"><term sem="Locus" id="T28" lex="The_regulatory_region">The regulatory region</term> is characterized by a sigma 70-like -10 promoter region and contains <term sem="Transcription_Binding_Site" id="T29" lex="potential_binding_sites">potential binding sites</term> for Lrp, CRP, and IHF.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T28" />
+<Descriptive-Theme idref="T29" />
+<clue>The regulatory region is characterized by a sigma 70-like -10 promoter region and <clueType>contains</clueType> potential binding sites for Lrp, CRP, and IHF.</clue>
+</event>
+<sentence id="S11">Whereas <term sem="Sigma_Factor" id="T30" lex="sigma_s">sigma s</term>, <term sem="Regulator" id="T31" lex="Lrp">Lrp</term>, <term sem="Regulator" id="T32" lex="CRP">CRP</term>, and <term sem="Regulator" id="T33" lex="IHF">IHF</term> are clearly involved in <term sem="Gene_Activation" id="T34" lex="stationary-phase_induction">stationary-phase induction</term>, none of these regulators is essential for <term sem="SPAN" id="T35" lex="osmotic">osmotic</term> regulation of <term sem="Gene" id="T36" lex="osmY">osmY</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T30" idref1="T31" idref2="T32" idref3="T33" />
+<Descriptive-Theme idref="T34" />
+<clue>Whereas sigma s, Lrp, CRP, and IHF are clearly <clueType>involved</clueType> in stationary-phase induction, none of these regulators is essential for osmotic regulation of osmY.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<Theme idref="T36" />
+<Manner idref="T35" />
+<clue>Whereas sigma s, Lrp, CRP, and IHF are clearly involved in stationary-phase induction, none of these regulators is essential for osmotic <clueType>regulation</clueType> of osmY.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

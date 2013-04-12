@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12399493">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12399493</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Escherichia coli <term sem="Gene" id="T1" lex="gene">gene</term> expression responsive to levels of the response regulator EvgA.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<clue>Escherichia coli gene <clueType>expression</clueType> responsive to levels of the response regulator EvgA.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">To investigate the function of the EvgA response regulator, we compared the genome-wide transcription profile of EvgA-overexpressing and EvgA-lacking Escherichia coli strains by oligonucleotide microarrays.</sentence>
+<sentence id="S4">The microarray measurements allowed the identification of at least 37 EvgA-activated genes, including acid resistance-related genes gadABC and hdeAB, efflux pump genes yhiUV and emrK, and 21 genes with unknown function.</sentence>
+<sentence id="S5"><term sem="Regulator" id="T2" lex="EvgA">EvgA</term> overexpression conferred <term sem="SPAN" id="T3" lex="acid_resistance">acid resistance</term> to exponentially growing <term sem="Bacteria" id="T4" lex="cells">cells</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T2" />
+<clue>EvgA <clueType>overexpression</clueType> conferred acid resistance to exponentially growing cells.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="E2" />
+<Theme idref="T3" />
+<Destination idref="T4" />
+<clue>EvgA overexpression <clueType>conferred</clueType> acid resistance to exponentially growing cells.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T5" lex="This_acid_resistance">This acid resistance</term> was abolished by deletion of <term sem="Gene" id="T6" lex="ydeP">ydeP</term>, <term sem="Gene" id="T7" lex="ydeO">ydeO</term>, or <term sem="Gene" id="T8" lex="yhiE">yhiE</term>, which was induced by <term sem="Regulator" id="T9" lex="EvgA">EvgA</term> overexpression.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="E5" />
+<Theme idref="T5" />
+<clue>This acid resistance was <clueType>abolished</clueType> by deletion of ydeP, ydeO, or yhiE, which was induced by EvgA overexpression.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T6" idref1="T7" idref2="T8" />
+<clue>This acid resistance was abolished by <clueType>deletion</clueType> of ydeP, ydeO, or yhiE, which was induced by EvgA overexpression.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T6" idref1="T7" idref2="T8" />
+<clue>This acid resistance was abolished by deletion of ydeP, ydeO, or yhiE, which was <clueType>induced</clueType> by EvgA overexpression.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T9" />
+<clue>This acid resistance was abolished by deletion of ydeP, ydeO, or yhiE, which was induced by EvgA <clueType>overexpression</clueType>.</clue>
+</event>
+<sentence id="S7">These results suggest that ydeP, ydeO, and yhiE are novel genes related to acid resistance and that <term sem="Regulator" id="T10" lex="EvgA">EvgA</term> regulates <term sem="Gene" id="T11" lex="several_acid_resistance_genes">several acid resistance genes</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" />
+<clue>These results suggest that ydeP, ydeO, and yhiE are novel genes related to acid resistance and that EvgA <clueType>regulates</clueType> several acid resistance genes.</clue>
+</event>
+<sentence id="S8">Furthermore, the deletion of <term sem="Gene" id="T12" lex="yhiE">yhiE</term> completely abolished <term sem="SPAN" id="T13" lex="acid_resistance">acid resistance</term> <term sem="SPAN" id="T14" lex="in_stationary-phase_cells">in <term sem="Wild_Type_Bacteria" id="T15" lex="stationary-phase_cells">stationary-phase cells</term></term>, suggesting that YhiE plays a critical role in stationary-phase acid resistance.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T12" />
+<clue>Furthermore, the <clueType>deletion</clueType> of yhiE completely abolished acid resistance in stationary-phase cells, suggesting that YhiE plays a critical role in stationary-phase acid resistance.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T13" />
+<Location idref="T14" />
+<clue>Furthermore, the deletion of yhiE completely <clueType>abolished</clueType> acid resistance in stationary-phase cells, suggesting that YhiE plays a critical role in stationary-phase acid resistance.</clue>
+</event>
+<sentence id="S9"><term sem="SPAN" id="T16" lex="The_multidrug_resistance">The multidrug resistance</term> in an acrB deletion mutant caused by <term sem="Regulator" id="T17" lex="EvgA">EvgA</term> overexpression was <term sem="SPAN" id="T18" lex="completely">completely</term> abolished by deletion of <term sem="Gene" id="T19" lex="yhiUV">yhiUV</term>, while the <term sem="Gene" id="T20" lex="emrKY">emrKY</term> deletion had no effect on the increase in <term sem="SPAN" id="T21" lex="resistance">resistance</term> by <term sem="Regulator" id="T22" lex="EvgA">EvgA</term> overexpression.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="T16" />
+<clue>The multidrug resistance in an acrB deletion mutant <clueType>caused</clueType> by EvgA overexpression was completely abolished by deletion of yhiUV, while the emrKY deletion had no effect on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T17" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA <clueType>overexpression</clueType> was completely abolished by deletion of yhiUV, while the emrKY deletion had no effect on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E14" />
+<Theme idref="T16" />
+<Manner idref="T18" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely <clueType>abolished</clueType> by deletion of yhiUV, while the emrKY deletion had no effect on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T19" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely abolished by <clueType>deletion</clueType> of yhiUV, while the emrKY deletion had no effect on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T20" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely abolished by deletion of yhiUV, while the emrKY <clueType>deletion</clueType> had no effect on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="E15" />
+<Theme idref="E17" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely abolished by deletion of yhiUV, while the emrKY deletion had no <clueType>effect</clueType> on the increase in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="E18" />
+<Theme idref="T21" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely abolished by deletion of yhiUV, while the emrKY deletion had no effect on the <clueType>increase</clueType> in resistance by EvgA overexpression.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T22" />
+<clue>The multidrug resistance in an acrB deletion mutant caused by EvgA overexpression was completely abolished by deletion of yhiUV, while the emrKY deletion had no effect on the increase in resistance by EvgA <clueType>overexpression</clueType>.</clue>
+</event>
+<sentence id="S10">In addition, <term sem="Regulator" id="T23" lex="EvgA">EvgA</term> overexpression did not confer <term sem="SPAN" id="T24" lex="resistance">resistance</term> <term sem="SPAN" id="T25" lex="in_a_tolC-deficient_strain">in <term sem=" Mutant_Bacteria" id="T26" lex="a_tolC-deficient_strain">a tolC-deficient strain</term></term>.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T23" />
+<clue>In addition, EvgA <clueType>overexpression</clueType> did not confer resistance in a tolC-deficient strain.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="E19" />
+<Theme idref="T24" />
+<Location idref="T25" />
+<clue>In addition, EvgA overexpression did not <clueType>confer</clueType> resistance in a tolC-deficient strain.</clue>
+</event>
+<sentence id="S11">These results suggest that <term sem="Protein" id="T27" lex="YhiUV">YhiUV</term> induced by <term sem="Regulator" id="T28" lex="EvgA">EvgA</term> overexpression is functionally associated with TolC and contributes to multidrug resistance.</sentence>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="E22" />
+<Theme idref="T27" />
+<clue>These results suggest that YhiUV <clueType>induced</clueType> by EvgA overexpression is functionally associated with TolC and contributes to multidrug resistance.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T28" />
+<clue>These results suggest that YhiUV induced by EvgA <clueType>overexpression</clueType> is functionally associated with TolC and contributes to multidrug resistance.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

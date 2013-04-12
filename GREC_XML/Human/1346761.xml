@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1346761">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1346761</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Transcription_Binding_Site" id="T1" lex="The_upstream_region">The upstream region</term> of the human homeobox gene HOX3D is a target for regulation by <term sem="Regulator" id="T2" lex="retinoic_acid_and_HOX_homeoproteins">retinoic acid and HOX homeoproteins</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue>The upstream region of the human homeobox gene HOX3D is a target for <clueType>regulation</clueType> by retinoic acid and HOX homeoproteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We studied the structure, regulation and expression of <term sem="Gene" id="T3" lex="HOX3D">HOX3D</term>, a human homeobox gene located in the HOX3 cluster on chromosome 12.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Theme idref="T3" />
+<clue>We studied the structure, <clueType>regulation</clueType> and expression of HOX3D, a human homeobox gene located in the HOX3 cluster on chromosome 12.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<clue>We studied the structure, regulation and <clueType>expression</clueType> of HOX3D, a human homeobox gene located in the HOX3 cluster on chromosome 12.</clue>
+</event>
+<sentence id="S4"><term sem="Gene" id="T4" lex="HOX3D">HOX3D</term> is <term sem="SPAN" id="T5" lex="developmentally">developmentally</term> regulated <term sem="SPAN" id="T6" lex="during_embryogenesis">during embryogenesis</term> and is activated by retinoic acid (<term sem="SPAN" id="T7" lex="RA">RA</term>) <term sem="SPAN" id="T8" lex="in_cultured_embryonal_carcinoma_(EC)_cells">in <term sem="Cells" id="T9" lex="cultured_embryonal_carcinoma">cultured embryonal carcinoma</term> (EC) cells</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="T4" />
+<Manner idref="T5" />
+<Temporal idref="T6" />
+<clue>HOX3D is developmentally <clueType>regulated</clueType> during embryogenesis and is activated by retinoic acid (RA) in cultured embryonal carcinoma (EC) cells.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T7" />
+<Theme idref="T4" />
+<Location idref="T8" />
+<clue>HOX3D is developmentally regulated during embryogenesis and is <clueType>activated</clueType> by retinoic acid (RA) in cultured embryonal carcinoma (EC) cells.</clue>
+</event>
+<sentence id="S5">Transfection of <term sem="Transcription_Binding_Site" id="T10" lex="HOX3D_upstream_genomic_sequences">HOX3D upstream genomic sequences</term> linked to <term sem="Gene" id="T11" lex="a_reporter_gene">a reporter gene</term> allowed the functional definition of <term sem="Promoter" id="T12" lex="its_promoter">its promoter</term>, containing <term sem="Transcription_Binding_Site" id="T13" lex="a_canonical_TATA_element">a canonical TATA element</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T10" />
+<Theme idref="T11" />
+<clue>Transfection of HOX3D upstream genomic sequences <clueType>linked</clueType> to a reporter gene allowed the functional definition of its promoter, containing a canonical TATA element.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T12" />
+<Descriptive-Theme idref="T13" />
+<clue>Transfection of HOX3D upstream genomic sequences linked to a reporter gene allowed the functional definition of its promoter, <clueType>containing</clueType> a canonical TATA element.</clue>
+</event>
+<sentence id="S6"><term sem="Promoter" id="T14" lex="This_promoter">This promoter</term> directs the expression of <term sem="Gene" id="T15" lex="the_reporter_gene">the reporter gene</term> <term sem="SPAN" id="T16" lex="in_EC_cells">in <term sem="Cells" id="T17" lex="EC_cells">EC cells</term></term> after induction with <term sem="SPAN" id="T18" lex="RA">RA</term>, and binds <term sem="SPAN" id="T19" lex="RA-induced_nuclear_factor(s)">RA-induced nuclear factor(s)</term> through <term sem="Transcription_Binding_Site" id="T20" lex="a_conserved_palindromic_sequence">a conserved palindromic sequence</term> located approximately 100 bp upstream of the transcription start site.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="E9" />
+<Location idref="T16" />
+<Temporal idref="E10" />
+<clue>This promoter <clueType>directs</clueType> the expression of the reporter gene in EC cells after induction with RA, and binds RA-induced nuclear factor(s) through a conserved palindromic sequence located approximately 100 bp upstream of the transcription start site.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>This promoter directs the <clueType>expression</clueType> of the reporter gene in EC cells after induction with RA, and binds RA-induced nuclear factor(s) through a conserved palindromic sequence located approximately 100 bp upstream of the transcription start site.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T18" />
+<clue>This promoter directs the expression of the reporter gene in EC cells after <clueType>induction</clueType> with RA, and binds RA-induced nuclear factor(s) through a conserved palindromic sequence located approximately 100 bp upstream of the transcription start site.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T14" />
+<Destination idref="T19" />
+<Instrument idref="T20" />
+<clue>This promoter directs the expression of the reporter gene in EC cells after induction with RA, and <clueType>binds</clueType> RA-induced nuclear factor(s) through a conserved palindromic sequence located approximately 100 bp upstream of the transcription start site.</clue>
+</event>
+<sentence id="S7"><term sem="Promoter" id="T21" lex="The_HOX3D_promoter">The HOX3D promoter</term> is transactivated <term sem="SPAN" id="T22" lex="in_both_human_and_murine_cells">in <term sem="Cells" id="T23" lex="both_human_and_murine_cells">both human and murine cells</term></term> <term sem="SPAN" id="T24" lex="when_cotransfected_with_vectors">when cotransfected with <term sem="SPAN" id="T25" lex="vectors">vectors</term></term> expressing <term sem="Protein" id="T26" lex="the_protein_product">the protein product</term> of the upstream gene HOX3C and <term sem="Protein" id="T27" lex="the_paralogs">the paralogs</term> of further upstream genes in the HOX4 cluster (i.e. HOX4D, HOX4C and the murine Hox 4.3).</sentence>
+<event id="E12">
+<type class="Gene_Activation" />
+<Theme idref="T21" />
+<Location idref="T22" />
+<Temporal idref="T24" />
+<clue>The HOX3D promoter is <clueType>transactivated</clueType> in both human and murine cells when cotransfected with vectors expressing the protein product of the upstream gene HOX3C and the paralogs of further upstream genes in the HOX4 cluster (i.e. HOX4D, HOX4C and the murine Hox 4.3).</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T25" />
+<Theme idref="T26" idref1="T27" />
+<clue>The HOX3D promoter is transactivated in both human and murine cells when cotransfected with vectors <clueType>expressing</clueType> the protein product of the upstream gene HOX3C and the paralogs of further upstream genes in the HOX4 cluster (i.e. HOX4D, HOX4C and the murine Hox 4.3).</clue>
+</event>
+<sentence id="S8"><term sem="Protein" id="T28" lex="The_HOX3D_protein">The HOX3D protein</term>, and those encoded by <term sem="Gene" id="T29" lex="the_downstream_gene_HOX3E">the downstream gene HOX3E</term> and <term sem="Gene" id="T30" lex="its_paralog_HOX4B">its paralog HOX4B</term> are instead inactive.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T29" idref1="T30" />
+<Theme idref="T28" />
+<clue>The HOX3D protein, and those <clueType>encoded</clueType> by the downstream gene HOX3E and its paralog HOX4B are instead inactive.</clue>
+</event>
+<sentence id="S9"><term sem="Regulator" id="T31" lex="HOX4C_and_HOX4D_proteins">HOX4C and HOX4D proteins</term> synthesized <term sem="SPAN" id="T32" lex="in_bacteria">in <term sem="Bacteria" id="T33" lex="bacteria">bacteria</term></term> bind to <term sem="Transcription_Binding_Site" id="T34" lex="the_same_conserved_sequence">the same conserved sequence</term> located around position -120, as well as to <term sem="Transcription_Binding_Site" id="T35" lex="the_TATA_box">the TATA box</term> and <term sem="Transcription_Binding_Site" id="T36" lex="immediately_upstream_and_downstream_nucleotides">immediately upstream and downstream nucleotides</term>.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T31" />
+<Location idref="T32" />
+<clue>HOX4C and HOX4D proteins <clueType>synthesized</clueType> in bacteria bind to the same conserved sequence located around position -120, as well as to the TATA box and immediately upstream and downstream nucleotides.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T31" />
+<Destination idref="T34" idref1="T35" idref2="T36" />
+<clue>HOX4C and HOX4D proteins synthesized in bacteria <clueType>bind</clueType> to the same conserved sequence located around position -120, as well as to the TATA box and immediately upstream and downstream nucleotides.</clue>
+</event>
+<sentence id="S10">These data provide evidence that <term sem="SPAN" id="T37" lex="cross-regulatory">cross-regulatory</term> interactions between <term sem="Gene" id="T38" lex="mammalian_homeogenes">mammalian homeogenes</term> take place in cultured cells, thus raising the possibility that <term sem="SPAN" id="T39" lex="a_regulatory_network">a regulatory network</term> may exist <term sem="SPAN" id="T40" lex="in_vivo">in vivo</term>.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T38" />
+<Manner idref="T37" />
+<clue>These data provide evidence that cross-regulatory <clueType>interactions</clueType> between mammalian homeogenes take place in cultured cells, thus raising the possibility that a regulatory network may exist in vivo.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T39" />
+<Condition idref="T40" />
+<clue>These data provide evidence that cross-regulatory interactions between mammalian homeogenes take place in cultured cells, thus raising the possibility that a regulatory network may <clueType>exist</clueType> in vivo.</clue>
+</event>
+<sentence id="S11"><term sem="Operator" id="T41" lex="The_sequences">The sequences</term> on the HOX3D promoter involved in <term sem="Regulation" id="T42" lex="cross-regulation">cross-regulation</term> are different from those binding <term sem="SPAN" id="T43" lex="nuclear_factors">nuclear factors</term> induced by <term sem="SPAN" id="T44" lex="RA">RA</term>.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T41" />
+<Descriptive-Theme idref="T42" />
+<clue>The sequences on the HOX3D promoter <clueType>involved</clueType> in cross-regulation are different from those binding nuclear factors induced by RA.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T41" />
+<Destination idref="T43" />
+<clue>The sequences on the HOX3D promoter involved in cross-regulation are different from those <clueType>binding</clueType> nuclear factors induced by RA.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T44" />
+<Theme idref="T43" />
+<clue>The sequences on the HOX3D promoter involved in cross-regulation are different from those binding nuclear factors <clueType>induced</clueType> by RA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

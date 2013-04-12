@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="mobbedo2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9845364">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9845364</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel function for SMN, the spinal muscular atrophy disease gene product, in pre-mRNA splicing.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Spinal muscular atrophy (<term sem=" Mutant_Organism" id="T1" lex="SMA">SMA</term>) is a common motor neuron degenerative disease that results from <term sem="SPAN" id="T2" lex="reduced_levels">reduced levels</term> of, or <term sem="Mutation" id="T3" lex="mutations">mutations</term> <term sem="SPAN" id="T4" lex="in,_the_Survival_of_Motor_Neurons_(SMN)_protein">in, the Survival of <term sem="Protein" id="T5" lex="Motor_Neurons">Motor Neurons</term> (SMN) protein</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T2" idref1="T3" idref2="T4" />
+<Descriptive-Theme idref="T1" />
+<clue>Spinal muscular atrophy (SMA) is a common motor neuron degenerative disease that <clueType>results</clueType> from reduced levels of, or mutations in, the Survival of Motor Neurons (SMN) protein.</clue>
+</event>
+<sentence id="S4">SMN is found in the cytoplasm and the nucleus where it is concentrated in gems.</sentence>
+<sentence id="S5"><term sem="Protein" id="T6" lex="SMN">SMN</term> interacts with <term sem="Protein_Complex" id="T7" lex="spliceosomal_snRNP_proteins">spliceosomal snRNP proteins</term> and is critical for snRNP assembly in the cytoplasm.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T6" />
+<Theme idref="T7" />
+<clue>SMN <clueType>interacts</clueType> with spliceosomal snRNP proteins and is critical for snRNP assembly in the cytoplasm.</clue>
+</event>
+<sentence id="S6">We show that a dominant-negative mutant SMN (<term sem="Mutation" id="T8" lex="SMNdeltaN27">SMNdeltaN27</term>) causes <term sem="SPAN" id="T9" lex="a_dramatic_reorganization_of_snRNPs">a dramatic reorganization of <term sem="Protein_Complex" id="T10" lex="snRNPs">snRNPs</term></term> <term sem="SPAN" id="T11" lex="in_the_nucleus">in <term sem="Organelles" id="T12" lex="the_nucleus">the nucleus</term></term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<Location idref="T11" />
+<clue>We show that a dominant-negative mutant SMN (SMNdeltaN27) <clueType>causes</clueType> a dramatic reorganization of snRNPs in the nucleus.</clue>
+</event>
+<sentence id="S7">Furthermore, <term sem="Mutation" id="T13" lex="SMNdeltaN27">SMNdeltaN27</term> inhibits <term sem="SPAN" id="T14" lex="pre-mRNA_splicing">pre-mRNA splicing</term> <term sem="SPAN" id="T15" lex="in_vitro">in vitro</term>, while <term sem="Protein" id="T16" lex="wild-type_SMN">wild-type SMN</term> stimulates <term sem="SPAN" id="T17" lex="splicing">splicing</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<Condition idref="T15" />
+<clue>Furthermore, SMNdeltaN27 <clueType>inhibits</clueType> pre-mRNA splicing in vitro, while wild-type SMN stimulates splicing.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T17" />
+<clue>Furthermore, SMNdeltaN27 inhibits pre-mRNA splicing in vitro, while wild-type SMN <clueType>stimulates</clueType> splicing.</clue>
+</event>
+<sentence id="S8"><term sem="Mutation" id="T18" lex="SMN_mutants">SMN mutants</term> found <term sem="SPAN" id="T19" lex="in_SMA_patients">in <term sem="Organism" id="T20" lex="SMA_patients">SMA patients</term></term> cannot stimulate <term sem="SPAN" id="T21" lex="splicing">splicing</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="T21" />
+<Location idref="T19" />
+<clue>SMN mutants found in SMA patients cannot <clueType>stimulate</clueType> splicing.</clue>
+</event>
+<sentence id="S9">These findings demonstrate that SMN plays a crucial role in the generation of the pre-mRNA splicing machinery and thus in mRNA biogenesis, and they link the function of SMN in this pathway to SMA.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

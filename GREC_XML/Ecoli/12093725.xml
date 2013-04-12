@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12093725">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12093725</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">NO sensing by FNR: regulation of the Escherichia coli NO-detoxifying flavohaemoglobin, <term sem="Protein" id="T1" lex="Hmp">Hmp</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<clue>NO sensing by FNR: <clueType>regulation</clueType> of the Escherichia coli NO-detoxifying flavohaemoglobin, Hmp.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Nitric oxide (NO) is a signalling and defence molecule of major importance in biology.</sentence>
+<sentence id="S4">The flavohaemoglobin Hmp of Escherichia coli is involved in protective responses to NO.</sentence>
+<sentence id="S5">Because <term sem="Gene" id="T2" lex="hmp_gene">hmp gene</term> transcription is repressed by <term sem="Repressor" id="T3" lex="the_O(2)-responsive_regulator_FNR">the O(2)-responsive regulator FNR</term>, we investigated whether <term sem="Repressor" id="T4" lex="FNR">FNR</term> also senses <term sem="Inorganic_Compounds" id="T5" lex="NO">NO</term>.</sentence>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T2" />
+<clue>Because hmp gene <clueType>transcription</clueType> is repressed by the O(2)-responsive regulator FNR, we investigated whether FNR also senses NO.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="E2" />
+<clue>Because hmp gene transcription is <clueType>repressed</clueType> by the O(2)-responsive regulator FNR, we investigated whether FNR also senses NO.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>Because hmp gene transcription is repressed by the O(2)-responsive regulator FNR, we investigated whether FNR also <clueType>senses</clueType> NO.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T6" lex="The_[4Fe-4S](2+)_cluster">The [4Fe-4S](2+) cluster</term> of FNR is oxygen labile and controls <term sem="SPAN" id="T7" lex="protein_dimerization">protein dimerization</term> and <term sem="SPAN" id="T8" lex="site-specific_DNA_binding">site-specific DNA binding</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" idref1="T8" />
+<clue>The [4Fe-4S](2+) cluster of FNR is oxygen labile and <clueType>controls</clueType> protein dimerization and site-specific DNA binding.</clue>
+</event>
+<sentence id="S7"><term sem="SPAN" id="T9" lex="NO">NO</term> reacts <term sem="SPAN" id="T10" lex="anaerobically">anaerobically</term> with <term sem="SPAN" id="T11" lex="the_Fe-S_cluster">the Fe-S cluster</term> of purified FNR, generating spectral changes consistent with formation of a dinitrosyl-iron-cysteine complex.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Manner idref="T10" />
+<Agent idref="T9" />
+<Agent idref="T11" />
+<clue>NO <clueType>reacts</clueType> anaerobically with the Fe-S cluster of purified FNR, generating spectral changes consistent with formation of a dinitrosyl-iron-cysteine complex.</clue>
+</event>
+<sentence id="S8">NO-inactivated FNR can be reconstituted, suggesting physiological relevance.</sentence>
+<sentence id="S9"><term sem="Repressor" id="T12" lex="FNR">FNR</term> binds at <term sem="Transcription_Binding_Site" id="T13" lex="an_FNR_box">an FNR box</term> within the hmp promoter (P(hmp)).</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" />
+<Destination idref="T13" />
+<clue>FNR <clueType>binds</clueType> at an FNR box within the hmp promoter (P(hmp)).</clue>
+</event>
+<sentence id="S10"><term sem="Repressor" id="T14" lex="FNR_samples">FNR samples</term> inactivated by either <term sem="Inorganic_Compounds" id="T15" lex="O(2)">O(2)</term> or <term sem="Inorganic_Compounds" id="T16" lex="NO">NO</term> bind <term sem="SPAN" id="T17" lex="specifically">specifically</term> to <term sem="Promoter" id="T18" lex="P(hmp),">P(hmp),</term> but with lower affinity.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T15" idref1="T16" />
+<Theme idref="T14" />
+<clue>FNR samples <clueType>inactivated</clueType> by either O(2) or NO bind specifically to P(hmp), but with lower affinity.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Manner idref="T17" />
+<Destination idref="T18" />
+<clue>FNR samples inactivated by either O(2) or NO <clueType>bind</clueType> specifically to P(hmp), but with lower affinity.</clue>
+</event>
+<sentence id="S11"><term sem="SPAN" id="T19" lex="Dose-dependent">Dose-dependent</term> up-regulation of <term sem="Promoter" id="T20" lex="P(hmp)">P(hmp)</term> <term sem="SPAN" id="T21" lex="in_vivo">in vivo</term> by <term sem="Inorganic_Compounds" id="T22" lex="NO_concentrations">NO concentrations</term> of pathophysiological relevance is abolished by <term sem="Gene" id="T23" lex="fnr">fnr</term> mutation, and <term sem="Inorganic_Compounds" id="T24" lex="NO">NO</term> also modulates expression from <term sem="Promoter" id="T25" lex="model_FNR-regulated_promoters">model FNR-regulated promoters</term>.</sentence>
+<event id="E10">
+<type class="Gene_Activation" />
+<Agent idref="T22" />
+<Theme idref="T20" />
+<Manner idref="T19" />
+<Condition idref="T21" />
+<clue>Dose-dependent <clueType>up-regulation</clueType> of P(hmp) in vivo by NO concentrations of pathophysiological relevance is abolished by fnr mutation, and NO also modulates expression from model FNR-regulated promoters.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="E10" />
+<clue>Dose-dependent up-regulation of P(hmp) in vivo by NO concentrations of pathophysiological relevance is <clueType>abolished</clueType> by fnr mutation, and NO also modulates expression from model FNR-regulated promoters.</clue>
+</event>
+<event id="E12">
+<type class="Mutation" />
+<Theme idref="T23" />
+<clue>Dose-dependent up-regulation of P(hmp) in vivo by NO concentrations of pathophysiological relevance is abolished by fnr <clueType>mutation</clueType>, and NO also modulates expression from model FNR-regulated promoters.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="E14" />
+<clue>Dose-dependent up-regulation of P(hmp) in vivo by NO concentrations of pathophysiological relevance is abolished by fnr mutation, and NO also <clueType>modulates</clueType> expression from model FNR-regulated promoters.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Expression" />
+<Source idref="T25" />
+<clue>Dose-dependent up-regulation of P(hmp) in vivo by NO concentrations of pathophysiological relevance is abolished by fnr mutation, and NO also modulates <clueType>expression</clueType> from model FNR-regulated promoters.</clue>
+</event>
+<sentence id="S12">Thus, <term sem="Repressor" id="T26" lex="FNR">FNR</term> can respond to not only <term sem="Inorganic_Compounds" id="T27" lex="O(2)">O(2)</term>, but also <term sem="Inorganic_Compounds" id="T28" lex="NO">NO</term>, with major implications for <term sem="Gene" id="T29" lex="global_gene">global gene</term> regulation <term sem="SPAN" id="T30" lex="in_bacteria">in <term sem="Bacteria" id="T31" lex="bacteria">bacteria</term></term>.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T26" />
+<Theme idref="T27" idref1="T28" />
+<clue>Thus, FNR can <clueType>respond</clueType> to not only O(2), but also NO, with major implications for global gene regulation in bacteria.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<Theme idref="T29" />
+<Location idref="T30" />
+<clue>Thus, FNR can respond to not only O(2), but also NO, with major implications for global gene <clueType>regulation</clueType> in bacteria.</clue>
+</event>
+<sentence id="S13">We propose <term sem="SPAN" id="T32" lex="an_NO-mediated_mechanism">an NO-mediated mechanism</term> of <term sem="Gene" id="T33" lex="hmp">hmp</term> regulation by which E.coli responds to NO challenge.</sentence>
+<event id="E17">
+<type class="Regulation" />
+<Theme idref="T33" />
+<Manner idref="T32" />
+<clue>We propose an NO-mediated mechanism of hmp <clueType>regulation</clueType> by which E.coli responds to NO challenge.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

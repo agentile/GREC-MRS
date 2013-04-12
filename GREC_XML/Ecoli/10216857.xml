@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10216857">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10216857</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulator" id="T1" lex="Lrp">Lrp</term> binds to two regions in <term sem="Promoter" id="T2" lex="the_dadAX_promoter_region">the dadAX promoter region</term> of Escherichia coli to repress and activate <term sem="Transcription" id="T3" lex="transcription">transcription</term> <term sem="SPAN" id="T4" lex="directly">directly</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue>Lrp <clueType>binds</clueType> to two regions in the dadAX promoter region of Escherichia coli to repress and activate transcription directly.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="T3" />
+<Manner idref="T4" />
+<clue>Lrp binds to two regions in the dadAX promoter region of Escherichia coli to <clueType>repress</clueType> and activate transcription directly.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T1" />
+<Theme idref="T3" />
+<Manner idref="T4" />
+<clue>Lrp binds to two regions in the dadAX promoter region of Escherichia coli to repress and <clueType>activate</clueType> transcription directly.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Operon" id="T5" lex="The_dadAX_operon">The dadAX operon</term> is expressed by <term sem="Promoter" id="T6" lex="multiple_promoters">multiple promoters</term> that are repressed by leucine-responsive regulatory protein (<term sem="Repressor" id="T7" lex="Lrp">Lrp</term>) and activated by <term sem="Activator" id="T8" lex="cyclic_AMP-CRP">cyclic AMP-CRP</term>.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Agent idref="T6" />
+<Theme idref="T5" />
+<clue>The dadAX operon is <clueType>expressed</clueType> by multiple promoters that are repressed by leucine-responsive regulatory protein (Lrp) and activated by cyclic AMP-CRP.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Repression" />
+<Agent idref="T7" />
+<Theme idref="T6" />
+<clue>The dadAX operon is expressed by multiple promoters that are <clueType>repressed</clueType> by leucine-responsive regulatory protein (Lrp) and activated by cyclic AMP-CRP.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Agent idref="T8" />
+<Theme idref="T6" />
+<clue>The dadAX operon is expressed by multiple promoters that are repressed by leucine-responsive regulatory protein (Lrp) and <clueType>activated</clueType> by cyclic AMP-CRP.</clue>
+</event>
+<sentence id="S4">In previous work, we found that <term sem="Amino_Acids" id="T9" lex="alanine">alanine</term> or <term sem="Amino_Acids" id="T10" lex="leucine">leucine</term> acted as inducers to antagonize <term sem="Repressor" id="T11" lex="Lrp">Lrp</term> repression of <term sem="Promoter" id="T12" lex="the_three_major_promoters">the three major promoters</term> directly.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" idref1="T10" />
+<Theme idref="E8" />
+<clue>In previous work, we found that alanine or leucine acted as inducers to <clueType>antagonize</clueType> Lrp repression of the three major promoters directly.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Repression" />
+<Agent idref="T11" />
+<Theme idref="T12" />
+<clue>In previous work, we found that alanine or leucine acted as inducers to antagonize Lrp <clueType>repression</clueType> of the three major promoters directly.</clue>
+</event>
+<sentence id="S5">Here, we identify 11 Lrp binding sites located within 350 bp of dad DNA.</sentence>
+<sentence id="S6">A mutational analysis, coupled with in vivo and in vitro transcription experiments, indicated that <term sem="SPAN" id="T13" lex="Lrp_sites">Lrp sites</term> that overlap the dad promoters were involved in <term sem="Gene_Repression" id="T14" lex="repression">repression</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T13" />
+<Descriptive-Theme idref="T14" />
+<clue>A mutational analysis, coupled with in vivo and in vitro transcription experiments, indicated that Lrp sites that overlap the dad promoters were <clueType>involved</clueType> in repression.</clue>
+</event>
+<sentence id="S7">In contrast, <term sem="SPAN" id="T15" lex="sites_upstream_of_the_promoters">sites upstream of the promoters</term> did not appear to be necessary for repression, but were required for activation by <term sem="Activator" id="T16" lex="Lrp">Lrp</term> plus <term sem="Amino_Acids" id="T17" lex="alanine">alanine</term> or <term sem="Amino_Acids" id="T18" lex="leucine">leucine</term> of one of the major dad promoters, <term sem="Promoter" id="T19" lex="P2">P2</term>.</sentence>
+<event id="E10">
+<type class="Gene_Repression" />
+<Condition idref="T15" />
+<clue>In contrast, sites upstream of the promoters did not appear to be necessary for <clueType>repression</clueType>, but were required for activation by Lrp plus alanine or leucine of one of the major dad promoters, P2.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="E12" />
+<clue>In contrast, sites upstream of the promoters did not appear to be necessary for repression, but were <clueType>required</clueType> for activation by Lrp plus alanine or leucine of one of the major dad promoters, P2.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Activation" />
+<Agent idref="T16" />
+<Agent idref="T17" idref1="T18" />
+<Theme idref="T19" />
+<Condition idref="T15" />
+<clue>In contrast, sites upstream of the promoters did not appear to be necessary for repression, but were required for <clueType>activation</clueType> by Lrp plus alanine or leucine of one of the major dad promoters, P2.</clue>
+</event>
+<sentence id="S8">This activation by <term sem="Amino_Acids" id="T20" lex="alanine">alanine</term> or <term sem="Amino_Acids" id="T21" lex="leucine">leucine</term> was not simply relief of repression, as <term sem="SPAN" id="T22" lex="P2">P2</term> transcription from <term sem="SPAN" id="T23" lex="a_constitutive_template">a constitutive template</term> was increased <term sem="SPAN" id="T24" lex="fivefold">fivefold</term> compared with the basal level of transcription found in the absence of Lrp and the co-activator cyclic AMP-CRP.</sentence>
+<event id="E13">
+<type class="Gene_Activation" />
+<Agent idref="T20" idref1="T21" />
+<clue>This <clueType>activation</clueType> by alanine or leucine was not simply relief of repression, as P2 transcription from a constitutive template was increased fivefold compared with the basal level of transcription found in the absence of Lrp and the co-activator cyclic AMP-CRP.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<Theme idref="T22" />
+<Source idref="T23" />
+<clue>This activation by alanine or leucine was not simply relief of repression, as P2 <clueType>transcription</clueType> from a constitutive template was increased fivefold compared with the basal level of transcription found in the absence of Lrp and the co-activator cyclic AMP-CRP.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="E14" />
+<Rate idref="T24" />
+<clue>This activation by alanine or leucine was not simply relief of repression, as P2 transcription from a constitutive template was <clueType>increased</clueType> fivefold compared with the basal level of transcription found in the absence of Lrp and the co-activator cyclic AMP-CRP.</clue>
+</event>
+<sentence id="S9"><term sem="Amino_Acids" id="T25" lex="Alanine">Alanine</term> or <term sem="Amino_Acids" id="T26" lex="leucine">leucine</term> decreased <term sem="SPAN" id="T27" lex="the_affinity_of_Lrp_to_repressor_sites">the affinity of Lrp to repressor sites</term>, while having little or no effect on the binding of <term sem="Activator" id="T28" lex="Lrp">Lrp</term> to <term sem="SPAN" id="T29" lex="activator_sites">activator sites</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T25" idref1="T26" />
+<Theme idref="T27" />
+<clue>Alanine or leucine <clueType>decreased</clueType> the affinity of Lrp to repressor sites, while having little or no effect on the binding of Lrp to activator sites.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T28" />
+<Destination idref="T29" />
+<clue>Alanine or leucine decreased the affinity of Lrp to repressor sites, while having little or no effect on the <clueType>binding</clueType> of Lrp to activator sites.</clue>
+</event>
+<sentence id="S10">This differential effect of alanine and leucine on Lrp binding helps to explain how <term sem="SPAN" id="T30" lex="these_modifiers">these modifiers</term> influence both repression and activation of <term sem="Operon" id="T31" lex="the_dad_operon">the dad operon</term>.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T30" />
+<Descriptive-Theme idref="E20" />
+<clue>This differential effect of alanine and leucine on Lrp binding helps to explain how these modifiers <clueType>influence</clueType> both repression and activation of the dad operon.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Repression" />
+<Theme idref="T31" />
+<clue>This differential effect of alanine and leucine on Lrp binding helps to explain how these modifiers influence both <clueType>repression</clueType> and activation of the dad operon.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Activation" />
+<Theme idref="T31" />
+<clue>This differential effect of alanine and leucine on Lrp binding helps to explain how these modifiers influence both repression and <clueType>activation</clueType> of the dad operon.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

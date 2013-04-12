@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10537212">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10537212</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Transcriptional">Transcriptional</term> regulation in response to <term sem="Inorganic_Compounds" id="T2" lex="oxygen">oxygen</term> and <term sem="Inorganic_Compounds" id="T3" lex="nitrate">nitrate</term> of the operons encoding <term sem="SPAN" id="T4" lex="the_[NiFe]_hydrogenases_1_and_2">the [NiFe] hydrogenases 1 and 2</term> of Escherichia coli.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="E2" />
+<Manner idref="T1" />
+<Condition idref="T2" idref1="T3" />
+<clue>Transcriptional <clueType>regulation</clueType> in response to oxygen and nitrate of the operons encoding the [NiFe] hydrogenases 1 and 2 of Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T4" />
+<clue>Transcriptional regulation in response to oxygen and nitrate of the operons <clueType>encoding</clueType> the [NiFe] hydrogenases 1 and 2 of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Synthesis of <term sem="Enzyme" id="T5" lex="the_[NiFe]_hydrogenases_1_and_2">the [NiFe] hydrogenases 1 and 2</term> of Escherichia coli is induced in response to <term sem="SPAN" id="T6" lex="anaerobiosis">anaerobiosis</term> and is repressed when <term sem="Inorganic_Compounds" id="T7" lex="nitrate">nitrate</term> is present in the growth medium.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<clue><clueType>Synthesis</clueType> of the [NiFe] hydrogenases 1 and 2 of Escherichia coli is induced in response to anaerobiosis and is repressed when nitrate is present in the growth medium.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Theme idref="E3" />
+<Condition idref="T6" />
+<clue>Synthesis of the [NiFe] hydrogenases 1 and 2 of Escherichia coli is <clueType>induced</clueType> in response to anaerobiosis and is repressed when nitrate is present in the growth medium.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Repression" />
+<Theme idref="E3" />
+<Condition idref="T7" />
+<clue>Synthesis of the [NiFe] hydrogenases 1 and 2 of Escherichia coli is induced in response to anaerobiosis and is <clueType>repressed</clueType> when nitrate is present in the growth medium.</clue>
+</event>
+<sentence id="S4"><term sem="Enzyme" id="T8" lex="The_hydrogenase_1_and_hydrogenase_2_enzymes">The hydrogenase 1 and hydrogenase 2 enzymes</term> are encoded by <term sem="Operon" id="T9" lex="the_polycistronic_hyaABCDEF_and_hybOABCDEFG_operons">the polycistronic hyaABCDEF and hybOABCDEFG operons</term>, respectively.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T8" />
+<clue>The hydrogenase 1 and hydrogenase 2 enzymes are <clueType>encoded</clueType> by the polycistronic hyaABCDEF and hybOABCDEFG operons, respectively.</clue>
+</event>
+<sentence id="S5"><term sem="Laboratory_Technique" id="T10" lex="Primer_extension_analysis">Primer extension analysis</term> was used to determine <term sem="SPAN" id="T11" lex="the_initiation_site_of_transcription">the initiation site of transcription</term> of <term sem="Operon" id="T12" lex="both_operons">both operons</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T11" />
+<Instrument idref="T10" />
+<clue>Primer extension analysis was used to <clueType>determine</clueType> the initiation site of transcription of both operons.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T12" />
+<clue>Primer extension analysis was used to determine the initiation site of <clueType>transcription</clueType> of both operons.</clue>
+</event>
+<sentence id="S6">This permitted the construction of <term sem="Locus" id="T13" lex="single-copy_lacZ_operon_fusions">single-copy lacZ operon fusions</term>, which were used to examine <term sem="SPAN" id="T14" lex="the_transcriptional_regulation">the <term sem="SPAN" id="T15" lex="transcriptional">transcriptional</term> regulation</term> of <term sem="Operon" id="T16" lex="the_two_operons">the two operons</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T14" />
+<Instrument idref="T13" />
+<clue>This permitted the construction of single-copy lacZ operon fusions, which were used to <clueType>examine</clueType> the transcriptional regulation of the two operons.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Theme idref="T16" />
+<Manner idref="T15" />
+<clue>This permitted the construction of single-copy lacZ operon fusions, which were used to examine the transcriptional <clueType>regulation</clueType> of the two operons.</clue>
+</event>
+<sentence id="S7">Expression of <term sem="SPAN" id="T17" lex="both">both</term> was induced by <term sem="SPAN" id="T18" lex="anaerobiosis">anaerobiosis</term> and repressed by <term sem="Inorganic_Compounds" id="T19" lex="nitrate">nitrate</term>, which is in complete accord with earlier biochemical studies.</sentence>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue><clueType>Expression</clueType> of both was induced by anaerobiosis and repressed by nitrate, which is in complete accord with earlier biochemical studies.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Activation" />
+<Agent idref="T18" />
+<Theme idref="E11" />
+<clue>Expression of both was <clueType>induced</clueType> by anaerobiosis and repressed by nitrate, which is in complete accord with earlier biochemical studies.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Repression" />
+<Agent idref="T19" />
+<Theme idref="E11" />
+<clue>Expression of both was induced by anaerobiosis and <clueType>repressed</clueType> by nitrate, which is in complete accord with earlier biochemical studies.</clue>
+</event>
+<sentence id="S8"><term sem="SPAN" id="T20" lex="Anaerobic">Anaerobic</term> induction of <term sem="Operon" id="T21" lex="the_hyb_operon">the hyb operon</term> was only partially dependent on <term sem="Protein" id="T22" lex="the_FNR_protein">the FNR protein</term> and, surprisingly, was enhanced by <term sem="Mutation" id="T23" lex="an_arcA_mutation">an arcA mutation</term>.</sentence>
+<event id="E14">
+<type class="Gene_Activation" />
+<Agent idref="T22" />
+<Theme idref="T21" />
+<Manner idref="T20" />
+<clue>Anaerobic <clueType>induction</clueType> of the hyb operon was only partially dependent on the FNR protein and, surprisingly, was enhanced by an arcA mutation.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="E14" />
+<clue>Anaerobic induction of the hyb operon was only partially dependent on the FNR protein and, surprisingly, was <clueType>enhanced</clueType> by an arcA mutation.</clue>
+</event>
+<sentence id="S9">This latter result indicated that <term sem="Repressor" id="T24" lex="ArcA">ArcA</term> suppresses <term sem="SPAN" id="T25" lex="anaerobic">anaerobic</term> <term sem="SPAN" id="T26" lex="hyb">hyb</term> expression and that <term sem="SPAN" id="T27" lex="a_further_factor">a further factor</term>, which remains to be identified, is involved in controlling <term sem="SPAN" id="T28" lex="anaerobic">anaerobic</term> induction of <term sem="SPAN" id="T29" lex="operon"><term sem="Gene_Expression" id="T30" lex="operon_expression">operon expression</term></term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="E17" />
+<clue>This latter result indicated that ArcA <clueType>suppresses</clueType> anaerobic hyb expression and that a further factor, which remains to be identified, is involved in controlling anaerobic induction of operon expression.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T26" />
+<Condition idref="T25" />
+<clue>This latter result indicated that ArcA suppresses anaerobic hyb <clueType>expression</clueType> and that a further factor, which remains to be identified, is involved in controlling anaerobic induction of operon expression.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T27" />
+<Descriptive-Theme idref="E21" />
+<clue>This latter result indicated that ArcA suppresses anaerobic hyb expression and that a further factor, which remains to be identified, is <clueType>involved</clueType> in controlling anaerobic induction of operon expression.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="E20" />
+<clue>This latter result indicated that ArcA suppresses anaerobic hyb expression and that a further factor, which remains to be identified, is involved in <clueType>controlling</clueType> anaerobic induction of operon expression.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Activation" />
+<Theme idref="T30" />
+<Condition idref="T28" />
+<clue>This latter result indicated that ArcA suppresses anaerobic hyb expression and that a further factor, which remains to be identified, is involved in controlling anaerobic <clueType>induction</clueType> of operon expression.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Theme idref="T29" />
+<clue>This latter result indicated that ArcA suppresses anaerobic hyb expression and that a further factor, which remains to be identified, is involved in controlling anaerobic induction of operon <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S10"><term sem="SPAN" id="T31" lex="Nitrate">Nitrate</term> repression of <term sem="SPAN" id="T32" lex="hyb">hyb</term> expression was mediated by <term sem="SPAN" id="T33" lex="the_NarL/NarX_and_NarP/NarQ_two-component_regulatory_systems">the NarL/NarX and NarP/NarQ two-component regulatory systems</term>.</sentence>
+<event id="E22">
+<type class="Gene_Repression" />
+<Agent idref="T31" />
+<Theme idref="E23" />
+<clue>Nitrate <clueType>repression</clueType> of hyb expression was mediated by the NarL/NarX and NarP/NarQ two-component regulatory systems.</clue>
+</event>
+<event id="E23">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue>Nitrate repression of hyb <clueType>expression</clueType> was mediated by the NarL/NarX and NarP/NarQ two-component regulatory systems.</clue>
+</event>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="T33" />
+<Theme idref="E22" />
+<clue>Nitrate repression of hyb expression was <clueType>mediated</clueType> by the NarL/NarX and NarP/NarQ two-component regulatory systems.</clue>
+</event>
+<sentence id="S11">Remarkably, <term sem=" Mutant_Bacteria" id="T34" lex="a_narP_mutant">a narP mutant</term> lacked <term sem="SPAN" id="T35" lex="anaerobic">anaerobic</term> induction of <term sem="Gene_Expression" id="T36" lex="hyb_expression">hyb expression</term>, even in the absence of <term sem="SPAN" id="T37" lex="added_nitrate">added nitrate</term>.</sentence>
+<event id="E25">
+<type class="GRE" />
+<Theme idref="T34" />
+<Descriptive-Theme idref="E26" />
+<clue>Remarkably, a narP mutant <clueType>lacked</clueType> anaerobic induction of hyb expression, even in the absence of added nitrate.</clue>
+</event>
+<event id="E26">
+<type class="Gene_Activation" />
+<Theme idref="T36" />
+<Manner idref="T35" />
+<Condition idref="T37" />
+<clue>Remarkably, a narP mutant lacked anaerobic <clueType>induction</clueType> of hyb expression, even in the absence of added nitrate.</clue>
+</event>
+<sentence id="S12"><term sem="SPAN" id="T38" lex="Anaerobic">Anaerobic</term> induction of <term sem="Gene_Expression" id="T39" lex="hya_expression">hya expression</term> was dependent on <term sem="SPAN" id="T40" lex="the_ArcA_and_AppY_regulators">the ArcA and AppY regulators</term>, which confirms earlier observations by other authors.</sentence>
+<event id="E27">
+<type class="Gene_Activation" />
+<Theme idref="T39" />
+<Manner idref="T38" />
+<Condition idref="T40" />
+<clue>Anaerobic <clueType>induction</clueType> of hya expression was dependent on the ArcA and AppY regulators, which confirms earlier observations by other authors.</clue>
+</event>
+<sentence id="S13"><term sem="SPAN" id="T41" lex="Nitrate">Nitrate</term> repression of <term sem="Operon" id="T42" lex="the_hya_operon">the hya operon</term> was mediated by both <term sem="Repressor" id="T43" lex="NarL">NarL</term> and <term sem="Repressor" id="T44" lex="NarP">NarP</term>.</sentence>
+<event id="E28">
+<type class="Gene_Repression" />
+<Agent idref="T41" />
+<Theme idref="T42" />
+<clue>Nitrate <clueType>repression</clueType> of the hya operon was mediated by both NarL and NarP.</clue>
+</event>
+<event id="E29">
+<type class="GRE" />
+<Agent idref="T43" idref1="T44" />
+<Theme idref="E28" />
+<clue>Nitrate repression of the hya operon was <clueType>mediated</clueType> by both NarL and NarP.</clue>
+</event>
+<sentence id="S14">Taken together, these data indicate that although the hya and hyb operons share common regulators, there are important differences in the control of expression of <term sem="Operon" id="T45" lex="the_individual_operons">the individual operons</term>.</sentence>
+<event id="E30">
+<type class="Gene_Expression" />
+<Theme idref="T45" />
+<clue>Taken together, these data indicate that although the hya and hyb operons share common regulators, there are important differences in the control of <clueType>expression</clueType> of the individual operons.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

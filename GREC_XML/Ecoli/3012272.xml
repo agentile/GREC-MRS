@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=3012272">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>3012272</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Physical and genetic structure of the glpD-malT interval of the Escherichia coli K-12 chromosome.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Identification of two new structural genes of the glp-regulon.</sentence>
+<sentence id="S4"><term sem="Viral_Vector" id="T1" lex="A_transducing_lambda_phage">A transducing lambda phage</term> carrying <term sem="Gene" id="T2" lex="glpD''lacZ">glpD''lacZ</term>, <term sem="Gene" id="T3" lex="glpR">glpR</term>, and <term sem="Gene" id="T4" lex="malT">malT</term> was isolated from <term sem=" Mutant_Bacteria" id="T5" lex="a_strain">a strain</term> harboring <term sem="Gene" id="T6" lex="a_glpD''lacZ_fusion">a glpD''lacZ fusion</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" idref1="T3" idref2="T4" />
+<clue>A transducing lambda phage <clueType>carrying</clueType> glpD''lacZ, glpR, and malT was isolated from a strain harboring a glpD''lacZ fusion.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T1" />
+<Source idref="T5" />
+<clue>A transducing lambda phage carrying glpD''lacZ, glpR, and malT was <clueType>isolated</clueType> from a strain harboring a glpD''lacZ fusion.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Descriptive-Theme idref="T6" />
+<clue>A transducing lambda phage carrying glpD''lacZ, glpR, and malT was isolated from a strain <clueType>harboring</clueType> a glpD''lacZ fusion.</clue>
+</event>
+<sentence id="S5">Comparison of restriction endonuclease cleavage patterns of DNA isolated from this phage with that of the previously cloned malT region (Raibaud and Schwartz 1980) facilitated the construction of <term sem="Plasmid" id="T7" lex="recombinant_plasmids">recombinant plasmids</term> carrying <term sem="SPAN" id="T8" lex="different_portions_of_the_glpD-malT_region">different portions of <term sem="Locus" id="T9" lex="the_glpD-malT_region">the glpD-malT region</term></term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>Comparison of restriction endonuclease cleavage patterns of DNA isolated from this phage with that of the previously cloned malT region (Raibaud and Schwartz 1980) facilitated the construction of recombinant plasmids <clueType>carrying</clueType> different portions of the glpD-malT region.</clue>
+</event>
+<sentence id="S6">Results of minicell analysis and complementation studies showed that <term sem="Locus" id="T10" lex="this_region">this region</term> of the chromosome encodes <term sem="Polypeptide" id="T11" lex="at_least_five_polypeptides">at least five polypeptides</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" />
+<clue>Results of minicell analysis and complementation studies showed that this region of the chromosome <clueType>encodes</clueType> at least five polypeptides.</clue>
+</event>
+<sentence id="S7">These included the previously identified glpD, glpR, and malT gene products.</sentence>
+<sentence id="S8">In addition, two new structural genes of the glp regulon (glpE and glpG) located between the glpD and glpR genes were identified.</sentence>
+<sentence id="S9"><term sem="Plasmid" id="T12" lex="Hybrid_plasmids">Hybrid plasmids</term> carrying <term sem="Gene" id="T13" lex="glpD''lacZ_and_glpR''lacZ_fusions">glpD''lacZ and glpR''lacZ fusions</term> were constructed.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" />
+<clue>Hybrid plasmids <clueType>carrying</clueType> glpD''lacZ and glpR''lacZ fusions were constructed.</clue>
+</event>
+<sentence id="S10">Restriction endonuclease cleavage analysis of these two plasmids demonstrated that <term sem="Gene" id="T14" lex="glpD">glpD</term> and <term sem="Gene" id="T15" lex="glpR">glpR</term> are <term sem="SPAN" id="T16" lex="divergently">divergently</term> transcribed.</sentence>
+<event id="E7">
+<type class="Transcription" />
+<Theme idref="T14" />
+<Theme idref="T15" />
+<Manner idref="T16" />
+<clue>Restriction endonuclease cleavage analysis of these two plasmids demonstrated that glpD and glpR are divergently <clueType>transcribed</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

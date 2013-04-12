@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10760179">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10760179</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Repression of <term sem="Promoter" id="T1" lex="the_Escherichia_coli_melR_promoter">the Escherichia coli melR promoter</term> by <term sem="Activator" id="T2" lex="MelR">MelR</term>: evidence that <term sem="Gene_Repression" id="T3" lex="efficient_repression">efficient repression</term> requires the formation of <term sem="SPAN" id="T4" lex="a_repression_loop">a repression loop</term>.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue><clueType>Repression</clueType> of the Escherichia coli melR promoter by MelR: evidence that efficient repression requires the formation of a repression loop.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Purpose idref="T3" />
+<clue>Repression of the Escherichia coli melR promoter by MelR: evidence that efficient repression <clueType>requires</clueType> the formation of a repression loop.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Activator" id="T5" lex="The_Escherichia_coli_MelR_protein">The Escherichia coli MelR protein</term> is a transcription activator that, in the presence of <term sem="Organic_Compounds" id="T6" lex="melibiose">melibiose</term>, activates expression of <term sem="Operon" id="T7" lex="the_melAB_operon">the melAB operon</term> by binding to <term sem="Locus" id="T8" lex="four_sites">four sites</term> located just upstream of the melAB promoter.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T5" />
+<Theme idref="E4" />
+<Condition idref="T6" />
+<clue>The Escherichia coli MelR protein is a transcription activator that, in the presence of melibiose, <clueType>activates</clueType> expression of the melAB operon by binding to four sites located just upstream of the melAB promoter.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T7" />
+<Manner idref="E5" />
+<clue>The Escherichia coli MelR protein is a transcription activator that, in the presence of melibiose, activates <clueType>expression</clueType> of the melAB operon by binding to four sites located just upstream of the melAB promoter.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Destination idref="T8" />
+<clue>The Escherichia coli MelR protein is a transcription activator that, in the presence of melibiose, activates expression of the melAB operon by <clueType>binding</clueType> to four sites located just upstream of the melAB promoter.</clue>
+</event>
+<sentence id="S4"><term sem="Activator" id="T9" lex="MelR">MelR</term> is encoded by <term sem="Gene" id="T10" lex="the_melR_gene">the melR gene</term>, which is expressed from <term sem="DNA" id="T11" lex="a_divergent_transcript">a divergent transcript</term> that starts 237 bp upstream of the melAB promoter transcript start point.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T9" />
+<clue>MelR is <clueType>encoded</clueType> by the melR gene, which is expressed from a divergent transcript that starts 237 bp upstream of the melAB promoter transcript start point.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<Source idref="T11" />
+<clue>MelR is encoded by the melR gene, which is <clueType>expressed</clueType> from a divergent transcript that starts 237 bp upstream of the melAB promoter transcript start point.</clue>
+</event>
+<sentence id="S5">In a recent study, we have identified <term sem="Locus" id="T12" lex="a_fifth_DNA_site">a fifth DNA site</term> for MelR that overlaps <term sem="Locus" id="T13" lex="the_melR_promoter_transcript_start_and_-10_region">the melR promoter transcript start and -10 region</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" />
+<clue>In a recent study, we have identified a fifth DNA site for MelR that <clueType>overlaps</clueType> the melR promoter transcript start and -10 region.</clue>
+</event>
+<sentence id="S6">Here we show that <term sem="Activator" id="T14" lex="MelR">MelR</term> binding to <term sem="Locus" id="T15" lex="this_site">this site</term> can downregulate expression from <term sem="Promoter" id="T16" lex="the_melR_promoter">the melR promoter</term>; thus, MelR autoregulates its own expression.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Destination idref="T15" />
+<clue>Here we show that MelR <clueType>binding</clueType> to this site can downregulate expression from the melR promoter; thus, MelR autoregulates its own expression.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Agent idref="E9" />
+<Theme idref="E11" />
+<clue>Here we show that MelR binding to this site can <clueType>downregulate</clueType> expression from the melR promoter; thus, MelR autoregulates its own expression.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Source idref="T16" />
+<clue>Here we show that MelR binding to this site can downregulate <clueType>expression</clueType> from the melR promoter; thus, MelR autoregulates its own expression.</clue>
+</event>
+<sentence id="S7">Optimal repression of <term sem="Promoter" id="T17" lex="the_melR_promoter">the melR promoter</term> is observed in the absence of <term sem="Organic_Compounds" id="T18" lex="melibiose">melibiose</term> and requires <term sem="SPAN" id="T19" lex="one_of_the_four_other_DNA_sites">one of <term sem="Locus" id="T20" lex="the_four_other_DNA_sites">the four other DNA sites</term></term> for MelR at the melAB promoter.</sentence>
+<event id="E12">
+<type class="Gene_Repression" />
+<Theme idref="T17" />
+<Condition idref="T18" />
+<clue>Optimal <clueType>repression</clueType> of the melR promoter is observed in the absence of melibiose and requires one of the four other DNA sites for MelR at the melAB promoter.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T19" />
+<Purpose idref="E12" />
+<clue>Optimal repression of the melR promoter is observed in the absence of melibiose and <clueType>requires</clueType> one of the four other DNA sites for MelR at the melAB promoter.</clue>
+</event>
+<sentence id="S8"><term sem="Locus" id="T21" lex="The_two_MelR_binding_sites">The two MelR binding sites</term> required for <term sem="Gene_Repression" id="T22" lex="this_optimal_repression">this optimal repression</term> are separated by 177 bp.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T21" />
+<Purpose idref="T22" />
+<clue>The two MelR binding sites <clueType>required</clueType> for this optimal repression are separated by 177 bp.</clue>
+</event>
+<sentence id="S9">We suggest that, in the absence of melibiose, MelR forms a loop between these two sites.</sentence>
+<sentence id="S10">We argue that, in the presence of <term sem="Organic_Compounds" id="T23" lex="melibiose">melibiose</term>, this loop is broken as <term sem="Promoter" id="T24" lex="the_melAB_promoter">the melAB promoter</term> is activated.</sentence>
+<event id="E15">
+<type class="Gene_Activation" />
+<Theme idref="T24" />
+<Condition idref="T23" />
+<clue>We argue that, in the presence of melibiose, this loop is broken as the melAB promoter is <clueType>activated</clueType>.</clue>
+</event>
+<sentence id="S11">However, in the presence of <term sem="Organic_Compounds" id="T25" lex="melibiose">melibiose</term>, <term sem="Promoter" id="T26" lex="the_melR_promoter">the melR promoter</term> can still be partially repressed by <term sem="Activator" id="T27" lex="MelR">MelR</term> binding to <term sem="Locus" id="T28" lex="the_site">the site</term> that overlaps <term sem="Locus" id="T29" lex="the_transcript_start_and_-10_region">the transcript start and -10 region</term>.</sentence>
+<event id="E16">
+<type class="Gene_Repression" />
+<Agent idref="E17" />
+<Theme idref="T26" />
+<Condition idref="T25" />
+<clue>However, in the presence of melibiose, the melR promoter can still be partially <clueType>repressed</clueType> by MelR binding to the site that overlaps the transcript start and -10 region.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T27" />
+<Destination idref="T28" />
+<clue>However, in the presence of melibiose, the melR promoter can still be partially repressed by MelR <clueType>binding</clueType> to the site that overlaps the transcript start and -10 region.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="T29" />
+<clue>However, in the presence of melibiose, the melR promoter can still be partially repressed by MelR binding to the site that <clueType>overlaps</clueType> the transcript start and -10 region.</clue>
+</event>
+<sentence id="S12">Parallels with the Escherichia coli araC-araBAD regulatory region are discussed.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

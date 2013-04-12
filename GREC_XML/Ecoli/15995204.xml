@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="10/10/2010" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15995204">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15995204</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Hierarchical control of anaerobic gene expression in Escherichia coli K-12: <term sem="SPAN" id="T1" lex="the_nitrate-responsive_NarX-NarL_regulatory_system">the nitrate-responsive NarX-NarL regulatory system</term> represses synthesis of <term sem="SPAN" id="T2" lex="the_fumarate-responsive_DcuS-DcuR_regulatory_system">the fumarate-responsive DcuS-DcuR regulatory system</term>.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>Hierarchical control of anaerobic gene expression in Escherichia coli K-12: the nitrate-responsive NarX-NarL regulatory system <clueType>represses</clueType> synthesis of the fumarate-responsive DcuS-DcuR regulatory system.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T2" />
+<clue>Hierarchical control of anaerobic gene expression in Escherichia coli K-12: the nitrate-responsive NarX-NarL regulatory system represses <clueType>synthesis</clueType> of the fumarate-responsive DcuS-DcuR regulatory system.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Hierarchical control ensures that facultative bacteria preferentially use the available respiratory electron acceptor with the most positive standard redox potential.</sentence>
+<sentence id="S4">Thus, nitrate is used before other electron acceptors such as fumarate for anaerobic respiration.</sentence>
+<sentence id="S5"><term sem="Regulation" id="T3" lex="Nitrate_regulation">Nitrate regulation</term> is mediated by <term sem="SPAN" id="T4" lex="the_NarX-NarL_two-component_system">the NarX-NarL two-component system</term>, which activates the transcription of <term sem="Operon" id="T5" lex="operons">operons</term> encoding <term sem="Enzyme" id="T6" lex="nitrate_respiration_enzymes">nitrate respiration enzymes</term> and represses the transcription of <term sem="SPAN" id="T7" lex="operons">operons</term> for <term sem="SPAN" id="T8" lex="other_anaerobic_respiratory_enzymes">other anaerobic respiratory enzymes</term>, including enzymes involved in fumarate respiration.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<clue>Nitrate regulation is <clueType>mediated</clueType> by the NarX-NarL two-component system, which activates the transcription of operons encoding nitrate respiration enzymes and represses the transcription of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T4" />
+<Theme idref="E5" />
+<clue>Nitrate regulation is mediated by the NarX-NarL two-component system, which <clueType>activates</clueType> the transcription of operons encoding nitrate respiration enzymes and represses the transcription of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<Theme idref="T5" />
+<clue>Nitrate regulation is mediated by the NarX-NarL two-component system, which activates the <clueType>transcription</clueType> of operons encoding nitrate respiration enzymes and represses the transcription of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>Nitrate regulation is mediated by the NarX-NarL two-component system, which activates the transcription of operons <clueType>encoding</clueType> nitrate respiration enzymes and represses the transcription of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Repression" />
+<Agent idref="T4" />
+<Theme idref="E8" />
+<clue>Nitrate regulation is mediated by the NarX-NarL two-component system, which activates the transcription of operons encoding nitrate respiration enzymes and <clueType>represses</clueType> the transcription of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T7" />
+<Purpose idref="T8" />
+<clue>Nitrate regulation is mediated by the NarX-NarL two-component system, which activates the transcription of operons encoding nitrate respiration enzymes and represses the <clueType>transcription</clueType> of operons for other anaerobic respiratory enzymes, including enzymes involved in fumarate respiration.</clue>
+</event>
+<sentence id="S6">These are <term sem="Enzyme" id="T9" lex="fumarate_reductase">fumarate reductase</term> (encoded by <term sem="Operon" id="T10" lex="the_frdABCD_operon">the frdABCD operon</term>), fumarase B, which generates fumarate from malate, and the DcuB permease for fumarate, malate, and aspartate.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<clue>These are fumarate reductase (<clueType>encoded</clueType> by the frdABCD operon), fumarase B, which generates fumarate from malate, and the DcuB permease for fumarate, malate, and aspartate.</clue>
+</event>
+<sentence id="S7">The transcription of <term sem="Gene" id="T11" lex="the_corresponding_structural_genes">the corresponding structural genes</term> is activated by <term sem="SPAN" id="T12" lex="the_DcuS-DcuR_two-component_system">the DcuS-DcuR two-component system</term> in response <term sem="SPAN" id="T13" lex="to_fumarate_or_its_dicarboxylate_precursors.">to fumarate or its dicarboxylate precursors.</term></sentence>
+<event id="E10">
+<type class="Transcription" />
+<Theme idref="T11" />
+<clue>The <clueType>transcription</clueType> of the corresponding structural genes is activated by the DcuS-DcuR two-component system in response to fumarate or its dicarboxylate precursors.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="E10" />
+<Condition idref="T13" />
+<clue>The transcription of the corresponding structural genes is <clueType>activated</clueType> by the DcuS-DcuR two-component system in response to fumarate or its dicarboxylate precursors.</clue>
+</event>
+<sentence id="S8">We report results from preliminary transcription microarray experiments that revealed two previously unknown members of the NarL regulon: <term sem="Gene" id="T14" lex="the_aspA_gene">the aspA gene</term> encoding <term sem="Enzyme" id="T15" lex="aspartate-ammonia_lyase">aspartate-ammonia lyase</term>, which generates fumarate; and <term sem="Operon" id="T16" lex="the_dcuSR_operon">the dcuSR operon</term> encoding <term sem="SPAN" id="T17" lex="the_dicarboxylate-responsive_regulatory_system">the dicarboxylate-responsive regulatory system</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>We report results from preliminary transcription microarray experiments that revealed two previously unknown members of the NarL regulon: the aspA gene <clueType>encoding</clueType> aspartate-ammonia lyase, which generates fumarate; and the dcuSR operon encoding the dicarboxylate-responsive regulatory system.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T16" />
+<Theme idref="T17" />
+<clue>We report results from preliminary transcription microarray experiments that revealed two previously unknown members of the NarL regulon: the aspA gene encoding aspartate-ammonia lyase, which generates fumarate; and the dcuSR operon <clueType>encoding</clueType> the dicarboxylate-responsive regulatory system.</clue>
+</event>
+<sentence id="S9">We measured beta-galactosidase expression from monocopy aspA-lacZ, frdA-lacZ, and dcuS-lacZ operon fusions in response to added nitrate and fumarate and with respect to the dcuR and narL genotypes.</sentence>
+<sentence id="S10"><term sem="SPAN" id="T18" lex="Nitrate">Nitrate</term>, acting through the NarX-NarL regulatory system, repressed the transcription of <term sem="Operon" id="T19" lex="all_three_operons">all three operons</term>.</sentence>
+<event id="E14">
+<type class="Gene_Repression" />
+<Agent idref="T18" />
+<Theme idref="E15" />
+<clue>Nitrate, acting through the NarX-NarL regulatory system, <clueType>repressed</clueType> the transcription of all three operons.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<Theme idref="T19" />
+<clue>Nitrate, acting through the NarX-NarL regulatory system, repressed the <clueType>transcription</clueType> of all three operons.</clue>
+</event>
+<sentence id="S11">Only frdA-lacZ expression, however, was responsive to added fumarate or a dcuR(+) genotype.</sentence>
+<sentence id="S12">Phospho-NarL protein protected operator sites in the aspA and dcuS promoter regions from DNase I cleavage in vitro.</sentence>
+<sentence id="S13">The overall results are consistent with the hypothesis that <term sem="SPAN" id="T20" lex="nitrate">nitrate</term> represses <term sem="Operon" id="T21" lex="frdA_operon">frdA operon</term> transcription not only directly, by repressing <term sem="Promoter" id="T22" lex="frdA_promoter_activity">frdA promoter activity</term>, but also indirectly, by repressing <term sem="Promoter" id="T23" lex="dcuS_promoter_activity">dcuS promoter activity</term>.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="E17" />
+<clue>The overall results are consistent with the hypothesis that nitrate <clueType>represses</clueType> frdA operon transcription not only directly, by repressing frdA promoter activity, but also indirectly, by repressing dcuS promoter activity.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<Theme idref="T21" />
+<clue>The overall results are consistent with the hypothesis that nitrate represses frdA operon <clueType>transcription</clueType> not only directly, by repressing frdA promoter activity, but also indirectly, by repressing dcuS promoter activity.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T22" />
+<clue>The overall results are consistent with the hypothesis that nitrate represses frdA operon transcription not only directly, by <clueType>repressing</clueType> frdA promoter activity, but also indirectly, by repressing dcuS promoter activity.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Repression" />
+<Agent idref="T20" />
+<Theme idref="T23" />
+<clue>The overall results are consistent with the hypothesis that nitrate represses frdA operon transcription not only directly, by repressing frdA promoter activity, but also indirectly, by <clueType>repressing</clueType> dcuS promoter activity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

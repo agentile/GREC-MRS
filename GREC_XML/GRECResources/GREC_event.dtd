@@ -1,0 +1,229 @@
+<!-- ============================================================ -->
+<!-- DTD for GREC with concept &    event annotation              -->
+<!-- Modified by Paul Thompson <paul.thompson@manchester.ac.uk>   -->
+<!-- from the original GENIA DTD written by Jin-Dong KIM          -->
+<!-- <jdkim@tsujii.is.s.u-tokyo.ac.jp>  				      -->
+<!-- Date of last modification: 28 August 2009                    -->
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
+<!-- Labels for concept&event annotation                             -->
+<!-- ============================================================ -->
+<!ENTITY % term.class "(
+ Polypeptide | Peptide | Protein_Complex | Protein | Amino_Acids |
+ Conformation | Sub_Unit | Motif | Domain | Transcription_Factor |
+ Enzyme | Regulator | Sigma_Factor | Repressor | Rho-Factor |
+ Activator | RNA_Polymerase | DNA_Polymerase | Restriction_Enzyme |
+ Chromosome | Plasmid | Viral_Vector | RNA | DNA | Gene | Operon |
+ Locus | Mutant_Gene | ORF | Allele | Transcription_Binding_Site |
+ Termination_Site | Phenotype | Ribosome | mRNA | Promoter | Operator |
+ Enhancer | Prokaryotes | Virus | Eukaryotes | Bacteria | Non-Bacteria |
+ Wild_Type_Bacteria | Mutant_Bacteria | Organism | Tissue | Cells |Organelles |
+ Wild_Type_Organism | Mutant_Organism | Gene_Expression |
+ Mutation | Transcription | Replication | Recombination | Methylation | Regulation |
+ Gene_Activation | Gene_Repression | Insertion | Deletion | Null_Mutation | Point_Mutation |
+ Reagents | Experimental_Technique | Experimental_Equipment | Inorganic_Compounds | 
+ Organic_Compounds | Other_Compounds | Laboratory_Technique | Computational_Analysis | SPAN 
+)">
+
+<!-- ============================================================ -->
+<!-- HIERARCHICAL ELEMENTS                                        -->
+<!-- ============================================================ -->
+<!ELEMENT Annotation (PubmedArticleSet)>
+<!ATTLIST Annotation
+		annotates CDATA #REQUIRED
+		creator   CDATA #IMPLIED
+		created   CDATA #IMPLIED
+>
+
+<!ELEMENT PubmedArticleSet (PubmedArticle)>
+<!ELEMENT PubmedArticle (MedlineCitation)>
+<!ELEMENT MedlineCitation (PMID, Article)>
+<!ELEMENT Article (ArticleTitle, Abstract)>
+<!ELEMENT Abstract (AbstractText)>
+
+<!-- ============================================================ -->
+<!-- BLOCK ELEMENTS                                               -->
+<!-- ============================================================ -->
+<!ELEMENT ArticleTitle (sentence | event)+>
+<!ELEMENT AbstractText (sentence | event)+>
+<!ELEMENT PMID (#PCDATA)>
+
+<!-- ============================================================ -->
+<!-- LINGUISTIC ELEMENTS                                          -->
+<!-- ============================================================ -->
+<!ELEMENT sentence	(#PCDATA | term )*>
+<!ATTLIST sentence	id ID	#REQUIRED>
+
+
+<!ELEMENT term		(#PCDATA | term )*>
+<!ATTLIST term
+		sem %term.class;	#IMPLIED
+		lex CDATA		#IMPLIED
+		id  ID		#REQUIRED
+>
+
+<!-- ============================================================ -->
+<!-- ELEMENTS FOR EVENT ANNOTATION                                -->
+<!-- ============================================================ -->
+<!ELEMENT event (type, (Agent | Theme | Manner | Instrument | Location | Source | Destination | 
+Temporal | Condition | Rate | Descriptive-Agent | Descriptive-Theme | Purpose )+,
+            clue)>
+<!ATTLIST event
+		id		ID				#REQUIRED
+>
+
+<!ELEMENT type EMPTY>
+<!ATTLIST type class		CDATA	"UNCLASSIFIED">
+
+<!ELEMENT Agent EMPTY>
+<!ATTLIST Agent
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT Theme EMPTY>
+<!ATTLIST Theme
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT Manner EMPTY>
+<!ATTLIST Manner
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Instrument EMPTY>
+<!ATTLIST Instrument
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Location EMPTY>
+<!ATTLIST Location
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Source EMPTY>
+<!ATTLIST Source
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Destination EMPTY>
+<!ATTLIST Destination
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Temporal EMPTY>
+<!ATTLIST Temporal
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Condition EMPTY>
+<!ATTLIST Condition
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+
+<!ELEMENT Rate EMPTY>
+<!ATTLIST Rate
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+<!ELEMENT Descriptive-Agent EMPTY>
+<!ATTLIST Descriptive-Agent
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT Descriptive-Theme EMPTY>
+<!ATTLIST Descriptive-Theme
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+
+>
+<!ELEMENT Purpose EMPTY>
+<!ATTLIST Purpose
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+<!ELEMENT Underspecified EMPTY>
+<!ATTLIST Underspecified
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+
+
+<!ELEMENT clue  (#PCDATA | clueType)*>
+
+<!ELEMENT clueType		(#PCDATA)>

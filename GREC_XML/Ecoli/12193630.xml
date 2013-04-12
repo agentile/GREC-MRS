@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12193630">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12193630</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulatory circuitry of the CsrA/CsrB and BarA/UvrY systems of Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Regulator" id="T1" lex="The_global_regulator_CsrA">The global regulator CsrA</term> (carbon storage regulator) is an RNA binding protein that coordinates <term sem="SPAN" id="T2" lex="central_carbon_metabolism">central carbon metabolism</term>, activates <term sem="SPAN" id="T3" lex="flagellum_biosynthesis_and_motility">flagellum biosynthesis and motility</term>, and represses <term sem="SPAN" id="T4" lex="biofilm_formation">biofilm formation</term> <term sem="SPAN" id="T5" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T6" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Location idref="T5" />
+<clue>The global regulator CsrA (carbon storage regulator) is an RNA binding protein that <clueType>coordinates</clueType> central carbon metabolism, activates flagellum biosynthesis and motility, and represses biofilm formation in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T3" />
+<Location idref="T5" />
+<clue>The global regulator CsrA (carbon storage regulator) is an RNA binding protein that coordinates central carbon metabolism, <clueType>activates</clueType> flagellum biosynthesis and motility, and represses biofilm formation in Escherichia coli.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T4" />
+<Location idref="T5" />
+<clue>The global regulator CsrA (carbon storage regulator) is an RNA binding protein that coordinates central carbon metabolism, activates flagellum biosynthesis and motility, and <clueType>represses</clueType> biofilm formation in Escherichia coli.</clue>
+</event>
+<sentence id="S4"><term sem="Regulator" id="T7" lex="CsrA">CsrA</term><term sem="SPAN" id="T8" lex="CsrA_activity"> activity</term> is antagonized by <term sem="RNA" id="T9" lex="the_untranslated_RNA_CsrB">the untranslated RNA CsrB</term>, to which it binds and forms <term sem="Protein_Complex" id="T10" lex="a_globular_ribonucleoprotein_complex">a globular ribonucleoprotein complex</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T8" />
+<clue>CsrA activity is <clueType>antagonized</clueType> by the untranslated RNA CsrB, to which it binds and forms a globular ribonucleoprotein complex.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T9" />
+<clue>CsrA activity is antagonized by the untranslated RNA CsrB, to which it <clueType>binds</clueType> and forms a globular ribonucleoprotein complex.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T7" idref1="T9" />
+<Theme idref="T10" />
+<clue>CsrA activity is antagonized by the untranslated RNA CsrB, to which it binds and <clueType>forms</clueType> a globular ribonucleoprotein complex.</clue>
+</event>
+<sentence id="S5"><term sem="Regulator" id="T11" lex="CsrA">CsrA</term> <term sem="SPAN" id="T12" lex="indirectly">indirectly</term> activates <term sem="Gene" id="T13" lex="csrB">csrB</term> transcription, in an apparent autoregulatory mechanism.</sentence>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="T11" />
+<Theme idref="E8" />
+<Manner idref="T12" />
+<clue>CsrA indirectly <clueType>activates</clueType> csrB transcription, in an apparent autoregulatory mechanism.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T13" />
+<clue>CsrA indirectly activates csrB <clueType>transcription</clueType>, in an apparent autoregulatory mechanism.</clue>
+</event>
+<sentence id="S6">In the present study, we elucidate the intermediate regulatory circuitry of this system.</sentence>
+<sentence id="S7"><term sem="Mutation" id="T14" lex="Mutations">Mutations</term> affecting <term sem="SPAN" id="T15" lex="the_BarA/UvrY_two-component_signal_transduction_system">the BarA/UvrY two-component signal transduction system</term> decreased <term sem="Gene" id="T16" lex="csrB">csrB</term> transcription but did not affect <term sem="Gene" id="T17" lex="csrA'-'lacZ">csrA'-'lacZ</term> expression.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>Mutations <clueType>affecting</clueType> the BarA/UvrY two-component signal transduction system decreased csrB transcription but did not affect csrA'-'lacZ expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Repression" />
+<Agent idref="T14" />
+<Theme idref="E11" />
+<clue>Mutations affecting the BarA/UvrY two-component signal transduction system <clueType>decreased</clueType> csrB transcription but did not affect csrA'-'lacZ expression.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<Theme idref="T16" />
+<clue>Mutations affecting the BarA/UvrY two-component signal transduction system decreased csrB <clueType>transcription</clueType> but did not affect csrA'-'lacZ expression.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="E13" />
+<clue>Mutations affecting the BarA/UvrY two-component signal transduction system decreased csrB transcription but did not <clueType>affect</clueType> csrA'-'lacZ expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue>Mutations affecting the BarA/UvrY two-component signal transduction system decreased csrB transcription but did not affect csrA'-'lacZ <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">The uvrY defect was severalfold more severe than that of barA.</sentence>
+<sentence id="S9">Both <term sem="Gene" id="T18" lex="csrA_and_uvrY">csrA and uvrY</term> were required for optimal <term sem="Gene" id="T19" lex="barA">barA</term> expression.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T18" />
+<Purpose idref="E15" />
+<clue>Both csrA and uvrY were <clueType>required</clueType> for optimal barA expression.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Expression" />
+<Theme idref="T19" />
+<clue>Both csrA and uvrY were required for optimal barA <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S10">The latter observation suggests an autoregulatory loop for UvrY.</sentence>
+<sentence id="S11"><term sem="SPAN" id="T20" lex="Ectopic">Ectopic</term> expression of <term sem="Gene" id="T21" lex="uvrY">uvrY</term> suppressed the <term sem="Gene" id="T22" lex="csrB-lacZ"><term sem="SPAN" id="T23" lex="csrB-lacZ_expression_defects">csrB-lacZ expression defects</term></term> caused by <term sem="Gene" id="T24" lex="uvrY">uvrY</term>, <term sem="Gene" id="T25" lex="csrA">csrA</term>, or <term sem="Gene" id="T26" lex="barA">barA</term> mutations; <term sem="Gene" id="T27" lex="csrA">csrA</term> suppressed <term sem="SPAN" id="T28" lex="csrA_or_barA_defects">csrA or barA defects</term>; and <term sem="Gene" id="T29" lex="barA">barA</term> complemented only the <term sem="Gene" id="T30" lex="barA">barA</term> mutation.</sentence>
+<event id="E16">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<Manner idref="T20" />
+<clue>Ectopic <clueType>expression</clueType> of uvrY suppressed the csrB-lacZ expression defects caused by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="E16" />
+<Theme idref="E18" />
+<clue>Ectopic expression of uvrY <clueType>suppressed</clueType> the csrB-lacZ expression defects caused by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E18">
+<type class="Gene_Expression" />
+<Theme idref="T22" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ <clueType>expression</clueType> defects caused by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="E20" />
+<Theme idref="T23" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ expression defects <clueType>caused</clueType> by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E20">
+<type class="Mutation" />
+<Theme idref="T24" idref1="T25" idref2="T26" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ expression defects caused by uvrY, csrA, or barA <clueType>mutations</clueType>; csrA suppressed csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T27" />
+<Theme idref="T28" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ expression defects caused by uvrY, csrA, or barA mutations; csrA <clueType>suppressed</clueType> csrA or barA defects; and barA complemented only the barA mutation.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="E23" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ expression defects caused by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA <clueType>complemented</clueType> only the barA mutation.</clue>
+</event>
+<event id="E23">
+<type class="Mutation" />
+<Theme idref="T30" />
+<clue>Ectopic expression of uvrY suppressed the csrB-lacZ expression defects caused by uvrY, csrA, or barA mutations; csrA suppressed csrA or barA defects; and barA complemented only the barA <clueType>mutation</clueType>.</clue>
+</event>
+<sentence id="S12"><term sem="Activator" id="T31" lex="Purified_UvrY_protein">Purified UvrY protein</term> stimulated <term sem="Gene" id="T32" lex="csrB-lacZ">csrB-lacZ</term> expression <term sem="SPAN" id="T33" lex="approximately_sixfold">approximately sixfold</term> in S-30 transcription-translation reactions, revealing a direct effect of <term sem="Protein" id="T34" lex="UvrY">UvrY</term> on <term sem="Gene" id="T35" lex="csrB">csrB</term> transcription.</sentence>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="E25" />
+<Rate idref="T33" />
+<clue>Purified UvrY protein <clueType>stimulated</clueType> csrB-lacZ expression approximately sixfold in S-30 transcription-translation reactions, revealing a direct effect of UvrY on csrB transcription.</clue>
+</event>
+<event id="E25">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue>Purified UvrY protein stimulated csrB-lacZ <clueType>expression</clueType> approximately sixfold in S-30 transcription-translation reactions, revealing a direct effect of UvrY on csrB transcription.</clue>
+</event>
+<event id="E26">
+<type class="GRE" />
+<Agent idref="T34" />
+<Theme idref="E27" />
+<clue>Purified UvrY protein stimulated csrB-lacZ expression approximately sixfold in S-30 transcription-translation reactions, revealing a direct <clueType>effect</clueType> of UvrY on csrB transcription.</clue>
+</event>
+<event id="E27">
+<type class="Transcription" />
+<Theme idref="T35" />
+<clue>Purified UvrY protein stimulated csrB-lacZ expression approximately sixfold in S-30 transcription-translation reactions, revealing a direct effect of UvrY on csrB <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S13">Disruption of <term sem="Gene" id="T36" lex="sdiA">sdiA</term>, which encodes <term sem="SPAN" id="T37" lex="a_LuxR_homologue">a LuxR homologue</term>, decreased the expression of <term sem="Gene" id="T38" lex="uvrY'-'lacZ_and_csrB-lacZ_fusions">uvrY'-'lacZ and csrB-lacZ fusions</term> but did not affect <term sem="Gene" id="T39" lex="csrA'-'lacZ">csrA'-'lacZ</term>.</sentence>
+<event id="E28">
+<type class="Mutation" />
+<Theme idref="T36" />
+<clue><clueType>Disruption</clueType> of sdiA, which encodes a LuxR homologue, decreased the expression of uvrY'-'lacZ and csrB-lacZ fusions but did not affect csrA'-'lacZ.</clue>
+</event>
+<event id="E29">
+<type class="GRE" />
+<Agent idref="T36" />
+<Theme idref="T37" />
+<clue>Disruption of sdiA, which <clueType>encodes</clueType> a LuxR homologue, decreased the expression of uvrY'-'lacZ and csrB-lacZ fusions but did not affect csrA'-'lacZ.</clue>
+</event>
+<event id="E30">
+<type class="Gene_Repression" />
+<Agent idref="E28" />
+<Theme idref="E31" />
+<clue>Disruption of sdiA, which encodes a LuxR homologue, <clueType>decreased</clueType> the expression of uvrY'-'lacZ and csrB-lacZ fusions but did not affect csrA'-'lacZ.</clue>
+</event>
+<event id="E31">
+<type class="Gene_Expression" />
+<Theme idref="T38" />
+<clue>Disruption of sdiA, which encodes a LuxR homologue, decreased the <clueType>expression</clueType> of uvrY'-'lacZ and csrB-lacZ fusions but did not affect csrA'-'lacZ.</clue>
+</event>
+<event id="E32">
+<type class="GRE" />
+<Agent idref="E28" />
+<Theme idref="T39" />
+<clue>Disruption of sdiA, which encodes a LuxR homologue, decreased the expression of uvrY'-'lacZ and csrB-lacZ fusions but did not <clueType>affect</clueType> csrA'-'lacZ.</clue>
+</event>
+<sentence id="S14">The BarA/UvrY system activated biofilm formation.</sentence>
+<sentence id="S15"><term sem="SPAN" id="T40" lex="Ectopic">Ectopic</term> expression of <term sem="Gene" id="T41" lex="uvrY">uvrY</term> stimulated <term sem="SPAN" id="T42" lex="biofilm_formation">biofilm formation</term> by a csrB-null mutant, indicative of a CsrB-independent role for UvrY in biofilm development.</sentence>
+<event id="E33">
+<type class="Gene_Expression" />
+<Theme idref="T41" />
+<Manner idref="T40" />
+<clue>Ectopic <clueType>expression</clueType> of uvrY stimulated biofilm formation by a csrB-null mutant, indicative of a CsrB-independent role for UvrY in biofilm development.</clue>
+</event>
+<event id="E34">
+<type class="GRE" />
+<Agent idref="E33" />
+<Theme idref="T42" />
+<clue>Ectopic expression of uvrY <clueType>stimulated</clueType> biofilm formation by a csrB-null mutant, indicative of a CsrB-independent role for UvrY in biofilm development.</clue>
+</event>
+<sentence id="S16">Collectively, these results demonstrate that uvrY resides downstream from csrA in a signaling pathway for csrB and that <term sem="Regulator" id="T43" lex="CsrA">CsrA</term> stimulates <term sem="SPAN" id="T44" lex="UvrY-dependent">UvrY-dependent</term> activation of <term sem="Gene" id="T45" lex="csrB">csrB</term> expression by <term sem="SPAN" id="T46" lex="BarA-dependent_and_-independent_mechanisms">BarA-dependent and -independent mechanisms</term>.</sentence>
+<event id="E35">
+<type class="GRE" />
+<Agent idref="T43" />
+<Theme idref="E36" />
+<Manner idref="T46" />
+<clue>Collectively, these results demonstrate that uvrY resides downstream from csrA in a signaling pathway for csrB and that CsrA <clueType>stimulates</clueType> UvrY-dependent activation of csrB expression by BarA-dependent and -independent mechanisms.</clue>
+</event>
+<event id="E36">
+<type class="Gene_Activation" />
+<Theme idref="E37" />
+<Manner idref="T44" />
+<clue>Collectively, these results demonstrate that uvrY resides downstream from csrA in a signaling pathway for csrB and that CsrA stimulates UvrY-dependent <clueType>activation</clueType> of csrB expression by BarA-dependent and -independent mechanisms.</clue>
+</event>
+<event id="E37">
+<type class="Gene_Expression" />
+<Theme idref="T45" />
+<clue>Collectively, these results demonstrate that uvrY resides downstream from csrA in a signaling pathway for csrB and that CsrA stimulates UvrY-dependent activation of csrB <clueType>expression</clueType> by BarA-dependent and -independent mechanisms.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

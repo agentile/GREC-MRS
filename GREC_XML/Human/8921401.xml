@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8921401">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8921401</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning of human lymphocyte-specific interferon regulatory factor (hLSIRF/hIRF4) and mapping of the gene to 6p23-p25.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The interferon regulatory factor (<term sem="Gene" id="T1" lex="IRF">IRF</term>) genes encode <term sem="Activator" id="T2" lex="a_family_of_transcription_factors">a family of <term sem="Activator" id="T3" lex="transcription_factors">transcription factors</term></term> involved in the <term sem="SPAN" id="T4" lex="transcriptional">transcriptional</term> regulation of <term sem="Protein" id="T5" lex="interferon">interferon</term> and <term sem="Gene" id="T6" lex="the_interferon_stimulated_genes">the interferon stimulated genes</term> through recognition of <term sem="Transcription_Binding_Site" id="T7" lex="the_interferon_stimulated_response_element">the interferon stimulated response element</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The interferon regulatory factor (IRF) genes <clueType>encode</clueType> a family of transcription factors involved in the transcriptional regulation of interferon and the interferon stimulated genes through recognition of the interferon stimulated response element.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Descriptive-Theme idref="E3" />
+<clue>The interferon regulatory factor (IRF) genes encode a family of transcription factors <clueType>involved</clueType> in the transcriptional regulation of interferon and the interferon stimulated genes through recognition of the interferon stimulated response element.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<Theme idref="T5" idref1="T6" />
+<Manner idref="T4" />
+<clue>The interferon regulatory factor (IRF) genes encode a family of transcription factors involved in the transcriptional <clueType>regulation</clueType> of interferon and the interferon stimulated genes through recognition of the interferon stimulated response element.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T7" />
+<clue>The interferon regulatory factor (IRF) genes encode a family of transcription factors involved in the transcriptional regulation of interferon and the interferon stimulated genes through <clueType>recognition</clueType> of the interferon stimulated response element.</clue>
+</event>
+<sentence id="S4">We previously reported the cloning of a murine lymphocyte-specific IRF (<term sem="Gene" id="T8" lex="mLSIRF">mLSIRF</term>), which was rapidly induced following B- or T-cell receptor crosslinking.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<clue>We previously reported the cloning of a murine lymphocyte-specific IRF (mLSIRF), which was rapidly <clueType>induced</clueType> following B- or T-cell receptor crosslinking.</clue>
+</event>
+<sentence id="S5">To study the role of LSIRF in human lymphocyte development, we have cloned the complete 5.3-kb cDNA for the human homolog (hLSIRF).</sentence>
+<sentence id="S6">hLSIRF is a protein of 450 amino acids with a predicted molecular weight of 51.6 kDa and possesses 92% identity at the amino acid level to mLSIRF, including near identity in the DNA-binding domain.</sentence>
+<sentence id="S7">In Northern blot analysis, <term sem="mRNA" id="T9" lex="a_single_transcript">a single transcript</term> of approximately 5 kb was highly expressed <term sem="SPAN" id="T10" lex="in_spleen_and_peripheral_blood_lymphocyte">in <term sem="Tissue" id="T11" lex="spleen">spleen</term> and peripheral blood lymphocyte</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T9" />
+<Location idref="T10" />
+<clue>In Northern blot analysis, a single transcript of approximately 5 kb was highly <clueType>expressed</clueType> in spleen and peripheral blood lymphocyte.</clue>
+</event>
+<sentence id="S8"><term sem="mRNA" id="T12" lex="hLSIRF_mRNA">hLSIRF mRNA</term> was rapidly induced <term sem="SPAN" id="T13" lex="in_peripheral_T_cells">in <term sem="Cells" id="T14" lex="peripheral_T_cells">peripheral T cells</term></term> after <term sem="SPAN" id="T15" lex="crosslinking_the_T-cell_receptor">crosslinking <term sem="Protein" id="T16" lex="the_T-cell_receptor">the T-cell receptor</term></term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T12" />
+<Location idref="T13" />
+<Condition idref="T15" />
+<clue>hLSIRF mRNA was rapidly <clueType>induced</clueType> in peripheral T cells after crosslinking the T-cell receptor.</clue>
+</event>
+<sentence id="S9">Analysis of tumor cell lines showed that <term sem="mRNA" id="T17" lex="hLSIRF_mRNA">hLSIRF mRNA</term> was <term sem="SPAN" id="T18" lex="basally">basally</term> expressed <term sem="SPAN" id="T19" lex="in_most_B-_but_not_T-cell_lines">in <term sem="Cells" id="T20" lex="most_B-">most B-</term> but not T-cell lines</term><term sem="Cells" id="T21" lex="T-cell_lines"></term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T17" />
+<Manner idref="T18" />
+<Location idref="T19" />
+<clue>Analysis of tumor cell lines showed that hLSIRF mRNA was basally <clueType>expressed</clueType> in most B- but not T-cell lines.</clue>
+</event>
+<sentence id="S10">Surprisingly <term sem="mRNA" id="T22" lex="hLSIRF_mRNA">hLSIRF mRNA</term> was also found in the melanoma line G361 and is expressed <term sem="SPAN" id="T23" lex="in_normal_melanocytes">in <term sem="Cells" id="T24" lex="normal_melanocytes">normal melanocytes</term></term> as well.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T22" />
+<Location idref="T23" />
+<clue>Surprisingly hLSIRF mRNA was also found in the melanoma line G361 and is <clueType>expressed</clueType> in normal melanocytes as well.</clue>
+</event>
+<sentence id="S11">Sequence from a genomic clone for hLSIRF was compared to that from mouse and revealed an identical exon-intron structure and a conserved PU-1-binding motif in the promoter.</sentence>
+<sentence id="S12">By FISH analysis, hLSIRF was mapped to 6p23-p25.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

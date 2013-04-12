@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1372899">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1372899</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Structure and regulation of <term sem="Operon" id="T1" lex="the_glpFK_operon">the glpFK operon</term> encoding <term sem="Protein" id="T2" lex="glycerol_diffusion_facilitator">glycerol diffusion facilitator</term> and <term sem="Enzyme" id="T3" lex="glycerol_kinase">glycerol kinase</term> of Escherichia coli K-12.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T1" />
+<clue>Structure and <clueType>regulation</clueType> of the glpFK operon encoding glycerol diffusion facilitator and glycerol kinase of Escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" idref1="T3" />
+<clue>Structure and regulation of the glpFK operon <clueType>encoding</clueType> glycerol diffusion facilitator and glycerol kinase of Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The glpFK operon maps near minute 88 on the linkage map of Escherichia coli K-12 with glpF promoter proximal.</sentence>
+<sentence id="S4"><term sem="Gene" id="T4" lex="The_glpF_gene">The glpF gene</term> encodes <term sem="Protein" id="T5" lex="a_cytoplasmic_membrane_protein">a cytoplasmic membrane protein</term> which facilitates the diffusion of glycerol into the cell.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>The glpF gene <clueType>encodes</clueType> a cytoplasmic membrane protein which facilitates the diffusion of glycerol into the cell.</clue>
+</event>
+<sentence id="S5"><term sem="Gene" id="T6" lex="The_glpK_gene">The glpK gene</term> encodes <term sem="Enzyme" id="T7" lex="glycerol_kinase">glycerol kinase</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>The glpK gene <clueType>encodes</clueType> glycerol kinase.</clue>
+</event>
+<sentence id="S6">In the present work, the nucleotide sequence of the 5'-end of the operon, including the control region, the glpF gene, and part of the glpK gene, was determined.</sentence>
+<sentence id="S7">The facilitator was predicted to contain 281 amino acids with a calculated molecular weight of 29,780.</sentence>
+<sentence id="S8">It is a highly hydrophobic protein with a minimum of six potential transmembrane alpha helices.</sentence>
+<sentence id="S9">The transcription start site for the glpFK operon was located 71 base pairs upstream from the proposed translation start codon for glpF.</sentence>
+<sentence id="S10">Preceding the transcription start site were sequences similar to the -10 and -35 consensus sequences for bacterial promoters.</sentence>
+<sentence id="S11"><term sem="SPAN" id="T8" lex="Binding_sites">Binding sites</term> for the cAMP-cAMP receptor protein (CRP) complex and the glp repressor were identified by <term sem="Laboratory_Technique" id="T9" lex="DNase_I_footprinting">DNase I footprinting</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<Instrument idref="T9" />
+<clue>Binding sites for the cAMP-cAMP receptor protein (CRP) complex and the glp repressor were <clueType>identified</clueType> by DNase I footprinting.</clue>
+</event>
+<sentence id="S12"><term sem="Locus" id="T10" lex="The_region">The region</term> protected by <term sem="Protein_Complex" id="T11" lex="the_cAMP.CRP_complex">the cAMP.CRP complex</term> contained tandem sequences resembling the consensus sequence for CRP binding.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T10" />
+<clue>The region <clueType>protected</clueType> by the cAMP.CRP complex contained tandem sequences resembling the consensus sequence for CRP binding.</clue>
+</event>
+<sentence id="S13"><term sem="Transcription_Binding_Site" id="T12" lex="The_CRP_sites">The CRP sites</term> were centered <term sem="SPAN" id="T13" lex="at_37.5_and_60.5_base_pairs_upstream_of_the_start_of_transcription">at <term sem="Locus" id="T14" lex="37.5_and_60.5_base_pairs">37.5 and 60.5 base pairs</term> upstream of the start of transcription</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T12" />
+<Location idref="T13" />
+<clue>The CRP sites were <clueType>centered</clueType> at 37.5 and 60.5 base pairs upstream of the start of transcription.</clue>
+</event>
+<sentence id="S14"><term sem="Repressor" id="T15" lex="The_glp_repressor">The glp repressor</term> protected <term sem="Locus" id="T16" lex="an_extensive_area">an extensive area</term> (-89 to -7 relative to the start point of transcription), sufficient for the binding of four repressor tetramers.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T16" />
+<clue>The glp repressor <clueType>protected</clueType> an extensive area (-89 to -7 relative to the start point of transcription), sufficient for the binding of four repressor tetramers.</clue>
+</event>
+<sentence id="S15"><term sem="Transcription_Binding_Site" id="T17" lex="Two_additional_binding_sites">Two additional binding sites</term> for the repressor were identified <term sem="SPAN" id="T18" lex="within_the_glpK_coding_region">within <term sem="ORF" id="T19" lex="the_glpK_coding_region">the glpK coding region</term></term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T17" />
+<Location idref="T18" />
+<clue>Two additional binding sites for the repressor were <clueType>identified</clueType> within the glpK coding region.</clue>
+</event>
+<sentence id="S16"><term sem="DNA" id="T20" lex="The_DNA">The DNA</term> containing <term sem="Operator" id="T21" lex="these_two_operators">these two operators</term> <term sem="SPAN" id="T22" lex="synergistically">synergistically</term> increased <term sem="SPAN" id="T23" lex="the_apparent_affinity">the apparent affinity</term> of glp repressor for <term sem="DNA" id="T24" lex="DNA_fragments">DNA fragments</term> containing <term sem="Operator" id="T25" lex="the_four_operators">the four operators</term> <term sem="SPAN" id="T26" lex="in_the_promoter_region">in <term sem="Promoter" id="T27" lex="the_promoter_region">the promoter region</term></term> of the glpFK operon.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T20" />
+<Descriptive-Theme idref="T21" />
+<clue>The DNA <clueType>containing</clueType> these two operators synergistically increased the apparent affinity of glp repressor for DNA fragments containing the four operators in the promoter region of the glpFK operon.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T23" />
+<Manner idref="T22" />
+<clue>The DNA containing these two operators synergistically <clueType>increased</clueType> the apparent affinity of glp repressor for DNA fragments containing the four operators in the promoter region of the glpFK operon.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T24" />
+<Location idref="T26" />
+<Descriptive-Theme idref="T25" />
+<clue>The DNA containing these two operators synergistically increased the apparent affinity of glp repressor for DNA fragments <clueType>containing</clueType> the four operators in the promoter region of the glpFK operon.</clue>
+</event>
+<sentence id="S17">With this study, a total of 13 operators for the glp regulon have been characterized.</sentence>
+<sentence id="S18">Comparison of these operators revealed the consensus 5'-WATGTTCGWT-3' for the operator half-site (W = A or T).</sentence>
+<sentence id="S19">The relative affinity of the glp repressor for the various glp operators was assessed in vivo using a promoter-probe vector.</sentence>
+<sentence id="S20">The relative apparent affinity of the control regions for glp repressor was glpFK greater than glpD greater than glpACB greater than glpTQ.</sentence>
+<sentence id="S21">The degree of <term sem="Organic_Compounds" id="T28" lex="catabolite">catabolite</term> repression for each of the operons was assessed using a similar system.</sentence>
+<event id="E13">
+<type class="Gene_Repression" />
+<Manner idref="T28" />
+<clue>The degree of catabolite <clueType>repression</clueType> for each of the operons was assessed using a similar system.</clue>
+</event>
+<sentence id="S22">In this case, the relative sensitivity of the glp operons to <term sem="Organic_Compounds" id="T29" lex="catabolite">catabolite</term> repression was glpTQ greater than glpFK greater than glpACB greater than glpD.</sentence>
+<event id="E14">
+<type class="Gene_Repression" />
+<Theme idref="T29" />
+<clue>In this case, the relative sensitivity of the glp operons to catabolite <clueType>repression</clueType> was glpTQ greater than glpFK greater than glpACB greater than glpD.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

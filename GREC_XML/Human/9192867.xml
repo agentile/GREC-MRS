@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9192867">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9192867</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Activator" id="T1" lex="Human_TAF(II)135">Human TAF(II)135</term> potentiates <term sem="SPAN" id="T2" lex="transcriptional">transcriptional</term> activation by <term sem="Activator" id="T3" lex="the_AF-2s">the AF-2s</term> of the retinoic acid, vitamin D3, and thyroid hormone receptors <term sem="SPAN" id="T4" lex="in_mammalian_cells">in <term sem="Cells" id="T5" lex="mammalian_cells">mammalian cells</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>Human TAF(II)135 <clueType>potentiates</clueType> transcriptional activation by the AF-2s of the retinoic acid, vitamin D3, and thyroid hormone receptors in mammalian cells.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Agent idref="T3" />
+<Manner idref="T2" />
+<Location idref="T4" />
+<clue>Human TAF(II)135 potentiates transcriptional <clueType>activation</clueType> by the AF-2s of the retinoic acid, vitamin D3, and thyroid hormone receptors in mammalian cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We report for the first time the cloning of <term sem="Gene" id="T6" lex="a_complete_cDNA">a complete cDNA</term> encoding the human TFIID subunit hTAF(II)135 (<term sem="Sub_Unit" id="T7" lex="hTAF">hTAF</term><term sem="Sub_Unit" id="T8" lex="(">(</term><term sem="Sub_Unit" id="T9" lex="II">II</term><term sem="Sub_Unit" id="T10" lex=")">)</term><term sem="Sub_Unit" id="T11" lex="130">130</term>).</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T9" />
+<clue>We report for the first time the cloning of a complete cDNA <clueType>encoding</clueType> the human TFIID subunit hTAF(II)135 (hTAF(II)130).</clue>
+</event>
+<sentence id="S4">Full-length hTAF(II)135 comprises 1083 amino acids and contains two conserved domains present also in dTAF(II)110 and hTAF(II)105.</sentence>
+<sentence id="S5">We show that expression of <term sem="Sub_Unit" id="T12" lex="hTAF"><term sem="SPAN" id="T13" lex="hTAF(II)135">hTAF(II)135</term></term> <term sem="SPAN" id="T14" lex="in_mammalian_cells">in mammalian cells</term> strongly and <term sem="SPAN" id="T15" lex="selectively">selectively</term> potentiates <term sem="SPAN" id="T16" lex="transcriptional">transcriptional</term> stimulation by the activation function-2 (<term sem="Sub_Unit" id="T17" lex="AF-2">AF-2</term>) of the retinoic acid, thyroid hormone, and vitamin D3 receptors (RAR, TR, and VDR), but does not affect <term sem="Sub_Unit" id="T18" lex="the_AF-2s">the AF-2s</term> of the estrogen (ER) or retinoid X (RXR) receptors.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<Location idref="T14" />
+<clue>We show that <clueType>expression</clueType> of hTAF(II)135 in mammalian cells strongly and selectively potentiates transcriptional stimulation by the activation function-2 (AF-2) of the retinoic acid, thyroid hormone, and vitamin D3 receptors (RAR, TR, and VDR), but does not affect the AF-2s of the estrogen (ER) or retinoid X (RXR) receptors.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="E6" />
+<Manner idref="T15" />
+<clue>We show that expression of hTAF(II)135 in mammalian cells strongly and selectively <clueType>potentiates</clueType> transcriptional stimulation by the activation function-2 (AF-2) of the retinoic acid, thyroid hormone, and vitamin D3 receptors (RAR, TR, and VDR), but does not affect the AF-2s of the estrogen (ER) or retinoid X (RXR) receptors.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T17" />
+<Manner idref="T16" />
+<clue>We show that expression of hTAF(II)135 in mammalian cells strongly and selectively potentiates transcriptional <clueType>stimulation</clueType> by the activation function-2 (AF-2) of the retinoic acid, thyroid hormone, and vitamin D3 receptors (RAR, TR, and VDR), but does not affect the AF-2s of the estrogen (ER) or retinoid X (RXR) receptors.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T18" />
+<clue>We show that expression of hTAF(II)135 in mammalian cells strongly and selectively potentiates transcriptional stimulation by the activation function-2 (AF-2) of the retinoic acid, thyroid hormone, and vitamin D3 receptors (RAR, TR, and VDR), but does not <clueType>affect</clueType> the AF-2s of the estrogen (ER) or retinoid X (RXR) receptors.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T19" lex="The_coactivator_activity">The coactivator activity</term> requires <term sem="Sub_Unit" id="T20" lex="an_hTAF(II)135_region">an hTAF(II)135 region</term> that is located between the conserved domains but is itself not conserved in dTAF(II)110 and hTAF(II)105.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="T20" />
+<clue>The coactivator activity <clueType>requires</clueType> an hTAF(II)135 region that is located between the conserved domains but is itself not conserved in dTAF(II)110 and hTAF(II)105.</clue>
+</event>
+<sentence id="S7">Expression of <term sem="Sub_Unit" id="T21" lex="hTAF"><term sem="SPAN" id="T22" lex="hTAF(II)135">hTAF(II)135</term></term> also stimulates <term sem="SPAN" id="T23" lex="RAR_AF-2_activity">RAR AF-2 activity</term> when <term sem="Promoter" id="T24" lex="a_promoter"><term sem="SPAN" id="T25" lex="a_promoter_with_a_low-affinity_TATA_element_(TGTA)_is_used">a promoter with a low-affinity TATA element (TGTA) is used</term></term>, indicating that <term sem="Sub_Unit" id="T26" lex="hTAF(II)">hTAF(II)</term>135 overexpression compensates for the low-affinity of TBP for this promoter and may facilitate the recruitment of <term sem="Sub_Unit" id="T27" lex="TFIID">TFIID</term> by <term sem="Sub_Unit" id="T28" lex="the_RAR_AF-2">the RAR AF-2</term>.</sentence>
+<event id="E9">
+<type class="Gene_Activation" />
+<Theme idref="T22" />
+<clue><clueType>Expression</clueType> of hTAF(II)135 also stimulates RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 overexpression compensates for the low-affinity of TBP for this promoter and may facilitate the recruitment of TFIID by the RAR AF-2.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T23" />
+<Temporal idref="T25" />
+<clue>Expression of hTAF(II)135 also <clueType>stimulates</clueType> RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 overexpression compensates for the low-affinity of TBP for this promoter and may facilitate the recruitment of TFIID by the RAR AF-2.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Theme idref="T26" />
+<clue>Expression of hTAF(II)135 also stimulates RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 <clueType>overexpression</clueType> compensates for the low-affinity of TBP for this promoter and may facilitate the recruitment of TFIID by the RAR AF-2.</clue>
+</event>
+<event id="E12">
+<type class="Gene_Activation" />
+<Agent idref="E12" />
+<clue>Expression of hTAF(II)135 also stimulates RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 overexpression <clueType>compensates</clueType> for the low-affinity of TBP for this promoter and may facilitate the recruitment of TFIID by the RAR AF-2.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T26" />
+<Theme idref="E14" />
+<clue>Expression of hTAF(II)135 also stimulates RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 overexpression compensates for the low-affinity of TBP for this promoter and may <clueType>facilitate</clueType> the recruitment of TFIID by the RAR AF-2.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T28" />
+<Theme idref="T27" />
+<clue>Expression of hTAF(II)135 also stimulates RAR AF-2 activity when a promoter with a low-affinity TATA element (TGTA) is used, indicating that hTAF(II)135 overexpression compensates for the low-affinity of TBP for this promoter and may facilitate the <clueType>recruitment</clueType> of TFIID by the RAR AF-2.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

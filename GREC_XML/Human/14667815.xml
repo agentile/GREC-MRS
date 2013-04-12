@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=14667815">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>14667815</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="SPAN" id="T1" lex="aldehyde_reductase">aldehyde reductase</term> expression by <term sem="Activator" id="T2" lex="STAF">STAF</term> and <term sem="Activator" id="T3" lex="CHOP">CHOP</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T2" idref1="T3" />
+<Theme idref="E2" />
+<clue><clueType>Regulation</clueType> of aldehyde reductase expression by STAF and CHOP.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Agent idref="T1" />
+<clue>Regulation of aldehyde reductase <clueType>expression</clueType> by STAF and CHOP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Aldehyde reductase is involved in the reductive detoxification of reactive aldehydes that can modify cellular macromolecules.</sentence>
+<sentence id="S4">To analyze the mechanism of basal regulation of <term sem="SPAN" id="T4" lex="aldehyde_reductase">aldehyde reductase</term> expression, we cloned the murine gene and adjacent regulatory region and compared it to the human gene.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<Theme idref="E4" />
+<clue>To analyze the mechanism of basal <clueType>regulation</clueType> of aldehyde reductase expression, we cloned the murine gene and adjacent regulatory region and compared it to the human gene.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T4" />
+<clue>To analyze the mechanism of basal regulation of aldehyde reductase <clueType>expression</clueType>, we cloned the murine gene and adjacent regulatory region and compared it to the human gene.</clue>
+</event>
+<sentence id="S5">The mouse enzyme exhibits substrate specificity similar to that of the human enzyme, but with a 2-fold higher catalytic efficiency.</sentence>
+<sentence id="S6">In contrast to the mouse gene, the human aldehyde reductase gene has two alternatively spliced transcripts.</sentence>
+<sentence id="S7">A fragment of 57 bp is sufficient for 25% of human promoter activity and consists of two elements.</sentence>
+<sentence id="S8"><term sem="DNA" id="T5" lex="The_3'_element">The 3' element</term> binds <term sem="Transcription_Factor" id="T6" lex="transcription_factors"><term sem="SPAN" id="T7" lex="transcription_factors_of_the_Sp1_family">transcription factors of the Sp1 family</term></term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T5" />
+<Destination idref="T7" />
+<clue>The 3' element <clueType>binds</clueType> transcription factors of the Sp1 family.</clue>
+</event>
+<sentence id="S9">Gel-shift assays and chromatin immunoprecipitation as well as deletion/mutation analysis reveal that selenocysteine tRNA transcription activating factor (<term sem="Activator" id="T8" lex="STAF">STAF</term>) binds to <term sem="DNA" id="T9" lex="the_5'_element">the 5' element</term> and drives constitutive expression of both <term sem="Enzyme" id="T10" lex="mouse_and_human_aldehyde_reductase">mouse and human aldehyde reductase</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T8" />
+<Destination idref="T9" />
+<clue>Gel-shift assays and chromatin immunoprecipitation as well as deletion/mutation analysis reveal that selenocysteine tRNA transcription activating factor (STAF) <clueType>binds</clueType> to the 5' element and drives constitutive expression of both mouse and human aldehyde reductase.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="E8" />
+<clue>Gel-shift assays and chromatin immunoprecipitation as well as deletion/mutation analysis reveal that selenocysteine tRNA transcription activating factor (STAF) binds to the 5' element and <clueType>drives</clueType> constitutive expression of both mouse and human aldehyde reductase.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue>Gel-shift assays and chromatin immunoprecipitation as well as deletion/mutation analysis reveal that selenocysteine tRNA transcription activating factor (STAF) binds to the 5' element and drives constitutive <clueType>expression</clueType> of both mouse and human aldehyde reductase.</clue>
+</event>
+<sentence id="S10"><term sem="Enzyme" id="T11" lex="Aldehyde_reductase">Aldehyde reductase</term> thus becomes the fourth protein-encoding gene regulated by <term sem="Activator" id="T12" lex="STAF">STAF</term>.</sentence>
+<event id="E9">
+<type class="Regulation" />
+<Agent idref="T12" />
+<Theme idref="T11" />
+<clue>Aldehyde reductase thus becomes the fourth protein-encoding gene <clueType>regulated</clueType> by STAF.</clue>
+</event>
+<sentence id="S11">The human, but not the mouse, <term sem="Promoter" id="T13" lex="promoter">promoter</term> also binds C/EBP homologous protein (<term sem="Activator" id="T14" lex="CHOP">CHOP</term>), which competes with STAF for the same binding site.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T13" />
+<Destination idref="T14" />
+<clue>The human, but not the mouse, promoter also <clueType>binds</clueType> C/EBP homologous protein (CHOP), which competes with STAF for the same binding site.</clue>
+</event>
+<sentence id="S12"><term sem="Experimental_Technique" id="T15" lex="Transfection">Transfection</term> of the human promoter into ethoxyquin-treated mouse 3T3 cells induces <term sem="SPAN" id="T16" lex="a_3.5-fold_increase">a 3.5-fold increase</term> in <term sem="SPAN" id="T17" lex="promoter_activity">promoter activity</term> and a CHOP-C/EBP band appears on gel shifts performed with the 5' probe from the human aldehyde reductase promoter.</sentence>
+<event id="E11">
+<type class="Gene_Activation" />
+<Agent idref="T15" />
+<Theme idref="T17" />
+<Rate idref="T16" />
+<clue>Transfection of the human promoter into ethoxyquin-treated mouse 3T3 cells <clueType>induces</clueType> a 3.5-fold increase in promoter activity and a CHOP-C/EBP band appears on gel shifts performed with the 5' probe from the human aldehyde reductase promoter.</clue>
+</event>
+<sentence id="S13"><term sem="Gene_Activation" id="T18" lex="Induction">Induction</term> is attenuated in similar transfection studies of the mouse promoter.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T18" />
+<clue>Induction is <clueType>attenuated</clueType> in similar transfection studies of the mouse promoter.</clue>
+</event>
+<sentence id="S14">Mutation of <term sem="Locus" id="T19" lex="the_CHOP-binding_site">the CHOP-binding site</term> <term sem="SPAN" id="T20" lex="in_the_human_promoter">in <term sem="Promoter" id="T21" lex="the_human_promoter">the human promoter</term></term> abolishes <term sem="SPAN" id="T22" lex="CHOP_binding">CHOP binding</term> and significantly reduces <term sem="SPAN" id="T23" lex="ethoxyquin">ethoxyquin</term> induction, suggesting that <term sem="Activator" id="T24" lex="CHOP">CHOP</term> mediates stimulated <term sem="Gene_Expression" id="T25" lex="expression">expression</term> in response to <term sem="Reagents" id="T26" lex="antioxidants">antioxidants</term> <term sem="SPAN" id="T27" lex="in_the_human">in the human</term>.</sentence>
+<event id="E13">
+<type class="Mutation" />
+<Theme idref="T19" />
+<Location idref="T20" />
+<clue><clueType>Mutation</clueType> of the CHOP-binding site in the human promoter abolishes CHOP binding and significantly reduces ethoxyquin induction, suggesting that CHOP mediates stimulated expression in response to antioxidants in the human.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="E13" />
+<Theme idref="T22" />
+<clue>Mutation of the CHOP-binding site in the human promoter <clueType>abolishes</clueType> CHOP binding and significantly reduces ethoxyquin induction, suggesting that CHOP mediates stimulated expression in response to antioxidants in the human.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E13" />
+<Theme idref="E16" />
+<clue>Mutation of the CHOP-binding site in the human promoter abolishes CHOP binding and significantly <clueType>reduces</clueType> ethoxyquin induction, suggesting that CHOP mediates stimulated expression in response to antioxidants in the human.</clue>
+</event>
+<event id="E16">
+<type class="Gene_Activation" />
+<Agent idref="T23" />
+<clue>Mutation of the CHOP-binding site in the human promoter abolishes CHOP binding and significantly reduces ethoxyquin <clueType>induction</clueType>, suggesting that CHOP mediates stimulated expression in response to antioxidants in the human.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T24" />
+<Theme idref="T25" />
+<Location idref="T27" />
+<Condition idref="T26" />
+<clue>Mutation of the CHOP-binding site in the human promoter abolishes CHOP binding and significantly reduces ethoxyquin induction, suggesting that CHOP <clueType>mediates</clueType> stimulated expression in response to antioxidants in the human.</clue>
+</event>
+<sentence id="S15">This subtle difference in the human promoter suggests a further evolution of the promoter toward responsiveness to exogenous stress and/or toxins.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

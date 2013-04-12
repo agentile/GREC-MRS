@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7934815">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7934815</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The galactose regulon of Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Galactose transport and metabolism in Escherichia coli involves a multicomponent amphibolic pathway.</sentence>
+<sentence id="S4">Galactose transport is accomplished by two different galactose-specific transport systems.</sentence>
+<sentence id="S5">At least four of the genes and operons involved in galactose transport and metabolism have promoters containing similar regulatory sequences.</sentence>
+<sentence id="S6"><term sem="Locus" id="T1" lex="These_sequences">These sequences</term> are recognized by at least three regulators, Gal repressor (<term sem="Regulator" id="T2" lex="GalR">GalR</term>), Gal isorepressor (<term sem="Regulator" id="T3" lex="GalS">GalS</term>) and cAMP receptor protein (<term sem="Regulator" id="T4" lex="CRP">CRP</term>), which modulate transcription from <term sem="Promoter" id="T5" lex="these_promoters">these promoters</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" idref1="T3" idref2="T4" />
+<Theme idref="T1" />
+<clue>These sequences are <clueType>recognized</clueType> by at least three regulators, Gal repressor (GalR), Gal isorepressor (GalS) and cAMP receptor protein (CRP), which modulate transcription from these promoters.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T2" idref1="T3" idref2="T4" />
+<Theme idref="E3" />
+<clue>These sequences are recognized by at least three regulators, Gal repressor (GalR), Gal isorepressor (GalS) and cAMP receptor protein (CRP), which <clueType>modulate</clueType> transcription from these promoters.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<Source idref="T5" />
+<clue>These sequences are recognized by at least three regulators, Gal repressor (GalR), Gal isorepressor (GalS) and cAMP receptor protein (CRP), which modulate <clueType>transcription</clueType> from these promoters.</clue>
+</event>
+<sentence id="S7">The negative regulators, <term sem="Repressor" id="T6" lex="GalR_and_GalS">GalR and GalS</term>, discriminate between utilization of the high-affinity (regulated by <term sem="Repressor" id="T7" lex="GalS">GalS</term>) and low-affinity (regulated by <term sem="Repressor" id="T8" lex="GalR">GalR</term>) <term sem="SPAN" id="T9" lex="transport_systems">transport systems</term>, and modulate the expression of <term sem="Gene" id="T10" lex="genes">genes</term> for galactose metabolism in an overlapping fashion.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Agent idref="T7" />
+<Theme idref="T9" />
+<clue>The negative regulators, GalR and GalS, discriminate between utilization of the high-affinity (<clueType>regulated</clueType> by GalS) and low-affinity (regulated by GalR) transport systems, and modulate the expression of genes for galactose metabolism in an overlapping fashion.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<clue>The negative regulators, GalR and GalS, discriminate between utilization of the high-affinity (regulated by GalS) and low-affinity (<clueType>regulated</clueType> by GalR) transport systems, and modulate the expression of genes for galactose metabolism in an overlapping fashion.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="E7" />
+<clue>The negative regulators, GalR and GalS, discriminate between utilization of the high-affinity (regulated by GalS) and low-affinity (regulated by GalR) transport systems, and <clueType>modulate</clueType> the expression of genes for galactose metabolism in an overlapping fashion.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue>The negative regulators, GalR and GalS, discriminate between utilization of the high-affinity (regulated by GalS) and low-affinity (regulated by GalR) transport systems, and modulate the <clueType>expression</clueType> of genes for galactose metabolism in an overlapping fashion.</clue>
+</event>
+<sentence id="S8"><term sem="Repressor" id="T11" lex="GalS">GalS</term> is itself <term sem="SPAN" id="T12" lex="autogenously">autogenously</term> regulated and <term sem="Regulator" id="T13" lex="CRP_dependent">CRP dependent</term>, while the gene for GalR is constitutive.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<Theme idref="T11" />
+<Manner idref="T12" />
+<Condition idref="T13" />
+<clue>GalS is itself autogenously <clueType>regulated</clueType> and CRP dependent, while the gene for GalR is constitutive.</clue>
+</event>
+<sentence id="S9"><term sem="Operon" id="T14" lex="The_gal_operon">The gal operon</term> encoding <term sem="Enzyme" id="T15" lex="the_enzymes">the enzymes</term> for galactose metabolism has <term sem="Promoter" id="T16" lex="two_promoters">two promoters</term> regulated by <term sem="Regulator" id="T17" lex="CRP">CRP</term> in opposite ways; one (<term sem="Promoter" id="T18" lex="P1">P1</term>) is stimulated and the other (<term sem="Promoter" id="T19" lex="P2">P2</term>) inhibited by <term sem="Regulator" id="T20" lex="CRP">CRP</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>The gal operon <clueType>encoding</clueType> the enzymes for galactose metabolism has two promoters regulated by CRP in opposite ways; one (P1) is stimulated and the other (P2) inhibited by CRP.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Agent idref="T17" />
+<Theme idref="T16" />
+<clue>The gal operon encoding the enzymes for galactose metabolism has two promoters <clueType>regulated</clueType> by CRP in opposite ways; one (P1) is stimulated and the other (P2) inhibited by CRP.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Agent idref="T20" />
+<Theme idref="T18" />
+<clue>The gal operon encoding the enzymes for galactose metabolism has two promoters regulated by CRP in opposite ways; one (P1) is <clueType>stimulated</clueType> and the other (P2) inhibited by CRP.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="T19" />
+<clue>The gal operon encoding the enzymes for galactose metabolism has two promoters regulated by CRP in opposite ways; one (P1) is stimulated and the other (P2) <clueType>inhibited</clueType> by CRP.</clue>
+</event>
+<sentence id="S10"><term sem="Promoter" id="T21" lex="Both_promoters">Both promoters</term> are <term sem="SPAN" id="T22" lex="strongly">strongly</term> repressed by <term sem="Repressor" id="T23" lex="GalR">GalR</term> but <term sem="SPAN" id="T24" lex="weakly">weakly</term> by <term sem="Repressor" id="T25" lex="GalS">GalS</term>.</sentence>
+<event id="E13">
+<type class="Gene_Repression" />
+<Agent idref="T23" idref1="T25" />
+<Theme idref="T21" />
+<Manner idref="T22" idref1="T24" />
+<clue>Both promoters are strongly <clueType>repressed</clueType> by GalR but weakly by GalS.</clue>
+</event>
+<sentence id="S11">All but one of the constituent promoters of the gal regulon have two operators.</sentence>
+<sentence id="S12">The gal regulon has the potential to coordinate galactose metabolism and transport in a highly efficient manner, under a wide variety of conditions of galactose availability.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

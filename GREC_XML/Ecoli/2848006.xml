@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2848006">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2848006</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Locus" id="T1" lex="marA_locus">marA locus</term> causes <term sem="SPAN" id="T2" lex="decreased">decreased</term> expression of <term sem="Protein" id="T3" lex="OmpF_porin">OmpF porin</term> <term sem="SPAN" id="T4" lex="in_multiple-antibiotic-resistant_(Mar)_mutants">in <term sem=" Mutant_Bacteria" id="T5" lex="multiple-antibiotic-resistant_(Mar)_mutants">multiple-antibiotic-resistant (Mar) mutants</term></term> of Escherichia coli.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<Location idref="T4" />
+<clue>marA locus <clueType>causes</clueType> decreased expression of OmpF porin in multiple-antibiotic-resistant (Mar) mutants of Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<Manner idref="T2" />
+<clue>marA locus causes decreased <clueType>expression</clueType> of OmpF porin in multiple-antibiotic-resistant (Mar) mutants of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem=" Mutant_Bacteria" id="T6" lex="Mar_(multiple_antibiotic_resistant)_mutants">Mar (multiple antibiotic resistant) mutants</term> of Escherichia coli express <term sem="SPAN" id="T7" lex="chromosomally_mediated">chromosomally mediated</term> <term sem="SPAN" id="T8" lex="resistance_to_a_variety_of_structurally_unrelated_hydrophilic_and_hydrophobic_antibiotics">resistance to a variety of structurally unrelated hydrophilic and hydrophobic antibiotics</term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Agent idref="T6" />
+<Theme idref="T8" />
+<Manner idref="T7" />
+<clue>Mar (multiple antibiotic resistant) mutants of Escherichia coli <clueType>express</clueType> chromosomally mediated resistance to a variety of structurally unrelated hydrophilic and hydrophobic antibiotics.</clue>
+</event>
+<sentence id="S4">Insertion of <term sem="DNA" id="T9" lex="transposon_Tn5">transposon Tn5</term> into <term sem="Locus" id="T10" lex="the_marA_locus">the marA locus</term> at min 34.05 on the chromosome <term sem="SPAN" id="T11" lex="completely">completely</term> reverses <term sem="Phenotype" id="T12" lex="the_Mar_phenotype">the Mar phenotype</term> (A.M. George and S.B. Levy, J Bacteriol 155:531-540, 1983).</sentence>
+<event id="E4">
+<type class="Insertion" />
+<Theme idref="T9" />
+<Destination idref="T10" />
+<clue><clueType>Insertion</clueType> of transposon Tn5 into the marA locus at min 34.05 on the chromosome completely reverses the Mar phenotype (A.M. George and S.B. Levy, J Bacteriol 155:531-540, 1983).</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T12" />
+<Manner idref="T11" />
+<clue>Insertion of transposon Tn5 into the marA locus at min 34.05 on the chromosome completely <clueType>reverses</clueType> the Mar phenotype (A.M. George and S.B. Levy, J Bacteriol 155:531-540, 1983).</clue>
+</event>
+<sentence id="S5">We found that among changes in the outer membrane of Mar mutants, <term sem="Protein" id="T13" lex="porin_OmpF">porin OmpF</term> was <term sem="SPAN" id="T14" lex="greatly">greatly</term> reduced, although Mar mutants were more resistant than cells lacking only OmpF.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T13" />
+<Manner idref="T14" />
+<clue>We found that among changes in the outer membrane of Mar mutants, porin OmpF was greatly <clueType>reduced</clueType>, although Mar mutants were more resistant than cells lacking only OmpF.</clue>
+</event>
+<sentence id="S6">Transduction of <term sem="Gene" id="T15" lex="the_marA_region">the marA region</term> from <term sem=" Mutant_Bacteria" id="T16" lex="a_Mar_strain">a Mar strain</term>, but not a wild-type strain, led to <term sem="Phenotype" id="T17" lex="loss_of_OmpF">loss of OmpF</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T15" />
+<Source idref="T16" />
+<clue><clueType>Transduction</clueType> of the marA region from a Mar strain, but not a wild-type strain, led to loss of OmpF.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E7" />
+<Descriptive-Agent idref="T17" />
+<clue>Transduction of the marA region from a Mar strain, but not a wild-type strain, <clueType>led</clueType> to loss of OmpF.</clue>
+</event>
+<sentence id="S7">P1 transduction of <term sem="DNA" id="T18" lex="marA::Tn5">marA::Tn5</term> into <term sem=" Mutant_Bacteria" id="T19" lex="a_Mar_mutant">a Mar mutant</term> <term sem="SPAN" id="T20" lex="partially">partially</term> restored <term sem="SPAN" id="T21" lex="OmpF_levels">OmpF levels</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T18" />
+<Destination idref="T19" />
+<clue><clueType>P1 transduction</clueType> of marA::Tn5 into a Mar mutant partially restored OmpF levels.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T21" />
+<Manner idref="T20" />
+<clue>P1 transduction of marA::Tn5 into a Mar mutant partially <clueType>restored</clueType> OmpF levels.</clue>
+</event>
+<sentence id="S8">Therefore, <term sem="Phenotype" id="T22" lex="OmpF_reduction">OmpF reduction</term> required a mutation in <term sem="Gene" id="T23" lex="the_marA_region">the marA region</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="E12" />
+<clue>Therefore, OmpF reduction <clueType>required</clueType> a mutation in the marA region.</clue>
+</event>
+<event id="E12">
+<type class="Mutation" />
+<Theme idref="T23" />
+<clue>Therefore, OmpF reduction required a <clueType>mutation</clueType> in the marA region.</clue>
+</event>
+<sentence id="S9"><term sem=" Mutant_Bacteria" id="T24" lex="Mar_mutants">Mar mutants</term> of an ompF-lacZ operon fusion strain expressed <term sem="SPAN" id="T25" lex="50_to_75%">50 to 75%</term> of <term sem="SPAN" id="T26" lex="the_beta-galactosidase_activity">the beta-galactosidase activity</term> of the isogenic non-Mar parental strain, while <term sem=" Mutant_Bacteria" id="T27" lex="Mar_mutants">Mar mutants</term> of a protein fusion strain expressed <term sem="SPAN" id="T28" lex="less_than_10%">less than 10%</term> of <term sem="SPAN" id="T29" lex="the_enzyme_activity">the enzyme activity</term> in the non-Mar strain.</sentence>
+<event id="E13">
+<type class="Gene_Expression" />
+<Agent idref="T24" />
+<Theme idref="T26" />
+<Rate idref="T25" />
+<clue>Mar mutants of an ompF-lacZ operon fusion strain <clueType>expressed</clueType> 50 to 75% of the beta-galactosidase activity of the isogenic non-Mar parental strain, while Mar mutants of a protein fusion strain expressed less than 10% of the enzyme activity in the non-Mar strain.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T27" />
+<Theme idref="T29" />
+<Rate idref="T28" />
+<clue>Mar mutants of an ompF-lacZ operon fusion strain expressed 50 to 75% of the beta-galactosidase activity of the isogenic non-Mar parental strain, while Mar mutants of a protein fusion strain <clueType>expressed</clueType> less than 10% of the enzyme activity in the non-Mar strain.</clue>
+</event>
+<sentence id="S10"><term sem="Phenotype" id="T30" lex="These_changes">These changes</term> were <term sem="SPAN" id="T31" lex="completely">completely</term> reversed by insertion of <term sem="DNA" id="T32" lex="marA::Tn5">marA::Tn5</term>.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E16" />
+<Theme idref="T30" />
+<Manner idref="T31" />
+<clue>These changes were completely <clueType>reversed</clueType> by insertion of marA::Tn5.</clue>
+</event>
+<event id="E16">
+<type class="Insertion" />
+<Theme idref="T32" />
+<clue>These changes were completely reversed by <clueType>insertion</clueType> of marA::Tn5.</clue>
+</event>
+<sentence id="S11">The responsiveness of OmpF-LacZ to osmolarity and temperature changes was similar in Mar and wild-type strains.</sentence>
+<sentence id="S12">Although some transcriptional control may have been present, <term sem="Protein" id="T33" lex="OmpF">OmpF</term> reduction appeared to occur <term sem="SPAN" id="T34" lex="primarily">primarily</term> by <term sem="SPAN" id="T35" lex="a_posttranscriptional_mechanism">a posttranscriptional mechanism</term>.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T33" />
+<clue>Although some transcriptional control may have been present, OmpF <clueType>reduction</clueType> appeared to occur primarily by a posttranscriptional mechanism.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="E17" />
+<Manner idref="T34" />
+<Descriptive-Theme idref="T35" />
+<clue>Although some transcriptional control may have been present, OmpF reduction appeared to <clueType>occur</clueType> primarily by a posttranscriptional mechanism.</clue>
+</event>
+<sentence id="S13">The steady-state levels of ompF mRNA were twofold lower and the mRNA was five times less stable in the Mar mutant than in the wild-type strain.</sentence>
+<sentence id="S14">Expression of <term sem="Gene" id="T36" lex="micF">micF</term>, which lowers ompF mRNA levels, was elevated <term sem="SPAN" id="T37" lex="in_Mar_strains">in <term sem=" Mutant_Bacteria" id="T38" lex="Mar_strains">Mar strains</term></term>, as revealed by a micF-lacZ fusion.</sentence>
+<event id="E19">
+<type class="Gene_Expression" />
+<Theme idref="T36" />
+<clue><clueType>Expression</clueType> of micF, which lowers ompF mRNA levels, was elevated in Mar strains, as revealed by a micF-lacZ fusion.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Activation" />
+<Theme idref="E19" />
+<Location idref="T37" />
+<clue>Expression of micF, which lowers ompF mRNA levels, was <clueType>elevated</clueType> in Mar strains, as revealed by a micF-lacZ fusion.</clue>
+</event>
+<sentence id="S15">Studies with strains deleted for <term sem="Locus" id="T39" lex="the_micF_locus">the micF locus</term> showed that the <term sem="SPAN" id="T40" lex="marA-dependent">marA-dependent</term> reduction of <term sem="Protein" id="T41" lex="OmpF">OmpF</term> required <term sem="Locus" id="T42" lex="an_intact_micF_locus">an intact micF locus</term>.</sentence>
+<event id="E21">
+<type class="Deletion" />
+<Theme idref="T39" />
+<clue>Studies with strains <clueType>deleted</clueType> for the micF locus showed that the marA-dependent reduction of OmpF required an intact micF locus.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T41" />
+<Manner idref="T40" />
+<clue>Studies with strains deleted for the micF locus showed that the marA-dependent <clueType>reduction</clueType> of OmpF required an intact micF locus.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="E22" />
+<Theme idref="T42" />
+<clue>Studies with strains deleted for the micF locus showed that the marA-dependent reduction of OmpF <clueType>required</clueType> an intact micF locus.</clue>
+</event>
+<sentence id="S16">Our findings suggest that <term sem="Locus" id="T43" lex="the_marA_locus">the marA locus</term> <term sem="SPAN" id="T44" lex="directly">directly</term> or <term sem="SPAN" id="T45" lex="indirectly">indirectly</term> increases <term sem="Gene" id="T46" lex="micF">micF</term> expression, causing a <term sem="SPAN" id="T47" lex="posttranscriptional">posttranscriptional</term> decrease in <term sem="mRNA" id="T48" lex="ompF_mRNA">ompF mRNA</term> and <term sem="SPAN" id="T49" lex="reduced_amounts_of_OmpF">reduced amounts of OmpF</term>.</sentence>
+<event id="E24">
+<type class="Gene_Activation" />
+<Agent idref="T43" />
+<Theme idref="E25" />
+<Manner idref="T44" idref1="T45" />
+<clue>Our findings suggest that the marA locus directly or indirectly <clueType>increases</clueType> micF expression, causing a posttranscriptional decrease in ompF mRNA and reduced amounts of OmpF.</clue>
+</event>
+<event id="E25">
+<type class="Gene_Expression" />
+<Theme idref="T46" />
+<clue>Our findings suggest that the marA locus directly or indirectly increases micF <clueType>expression</clueType>, causing a posttranscriptional decrease in ompF mRNA and reduced amounts of OmpF.</clue>
+</event>
+<event id="E26">
+<type class="GRE" />
+<Agent idref="T43" />
+<Theme idref ="E27" idref1="T49" />
+<clue>Our findings suggest that the marA locus directly or indirectly increases micF expression, <clueType>causing</clueType> a posttranscriptional decrease in ompF mRNA and reduced amounts of OmpF.</clue>
+</event>
+<event id="E27">
+<type class="Gene_Repression" />
+<Theme idref="T48" />
+<Manner idref="T47" />
+<clue>Our findings suggest that the marA locus directly or indirectly increases micF expression, causing a posttranscriptional <clueType>decrease</clueType> in ompF mRNA and reduced amounts of OmpF.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

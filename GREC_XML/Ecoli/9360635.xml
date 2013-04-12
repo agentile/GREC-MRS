@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9360635">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9360635</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The design of a new mutation model for active genes: expression of <term sem="Operon" id="T1" lex="the_Escherichia_coli_lac_operon">the Escherichia coli lac operon</term> in <term sem="Cells" id="T2" lex="mammalian_cells">mammalian cells</term>.</sentence>
+<event id="E1">
+<type class="Gene" />
+<Theme idref="T1" />
+<Location idref="T2" />
+<clue>The design of a new mutation model for active genes: <clueType>expression</clueType> of the Escherichia coli lac operon in mammalian cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The design of a novel transgenic mouse model is described that should allow analysis of mutations at a single cell level in all tissues of a model animal.</sentence>
+<sentence id="S4">The model is based on the correct regulation of the Escherichia coli lac operon in mammalian cells.</sentence>
+<sentence id="S5">Induction of <term sem="Mutation" id="T3" lex="a_mutation">a mutation</term> in <term sem="Gene" id="T4" lex="the_lacI_gene">the lacI gene</term> will result in the loss of transcriptional repression of <term sem="Gene" id="T5" lex="the_lacZ_gene">the lacZ gene</term> in <term sem="Cells" id="T6" lex="mutated_cells">mutated cells</term>.</sentence>
+<event id="E2">
+<type class="Gene_Activation" />
+<Theme idref="T3" />
+<Location idref="T4" />
+<clue><clueType>Induction</clueType> of a mutation in the lacI gene will result in the loss of transcriptional repression of the lacZ gene in mutated cells.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="E2" />
+<Theme idref="E4" />
+<clue>Induction of a mutation in the lacI gene will <clueType>result</clueType> in the loss of transcriptional repression of the lacZ gene in mutated cells.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Repression" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>Induction of a mutation in the lacI gene will result in the loss of transcriptional <clueType>repression</clueType> of the lacZ gene in mutated cells.</clue>
+</event>
+<sentence id="S6">Expression of beta-galactosidase can subsequently be detected at the single cell level.</sentence>
+<sentence id="S7">The model was first tested in vitro using transfection of mouse LTK- cells.</sentence>
+<sentence id="S8">LacZ expression was very heterogeneous in most of the stable transfectants and seemed to be subject to epigenetic inactivation.</sentence>
+<sentence id="S9">One clone (IIB1) was isolated that stably expressed lacZ in more than 99% of its cells.</sentence>
+<sentence id="S10">Subsequent <term sem="SPAN" id="T7" lex="introduction">introduction</term> of the lacI gene into IIB1 cells resulted in <term sem="Gene_Repression" id="T8" lex="correct_transcriptional_repression">correct transcriptional repression</term> of the lacZ gene that could be alleviated by IPTG, an allosteric inducer of lacI repression.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="T8" />
+<clue>Subsequent introduction of the lacI gene into IIB1 cells <clueType>resulted</clueType> in correct transcriptional repression of the lacZ gene that could be alleviated by IPTG, an allosteric inducer of lacI repression.</clue>
+</event>
+<sentence id="S11">However, in time the extent of beta-galactosidase induction gradually declined suggesting that the prolonged repressed <term sem="SPAN" id="T9" lex="transcriptional_state">transcriptional state</term> triggers <term sem="SPAN" id="T10" lex="epigenetic_inactivation">epigenetic inactivation</term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<clue>However, in time the extent of beta-galactosidase induction gradually declined suggesting that the prolonged repressed transcriptional state <clueType>triggers</clueType> epigenetic inactivation.</clue>
+</event>
+<sentence id="S12">Variegated expression of the lacZ gene was not confined to cultured cells since <term sem="Cells" id="T11" lex="several_transgenic_lines">several transgenic lines</term> also did not express <term sem="Gene" id="T12" lex="the_lacZ_transgene">the lacZ transgene</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T11" />
+<Theme idref="T12" />
+<clue>Variegated expression of the lacZ gene was not confined to cultured cells since several transgenic lines also did not <clueType>express</clueType> the lacZ transgene.</clue>
+</event>
+<sentence id="S13">This study shows that while the susceptibility of the lacZ gene to inactivation processes poses a fundamental problem, correct regulation of the expression of a reporter gene by the lacI repressor protein is feasible in mammalian cells when assayed at the single cell level.</sentence>
+<sentence id="S14">Thus, the model can in principle be used for the detection of mutagenic events at the lacI locus.</sentence>
+<sentence id="S15">Targeting of <term sem="Gene" id="T13" lex="the_lacZ_gene">the lacZ gene</term> to an endogenous housekeeping gene might prevent <term sem="SPAN" id="T14" lex="epigenetic_inactivation">epigenetic inactivation</term>.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<clue>Targeting of the lacZ gene to an endogenous housekeeping gene might <clueType>prevent</clueType> epigenetic inactivation.</clue>
+</event>
+<sentence id="S16">Alternatively, with the use of another reporter gene in the mutation detection system the proposed transgenic mouse model could be realized.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7603430">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7603430</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Gene" id="T1" lex="lrp_gene"><term sem="SPAN" id="T2" lex="lrp_gene_expression">lrp gene expression</term></term> by <term sem="Protein" id="T3" lex="H-NS_and_Lrp_proteins">H-NS and Lrp proteins</term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>: dominant negative mutations in lrp.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T3" />
+<Theme idref="T2" />
+<Location idref="T4" />
+<clue><clueType>Regulation</clueType> of lrp gene expression by H-NS and Lrp proteins in Escherichia coli: dominant negative mutations in lrp.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<clue>Regulation of lrp gene <clueType>expression</clueType> by H-NS and Lrp proteins in Escherichia coli: dominant negative mutations in lrp.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Transcription_Factor" id="T6" lex="Lrp">Lrp</term> (leucine-responsive regulatory protein) is a global transcription factor of Escherichia coli and regulates, negatively or positively, <term sem="Gene" id="T7" lex="many_genes">many genes</term> including <term sem="Gene" id="T8" lex="lysU">lysU</term>, which encodes <term sem="Enzyme" id="T9" lex="lysyl-tRNA_synthetase">lysyl-tRNA synthetase</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T6" />
+<Theme idref="T8" />
+<Theme idref="T7" />
+<clue>Lrp (leucine-responsive regulatory protein) is a global transcription factor of Escherichia coli and <clueType>regulates</clueType>, negatively or positively, many genes including lysU, which encodes lysyl-tRNA synthetase.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<clue>Lrp (leucine-responsive regulatory protein) is a global transcription factor of Escherichia coli and regulates, negatively or positively, many genes including lysU, which <clueType>encodes</clueType> lysyl-tRNA synthetase.</clue>
+</event>
+<sentence id="S4"><term sem="Mutation" id="T10" lex="Dominant_negative_mutations">Dominant negative mutations</term> that derepress <term sem="Gene" id="T11" lex="lysU"><term sem="SPAN" id="T12" lex="lysU_expression">lysU expression</term></term> were isolated in this study.</sentence>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T10" />
+<Theme idref="T12" />
+<clue>Dominant negative mutations that <clueType>derepress</clueType> lysU expression were isolated in this study.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T11" />
+<clue>Dominant negative mutations that derepress lysU <clueType>expression</clueType> were isolated in this study.</clue>
+</event>
+<sentence id="S5"><term sem="Mutation" id="T13" lex="These_mutations">These mutations</term> affected <term sem="Transcription_Binding_Site" id="T14" lex="a_predicted_DNA-binding_domain">a predicted DNA-binding domain</term> of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in activation of <term sem="Gene" id="T15" lex="ilvIH"><term sem="SPAN" id="T16" lex="ilvIH_expression">ilvIH expression</term></term> and in repression of <term sem="Gene" id="T17" lex="lysU"><term sem="SPAN" id="T18" lex="lysU_expression">lysU expression</term></term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<clue>These mutations <clueType>affected</clueType> a predicted DNA-binding domain of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in activation of ilvIH expression and in repression of lysU expression.</clue>
+</event>
+<event id="E8">
+<type class="Gene_Activation" />
+<Theme idref="T16" />
+<clue>These mutations affected a predicted DNA-binding domain of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in <clueType>activation</clueType> of ilvIH expression and in repression of lysU expression.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>These mutations affected a predicted DNA-binding domain of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in activation of ilvIH <clueType>expression</clueType> and in repression of lysU expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Repression" />
+<Theme idref="T18" />
+<clue>These mutations affected a predicted DNA-binding domain of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in activation of ilvIH expression and in <clueType>repression</clueType> of lysU expression.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue>These mutations affected a predicted DNA-binding domain of Lrp and mutants were defective DNA-binding domain of Lrp and mutants were defective both in activation of ilvIH expression and in repression of lysU <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S6">Consistent with the previous notion that <term sem="Gene" id="T19" lex="lrp">lrp</term> is autoregulated, <term sem="Gene" id="T20" lex="lrp"><term sem="SPAN" id="T21" lex="lrp_expression">lrp expression</term></term> was derepressed by <term sem="Mutation" id="T22" lex="these_mutations">these mutations</term> and repressed by <term sem="Plasmid" id="T23" lex="multi-copy_plasmids">multi-copy plasmids</term> carrying <term sem="SPAN" id="T24" lex="lrp+">lrp+</term>.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<Theme idref="T19" />
+<clue>Consistent with the previous notion that lrp is <clueType>autoregulated</clueType>, lrp expression was derepressed by these mutations and repressed by multi-copy plasmids carrying lrp+.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>Consistent with the previous notion that lrp is autoregulated, lrp <clueType>expression</clueType> was derepressed by these mutations and repressed by multi-copy plasmids carrying lrp+.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Agent idref="T22" />
+<Theme idref="T21" />
+<clue>Consistent with the previous notion that lrp is autoregulated, lrp expression was <clueType>derepressed</clueType> by these mutations and repressed by multi-copy plasmids carrying lrp+.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Repression" />
+<Agent idref="E16" />
+<Theme idref="T21" />
+<clue>Consistent with the previous notion that lrp is autoregulated, lrp expression was derepressed by these mutations and <clueType>repressed</clueType> by multi-copy plasmids carrying lrp+.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T23" />
+<Descriptive-Theme idref="T24" />
+<clue>Consistent with the previous notion that lrp is autoregulated, lrp expression was derepressed by these mutations and repressed by multi-copy plasmids <clueType>carrying</clueType> lrp+.</clue>
+</event>
+<sentence id="S7">Moreover, we found by gene fusion and Northern blot hybridization that the &quot;histone-like&quot; protein, <term sem="Protein" id="T25" lex="H-NS">H-NS</term>, bound specifically to <term sem="Promoter" id="T26" lex="a_promoter_segment"><term sem="SPAN" id="T27" lex="a_promoter_segment_of_lrp">a promoter segment of <term sem="Gene" id="T28" lex="lrp">lrp</term></term></term> <term sem="SPAN" id="T29" lex="in_vitro">in vitro</term>, and the level of <term sem="Gene" id="T30" lex="lrp"><term sem="SPAN" id="T31" lex="lrp_expression">lrp expression</term></term> increased <term sem="SPAN" id="T32" lex="in_the_hns_null_mutant">in <term sem=" Mutant_Bacteria" id="T33" lex="the_hns_null_mutant">the hns null mutant</term></term>.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T25" />
+<Manner idref="T29" />
+<Destination idref="T27" />
+<clue>Moreover, we found by gene fusion and Northern blot hybridization that the &quot;histone-like&quot; protein, H-NS, <clueType>bound</clueType> specifically to a promoter segment of lrp in vitro, and the level of lrp expression increased in the hns null mutant.</clue>
+</event>
+<event id="E18">
+<type class="Gene_Expression" />
+<Theme idref="T30" />
+<clue>Moreover, we found by gene fusion and Northern blot hybridization that the &quot;histone-like&quot; protein, H-NS, bound specifically to a promoter segment of lrp in vitro, and the level of lrp <clueType>expression</clueType> increased in the hns null mutant.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T31" />
+<Location idref="T32" />
+<clue>Moreover, we found by gene fusion and Northern blot hybridization that the &quot;histone-like&quot; protein, H-NS, bound specifically to a promoter segment of lrp in vitro, and the level of lrp expression <clueType>increased</clueType> in the hns null mutant.</clue>
+</event>
+<sentence id="S8">These results indicated that <term sem="Gene" id="T34" lex="the_lrp_gene">the lrp gene</term> is not only <term sem="SPAN" id="T35" lex="feedback">feedback</term> regulated by <term sem="Protein" id="T36" lex="Lrp">Lrp</term> but is also controlled by <term sem="Protein" id="T37" lex="H-NS_protein">H-NS protein</term>.</sentence>
+<event id="E20">
+<type class="Regulation" />
+<Agent idref="T36" />
+<Theme idref="T34" />
+<Manner idref="T35" />
+<clue>These results indicated that the lrp gene is not only feedback <clueType>regulated</clueType> by Lrp but is also controlled by H-NS protein.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T37" />
+<Theme idref="T34" />
+<clue>These results indicated that the lrp gene is not only feedback regulated by Lrp but is also <clueType>controlled</clueType> by H-NS protein.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

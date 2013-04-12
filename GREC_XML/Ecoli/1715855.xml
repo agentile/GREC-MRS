@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1715855">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1715855</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The cyclic AMP <term sem="Protein_Complex" id="T1" lex="(cAMP)-cAMP_receptor_protein_complex">(cAMP)-cAMP receptor protein complex</term> functions <term sem="Regulator" id="T2" lex="both_as_an_activator_and_as_a_corepressor">both as an activator and as a corepressor</term> <term sem="SPAN" id="T3" lex="at_the_tsx-p2_promoter">at <term sem="Promoter" id="T4" lex="the_tsx-p2_promoter">the tsx-p2 promoter</term></term> of Escherichia coli K-12.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Location idref="T3" />
+<Descriptive-Agent idref="T2" />
+<clue>The cyclic AMP (cAMP)-cAMP receptor protein complex <clueType>functions</clueType> both as an activator and as a corepressor at the tsx-p2 promoter of Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The tsx-p2 promoter is one of <term sem="Promoter" id="T5" lex="at_least_seven_Escherichia_coli_promoters">at least seven Escherichia coli promoters</term> that are activated by <term sem="Activator" id="T6" lex="the_cyclic_AMP_(cAMP)-cAMP_receptor_protein_(CRP)_complex">the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex</term> and <term sem="SPAN" id="T7" lex="negatively">negatively</term> regulated by <term sem="Repressor" id="T8" lex="the_CytR_repressor">the CytR repressor</term>.</sentence>
+<event id="E2">
+<type class="Gene_Activation" />
+<Agent idref="T6" />
+<Theme idref="T5" />
+<clue>The tsx-p2 promoter is one of at least seven Escherichia coli promoters that are <clueType>activated</clueType> by the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex and negatively regulated by the CytR repressor.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T8" />
+<Theme idref="T5" />
+<Manner idref="T7" />
+<clue>The tsx-p2 promoter is one of at least seven Escherichia coli promoters that are activated by the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex and negatively <clueType>regulated</clueType> by the CytR repressor.</clue>
+</event>
+<sentence id="S4">DNase I footprinting assays were used to study the interactions of these regulatory proteins with the tsx-p2 promoter region and to characterize tsx-p2 regulatory mutants exhibiting an altered response to CytR.</sentence>
+<sentence id="S5">We show that <term sem="Activator" id="T9" lex="the_cAMP-CRP_activator_complex">the cAMP-CRP activator complex</term> recognizes <term sem="Locus" id="T10" lex="two_sites">two sites</term> <term sem="SPAN" id="T11" lex="in_tsx-p2">in <term sem="Promoter" id="T12" lex="tsx-p2">tsx-p2</term></term> that are separated by 33 bp: a high-affinity site (CRP-1) overlaps the -35 region, and a low-affinity site (CRP-2) is centered around position -74 bp.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T10" />
+<Location idref="T11" />
+<clue>We show that the cAMP-CRP activator complex <clueType>recognizes</clueType> two sites in tsx-p2 that are separated by 33 bp: a high-affinity site (CRP-1) overlaps the -35 region, and a low-affinity site (CRP-2) is centered around position -74 bp.</clue>
+</event>
+<sentence id="S6"><term sem="Repressor" id="T13" lex="The_CytR_repressor">The CytR repressor</term> protects <term sem="DNA" id="T14" lex="a_DNA_segment">a DNA segment</term> that is located between the two CRP sites and partially overlaps the CRP-1 target.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T14" />
+<clue>The CytR repressor <clueType>protects</clueType> a DNA segment that is located between the two CRP sites and partially overlaps the CRP-1 target.</clue>
+</event>
+<sentence id="S7">In combination, <term sem="Regulator" id="T15" lex="the_cAMP-CRP_and_CytR_proteins">the cAMP-CRP and CytR proteins</term> bind <term sem="SPAN" id="T16" lex="cooperatively">cooperatively</term> to <term sem="Promoter" id="T17" lex="tsx-p2">tsx-p2</term>, and the nucleoprotein complex formed covers a region of 78 bp extending from the CRP-2 site close to the -10 region.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T15" />
+<Manner idref="T16" />
+<Destination idref="T17" />
+<clue>In combination, the cAMP-CRP and CytR proteins <clueType>bind</clueType> cooperatively to tsx-p2, and the nucleoprotein complex formed covers a region of 78 bp extending from the CRP-2 site close to the -10 region.</clue>
+</event>
+<sentence id="S8">The inducer for the CytR repressor, <term sem="SPAN" id="T18" lex="cytidine">cytidine</term>, does not prevent <term sem="SPAN" id="T19" lex="in_vitro">in vitro</term> <term sem="DNA" id="T20" lex="DNA">DNA</term> binding of <term sem="Repressor" id="T21" lex="CytR">CytR</term>, but releases <term sem="Repressor" id="T22" lex="the_repressor">the repressor</term> from <term sem="Protein_Complex" id="T23" lex="the_nucleoprotein_complex">the nucleoprotein complex</term> and leaves <term sem="Activator" id="T24" lex="the_cAMP-CRP_activator">the cAMP-CRP activator</term> bound to <term sem="DNA" id="T25" lex="its_two_DNA_targets">its two DNA targets</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="E8" />
+<clue>The inducer for the CytR repressor, cytidine, does not <clueType>prevent</clueType> in vitro DNA binding of CytR, but releases the repressor from the nucleoprotein complex and leaves the cAMP-CRP activator bound to its two DNA targets.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T21" />
+<Destination idref="T20" />
+<Condition idref="T19" />
+<clue>The inducer for the CytR repressor, cytidine, does not prevent in vitro DNA <clueType>binding</clueType> of CytR, but releases the repressor from the nucleoprotein complex and leaves the cAMP-CRP activator bound to its two DNA targets.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="T22" />
+<Source idref="T23" />
+<clue>The inducer for the CytR repressor, cytidine, does not prevent in vitro DNA binding of CytR, but <clueType>releases</clueType> the repressor from the nucleoprotein complex and leaves the cAMP-CRP activator bound to its two DNA targets.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T24" />
+<Destination idref="T25" />
+<clue>The inducer for the CytR repressor, cytidine, does not prevent in vitro DNA binding of CytR, but releases the repressor from the nucleoprotein complex and leaves the cAMP-CRP activator <clueType>bound</clueType> to its two DNA targets.</clue>
+</event>
+<sentence id="S9">Thus, <term sem="SPAN" id="T26" lex="cytidine">cytidine</term> interferes with the cooperative DNA binding of <term sem="Regulator" id="T27" lex="cAMP-CRP_and_CytR">cAMP-CRP and CytR</term> to <term sem="Promoter" id="T28" lex="tsx-p2">tsx-p2</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T26" />
+<Theme idref="E12" />
+<clue>Thus, cytidine <clueType>interferes</clueType> with the cooperative DNA binding of cAMP-CRP and CytR to tsx-p2.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T27" />
+<Destination idref="T28" />
+<clue>Thus, cytidine interferes with the cooperative DNA <clueType>binding</clueType> of cAMP-CRP and CytR to tsx-p2.</clue>
+</event>
+<sentence id="S10">We characterized <term sem=" Mutant_Bacteria" id="T29" lex="four_tsx-p2_mutants">four tsx-p2 mutants</term> exhibiting <term sem="Phenotype" id="T30" lex="a_reduced_response">a reduced response</term> to CytR; <term sem=" Mutant_Bacteria" id="T31" lex="three">three</term> carried mutations <term sem="SPAN" id="T32" lex="in_the_CRP-2_site">in <term sem="Transcription_Binding_Site" id="T33" lex="the_CRP-2_site">the CRP-2 site</term></term>, and <term sem=" Mutant_Bacteria" id="T34" lex="one">one</term> carried a mutation <term sem="SPAN" id="T35" lex="in_the_region_between_CRP-1_and_the_-10_sequence">in <term sem="DNA" id="T36" lex="the_region">the region</term> between CRP-1 and the -10 sequence</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="T30" />
+<clue>We characterized four tsx-p2 mutants <clueType>exhibiting</clueType> a reduced response to CytR; three carried mutations in the CRP-2 site, and one carried a mutation in the region between CRP-1 and the -10 sequence.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T31" />
+<Theme idref="E15" />
+<clue>We characterized four tsx-p2 mutants exhibiting a reduced response to CytR; three <clueType>carried</clueType> mutations in the CRP-2 site, and one carried a mutation in the region between CRP-1 and the -10 sequence.</clue>
+</event>
+<event id="E15">
+<type class="Mutation" />
+<Location idref="T32" />
+<clue>We characterized four tsx-p2 mutants exhibiting a reduced response to CytR; three carried <clueType>mutations</clueType> in the CRP-2 site, and one carried a mutation in the region between CRP-1 and the -10 sequence.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T34" />
+<Theme idref="E17" />
+<clue>We characterized four tsx-p2 mutants exhibiting a reduced response to CytR; three carried mutations in the CRP-2 site, and one <clueType>carried</clueType> a mutation in the region between CRP-1 and the -10 sequence.</clue>
+</event>
+<event id="E17">
+<type class="Mutation" />
+<Location idref="T35" />
+<clue>We characterized four tsx-p2 mutants exhibiting a reduced response to CytR; three carried mutations in the CRP-2 site, and one carried a <clueType>mutation</clueType> in the region between CRP-1 and the -10 sequence.</clue>
+</event>
+<sentence id="S11">Formation of <term sem="Protein_Complex" id="T37" lex="the_cAMP-CRP-CytR_DNA_nucleoprotein_complex">the cAMP-CRP-CytR DNA nucleoprotein complex</term> <term sem="SPAN" id="T38" lex="in_vitro">in vitro</term> was perturbed in each mutant.</sentence>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T37" />
+<Condition idref="T38" />
+<clue><clueType>Formation</clueType> of the cAMP-CRP-CytR DNA nucleoprotein complex in vitro was perturbed in each mutant.</clue>
+</event>
+<sentence id="S12">These data indicate that <term sem="Repressor" id="T39" lex="the_CytR_repressor">the CytR repressor</term> relies on <term sem="SPAN" id="T40" lex="the_presence_of_the_cAMP-CRP_activator_complex">the presence of <term sem="Protein_Complex" id="T41" lex="the_cAMP-CRP_activator_complex">the cAMP-CRP activator complex</term></term> to regulate <term sem="Gene_Expression" id="T42" lex="tsx-p2_promoter_activity">tsx-p2 promoter activity</term> and that the formation of <term sem="Repressor" id="T43" lex="an_active_repression_complex">an active repression complex</term> requires the combined interactions of <term sem="Regulator" id="T44" lex="cAMP-CRP_and_CytR">cAMP-CRP and CytR</term> <term sem="SPAN" id="T45" lex="at_tsx-p2">at <term sem="Promoter" id="T46" lex="tsx-p2">tsx-p2</term></term>.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="T39" />
+<Theme idref="T40" />
+<clue>These data indicate that the CytR repressor <clueType>relies</clueType> on the presence of the cAMP-CRP activator complex to regulate tsx-p2 promoter activity and that the formation of an active repression complex requires the combined interactions of cAMP-CRP and CytR at tsx-p2.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<Agent idref="T39" />
+<Theme idref="T42" />
+<clue>These data indicate that the CytR repressor relies on the presence of the cAMP-CRP activator complex to <clueType>regulate</clueType> tsx-p2 promoter activity and that the formation of an active repression complex requires the combined interactions of cAMP-CRP and CytR at tsx-p2.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Theme idref="T43" />
+<clue>These data indicate that the CytR repressor relies on the presence of the cAMP-CRP activator complex to regulate tsx-p2 promoter activity and that the <clueType>formation</clueType> of an active repression complex requires the combined interactions of cAMP-CRP and CytR at tsx-p2.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="E21" />
+<Theme idref="E23" />
+<clue>These data indicate that the CytR repressor relies on the presence of the cAMP-CRP activator complex to regulate tsx-p2 promoter activity and that the formation of an active repression complex <clueType>requires</clueType> the combined interactions of cAMP-CRP and CytR at tsx-p2.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="T44" />
+<Location idref="T45" />
+<clue>These data indicate that the CytR repressor relies on the presence of the cAMP-CRP activator complex to regulate tsx-p2 promoter activity and that the formation of an active repression complex requires the combined <clueType>interactions</clueType> of cAMP-CRP and CytR at tsx-p2.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8729576">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8729576</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Evolution of transcriptional regulation system through <term sem="SPAN" id="T1" lex="promiscuous">promiscuous</term> coupling of <term sem="Regulator" id="T2" lex="regulatory_proteins">regulatory proteins</term> with <term sem="Operon" id="T3" lex="operons">operons</term>; suggestion from protein sequence similarities in Escherichia coli.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T2" />
+<Theme idref="T3" />
+<Manner idref="T1" />
+<clue>Evolution of transcriptional regulation system through <clueType>promiscuous coupling</clueType> of regulatory proteins with operons; suggestion from protein sequence similarities in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">As an advanced molecular study of the problems of the evolution of organisms, the transcriptional regulation system is studied by investigating the amino acid sequence similarities between the proteins in the regulation system of Escherichia coli in which the data of sequenced proteins as well as of regulator-regulon relationships are accumulated.</sentence>
+<sentence id="S4">The similarities between the proteins are calculated by the FASTA algorithm and their homology is also evaluated in terms of statistical significance with the use of the RDF2 program.</sentence>
+<sentence id="S5">This investigation reveals that the similarity between the regulatory protein and the regulated protein is hardly found, but many similarities are found between regulatory proteins and between regulated proteins.</sentence>
+<sentence id="S6">These similarity relations are compared with the regulator-regulon relationships ascertained experimentally.</sentence>
+<sentence id="S7">From this comparison, it is found that <term sem="Regulator" id="T4" lex="similar_regulatory_proteins">similar regulatory proteins</term> <term sem="SPAN" id="T5" lex="rarely">rarely</term> regulate the transcription of <term sem="Gene" id="T6" lex="similar_protein_genes">similar protein genes</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="E3" />
+<Manner idref="T5" />
+<clue>From this comparison, it is found that similar regulatory proteins rarely <clueType>regulate</clueType> the transcription of similar protein genes.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<Theme idref="T6" />
+<clue>From this comparison, it is found that similar regulatory proteins rarely regulate the <clueType>transcription</clueType> of similar protein genes.</clue>
+</event>
+<sentence id="S8">As most of the highly similar proteins are considered to have diverged from a common ancestral protein, this finding strongly suggests the possibility that <term sem="Regulator" id="T7" lex="descendant_regulatory_proteins">descendant regulatory proteins</term> have been <term sem="SPAN" id="T8" lex="promiscuously">promiscuously</term> coupled with <term sem="Operon" id="T9" lex="descendant_operons">descendant operons</term>, independently of their ancestral regulator-regulon relationship, and that some of the couplings have been fixed by selection to form <term sem="SPAN" id="T10" lex="the_present_system">the present system</term> of <term sem="SPAN" id="T11" lex="transcriptional">transcriptional</term> regulation.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T7" />
+<Theme idref="T9" />
+<Manner idref="T8" />
+<clue>As most of the highly similar proteins are considered to have diverged from a common ancestral protein, this finding strongly suggests the possibility that descendant regulatory proteins have been promiscuously <clueType>coupled</clueType> with descendant operons, independently of their ancestral regulator-regulon relationship, and that some of the couplings have been fixed by selection to form the present system of transcriptional regulation.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Purpose idref="E6" />
+<clue>As most of the highly similar proteins are considered to have diverged from a common ancestral protein, this finding strongly suggests the possibility that descendant regulatory proteins have been promiscuously coupled with descendant operons, independently of their ancestral regulator-regulon relationship, and that some of the couplings have been fixed by <clueType>selection</clueType> to form the present system of transcriptional regulation.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T10" />
+<clue>As most of the highly similar proteins are considered to have diverged from a common ancestral protein, this finding strongly suggests the possibility that descendant regulatory proteins have been promiscuously coupled with descendant operons, independently of their ancestral regulator-regulon relationship, and that some of the couplings have been fixed by selection to <clueType>form</clueType> the present system of transcriptional regulation.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<Manner idref="T11" />
+<clue>As most of the highly similar proteins are considered to have diverged from a common ancestral protein, this finding strongly suggests the possibility that descendant regulatory proteins have been promiscuously coupled with descendant operons, independently of their ancestral regulator-regulon relationship, and that some of the couplings have been fixed by selection to form the present system of transcriptional <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S9">The compatibility of such <term sem="SPAN" id="T12" lex="promiscuous">promiscuous</term> coupling with <term sem="SPAN" id="T13" lex="regulatory_organization">regulatory organization</term> is illustrated in the carbohydrate transport systems and the succeeding metabolic pathways, whose organization is comprehensive in sending nutritious substances to the central path of glycolysis under different environmental conditions.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T13" />
+<Manner idref="T12" />
+<clue>The compatibility of such promiscuous <clueType>coupling</clueType> with regulatory organization is illustrated in the carbohydrate transport systems and the succeeding metabolic pathways, whose organization is comprehensive in sending nutritious substances to the central path of glycolysis under different environmental conditions.</clue>
+</event>
+<sentence id="S10">The benefit of flexibility in regulator-regulon relationships in evolutionary processes is also discussed in connection with the punctuational divergence of species in macroevolution and the cell differentiation in multicellular organisms.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

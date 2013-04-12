@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11742992">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11742992</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A simple mechanism for co-dependence on two activators at an Escherichia coli promoter.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Promoter" id="T1" lex="The_Escherichia_coli_melAB_promoter">The Escherichia coli melAB promoter</term> is co-dependent upon two transcription activators, <term sem="Activator" id="T2" lex="MelR">MelR</term> and the cyclic AMP receptor protein, <term sem="Activator" id="T3" lex="CRP">CRP</term>.</sentence>
+<sentence id="S4">In this study we demonstrate positive co-operativity between the binding of <term sem="Activator" id="T4" lex="MelR">MelR</term> and <term sem="Activator" id="T5" lex="CRP">CRP</term> at <term sem="Promoter" id="T6" lex="the_melAB_promoter">the melAB promoter</term>, which provides a simple mechanism for its co-dependence.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T4" idref1="T5" />
+<Destination idref="T6" />
+<clue>In this study we demonstrate positive co-operativity between the <clueType>binding</clueType> of MelR and CRP at the melAB promoter, which provides a simple mechanism for its co-dependence.</clue>
+</event>
+<sentence id="S5"><term sem="Activator" id="T7" lex="MelR">MelR</term> binds to <term sem="Locus" id="T8" lex="four_sites">four sites</term>, centred at positions -42.5, -62.5, -100.5 and -120.5 relative to the melAB transcription start point.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T7" />
+<Destination idref="T8" />
+<clue>MelR <clueType>binds</clueType> to four sites, centred at positions -42.5, -62.5, -100.5 and -120.5 relative to the melAB transcription start point.</clue>
+</event>
+<sentence id="S6">When <term sem="SPAN" id="T9" lex="MelR_is_pre-bound">MelR is pre-bound</term>, <term sem="Activator" id="T10" lex="CRP">CRP</term> is able to bind to <term sem="Locus" id="T11" lex="a_target">a target</term> located between MelR at positions -62.5 and -100.5.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T10" />
+<Destination idref="T11" />
+<Condition idref="T9" />
+<clue>When MelR is pre-bound, CRP is able to <clueType>bind</clueType> to a target located between MelR at positions -62.5 and -100.5.</clue>
+</event>
+<sentence id="S7">This increases the occupation of <term sem="Locus" id="T12" lex="the_two_downstream_sites">the two downstream sites</term> for MelR, which is essential for <term sem="Transcription" id="T13" lex="transcription">transcription</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T12" />
+<clue>This increases the <clueType>occupation</clueType> of the two downstream sites for MelR, which is essential for transcription.</clue>
+</event>
+<sentence id="S8">At simple CRP-dependent promoters, the surface of CRP containing these residues is involved in contacting the RNA polymerase alpha subunit.</sentence>
+<sentence id="S9">Our results show that, at the melAB promoter, the surface of CRP containing AR1 contacts MelR rather than RNA polymerase.</sentence>
+<sentence id="S10">Thus, <term sem="Activator" id="T14" lex="MelR">MelR</term> and <term sem="Activator" id="T15" lex="CRP">CRP</term> activate <term sem="Transcription" id="T16" lex="transcription">transcription</term> by a novel mechanism in which they bind co-operatively to <term sem="Locus" id="T17" lex="adjacent_sites">adjacent sites</term> and form a bacterial enhanceosome.</sentence>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T14" idref1="T15" />
+<Theme idref="T16" />
+<clue>Thus, MelR and CRP <clueType>activate</clueType> transcription by a novel mechanism in which they bind co-operatively to adjacent sites and form a bacterial enhanceosome.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T14" idref1="T15" />
+<Destination idref="T17" />
+<clue>Thus, MelR and CRP activate transcription by a novel mechanism in which they <clueType>bind</clueType> co-operatively to adjacent sites and form a bacterial enhanceosome.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

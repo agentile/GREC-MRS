@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11160809">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11160809</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulator" id="T1" lex="Anomalous_DnaA_protein">Anomalous DnaA protein</term> binding to <term sem="Transcription_Binding_Site" id="T2" lex="the_regulatory_region">the regulatory region</term> of the Escherichia coli aldA gene.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue>Anomalous DnaA protein <clueType>binding</clueType> to the regulatory region of the Escherichia coli aldA gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Transcription_Binding_Site" id="T3" lex="A_binding_site">A binding site</term> for DnaA protein was identified <term sem="SPAN" id="T4" lex="in_the_regulatory_region">in the regulatory region</term> of the aldA gene of Escherichia coli.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Location idref="T4" />
+<clue>A binding site for DnaA protein was <clueType>identified</clueType> in the regulatory region of the aldA gene of Escherichia coli.</clue>
+</event>
+<sentence id="S4"><term sem="SPAN" id="T5" lex="Specific_binding">Specific binding</term> was demonstrated by <term sem="SPAN" id="T6" lex="in_vitro_assays">in vitro assays</term> including filter binding as well as mobility shift in a polyacrylamide gel of the DnaA-DNA complex.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Instrument idref="T6" />
+<clue>Specific binding was <clueType>demonstrated</clueType> by in vitro assays including filter binding as well as mobility shift in a polyacrylamide gel of the DnaA-DNA complex.</clue>
+</event>
+<sentence id="S5"><term sem="SPAN" id="T7" lex="In_cells">In <term sem="Wild_Type_Bacteria" id="T8" lex="cells">cells</term></term> growing in minimal medium containing glucose, expression of <term sem="SPAN" id="T9" lex="ss-galactosidase_activity">ss-galactosidase activity</term> from <term sem="Gene" id="T10" lex="an_aldA-lacZ_fusion_gene">an aldA-lacZ fusion gene</term> was suppressed by <term sem="SPAN" id="T11" lex="oversupply_of_DnaA_protein">oversupply of <term sem="Regulator" id="T12" lex="DnaA_protein">DnaA protein</term></term> and was enhanced by reducing <term sem="Regulator" id="T13" lex="the_free_DnaA_level">the free DnaA level</term>.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<Source idref="T10" />
+<clue>In cells growing in minimal medium containing glucose, <clueType>expression</clueType> of ss-galactosidase activity from an aldA-lacZ fusion gene was suppressed by oversupply of DnaA protein and was enhanced by reducing the free DnaA level.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Repression" />
+<Agent idref="T11" />
+<Theme idref="E4" />
+<Location idref="T7" />
+<clue>In cells growing in minimal medium containing glucose, expression of ss-galactosidase activity from an aldA-lacZ fusion gene was <clueType>suppressed</clueType> by oversupply of DnaA protein and was enhanced by reducing the free DnaA level.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Agent idref="E7" />
+<Theme idref="E4" />
+<Location idref="T7" />
+<clue>In cells growing in minimal medium containing glucose, expression of ss-galactosidase activity from an aldA-lacZ fusion gene was suppressed by oversupply of DnaA protein and was <clueType>enhanced</clueType> by reducing the free DnaA level.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T13" />
+<clue>In cells growing in minimal medium containing glucose, expression of ss-galactosidase activity from an aldA-lacZ fusion gene was suppressed by oversupply of DnaA protein and was enhanced by <clueType>reducing</clueType> the free DnaA level.</clue>
+</event>
+<sentence id="S6">These results suggest that <term sem="Repressor" id="T14" lex="DnaA_protein">DnaA protein</term> <term sem="SPAN" id="T15" lex="negatively">negatively</term> regulates expression of <term sem="Gene" id="T16" lex="the_aldA_gene">the aldA gene</term> under <term sem="SPAN" id="T17" lex="these_conditions">these conditions</term>.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<Agent idref="T14" />
+<Theme idref="E9" />
+<Manner idref="T15" />
+<Condition idref="T17" />
+<clue>These results suggest that DnaA protein negatively <clueType>regulates</clueType> expression of the aldA gene under these conditions.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<clue>These results suggest that DnaA protein negatively regulates <clueType>expression</clueType> of the aldA gene under these conditions.</clue>
+</event>
+<sentence id="S7">Despite fairly strong binding, the bound DNA fragment had no consensus 9 bp DnaA binding sequence (DnaA box), and anomalous binding to an AT-rich sequence located close to the transcription start site was revealed by a footprinting experiment.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

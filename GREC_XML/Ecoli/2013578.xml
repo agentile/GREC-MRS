@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2013578">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2013578</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Nucleotide sequence and characterization of the sfs1 gene: <term sem="Gene" id="T1" lex="sfs1">sfs1</term> is involved in <term sem="SPAN" id="T2" lex="CRP*-dependent">CRP*-dependent</term> <term sem="Gene" id="T3" lex="mal_gene">mal gene</term> expression <term sem="SPAN" id="T4" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Purpose idref="E2" />
+<clue>Nucleotide sequence and characterization of the sfs1 gene: sfs1 is <clueType>involved</clueType> in CRP*-dependent mal gene expression in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<Manner idref="T2" />
+<Location idref="T4" />
+<clue>Nucleotide sequence and characterization of the sfs1 gene: sfs1 is involved in CRP*-dependent mal gene <clueType>expression</clueType> in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have cloned at least 12 different Escherichia coli genes which enable strain MK2001 to use maltose.</sentence>
+<sentence id="S4">The genes were designated sfs1 through sfs12 (sugar fermentation stimulation).</sentence>
+<sentence id="S5">Previously, one (sfs7) of them was mapped at 65 min on the E. coli chromosome and identified as nlp, which has high homology to repressor protein (Ner) of Mu phage, which contains a putative DNA binding region (Y.-L. Choi, T. Nishida, M. Kawamukai, R. Utsumi, H. Sakai, and T. Komano, J. Bacteriol. 171:5222-5225, 1989).</sentence>
+<sentence id="S6">In this study, another gene (sfs1) located at 3.5 min was newly found and analyzed.</sentence>
+<sentence id="S7">The nucleotide sequence of <term sem="Gene" id="T6" lex="sfs1">sfs1</term> encoded <term sem="Protein" id="T7" lex="a_protein">a protein</term> of 234 amino acids (molecular mass, 26,227 Da) which also has a putative DNA binding domain.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>The nucleotide sequence of sfs1 <clueType>encoded</clueType> a protein of 234 amino acids (molecular mass, 26,227 Da) which also has a putative DNA binding domain.</clue>
+</event>
+<sentence id="S8">Overexpression of <term sem="Gene" id="T8" lex="the_sfs1_gene">the sfs1 gene</term> <term sem="SPAN" id="T9" lex="in_MK2001">in <term sem="Bacteria" id="T10" lex="MK2001">MK2001</term></term> resulted in a 10-fold increase of amylomaltase, which was still dependent on MalT.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<Location idref="T9" />
+<clue><clueType>Overexpression</clueType> of the sfs1 gene in MK2001 resulted in a 10-fold increase of amylomaltase, which was still dependent on MalT.</clue>
+</event>
+<sentence id="S9">These results suggest that Sfs1 could be a new regulatory factor involved in maltose metabolism.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

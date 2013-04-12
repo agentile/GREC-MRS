@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7478579">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7478579</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">PU.1 (<term sem="Transcription_Factor" id="T1" lex="Spi-1">Spi-1</term>) autoregulates <term sem="Gene_Expression" id="T2" lex="its_expression">its expression</term> <term sem="SPAN" id="T3" lex="in_myeloid_cells">in <term sem="Cells" id="T4" lex="myeloid_cells">myeloid cells</term></term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Location idref="T3" />
+<clue>PU.1 (Spi-1) <clueType>autoregulates</clueType> its expression in myeloid cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">PU.1 (<term sem="Transcription_Factor" id="T5" lex="Spi-1">Spi-1</term>), a member of the Ets transcription factor family, is predominantly expressed <term sem="SPAN" id="T6" lex="in_myeloid_(granulocytes,_monocytes_and_macrophages)_and_B_cells">in <term sem="Cells" id="T7" lex="myeloid">myeloid</term> (granulocytes, monocytes and macrophages) and B cells</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>PU.1 (Spi-1), a member of the Ets transcription factor family, is predominantly <clueType>expressed</clueType> in myeloid (granulocytes, monocytes and macrophages) and B cells.</clue>
+</event>
+<sentence id="S4"><term sem="Gene" id="T8" lex="PU.1">PU.1</term> is upregulated <term sem="SPAN" id="T9" lex="early_during_commitment_of_multipotential_progenitors">early during commitment of <term sem="Cells" id="T10" lex="multipotential_progenitors">multipotential progenitors</term></term> to the myeloid lineages and inhibition of <term sem="SPAN" id="T11" lex="PU.1_function">PU.1 function</term> <term sem="SPAN" id="T12" lex="in_human_CD34+_progenitors">in <term sem="Cells" id="T13" lex="human_CD34+_progenitors">human CD34+ progenitors</term></term> <term sem="SPAN" id="T14" lex="prior_to_this_upregulation">prior to <term sem="Regulation" id="T15" lex="this_upregulation">this upregulation</term></term> blocks <term sem="SPAN" id="T16" lex="myeloid_colony_formation">myeloid colony formation</term>.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Theme idref="T8" />
+<Temporal idref="T9" />
+<clue>PU.1 is <clueType>upregulated</clueType> early during commitment of multipotential progenitors to the myeloid lineages and inhibition of PU.1 function in human CD34+ progenitors prior to this upregulation blocks myeloid colony formation.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T11" />
+<Location idref="T12" />
+<Temporal idref="T14" />
+<clue>PU.1 is upregulated early during commitment of multipotential progenitors to the myeloid lineages and <clueType>inhibition</clueType> of PU.1 function in human CD34+ progenitors prior to this upregulation blocks myeloid colony formation.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T16" />
+<clue>PU.1 is upregulated early during commitment of multipotential progenitors to the myeloid lineages and inhibition of PU.1 function in human CD34+ progenitors prior to this upregulation <clueType>blocks</clueType> myeloid colony formation.</clue>
+</event>
+<sentence id="S5">Since <term sem="Gene" id="T17" lex="PU.1">PU.1</term> expression appears to play <term sem="SPAN" id="T18" lex="a_role_in_hematopoietic_development">a role in hematopoietic development</term>, we characterized the PU.1 promoter.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T17" />
+<clue>Since PU.1 <clueType>expression</clueType> appears to play a role in hematopoietic development, we characterized the PU.1 promoter.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E6" />
+<Descriptive-Agent idref="T18" />
+<clue>Since PU.1 expression appears to <clueType>play</clueType> a role in hematopoietic development, we characterized the PU.1 promoter.</clue>
+</event>
+<sentence id="S6">Here we report that <term sem="Promoter" id="T19" lex="the_murine_PU.1_promoter">the murine PU.1 promoter</term>, as well as <term sem="Promoter" id="T20" lex="the_human_promoter">the human promoter</term>, demonstrate <term sem="SPAN" id="T21" lex="tissue-specific">tissue-specific</term> <term sem="Gene" id="T22" lex="reporter_gene">reporter gene</term> expression <term sem="SPAN" id="T23" lex="in_myeloid_cell_lines">in <term sem="Cells" id="T24" lex="myeloid_cell_lines">myeloid cell lines</term></term> but not in T cells and HeLa (non-hematopoietic cells) cells.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T19" idref1="T20" />
+<Theme idref="E9" />
+<Location idref="T23" />
+<clue>Here we report that the murine PU.1 promoter, as well as the human promoter, <clueType>demonstrate</clueType> tissue-specific reporter gene expression in myeloid cell lines but not in T cells and HeLa (non-hematopoietic cells) cells.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T22" />
+<Manner idref="T21" />
+<clue>Here we report that the murine PU.1 promoter, as well as the human promoter, demonstrate tissue-specific reporter gene <clueType>expression</clueType> in myeloid cell lines but not in T cells and HeLa (non-hematopoietic cells) cells.</clue>
+</event>
+<sentence id="S7">Deletion analysis of the PU.1 promoter indicates that <term sem="SPAN" id="T25" lex="tissue-specific_functional_elements">tissue-specific functional elements</term> are encoded <term sem="SPAN" id="T26" lex="in_the_-61_to_-39_bp_and_-7_to_+34_bp_regions">in <term sem="Locus" id="T27" lex="the_-61_to_-39_bp">the -61 to -39 bp</term> and -7 to +34 bp regions</term><term sem="Locus" id="T28" lex="-7_to_+34_bp_regions"></term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T25" />
+<Location idref="T26" />
+<clue>Deletion analysis of the PU.1 promoter indicates that tissue-specific functional elements are <clueType>encoded</clueType> in the -61 to -39 bp and -7 to +34 bp regions.</clue>
+</event>
+<sentence id="S8">The first region contains a functional octamer (Oct) site at -54 bp and an Sp1 site at -39 bp.</sentence>
+<sentence id="S9"><term sem="Locus" id="T29" lex="The_second">The second</term> contains <term sem="Transcription_Binding_Site" id="T30" lex="a_binding_site">a binding site</term> <term sem="SPAN" id="T31" lex="at_+20_bp">at +20 bp</term> for both PU.1 itself and the related ets family member Spi-B.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T29" />
+<Theme idref="T30" />
+<Location idref="T31" />
+<clue>The second <clueType>contains</clueType> a binding site at +20 bp for both PU.1 itself and the related ets family member Spi-B.</clue>
+</event>
+<sentence id="S10">In vivo footprinting assays demonstrate that <term sem="SPAN" id="T32" lex="a_hypersensitive_band">a hypersensitive band</term> was detected at the PU.1 site <term sem="SPAN" id="T33" lex="in_myeloid_cells_but_not_in_HeLa">in <term sem="Cells" id="T34" lex="myeloid_cells">myeloid cells</term> but not in HeLa</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T32" />
+<Location idref="T33" />
+<clue>In vivo footprinting assays demonstrate that a hypersensitive band was <clueType>detected</clueType> at the PU.1 site in myeloid cells but not in HeLa.</clue>
+</event>
+<sentence id="S11">A mutation of <term sem="Transcription_Binding_Site" id="T35" lex="the_PU.1_site">the PU.1 site</term> which abolished <term sem="SPAN" id="T36" lex="PU.1_binding">PU.1 binding</term> caused <term sem="Gene_Expression" id="T37" lex="a_significant_decrease_in_promoter_activity">a significant decrease in promoter activity</term>.</sentence>
+<event id="E13">
+<type class="Mutation" />
+<Theme idref="T35" />
+<clue>A <clueType>mutation</clueType> of the PU.1 site which abolished PU.1 binding caused a significant decrease in promoter activity.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="E13" />
+<Theme idref="T36" />
+<clue>A mutation of the PU.1 site which <clueType>abolished</clueType> PU.1 binding caused a significant decrease in promoter activity.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="E13" />
+<Theme idref="T37" />
+<clue>A mutation of the PU.1 site which abolished PU.1 binding <clueType>caused</clueType> a significant decrease in promoter activity.</clue>
+</event>
+<sentence id="S12">Mutation of <term sem="Transcription_Binding_Site" id="T38" lex="the_Oct_and/or_Sp1_site">the Oct and/or Sp1 site</term> results in <term sem="SPAN" id="T39" lex="a_lesser_decrease_of_promoter_activity">a lesser decrease of <term sem="Gene_Expression" id="T40" lex="promoter_activity">promoter activity</term></term> <term sem="SPAN" id="T41" lex="in_myeloid_cells">in <term sem="Cells" id="T42" lex="myeloid_cells">myeloid cells</term></term>.</sentence>
+<event id="E16">
+<type class="Mutation" />
+<Theme idref="T38" />
+<clue><clueType>Mutation</clueType> of the Oct and/or Sp1 site results in a lesser decrease of promoter activity in myeloid cells.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="E16" />
+<Location idref="T41" />
+<Descriptive-Agent idref="T39" />
+<clue>Mutation of the Oct and/or Sp1 site <clueType>results</clueType> in a lesser decrease of promoter activity in myeloid cells.</clue>
+</event>
+<sentence id="S13"><term sem="Laboratory_Technique" id="T43" lex="Co-transfection">Co-transfection</term> of PU.1 or Spi-B in cells lacking PU.1 and Spi-B specifically transactivated <term sem="Promoter" id="T44" lex="a_minimal_promoter">a minimal promoter</term> containing <term sem="SPAN" id="T45" lex="the_PU.1_binding_site">the PU.1 binding site</term>, indicating that <term sem="Transcription_Factor" id="T46" lex="PU.1">PU.1</term> can activate <term sem="Promoter" id="T47" lex="its_own_promoter_elements">its own promoter elements</term> in <term sem="SPAN" id="T48" lex="an_autoregulatory_loop">an autoregulatory loop</term>.</sentence>
+<event id="E18">
+<type class="Gene_Activation" />
+<Agent idref="T43" />
+<Theme idref="T44" />
+<clue>Co-transfection of PU.1 or Spi-B in cells lacking PU.1 and Spi-B specifically <clueType>transactivated</clueType> a minimal promoter containing the PU.1 binding site, indicating that PU.1 can activate its own promoter elements in an autoregulatory loop.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T44" />
+<Descriptive-Theme idref="T45" />
+<clue>Co-transfection of PU.1 or Spi-B in cells lacking PU.1 and Spi-B specifically transactivated a minimal promoter <clueType>containing</clueType> the PU.1 binding site, indicating that PU.1 can activate its own promoter elements in an autoregulatory loop.</clue>
+</event>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T46" />
+<Theme idref="T47" />
+<Manner idref="T48" />
+<clue>Co-transfection of PU.1 or Spi-B in cells lacking PU.1 and Spi-B specifically transactivated a minimal promoter containing the PU.1 binding site, indicating that PU.1 can <clueType>activate</clueType> its own promoter elements in an autoregulatory loop.</clue>
+</event>
+<sentence id="S14"><term sem="SPAN" id="T49" lex="Positive">Positive</term> autoregulation of <term sem="Promoter" id="T50" lex="the_PU.1_promoter">the PU.1 promoter</term> may play an important role in the function of PU.1 in myeloid cells.</sentence>
+<event id="E21">
+<type class="Regulation" />
+<Theme idref="T50" />
+<Manner idref="T49" />
+<clue>Positive <clueType>autoregulation</clueType> of the PU.1 promoter may play an important role in the function of PU.1 in myeloid cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

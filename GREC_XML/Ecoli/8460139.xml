@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8460139">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8460139</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of manganese-containing superoxide dismutase in anaerobic Escherichia coli by diamide and 1,10-phenanthroline: sites of <term sem="SPAN" id="T1" lex="transcriptional">transcriptional</term> regulation.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Manner idref="T1" />
+<clue>Induction of manganese-containing superoxide dismutase in anaerobic Escherichia coli by diamide and 1,10-phenanthroline: sites of transcriptional <clueType>regulation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T2" lex="Transcriptional">Transcriptional</term> regulation of <term sem="Gene" id="T3" lex="the_sodA_gene">the sodA gene</term>, a member of the soxRS regulon encoding the manganese-containing superoxide dismutase (<term sem="Enzyme" id="T4" lex="MnSOD">MnSOD</term>; superoxide:superoxide oxidoreductase, EC 1.15.1.1) of Escherichia coli, was examined in a variety of regulatory mutants.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Theme idref="T3" />
+<Manner idref="T2" />
+<clue>Transcriptional <clueType>regulation</clueType> of the sodA gene, a member of the soxRS regulon encoding the manganese-containing superoxide dismutase (MnSOD; superoxide:superoxide oxidoreductase, EC 1.15.1.1) of Escherichia coli, was examined in a variety of regulatory mutants.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>Transcriptional regulation of the sodA gene, a member of the soxRS regulon <clueType>encoding</clueType> the manganese-containing superoxide dismutase (MnSOD; superoxide:superoxide oxidoreductase, EC 1.15.1.1) of Escherichia coli, was examined in a variety of regulatory mutants.</clue>
+</event>
+<sentence id="S4">Diamide, an oxidant that causes the anaerobic biosynthesis of the MnSOD polypeptide and also facilitates insertion of manganese at the active site, was found to anaerobically induce MnSOD in both soxRS and fur arcA fnr strains.</sentence>
+<sentence id="S5">Metal chelating agents also caused anaerobic induction of MnSOD in a fur arcA fnr triple mutant; however, this induction of MnSOD and of glucose-6-phosphate dehydrogenase (G6PD) by 1,10-phenanthroline was dependent on an intact soxRS locus.</sentence>
+<sentence id="S6">A strain of E. coli bearing a fusion of the soxS promoter to lacZ was used to demonstrate that both <term sem="Inorganic_Compounds" id="T5" lex="diamide">diamide</term> and <term sem="Inorganic_Compounds" id="T6" lex="1,10-phenanthroline">1,10-phenanthroline</term> caused <term sem="SPAN" id="T7" lex="anaerobic">anaerobic</term> activation of <term sem="Gene" id="T8" lex="soxS"><term sem="SPAN" id="T9" lex="soxS_transcription">soxS transcription</term></term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" idref1="T6" />
+<Theme idref="E5" />
+<clue>A strain of E. coli bearing a fusion of the soxS promoter to lacZ was used to demonstrate that both diamide and 1,10-phenanthroline <clueType>caused</clueType> anaerobic activation of soxS transcription.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<Theme idref="T9" />
+<Manner idref="T7" />
+<clue>A strain of E. coli bearing a fusion of the soxS promoter to lacZ was used to demonstrate that both diamide and 1,10-phenanthroline caused anaerobic <clueType>activation</clueType> of soxS transcription.</clue>
+</event>
+<event id="E6">
+<type class="Transcription" />
+<Theme idref="T8" />
+<clue>A strain of E. coli bearing a fusion of the soxS promoter to lacZ was used to demonstrate that both diamide and 1,10-phenanthroline caused anaerobic activation of soxS <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S7">These results indicate that (i) both <term sem="Inorganic_Compounds" id="T10" lex="diamide">diamide</term> and <term sem="Inorganic_Compounds" id="T11" lex="1,10-phenanthroline">1,10-phenanthroline</term> induce <term sem="Gene" id="T12" lex="the_soxRS_regulon">the soxRS regulon</term> <term sem="SPAN" id="T13" lex="anaerobically">anaerobically</term> by stimulation of <term sem="Gene" id="T14" lex="soxS"><term sem="SPAN" id="T15" lex="soxS_transcription">soxS transcription</term></term>; (ii) diamide, but not metal chelators, also induces MnSOD biosynthesis by a soxRS-independent mechanism, perhaps mediated by effects on fur, arcA, or <term sem="SPAN" id="T16" lex="fnr-mediated">fnr-mediated</term> repression of <term sem="Gene" id="T17" lex="sodA">sodA</term>; and (iii) the soxRS locus contains a metal-binding component and is responsive to the redox status of the cell.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" idref1="T11" />
+<Theme idref="T12" />
+<Manner idref="T13" />
+<clue>These results indicate that (i) both diamide and 1,10-phenanthroline <clueType>induce</clueType> the soxRS regulon anaerobically by stimulation of soxS transcription; (ii) diamide, but not metal chelators, also induces MnSOD biosynthesis by a soxRS-independent mechanism, perhaps mediated by effects on fur, arcA, or fnr-mediated repression of sodA; and (iii) the soxRS locus contains a metal-binding component and is responsive to the redox status of the cell.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Theme idref="T15" />
+<clue>These results indicate that (i) both diamide and 1,10-phenanthroline induce the soxRS regulon anaerobically by <clueType>stimulation</clueType> of soxS transcription; (ii) diamide, but not metal chelators, also induces MnSOD biosynthesis by a soxRS-independent mechanism, perhaps mediated by effects on fur, arcA, or fnr-mediated repression of sodA; and (iii) the soxRS locus contains a metal-binding component and is responsive to the redox status of the cell.</clue>
+</event>
+<event id="E9">
+<type class="Transcription" />
+<Theme idref="T14" />
+<clue>These results indicate that (i) both diamide and 1,10-phenanthroline induce the soxRS regulon anaerobically by stimulation of soxS <clueType>transcription</clueType>; (ii) diamide, but not metal chelators, also induces MnSOD biosynthesis by a soxRS-independent mechanism, perhaps mediated by effects on fur, arcA, or fnr-mediated repression of sodA; and (iii) the soxRS locus contains a metal-binding component and is responsive to the redox status of the cell.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Theme idref="T17" />
+<Manner idref="T16" />
+<clue>These results indicate that (i) both diamide and 1,10-phenanthroline induce the soxRS regulon anaerobically by stimulation of soxS transcription; (ii) diamide, but not metal chelators, also induces MnSOD biosynthesis by a soxRS-independent mechanism, perhaps mediated by effects on fur, arcA, or fnr-mediated <clueType>repression</clueType> of sodA; and (iii) the soxRS locus contains a metal-binding component and is responsive to the redox status of the cell.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

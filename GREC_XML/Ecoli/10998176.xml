@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10998176">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10998176</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Oxygen">Oxygen</term> regulation of the Escherichia coli cytochrome d oxidase (<term sem="Operon" id="T2" lex="cydAB">cydAB</term>) <term sem="SPAN" id="T3" lex="operon">operon</term>: roles of multiple promoters and the Fnr-1 and Fnr-2 binding sites.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Theme idref="T2" idref1="T3" />
+<Manner idref="T1" />
+<clue>Oxygen <clueType>regulation</clueType> of the Escherichia coli cytochrome d oxidase (cydAB) operon: roles of multiple promoters and the Fnr-1 and Fnr-2 binding sites.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Operon" id="T4" lex="The_Escherichia_coli_cydAB_operon">The Escherichia coli cydAB operon</term> encodes <term sem="Enzyme" id="T5" lex="the_high-affinity_terminal_oxidase">the high-affinity terminal oxidase</term> of the oxygen respiratory chain, cytochrome d oxidase.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>The Escherichia coli cydAB operon <clueType>encodes</clueType> the high-affinity terminal oxidase of the oxygen respiratory chain, cytochrome d oxidase.</clue>
+</event>
+<sentence id="S4">The sensor-regulator pair, <term sem="Regulator" id="T6" lex="ArcB-ArcA">ArcB-ArcA</term>, is responsible for the <term sem="SPAN" id="T7" lex="microaerobic">microaerobic</term> activation of <term sem="Operon" id="T8" lex="the_cydAB_operon">the cydAB operon</term>, whereas <term sem="Regulator" id="T9" lex="the_anaerobic_regulator_Fnr">the anaerobic regulator Fnr</term> represses its expression in the absence of <term sem="Organic_Compounds" id="T10" lex="oxygen">oxygen</term>.</sentence>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T6" />
+<Theme idref="T8" />
+<Manner idref="T7" />
+<clue>The sensor-regulator pair, ArcB-ArcA, is responsible for the microaerobic <clueType>activation</clueType> of the cydAB operon, whereas the anaerobic regulator Fnr represses its expression in the absence of oxygen.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Repression" />
+<Agent idref="T9" />
+<Theme idref="E5" />
+<Condition idref="T10" />
+<clue>The sensor-regulator pair, ArcB-ArcA, is responsible for the microaerobic activation of the cydAB operon, whereas the anaerobic regulator Fnr <clueType>represses</clueType> its expression in the absence of oxygen.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>The sensor-regulator pair, ArcB-ArcA, is responsible for the microaerobic activation of the cydAB operon, whereas the anaerobic regulator Fnr represses its <clueType>expression</clueType> in the absence of oxygen.</clue>
+</event>
+<sentence id="S5"><term sem="Regulator" id="T11" lex="Fnr">Fnr</term> binds <term sem="SPAN" id="T12" lex="in_vitro">in vitro</term> at <term sem="Locus" id="T13" lex="two_sites"><term sem="SPAN" id="T14" lex="two_sites_within_the_cydAB_promoter_element">two sites within <term sem="Promoter" id="T15" lex="the_cydAB_promoter_element">the cydAB promoter element</term></term></term>.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T11" />
+<Manner idref="T12" />
+<Destination idref="T14" />
+<clue>Fnr <clueType>binds</clueType> in vitro at two sites within the cydAB promoter element.</clue>
+</event>
+<sentence id="S6">To discern whether these two regions have an in vivo function in the <term sem="SPAN" id="T16" lex="anaerobic">anaerobic</term> regulation of <term sem="Operon" id="T17" lex="cydAB">cydAB</term>, the Fnr-binding motifs were mutagenized individually and in combination.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<Theme idref="T17" />
+<Manner idref="T16" />
+<clue>To discern whether these two regions have an in vivo function in the anaerobic <clueType>regulation</clueType> of cydAB, the Fnr-binding motifs were mutagenized individually and in combination.</clue>
+</event>
+<sentence id="S7">The effects of <term sem="Mutation" id="T18" lex="these_mutations">these mutations</term> on <term sem="SPAN" id="T19" lex="in_vivo">in vivo</term> <term sem="SPAN" id="T20" lex="gene">gene</term> expression were determined by lac fusion and primer extension analysis.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="E9" />
+<clue>The <clueType>effects</clueType> of these mutations on in vivo gene expression were determined by lac fusion and primer extension analysis.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<Manner idref="T19" />
+<clue>The effects of these mutations on in vivo gene <clueType>expression</clueType> were determined by lac fusion and primer extension analysis.</clue>
+</event>
+<sentence id="S8">Our results show that <term sem="Locus" id="T21" lex="the_Fnr-2_site">the Fnr-2 site</term> is critical for <term sem="SPAN" id="T22" lex="Fnr-mediated_anaerobic">Fnr-mediated anaerobic</term> repression of the two main cydAB promoters, <term sem="Promoter" id="T23" lex="P1">P1</term> and <term sem="Promoter" id="T24" lex="P2">P2</term>.</sentence>
+<event id="E10">
+<type class="Gene_Repression" />
+<Theme idref="T23" idref1="T24" />
+<Manner idref="T22" />
+<clue>Our results show that the Fnr-2 site is critical for Fnr-mediated anaerobic <clueType>repression</clueType> of the two main cydAB promoters, P1 and P2.</clue>
+</event>
+<sentence id="S9">In contrast, the Fnr-1 site has an auxiliary role in the <term sem="SPAN" id="T25" lex="anaerobic">anaerobic</term> repression of <term sem="Promoter" id="T26" lex="P1">P1</term>, but not of P2.</sentence>
+<event id="E11">
+<type class="Gene_Repression" />
+<Theme idref="T26" />
+<Manner idref="T25" />
+<clue>In contrast, the Fnr-1 site has an auxiliary role in the anaerobic <clueType>repression</clueType> of P1, but not of P2.</clue>
+</event>
+<sentence id="S10">Transcription from <term sem="Promoter" id="T27" lex="P1">P1</term> did not affect <term sem="SPAN" id="T28" lex="ArcA-mediated">ArcA-mediated</term> activation or <term sem="SPAN" id="T29" lex="Fnr-mediated">Fnr-mediated</term> repression of <term sem="Promoter" id="T30" lex="P2">P2</term>, indicating that <term sem="SPAN" id="T31" lex="oxygen">oxygen</term> regulation is exerted on <term sem="Promoter" id="T32" lex="both_promoters">both promoters</term> in an independent fashion.</sentence>
+<event id="E12">
+<type class="Transcription" />
+<Source idref="T27" />
+<clue><clueType>Transcription</clueType> from P1 did not affect ArcA-mediated activation or Fnr-mediated repression of P2, indicating that oxygen regulation is exerted on both promoters in an independent fashion.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="E14" />
+<clue>Transcription from P1 did not <clueType>affect</clueType> ArcA-mediated activation or Fnr-mediated repression of P2, indicating that oxygen regulation is exerted on both promoters in an independent fashion.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Theme idref="E15" />
+<Manner idref="T28" />
+<clue>Transcription from P1 did not affect ArcA-mediated <clueType>activation</clueType> or Fnr-mediated repression of P2, indicating that oxygen regulation is exerted on both promoters in an independent fashion.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Repression" />
+<Theme idref="T30" />
+<Manner idref="T29" />
+<clue>Transcription from P1 did not affect ArcA-mediated activation or Fnr-mediated <clueType>repression</clueType> of P2, indicating that oxygen regulation is exerted on both promoters in an independent fashion.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<Manner idref="T31" />
+<clue>Transcription from P1 did not affect ArcA-mediated activation or Fnr-mediated repression of P2, indicating that oxygen <clueType>regulation</clueType> is exerted on both promoters in an independent fashion.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="E16" />
+<Theme idref="T32" />
+<clue>Transcription from P1 did not affect ArcA-mediated activation or Fnr-mediated repression of P2, indicating that oxygen regulation is <clueType>exerted</clueType> on both promoters in an independent fashion.</clue>
+</event>
+<sentence id="S11">In addition, three new promoters were identified in the cydAB control region, and the 5' ends of the corresponding transcripts were mapped.</sentence>
+<sentence id="S12">Two of these promoters, designated <term sem="Promoter" id="T33" lex="P3">P3</term> and <term sem="Promoter" id="T34" lex="P4">P4</term>, are co-ordinately regulated with <term sem="Promoter" id="T35" lex="P1">P1</term> and <term sem="Promoter" id="T36" lex="P2">P2</term> in response to <term sem="Regulator" id="T37" lex="oxygen">oxygen</term>, <term sem="Regulator" id="T38" lex="ArcA">ArcA</term> and <term sem="Regulator" id="T39" lex="Fnr">Fnr</term>.</sentence>
+<event id="E18">
+<type class="Regulation" />
+<Agent idref="T35" idref1="T36" />
+<Theme idref="T33" idref1="T34" />
+<Condition idref="T37" idref1="T38" idref2="T39" />
+<clue>Two of these promoters, designated P3 and P4, are co-ordinately <clueType>regulated</clueType> with P1 and P2 in response to oxygen, ArcA and Fnr.</clue>
+</event>
+<sentence id="S13"><term sem="Promoter" id="T40" lex="The_P5_promoter">The P5 promoter</term> is not <term sem="Regulator" id="T41" lex="Fnr">Fnr</term> regulated and is only weakly activated by <term sem="Activator" id="T42" lex="ArcA">ArcA</term>.</sentence>
+<event id="E19">
+<type class="Regulation" />
+<Agent idref="T41" />
+<Theme idref="T40" />
+<clue>The P5 promoter is not Fnr <clueType>regulated</clueType> and is only weakly activated by ArcA.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Activation" />
+<Agent idref="T42" />
+<Theme idref="T40" />
+<clue>The P5 promoter is not Fnr regulated and is only weakly <clueType>activated</clueType> by ArcA.</clue>
+</event>
+<sentence id="S14">The contribution of these three additional promoters to the overall <term sem="SPAN" id="T43" lex="cydAB">cydAB</term> expression is most relevant under aerobic conditions.</sentence>
+<event id="E21">
+<type class="Gene_Expression" />
+<Theme idref="T43" />
+<clue>The contribution of these three additional promoters to the overall cydAB <clueType>expression</clueType> is most relevant under aerobic conditions.</clue>
+</event>
+<sentence id="S15">Our results suggest a unique repression model, in which <term sem="Regulator" id="T44" lex="one_Fnr_dimer">one Fnr dimer</term> bound to one single site (<term sem="Locus" id="T45" lex="Fnr-2">Fnr-2</term>) is sufficient to downregulate <term sem="Transcription" id="T46" lex="transcription">transcription</term> from <term sem="Promoter" id="T47" lex="four_cydAB_promoters">four cydAB promoters</term>.</sentence>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T44" />
+<Destination idref="T45" />
+<clue>Our results suggest a unique repression model, in which one Fnr dimer <clueType>bound</clueType> to one single site (Fnr-2) is sufficient to downregulate transcription from four cydAB promoters.</clue>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<Agent idref="T44" />
+<Theme idref="T46" />
+<Source idref="T47" />
+<clue>Our results suggest a unique repression model, in which one Fnr dimer bound to one single site (Fnr-2) is sufficient to <clueType>downregulate</clueType> transcription from four cydAB promoters.</clue>
+</event>
+<sentence id="S16">In conclusion, transcription of <term sem="Operon" id="T48" lex="the_cydAB_operon">the cydAB operon</term> is driven by <term sem="Protein_Complex" id="T49" lex="a_complex_regulatory_element">a complex regulatory element</term> containing at least five promoters that act in unison to provide adequate <term sem="Organic_Compounds" id="T50" lex="oxygen">oxygen</term> control of <term sem="SPAN" id="T51" lex="gene">gene</term> expression.</sentence>
+<event id="E24">
+<type class="Transcription" />
+<Theme idref="T48" />
+<clue>In conclusion, <clueType>transcription</clueType> of the cydAB operon is driven by a complex regulatory element containing at least five promoters that act in unison to provide adequate oxygen control of gene expression.</clue>
+</event>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="T49" />
+<Theme idref="E24" />
+<clue>In conclusion, transcription of the cydAB operon is <clueType>driven</clueType> by a complex regulatory element containing at least five promoters that act in unison to provide adequate oxygen control of gene expression.</clue>
+</event>
+<event id="E26">
+<type class="GRE" />
+<Theme idref="E27" />
+<Manner idref="T50" />
+<clue>In conclusion, transcription of the cydAB operon is driven by a complex regulatory element containing at least five promoters that act in unison to provide adequate oxygen <clueType>control</clueType> of gene expression.</clue>
+</event>
+<event id="E27">
+<type class="Gene_Expression" />
+<Theme idref="T51" />
+<clue>In conclusion, transcription of the cydAB operon is driven by a complex regulatory element containing at least five promoters that act in unison to provide adequate oxygen control of gene <clueType>expression</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

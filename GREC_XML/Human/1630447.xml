@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1630447">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1630447</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Subunit of an alpha-interferon-responsive transcription factor is related to interferon regulatory factor and Myb families of DNA-binding proteins.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T1" lex="Alpha_interferon">Alpha interferon</term> stimulates <term sem="Transcription" id="T2" lex="transcription">transcription</term> by converting <term sem="Transcription_Factor" id="T3" lex="the_positive_transcriptional_regulator_ISGF3">the positive transcriptional regulator ISGF3</term> from <term sem="SPAN" id="T4" lex="a_latent">a latent</term> to <term sem="SPAN" id="T5" lex="an_active_form">an active form</term>.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<Instrument idref="E2" />
+<clue>Alpha interferon <clueType>stimulates</clueType> transcription by converting the positive transcriptional regulator ISGF3 from a latent to an active form.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T3" />
+<Source idref="T4" />
+<Destination idref="T5" />
+<clue>Alpha interferon stimulates transcription by <clueType>converting</clueType> the positive transcriptional regulator ISGF3 from a latent to an active form.</clue>
+</event>
+<sentence id="S4"><term sem="SPAN" id="T6" lex="This_receptor-mediated_event">This receptor-mediated event</term> occurs <term sem="SPAN" id="T7" lex="in_the_cytoplasm">in <term sem="Organelles" id="T8" lex="the_cytoplasm">the cytoplasm</term></term>, with subsequent translocation of the activated factor to the nucleus.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T6" />
+<Location idref="T7" />
+<clue>This receptor-mediated event <clueType>occurs</clueType> in the cytoplasm, with subsequent translocation of the activated factor to the nucleus.</clue>
+</event>
+<sentence id="S5">ISGF3 has two components, termed ISGF3 alpha and ISGF3 gamma.</sentence>
+<sentence id="S6"><term sem="Transcription_Factor" id="T9" lex="ISGF3_gamma">ISGF3 gamma</term> serves as <term sem="Sub_Unit" id="T10" lex="the_DNA_recognition_subunit">the DNA recognition subunit</term>, while <term sem="Transcription_Factor" id="T11" lex="ISGF3_alpha">ISGF3 alpha</term>, which appears to consist of three polypeptides, is a target for alpha interferon signaling and serves as <term sem="Sub_Unit" id="T12" lex="a_regulatory_component">a regulatory component</term> whose activation is required to form <term sem="Transcription_Factor" id="T13" lex="ISGF3">ISGF3</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T9" />
+<Descriptive-Agent idref="T10" />
+<clue>ISGF3 gamma <clueType>serves</clueType> as the DNA recognition subunit, while ISGF3 alpha, which appears to consist of three polypeptides, is a target for alpha interferon signaling and serves as a regulatory component whose activation is required to form ISGF3.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T11" />
+<Descriptive-Agent idref="T12" />
+<clue>ISGF3 gamma serves as the DNA recognition subunit, while ISGF3 alpha, which appears to consist of three polypeptides, is a target for alpha interferon signaling and <clueType>serves</clueType> as a regulatory component whose activation is required to form ISGF3.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T11" />
+<clue>ISGF3 gamma serves as the DNA recognition subunit, while ISGF3 alpha, which appears to consist of three polypeptides, is a target for alpha interferon signaling and serves as a regulatory component whose <clueType>activation</clueType> is required to form ISGF3.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="E6" />
+<Purpose idref="E8" />
+<clue>ISGF3 gamma serves as the DNA recognition subunit, while ISGF3 alpha, which appears to consist of three polypeptides, is a target for alpha interferon signaling and serves as a regulatory component whose activation is <clueType>required</clueType> to form ISGF3.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T13" />
+<clue>ISGF3 gamma serves as the DNA recognition subunit, while ISGF3 alpha, which appears to consist of three polypeptides, is a target for alpha interferon signaling and serves as a regulatory component whose activation is required to <clueType>form</clueType> ISGF3.</clue>
+</event>
+<sentence id="S7">ISGF3 gamma DNA-binding activity was identified as a 48-kDa polypeptide, and partial amino acid sequence has allowed isolation of cDNA clones.</sentence>
+<sentence id="S8"><term sem="Transcription_Factor" id="T14" lex="ISGF3_gamma">ISGF3 gamma</term> translated in vitro from recombinant clones bound <term sem="DNA" id="T15" lex="DNA">DNA</term> with a specificity indistinguishable from that of ISGF3 gamma purified from HeLa cells.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Destination idref="T15" />
+<clue>ISGF3 gamma translated in vitro from recombinant clones <clueType>bound</clueType> DNA with a specificity indistinguishable from that of ISGF3 gamma purified from HeLa cells.</clue>
+</event>
+<sentence id="S9">Sequencing of ISGF3 gamma cDNA clones revealed significant similarity to the interferon regulatory factor (IRF) family of DNA binding proteins in the amino-terminal 117 residues of ISGF3 gamma.</sentence>
+<sentence id="S10"><term sem="Transcription_Factor" id="T16" lex="The_other_IRF_family_proteins">The other IRF family proteins</term> bind <term sem="DNA" id="T17" lex="DNA">DNA</term> with a specificity related to but distinct from that of ISGF3 gamma.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T16" />
+<Destination idref="T17" />
+<clue>The other IRF family proteins <clueType>bind</clueType> DNA with a specificity related to but distinct from that of ISGF3 gamma.</clue>
+</event>
+<sentence id="S11">We note sequence similarities between the related regions of IRF family proteins and the imperfect tryptophan repeats which constitute the DNA-binding domain of the c-myb oncoprotein.</sentence>
+<sentence id="S12">These sequence similarities suggest that <term sem="Transcription_Factor" id="T18" lex="ISGF3_gamma">ISGF3 gamma</term> and <term sem="Transcription_Factor" id="T19" lex="IRF_proteins">IRF proteins</term> and <term sem="Transcription_Factor" id="T20" lex="the_c-myb_oncoprotein">the c-myb oncoprotein</term> use <term sem="Motif" id="T21" lex="a_common_structural_motif">a common structural motif</term> for <term sem="SPAN" id="T22" lex="DNA_recognition">DNA recognition</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T18" idref1="T19" idref2="T20" />
+<Purpose idref="T22" />
+<Instrument idref="T21" />
+<clue>These sequence similarities suggest that ISGF3 gamma and IRF proteins and the c-myb oncoprotein <clueType>use</clueType> a common structural motif for DNA recognition.</clue>
+</event>
+<sentence id="S13"><term sem="Protein" id="T23" lex="Recombinant_ISGF3_gamma">Recombinant ISGF3 gamma</term>, like the natural protein, interacted with <term sem="Protein" id="T24" lex="HeLa_cell_ISGF3_alpha">HeLa cell ISGF3 alpha</term> to form <term sem="Protein_Complex" id="T25" lex="the_mature_ISGF3_DNA-binding_complex">the mature ISGF3 DNA-binding complex</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T23" />
+<Theme idref="T24" />
+<Purpose idref="E13" />
+<clue>Recombinant ISGF3 gamma, like the natural protein, <clueType>interacted</clueType> with HeLa cell ISGF3 alpha to form the mature ISGF3 DNA-binding complex.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Theme idref="T25" />
+<clue>Recombinant ISGF3 gamma, like the natural protein, interacted with HeLa cell ISGF3 alpha to <clueType>form</clueType> the mature ISGF3 DNA-binding complex.</clue>
+</event>
+<sentence id="S14">We suggest that <term sem="Transcription_Factor" id="T26" lex="other_IRF_family_members">other IRF family members</term> may participate in <term sem="SPAN" id="T27" lex="signaling_pathways">signaling pathways</term> by interacting with <term sem="Sub_Unit" id="T28" lex="as_yet_unidentified_regulatory_subunits">as yet unidentified regulatory subunits</term> analogous to ISGF3 alpha.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T26" />
+<Descriptive-Agent idref="T27" />
+<Manner idref="E15" />
+<clue>We suggest that other IRF family members may <clueType>participate</clueType> in signaling pathways by interacting with as yet unidentified regulatory subunits analogous to ISGF3 alpha.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T26" />
+<Theme idref="T28" />
+<clue>We suggest that other IRF family members may participate in signaling pathways by <clueType>interacting</clueType> with as yet unidentified regulatory subunits analogous to ISGF3 alpha.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=16164563">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>16164563</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Plasticity in amino acid sensing of the chimeric receptor Taz.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Taz is a chimeric receptor consisting of the periplasmic, transmembrane and most of the HAMP linker domains of the Escherichia coli aspartate receptor (Tar(Ec)) and the cytoplasmic signalling domain of the E. coli osmosensor EnvZ.</sentence>
+<sentence id="S4"><term sem="SPAN" id="T1" lex="Aspartate">Aspartate</term> is one of <term sem="SPAN" id="T2" lex="several_attractant_ligands">several attractant ligands</term> normally sensed by <term sem="Protein" id="T3" lex="Tar">Tar</term> and it interacts with <term sem="SPAN" id="T4" lex="Taz">Taz</term> to induce <term sem="SPAN" id="T5" lex="OmpR-dependent">OmpR-dependent</term> transcription from <term sem="Promoter" id="T6" lex="the_ompC_promoter">the ompC promoter</term>--albeit with reduced sensitivity relative to the chemotactic response it evokes via Tar.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T2" />
+<clue>Aspartate is one of several attractant ligands normally <clueType>sensed</clueType> by Tar and it interacts with Taz to induce OmpR-dependent transcription from the ompC promoter--albeit with reduced sensitivity relative to the chemotactic response it evokes via Tar.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Agent idref="T4" />
+<clue>Aspartate is one of several attractant ligands normally sensed by Tar and it <clueType>interacts</clueType> with Taz to induce OmpR-dependent transcription from the ompC promoter--albeit with reduced sensitivity relative to the chemotactic response it evokes via Tar.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E4" />
+<clue>Aspartate is one of several attractant ligands normally sensed by Tar and it interacts with Taz to <clueType>induce</clueType> OmpR-dependent transcription from the ompC promoter--albeit with reduced sensitivity relative to the chemotactic response it evokes via Tar.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Manner idref="T5" />
+<Source idref="T6" />
+<clue>Aspartate is one of several attractant ligands normally sensed by Tar and it interacts with Taz to induce OmpR-dependent <clueType>transcription</clueType> from the ompC promoter--albeit with reduced sensitivity relative to the chemotactic response it evokes via Tar.</clue>
+</event>
+<sentence id="S5">By combining Taz with <term sem="SPAN" id="T7" lex="a_reporter_system">a reporter system</term> that expresses green fluorescent protein (<term sem="Protein" id="T8" lex="GFP">GFP</term>) from <term sem="Promoter" id="T9" lex="the_ompC_promoter">the ompC promoter</term>, we were able to examine the interaction of <term sem="Protein" id="T10" lex="Taz">Taz</term> with <term sem="Amino_Acids" id="T11" lex="all_20_natural_amino_acids">all 20 natural amino acids</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<Source idref="T9" />
+<clue>By combining Taz with a reporter system that <clueType>expresses</clueType> green fluorescent protein (GFP) from the ompC promoter, we were able to examine the interaction of Taz with all 20 natural amino acids.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T10" />
+<Agent idref="T11" />
+<clue>By combining Taz with a reporter system that expresses green fluorescent protein (GFP) from the ompC promoter, we were able to examine the <clueType>interaction</clueType> of Taz with all 20 natural amino acids.</clue>
+</event>
+<sentence id="S6">Some amino acids (<term sem="Amino_Acids" id="T12" lex="Leu">Leu</term>, <term sem="Amino_Acids" id="T13" lex="Met">Met</term>, <term sem="Amino_Acids" id="T14" lex="Val">Val</term> and <term sem="Amino_Acids" id="T15" lex="Ser">Ser</term>) reduced <term sem="Protein" id="T16" lex="GFP">GFP</term> expression, which in the case of <term sem="Amino_Acids" id="T17" lex="leucine">leucine</term> is likely attributed to a direct effect on the receptor, rather than an indirect effect through the leucine responsive protein (Lrp).</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T12" idref1="T13" idref2="T14" idref3="T15" />
+<Theme idref="E8" />
+<clue>Some amino acids (Leu, Met, Val and Ser) <clueType>reduced</clueType> GFP expression, which in the case of leucine is likely attributed to a direct effect on the receptor, rather than an indirect effect through the leucine responsive protein (Lrp).</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T16" />
+<clue>Some amino acids (Leu, Met, Val and Ser) reduced GFP <clueType>expression</clueType>, which in the case of leucine is likely attributed to a direct effect on the receptor, rather than an indirect effect through the leucine responsive protein (Lrp).</clue>
+</event>
+<sentence id="S7">Surprisingly, amino acids like Met and Ser--which are also attractants for Tar--'inhibited' Taz.</sentence>
+<sentence id="S8">Moreover, Taz exhibits a higher sensitivity to Leu compared with Asp, which is the inverse of Tar.</sentence>
+<sentence id="S9">Our results show the exquisite sensitivity of chemotactic receptors.</sentence>
+<sentence id="S10">Small conformational changes induced by making the chimera may have changed the way it responds to different amino acids.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7997240">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7997240</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A new orphan member of the nuclear hormone receptor superfamily closely related to Rev-Erb.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have isolated <term sem="DNA" id="T1" lex="complementary_DNA_clones">complementary DNA clones</term> encoding a novel orphan member of the nuclear receptor superfamily, <term sem="Protein" id="T2" lex="termed_BD73">termed BD73</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>We have isolated complementary DNA clones <clueType>encoding</clueType> a novel orphan member of the nuclear receptor superfamily, termed BD73.</clue>
+</event>
+<sentence id="S4">This protein shows strong amino acid sequence similarity to the previously described Rev-ErbA alpha.</sentence>
+<sentence id="S5">Unlike Rev-Erb, in which <term sem="Locus" id="T3" lex="the_opposite_strand">the opposite strand</term> of the C-terminal coding region encodes <term sem="Domain" id="T4" lex="the_C-terminal_portion">the C-terminal portion</term> of a variant thyroid hormone receptor isoform, the opposite strand of the C-terminal coding region of BD73 does not have any extensive open reading frames.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>Unlike Rev-Erb, in which the opposite strand of the C-terminal coding region <clueType>encodes</clueType> the C-terminal portion of a variant thyroid hormone receptor isoform, the opposite strand of the C-terminal coding region of BD73 does not have any extensive open reading frames.</clue>
+</event>
+<sentence id="S6"><term sem="mRNA" id="T5" lex="BD73_messenger_RNA">BD73 messenger RNA</term> is expressed <term sem="SPAN" id="T6" lex="in_a_wide_variety_of_tissues_and_cell_lines">in a wide variety of <term sem="Tissue" id="T7" lex="tissues">tissues</term> and cell lines</term><term sem="Cells" id="T8" lex="cell_lines"></term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<Location idref="T6" />
+<clue>BD73 messenger RNA is <clueType>expressed</clueType> in a wide variety of tissues and cell lines.</clue>
+</event>
+<sentence id="S7"><term sem="SPAN" id="T9" lex="In_quiescent_HepG2_cells">In <term sem="Cells" id="T10" lex="quiescent_HepG2_cells">quiescent HepG2 cells</term></term>, <term sem="mRNA" id="T11" lex="BD73_messenger_RNA_levels">BD73 messenger RNA levels</term> are <term sem="SPAN" id="T12" lex="strongly">strongly</term> induced by <term sem="SPAN" id="T13" lex="planar_aromatic_antioxidants">planar aromatic antioxidants</term>.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T13" />
+<Theme idref="T11" />
+<Manner idref="T12" />
+<Location idref="T9" />
+<clue>In quiescent HepG2 cells, BD73 messenger RNA levels are strongly <clueType>induced</clueType> by planar aromatic antioxidants.</clue>
+</event>
+<sentence id="S8">Like Rev-Erb, <term sem="Protein" id="T14" lex="BD73">BD73</term> binds as <term sem="SPAN" id="T15" lex="a_monomer">a monomer</term> to <term sem="Transcription_Binding_Site" id="T16" lex="a_DNA_sequence">a DNA sequence</term> which consists of a specific A/T-rich sequence upstream of the consensus hexameric half-site specified by the P box of the DNA-binding domain.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T14" />
+<Manner idref="T15" />
+<Destination idref="T16" />
+<clue>Like Rev-Erb, BD73 <clueType>binds</clueType> as a monomer to a DNA sequence which consists of a specific A/T-rich sequence upstream of the consensus hexameric half-site specified by the P box of the DNA-binding domain.</clue>
+</event>
+<sentence id="S9">Amino acid sequence comparisons suggest that the A box sequence, which has been suggested to mediate monomer binding by other superfamily members, lies closer to the DNA-binding domain in BD73 and Rev-Erb than in other receptors.</sentence>
+<sentence id="S10">Under the conditions examined, neither <term sem="Protein" id="T17" lex="BD73_nor_Rev-Erb">BD73 nor Rev-Erb</term> activated <term sem="Gene" id="T18" lex="reporters">reporters</term> containing multiple copies of their common binding site.</sentence>
+<event id="E6">
+<type class="Gene_Activation" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>Under the conditions examined, neither BD73 nor Rev-Erb <clueType>activated</clueType> reporters containing multiple copies of their common binding site.</clue>
+</event>
+<sentence id="S11">Thus, <term sem="Protein" id="T19" lex="these_two_orphans">these two orphans</term> may require an as <term sem="SPAN" id="T20" lex="yet_unidentified_ligand">yet unidentified ligand</term> or <term sem="SPAN" id="T21" lex="other_signal">other signal</term> for <term sem="Gene_Activation" id="T22" lex="such_activation">such activation</term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T19" />
+<Theme idref="T20" idref1="T21" />
+<Purpose idref="T22" />
+<clue>Thus, these two orphans may <clueType>require</clueType> an as yet unidentified ligand or other signal for such activation.</clue>
+</event>
+<sentence id="S12">Together, <term sem="Protein" id="T23" lex="BD73_and_Rev-Erb">BD73 and Rev-Erb</term> define a subgroup of orphan receptors that bind <term sem="SPAN" id="T24" lex="as_monomers">as monomers</term> to <term sem="Locus" id="T25" lex="a_half-site">a half-site</term> flanked by a specific and extended A/T-rich sequence.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T23" />
+<Manner idref="T24" />
+<Destination idref="T25" />
+<clue>Together, BD73 and Rev-Erb define a subgroup of orphan receptors that <clueType>bind</clueType> as monomers to a half-site flanked by a specific and extended A/T-rich sequence.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

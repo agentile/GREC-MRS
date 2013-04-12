@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8955388">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8955388</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Action <term sem="SPAN" id="T1" lex="at_a_distance">at a distance</term> for <term sem="SPAN" id="T2" lex="negative">negative</term> control of transcription of <term sem="Gene" id="T3" lex="the_glpD_gene">the glpD gene</term> encoding <term sem="Enzyme" id="T4" lex="sn-glycerol_3-phosphate_dehydrogenase">sn-glycerol 3-phosphate dehydrogenase</term> of Escherichia coli K-12.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Manner idref="T1" />
+<Agent idref="E2" />
+<clue><clueType>Action</clueType> at a distance for negative control of transcription of the glpD gene encoding sn-glycerol 3-phosphate dehydrogenase of Escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="E3" />
+<Manner idref="T2" />
+<clue>Action at a distance for negative <clueType>control</clueType> of transcription of the glpD gene encoding sn-glycerol 3-phosphate dehydrogenase of Escherichia coli K-12.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<Theme idref="T3" />
+<clue>Action at a distance for negative control of <clueType>transcription</clueType> of the glpD gene encoding sn-glycerol 3-phosphate dehydrogenase of Escherichia coli K-12.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>Action at a distance for negative control of transcription of the glpD gene <clueType>encoding</clueType> sn-glycerol 3-phosphate dehydrogenase of Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Aerobic sn-glycerol 3-phosphate dehydrogenase is <term sem="Enzyme" id="T5" lex="a_cytoplasmic_membrane-associated_respiratory_enzyme">a cytoplasmic membrane-associated respiratory enzyme</term> encoded by <term sem="Gene" id="T6" lex="the_glpD_gene">the glpD gene</term> of Escherichia coli.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T5" />
+<clue>Aerobic sn-glycerol 3-phosphate dehydrogenase is a cytoplasmic membrane-associated respiratory enzyme <clueType>encoded</clueType> by the glpD gene of Escherichia coli.</clue>
+</event>
+<sentence id="S4"><term sem="Operon" id="T7" lex="The_glpD_operon">The glpD operon</term> is tightly controlled by <term sem="SPAN" id="T8" lex="cooperative">cooperative</term> binding of <term sem="Repressor" id="T9" lex="the_glp_repressor">the glp repressor</term> to tandem operators (<term sem="Operator" id="T10" lex="O(D)1">O(D)1</term> and <term sem="Operator" id="T11" lex="O(D)2">O(D)2</term>) that cover the -10 promoter element and 30 bp downstream of the transcription start site.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T7" />
+<clue>The glpD operon is tightly <clueType>controlled</clueType> by cooperative binding of the glp repressor to tandem operators (O(D)1 and O(D)2) that cover the -10 promoter element and 30 bp downstream of the transcription start site.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" />
+<Manner idref="T8" />
+<Destination idref="T10" idref1="T11" />
+<clue>The glpD operon is tightly controlled by cooperative <clueType>binding</clueType> of the glp repressor to tandem operators (O(D)1 and O(D)2) that cover the -10 promoter element and 30 bp downstream of the transcription start site.</clue>
+</event>
+<sentence id="S5">In this work, two additional operators were identified within the glpD structural gene at positions 568 to 587 (0(D)3) and 609 to 628 (0(D)4).</sentence>
+<sentence id="S6"><term sem="Operator" id="T12" lex="The_two_internal_operators">The two internal operators</term> bound <term sem="Repressor" id="T13" lex="the_glp_repressor">the glp repressor</term> in the presence or absence of the tandem operators (<term sem="Operator" id="T14" lex="O(D)1">O(D)1</term> and <term sem="Operator" id="T15" lex="O(D)2">O(D)2</term>) <term sem="SPAN" id="T16" lex="in_vitro">in vitro</term>, as shown by DNase I footprinting.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T12" />
+<Manner idref="T16" />
+<Destination idref="T13" />
+<Condition idref="T14" idref1="T15" />
+<clue>The two internal operators <clueType>bound</clueType> the glp repressor in the presence or absence of the tandem operators (O(D)1 and O(D)2) in vitro, as shown by DNase I footprinting.</clue>
+</event>
+<sentence id="S7">To assess a potential regulatory role for the two internal operators in vivo, a glpD-lacZ transcriptional fusion containing all four operators was constructed.</sentence>
+<sentence id="S8">The response of <term sem="Gene" id="T17" lex="this_fusion">this fusion</term> to <term sem="Repressor" id="T18" lex="the_glp_repressor">the glp repressor</term> was compared with those of fusion constructs in which <term sem="Operator" id="T19" lex="O(D)3">O(D)3</term> and <term sem="Operator" id="T20" lex="O">O</term><term sem="Operator" id="T21" lex="(">(</term><term sem="Operator" id="T22" lex="D">D</term><term sem="Operator" id="T23" lex=")4">)4</term> were inactivated by either <term sem="Laboratory_Technique" id="T24" lex="deletion">deletion</term> or <term sem="SPAN" id="T25" lex="site-directed">site-directed</term> mutagenesis.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T18" />
+<clue>The <clueType>response</clueType> of this fusion to the glp repressor was compared with those of fusion constructs in which O(D)3 and O(D)4 were inactivated by either deletion or site-directed mutagenesis.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T24" idref1="E11" />
+<Theme idref="T19" idref1="T20" idref2="T21" idref3="T22" idref4="T23" />
+<clue>The response of this fusion to the glp repressor was compared with those of fusion constructs in which O(D)3 and O(D)4 were <clueType>inactivated</clueType> by either deletion or site-directed mutagenesis.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Manner idref="T25" />
+<clue>The response of this fusion to the glp repressor was compared with those of fusion constructs in which O(D)3 and O(D)4 were inactivated by either deletion or site-directed <clueType>mutagenesis</clueType>.</clue>
+</event>
+<sentence id="S9">It was found that <term sem="SPAN" id="T26" lex="the_repression">the <term sem="Gene_Repression" id="T27" lex="repression">repression</term></term> conferred by binding of <term sem="Repressor" id="T28" lex="the_glp_repressor">the glp repressor</term> to <term sem="Operator" id="T29" lex="O(D)1">O(D)1</term> and <term sem="Operator" id="T30" lex="O(D)2">O(D)2</term> was increased <term sem="SPAN" id="T31" lex="five-_to_sevenfold">five- to sevenfold</term> upon introduction of <term sem="Operator" id="T32" lex="the_internal_operators">the internal operators</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="E13" />
+<Theme idref="T27" />
+<clue>It was found that the repression <clueType>conferred</clueType> by binding of the glp repressor to O(D)1 and O(D)2 was increased five- to sevenfold upon introduction of the internal operators.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T28" />
+<Destination idref="T29" idref1="T30" />
+<clue>It was found that the repression conferred by <clueType>binding</clueType> of the glp repressor to O(D)1 and O(D)2 was increased five- to sevenfold upon introduction of the internal operators.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T26" />
+<Condition idref="E15" />
+<Rate idref="T31" />
+<clue>It was found that the repression conferred by binding of the glp repressor to O(D)1 and O(D)2 was <clueType>increased</clueType> five- to sevenfold upon introduction of the internal operators.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T32" />
+<clue>It was found that the repression conferred by binding of the glp repressor to O(D)1 and O(D)2 was increased five- to sevenfold upon <clueType>introduction</clueType> of the internal operators.</clue>
+</event>
+<sentence id="S10">A regulatory role for HU was suggested when it was found that <term sem="SPAN" id="T33" lex="repressor-mediated">repressor-mediated</term> control of <term sem="Gene" id="T34" lex="glpD">glpD</term> transcription was increased <term sem="SPAN" id="T35" lex="fourfold">fourfold</term> <term sem="SPAN" id="T36" lex="in_strains_containing_HU">in <term sem="Bacteria" id="T37" lex="strains">strains</term> containing HU</term><term sem="Regulator" id="T38" lex="HU"></term> compared with that of strains deficient in HU.</sentence>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T33" />
+<Theme idref="E17" />
+<clue>A regulatory role for HU was suggested when it was found that repressor-mediated <clueType>control</clueType> of glpD transcription was increased fourfold in strains containing HU compared with that of strains deficient in HU.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<Theme idref="T34" />
+<clue>A regulatory role for HU was suggested when it was found that repressor-mediated control of glpD <clueType>transcription</clueType> was increased fourfold in strains containing HU compared with that of strains deficient in HU.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="E16" />
+<Location idref="T36" />
+<Rate idref="T35" />
+<clue>A regulatory role for HU was suggested when it was found that repressor-mediated control of glpD transcription was <clueType>increased</clueType> fourfold in strains containing HU compared with that of strains deficient in HU.</clue>
+</event>
+<sentence id="S11">The effect of <term sem="Regulator" id="T39" lex="HU">HU</term> was apparent only in the presence of all four glpD operators.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="T39" />
+<clue>The <clueType>effect</clueType> of HU was apparent only in the presence of all four glpD operators.</clue>
+</event>
+<sentence id="S12">The results suggest that <term sem="Gene" id="T40" lex="glpD">glpD</term> is controlled by <term sem="SPAN" id="T41" lex="formation">formation</term> of a repression loop between <term sem="Operator" id="T42" lex="the_tandem_and_internal_operators">the tandem and internal operators</term>.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T41" />
+<Theme idref="T40" />
+<clue>The results suggest that glpD is <clueType>controlled</clueType> by formation of a repression loop between the tandem and internal operators.</clue>
+</event>
+<sentence id="S13"><term sem="Regulator" id="T43" lex="HU">HU</term> may assist <term sem="Gene_Repression" id="T44" lex="repression">repression</term> by bending <term sem="DNA" id="T45" lex="the_DNA">the DNA</term> to facilitate <term sem="SPAN" id="T46" lex="loop">loop</term> formation.</sentence>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T43" />
+<Theme idref="T44" />
+<clue>HU may <clueType>assist</clueType> repression by bending the DNA to facilitate loop formation.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Theme idref="T45" />
+<Purpose idref="E23" />
+<clue>HU may assist repression by <clueType>bending</clueType> the DNA to facilitate loop formation.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Theme idref="E24" />
+<clue>HU may assist repression by bending the DNA to <clueType>facilitate</clueType> loop formation.</clue>
+</event>
+<event id="E24">
+<type class="GRE" />
+<Theme idref="T46" />
+<clue>HU may assist repression by bending the DNA to facilitate loop <clueType>formation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

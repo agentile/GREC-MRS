@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15520470">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15520470</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of the CRP regulon using in vitro and in vivo transcriptional profiling.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The Escherichia coli cyclic AMP receptor protein (<term sem="Protein" id="T1" lex="CRP">CRP</term>) is a global regulator that controls transcription initiation from <term sem="Promoter" id="T2" lex="more_than_100_promoters">more than 100 promoters</term> by binding to <term sem="DNA" id="T3" lex="a_specific_DNA_sequence">a specific DNA sequence</term> within cognate promoters.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>The Escherichia coli cyclic AMP receptor protein (CRP) is a global regulator that <clueType>controls</clueType> transcription initiation from more than 100 promoters by binding to a specific DNA sequence within cognate promoters.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Source idref="T2" />
+<clue>The Escherichia coli cyclic AMP receptor protein (CRP) is a global regulator that controls transcription <clueType>initiation</clueType> from more than 100 promoters by binding to a specific DNA sequence within cognate promoters.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T3" />
+<clue>The Escherichia coli cyclic AMP receptor protein (CRP) is a global regulator that controls transcription initiation from more than 100 promoters by <clueType>binding</clueType> to a specific DNA sequence within cognate promoters.</clue>
+</event>
+<sentence id="S4">Many genes in the CRP regulon have been predicted simply based on the presence of DNA-binding sites within gene promoters.</sentence>
+<sentence id="S5">In this study, we have exploited a newly developed technique, run-off transcription/microarray analysis (ROMA) to define CRP-regulated promoters.</sentence>
+<sentence id="S6">Using ROMA, we identified <term sem="Operon" id="T4" lex="176_operons">176 operons</term> that were activated by <term sem="Protein" id="T5" lex="CRP">CRP</term> <term sem="SPAN" id="T6" lex="in_vitro">in vitro</term> and <term sem="Operon" id="T7" lex="16_operons">16 operons</term> that were repressed.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T4" />
+<Instrument idref="T6" />
+<clue>Using ROMA, we identified 176 operons that were <clueType>activated</clueType> by CRP in vitro and 16 operons that were repressed.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Repression" />
+<Agent idref="T5" />
+<Theme idref="T7" />
+<clue>Using ROMA, we identified 176 operons that were activated by CRP in vitro and 16 operons that <clueType>were repressed</clueType>.</clue>
+</event>
+<sentence id="S7">Using positive control mutants in different regions of CRP, we were able to classify the different promoters into class I or class II/III.</sentence>
+<sentence id="S8">A total of 104 operons were predicted to contain Class II CRP-binding sites.</sentence>
+<sentence id="S9">Sequence analysis of <term sem="Operon" id="T8" lex="the_operons">the operons</term> that were repressed by <term sem="Protein" id="T9" lex="CRP">CRP</term> revealed different mechanisms for CRP inhibition.</sentence>
+<event id="E6">
+<type class="Gene_Repression" />
+<Agent idref="T9" />
+<Theme idref="T8" />
+<clue>Sequence analysis of the operons that were <clueType>repressed</clueType> by CRP revealed different mechanisms for CRP inhibition.</clue>
+</event>
+<sentence id="S10">In contrast, <term sem="SPAN" id="T10" lex="the_in_vivo_transcriptional_profiles">the in vivo transcriptional profiles</term> failed <term sem="SPAN" id="T11" lex="to_identify">to identify</term> most <term sem="SPAN" id="T12" lex="CRP-dependent">CRP-dependent</term> regulation because of the complexity of the regulatory network.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T10" />
+<Descriptive-Theme idref="E8" />
+<Purpose idref="T11" />
+<clue>In contrast, the in vivo transcriptional profiles <clueType>failed</clueType> to identify most CRP-dependent regulation because of the complexity of the regulatory network.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Manner idref="T12" />
+<clue>In contrast, the in vivo transcriptional profiles failed to identify most CRP-dependent <clueType>regulation</clueType> because of the complexity of the regulatory network.</clue>
+</event>
+<sentence id="S11">Analysis of these operons supports the hypothesis that <term sem="Protein" id="T13" lex="CRP">CRP</term> is not only a regulator of genes required for catabolism of sugars other than glucose, but also regulates the expression of <term sem="SPAN" id="T14" lex="a_large_number_of_other_genes">a large number of <term sem="Gene" id="T15" lex="other_genes">other genes</term></term> in <term sem="Bacteria" id="T16" lex="E.coli">E.coli</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="E10" />
+<clue>Analysis of these operons supports the hypothesis that CRP is not only a regulator of genes required for catabolism of sugars other than glucose, but also <clueType>regulates</clueType> the expression of a large number of other genes in E.coli.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T14" />
+<Location idref="T16" />
+<clue>Analysis of these operons supports the hypothesis that CRP is not only a regulator of genes required for catabolism of sugars other than glucose, but also regulates the <clueType>expression</clueType> of a large number of other genes in E.coli.</clue>
+</event>
+<sentence id="S12">ROMA has revealed 152 hitherto unknown CRP regulons.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

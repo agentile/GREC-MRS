@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8809748">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8809748</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The leucine-responsive regulatory protein (<term sem="Regulator" id="T1" lex="Lrp">Lrp</term>) acts as <term sem="Repressor" id="T2" lex="a_specific_repressor">a specific repressor</term> for sigma s-dependent transcription of <term sem="SPAN" id="T3" lex="the_Escherichia_coli_aidB_gene">the Escherichia coli aidB gene</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Descriptive-Theme idref="T2" />
+<Purpose idref="E2" />
+<clue>The leucine-responsive regulatory protein (Lrp) <clueType>acts</clueType> as a specific repressor for sigma s-dependent transcription of the Escherichia coli aidB gene.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T3" />
+<clue>The leucine-responsive regulatory protein (Lrp) acts as a specific repressor for sigma s-dependent <clueType>transcription</clueType> of the Escherichia coli aidB gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The product of the Escherichia coli aidB gene is homologous to human isovaleryl-coenzyme A dehydrogenase (IVD), an enzyme involved in the breakdown of the amino acid leucine.</sentence>
+<sentence id="S4"><term sem="Gene" id="T4" lex="The_aidB_gene">The aidB gene</term> is not expressed <term sem="SPAN" id="T5" lex="constitutively">constitutively</term>, but its transcription is induced via distinct mechanisms in response to: (i) exposure to alkylating agents; (ii) acetate at a slightly acidic pH; and (iii) anoxia.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T4" />
+<Manner idref="T5" />
+<clue>The aidB gene is not <clueType>expressed</clueType> constitutively, but its transcription is induced via distinct mechanisms in response to: (i) exposure to alkylating agents; (ii) acetate at a slightly acidic pH; and (iii) anoxia.</clue>
+</event>
+<event id="E4">
+<type class="Transcription" />
+<Theme idref="T4" />
+<clue>The aidB gene is not expressed constitutively, but its <clueType>transcription</clueType> is induced via distinct mechanisms in response to: (i) exposure to alkylating agents; (ii) acetate at a slightly acidic pH; and (iii) anoxia.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="E4" />
+<clue>The aidB gene is not expressed constitutively, but its transcription is <clueType>induced</clueType> via distinct mechanisms in response to: (i) exposure to alkylating agents; (ii) acetate at a slightly acidic pH; and (iii) anoxia.</clue>
+</event>
+<sentence id="S5">Induction by alkylating agents is mediated by the transcriptional activator Ada, in its methylated form (meAda); the other forms of induction are Ada independent and require sigma s, <term sem="Sigma_Factor" id="T6" lex="the_alternative_sigma_factor">the alternative sigma factor</term> mainly expressed during the stationary phase of bacterial growth.</sentence>
+<sentence id="S6">In this report we show that, in the absence of any transcriptional factor, <term sem="Gene" id="T7" lex="aidB">aidB</term> is efficiently transcribed <term sem="SPAN" id="T8" lex="in_vitro">in vitro</term> by <term sem="Sigma_Factor" id="T9" lex="the_sigma_s">the sigma s</term>, but not by the sigma 70, form of RNA polymerase holoenzyme.</sentence>
+<event id="E6">
+<type class="Transcription" />
+<Agent idref="T9" />
+<Theme idref="T7" />
+<Instrument idref="T8" />
+<clue>In this report we show that, in the absence of any transcriptional factor, aidB is efficiently <clueType>transcribed</clueType> in vitro by the sigma s, but not by the sigma 70, form of RNA polymerase holoenzyme.</clue>
+</event>
+<sentence id="S7">In <term sem="SPAN" id="T10" lex="the_presence_of_meAda">the presence of meAda</term>, <term sem="SPAN" id="T11" lex="levels_of_transcription">levels of <term sem="Transcription" id="T12" lex="transcription">transcription</term></term> by both forms of RNA polymerase are significantly increased.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T11" />
+<Condition idref="T10" />
+<clue>In the presence of meAda, levels of transcription by both forms of RNA polymerase are significantly <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S8">However, sigma s-dependent transcription of <term sem="Gene" id="T13" lex="aidB">aidB</term> is inhibited both <term sem="SPAN" id="T14" lex="in_vitro">in vitro</term> and <term sem="SPAN" id="T15" lex="in_vivo">in vivo</term> by binding of the transcriptional regulator Lrp (<term sem="Protein" id="T16" lex="leucine_responsive_protein">leucine responsive protein</term>) to the aidB promoter region (<term sem="DNA" id="T17" lex="PaidB">PaidB</term>).</sentence>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T13" />
+<clue>However, sigma s-dependent <clueType>transcription</clueType> of aidB is inhibited both in vitro and in vivo by binding of the transcriptional regulator Lrp (leucine responsive protein) to the aidB promoter region (PaidB).</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="E8" />
+<Instrument idref="T14" idref1="T15" />
+<clue>However, sigma s-dependent transcription of aidB is <clueType>inhibited</clueType> both in vitro and in vivo by binding of the transcriptional regulator Lrp (leucine responsive protein) to the aidB promoter region (PaidB).</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T16" />
+<Destination idref="T17" />
+<clue>However, sigma s-dependent transcription of aidB is inhibited both in vitro and in vivo by <clueType>binding</clueType> of the transcriptional regulator Lrp (leucine responsive protein) to the aidB promoter region (PaidB).</clue>
+</event>
+<sentence id="S9"><term sem="Protein" id="T18" lex="Lrp">Lrp</term> acts as <term sem="Repressor" id="T19" lex="a_specific_repressor">a specific repressor</term> for sigma s-dependent transcription of <term sem="Gene" id="T20" lex="aidB">aidB</term>.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T18" />
+<Descriptive-Theme idref="T19" />
+<Purpose idref="E12" />
+<clue>Lrp <clueType>acts</clueType> as a specific repressor for sigma s-dependent transcription of aidB.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<Theme idref="T20" />
+<clue>Lrp acts as a specific repressor for sigma s-dependent <clueType>transcription</clueType> of aidB.</clue>
+</event>
+<sentence id="S10"><term sem="Amino_Acids" id="T21" lex="Leucine">Leucine</term> counteracts <term sem="SPAN" id="T22" lex="Lrp_binding">Lrp binding</term> to P aidB, as does binding to P aidB of me Ada, which causes <term sem="SPAN" id="T23" lex="Lrp">Lrp</term> to dissociate from <term sem="SPAN" id="T24" lex="the_promoter">the promoter</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T22" />
+<clue>Leucine <clueType>counteracts</clueType> Lrp binding to P aidB, as does binding to P aidB of me Ada, which causes Lrp to dissociate from the promoter.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T23" />
+<Source idref="T24" />
+<clue>Leucine counteracts Lrp binding to P aidB, as does binding to P aidB of me Ada, which causes Lrp to <clueType>dissociate</clueType> from the promoter.</clue>
+</event>
+<sentence id="S11">The physiological significance of aidB transcription regulation is discussed.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

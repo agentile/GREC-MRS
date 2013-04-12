@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8002608">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8002608</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Repressor" id="T1" lex="The_leucine-responsive_regulatory_protein">The leucine-responsive regulatory protein</term> of Escherichia coli <term sem="SPAN" id="T2" lex="negatively">negatively</term> regulates transcription of <term sem="Gene" id="T3" lex="ompC_and_micF">ompC and micF</term> and <term sem="SPAN" id="T4" lex="positively">positively</term> regulates <term sem="SPAN" id="T5" lex="translation">translation</term> of ompF.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<Manner idref="T2" />
+<clue>The leucine-responsive regulatory protein of Escherichia coli negatively <clueType>regulates</clueType> transcription of ompC and micF and positively regulates translation of ompF.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T3" />
+<clue>The leucine-responsive regulatory protein of Escherichia coli negatively regulates <clueType>transcription</clueType> of ompC and micF and positively regulates translation of ompF.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T1" />
+<Theme idref="T5" />
+<Manner idref="T4" />
+<clue>The leucine-responsive regulatory protein of Escherichia coli negatively regulates transcription of ompC and micF and positively <clueType>regulates</clueType> translation of ompF.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The two major porins of Escherichia coli K-12 strains, <term sem="Protein" id="T6" lex="OmpC_and_OmpF">OmpC and OmpF</term>, are <term sem="SPAN" id="T7" lex="inversely">inversely</term> regulated with respect to one another.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Theme idref="T6" />
+<Manner idref="T7" />
+<clue>The two major porins of Escherichia coli K-12 strains, OmpC and OmpF, are inversely <clueType>regulated</clueType> with respect to one another.</clue>
+</event>
+<sentence id="S4">The expression of <term sem="Protein" id="T8" lex="OmpC_and_OmpF">OmpC and OmpF</term> has been shown to be influenced by the leucine-responsive regulatory protein (<term sem="Regulator" id="T9" lex="Lrp">Lrp</term>): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that <term sem="Protein" id="T10" lex="OmpC">OmpC</term> expression is increased <term sem="SPAN" id="T11" lex="in_an_lrp_strain">in <term sem=" Mutant_Bacteria" id="T12" lex="an_lrp_strain">an lrp strain</term></term>, while <term sem="Protein" id="T13" lex="OmpF">OmpF</term> expression is decreased.</sentence>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>The <clueType>expression</clueType> of OmpC and OmpF has been shown to be influenced by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC expression is increased in an lrp strain, while OmpF expression is decreased.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="E5" />
+<clue>The expression of OmpC and OmpF has been shown to be <clueType>influenced</clueType> by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC expression is increased in an lrp strain, while OmpF expression is decreased.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue>The expression of OmpC and OmpF has been shown to be influenced by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC <clueType>expression</clueType> is increased in an lrp strain, while OmpF expression is decreased.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="E7" />
+<Location idref="T11" />
+<clue>The expression of OmpC and OmpF has been shown to be influenced by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC expression is <clueType>increased</clueType> in an lrp strain, while OmpF expression is decreased.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<clue>The expression of OmpC and OmpF has been shown to be influenced by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC expression is increased in an lrp strain, while OmpF <clueType>expression</clueType> is decreased.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="E9" />
+<Location idref="T11" />
+<clue>The expression of OmpC and OmpF has been shown to be influenced by the leucine-responsive regulatory protein (Lrp): two-dimensional gel electrophoresis of proteins from strains with and strains without a functional Lrp protein revealed that OmpC expression is increased in an lrp strain, while OmpF expression is <clueType>decreased</clueType>.</clue>
+</event>
+<sentence id="S5">In agreement with these findings, we now present evidence that <term sem="Operon" id="T14" lex="transcriptional_(operon)_fusions">transcriptional (operon) fusions</term> of lacZ+ to ompC and micF are <term sem="SPAN" id="T15" lex="negatively">negatively</term> regulated by <term sem="Repressor" id="T16" lex="Lrp">Lrp</term>.</sentence>
+<event id="E11">
+<type class="Regulation" />
+<Agent idref="T16" />
+<Theme idref="T14" />
+<Manner idref="T15" />
+<clue>In agreement with these findings, we now present evidence that transcriptional (operon) fusions of lacZ+ to ompC and micF are negatively <clueType>regulated</clueType> by Lrp.</clue>
+</event>
+<sentence id="S6"><term sem="Regulator" id="T17" lex="Lrp">Lrp</term> binds <term sem="SPAN" id="T18" lex="specifically">specifically</term> to <term sem="Locus" id="T19" lex="the_intergenic_region">the intergenic region</term> between micF and ompC, as indicated by mobility shift assays and by DNase I footprinting.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T17" />
+<Manner idref="T18" />
+<Destination idref="T19" />
+<clue>Lrp <clueType>binds</clueType> specifically to the intergenic region between micF and ompC, as indicated by mobility shift assays and by DNase I footprinting.</clue>
+</event>
+<sentence id="S7">The expression of <term sem="Gene" id="T20" lex="an_ompF'-lacZ+_gene"><term sem="SPAN" id="T21" lex="an_ompF'-lacZ+_gene_(translational)_fusion">an ompF'-lacZ+ gene (translational) fusion</term></term> is increased <term sem="SPAN" id="T22" lex="3.7-fold">3.7-fold</term> <term sem="SPAN" id="T23" lex="in_an_lrp+_background">in <term sem="Wild_Type_Bacteria" id="T24" lex="an_lrp+_background">an lrp+ background</term></term> compared with an lrp background, but expression of <term sem="Operon" id="T25" lex="an_ompF-lacZ+_operon_fusion">an ompF-lacZ+ operon fusion</term> is not.</sentence>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T21" />
+<clue>The <clueType>expression</clueType> of an ompF'-lacZ+ gene (translational) fusion is increased 3.7-fold in an lrp+ background compared with an lrp background, but expression of an ompF-lacZ+ operon fusion is not.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="E13" />
+<Location idref="T23" />
+<Rate idref="T22" />
+<clue>The expression of an ompF'-lacZ+ gene (translational) fusion is <clueType>increased</clueType> 3.7-fold in an lrp+ background compared with an lrp background, but expression of an ompF-lacZ+ operon fusion is not.</clue>
+</event>
+<event id="E15">
+<type class="Gene_Expression" />
+<Theme idref="T25" />
+<clue>The expression of an ompF'-lacZ+ gene (translational) fusion is increased 3.7-fold in an lrp+ background compared with an lrp background, but <clueType>expression</clueType> of an ompF-lacZ+ operon fusion is not.</clue>
+</event>
+<sentence id="S8">Studies of <term sem="SPAN" id="T26" lex="in_vivo">in vivo</term> expression of <term sem="Protein" id="T27" lex="the_outer_membrane_porins">the outer membrane porins</term> <term sem="SPAN" id="T28" lex="during_growth_on_glucose_minimal_medium">during growth on glucose minimal medium</term> showed that the OmpF/OmpC ratio is higher in lrp+ strains than it is in isogenic lrp strains.</sentence>
+<event id="E16">
+<type class="Gene_Expression" />
+<Theme idref="T27" />
+<Manner idref="T26" />
+<Temporal idref="T28" />
+<clue>Studies of in vivo <clueType>expression</clueType> of the outer membrane porins during growth on glucose minimal medium showed that the OmpF/OmpC ratio is higher in lrp+ strains than it is in isogenic lrp strains.</clue>
+</event>
+<sentence id="S9">The effect of Lrp was not seen in <term sem=" Mutant_Bacteria" id="T29" lex="a_strain">a strain</term> containing a deletion of <term sem="RNA" id="T30" lex="micF">micF</term>.</sentence>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T29" />
+<Descriptive-Theme idref="E18" />
+<clue>The effect of Lrp was not seen in a strain <clueType>containing</clueType> a deletion of micF.</clue>
+</event>
+<event id="E18">
+<type class="Deletion" />
+<Theme idref="T30" />
+<clue>The effect of Lrp was not seen in a strain containing a <clueType>deletion</clueType> of micF.</clue>
+</event>
+<sentence id="S10">Our studies suggest that the <term sem="SPAN" id="T31" lex="positive">positive</term> effect of <term sem="Regulator" id="T32" lex="Lrp">Lrp</term> on <term sem="Protein" id="T33" lex="OmpF">OmpF</term> expression stems from a <term sem="SPAN" id="T34" lex="negative">negative</term> effect of <term sem="Regulator" id="T35" lex="Lrp">Lrp</term> on the expression of <term sem="RNA" id="T36" lex="micF">micF</term>, an antisense RNA that inhibits ompF translation.</sentence>
+<event id="E19">
+<type class="GRE" />
+<Agent idref="T32" />
+<Theme idref="E20" />
+<Manner idref="T31" />
+<clue>Our studies suggest that the positive <clueType>effect</clueType> of Lrp on OmpF expression stems from a negative effect of Lrp on the expression of micF, an antisense RNA that inhibits ompF translation.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Expression" />
+<Theme idref="T33" />
+<clue>Our studies suggest that the positive effect of Lrp on OmpF <clueType>expression</clueType> stems from a negative effect of Lrp on the expression of micF, an antisense RNA that inhibits ompF translation.</clue>
+</event>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T35" />
+<Theme idref="E22" />
+<Manner idref="T34" />
+<clue>Our studies suggest that the positive effect of Lrp on OmpF expression stems from a negative <clueType>effect</clueType> of Lrp on the expression of micF, an antisense RNA that inhibits ompF translation.</clue>
+</event>
+<event id="E22">
+<type class="Gene_Expression" />
+<Theme idref="T36" />
+<clue>Our studies suggest that the positive effect of Lrp on OmpF expression stems from a negative effect of Lrp on the <clueType>expression</clueType> of micF, an antisense RNA that inhibits ompF translation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

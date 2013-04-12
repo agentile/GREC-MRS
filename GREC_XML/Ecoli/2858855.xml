@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2858855">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2858855</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Expression of <term sem="Gene" id="T1" lex="glnA">glnA</term> <term sem="SPAN" id="T2" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T3" lex="Escherichia_coli">Escherichia coli</term></term> is regulated <term sem="SPAN" id="T4" lex="at_tandem_promoters">at <term sem="Promoter" id="T5" lex="tandem_promoters">tandem promoters</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Expression" />
+<Theme idref="T1" />
+<Location idref="T2" />
+<clue><clueType>Expression</clueType> of glnA in Escherichia coli is regulated at tandem promoters.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="E1" />
+<Location idref="T4" />
+<clue>Expression of glnA in Escherichia coli is <clueType>regulated</clueType> at tandem promoters.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have determined that <term sem="Gene" id="T6" lex="the_glnA_gene">the glnA gene</term> of the complex glnALG operon of Escherichia coli is transcribed from <term sem="Promoter" id="T7" lex="tandem_promoters">tandem promoters</term>.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<Theme idref="T6" />
+<Source idref="T7" />
+<clue>We have determined that the glnA gene of the complex glnALG operon of Escherichia coli is <clueType>transcribed</clueType> from tandem promoters.</clue>
+</event>
+<sentence id="S4">Expression from the upstream promoter, <term sem="Promoter" id="T8" lex="glnAp1">glnAp1</term>, requires <term sem="Activator" id="T9" lex="the_catabolite_activating_protein">the catabolite activating protein</term>, is repressed by nitrogen regulator I (<term sem="Repressor" id="T10" lex="NRI">NRI</term>), the product of glnG, and produces <term sem="mRNA" id="T11" lex="a_transcript">a transcript</term> with an untranslated leader of 187 nucleotides.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Source idref="T8" />
+<clue><clueType>Expression</clueType> from the upstream promoter, glnAp1, requires the catabolite activating protein, is repressed by nitrogen regulator I (NRI), the product of glnG, and produces a transcript with an untranslated leader of 187 nucleotides.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T9" />
+<clue>Expression from the upstream promoter, glnAp1, <clueType>requires</clueType> the catabolite activating protein, is repressed by nitrogen regulator I (NRI), the product of glnG, and produces a transcript with an untranslated leader of 187 nucleotides.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="E4" />
+<clue>Expression from the upstream promoter, glnAp1, requires the catabolite activating protein, is <clueType>repressed</clueType> by nitrogen regulator I (NRI), the product of glnG, and produces a transcript with an untranslated leader of 187 nucleotides.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E4" />
+<Theme idref="T11" />
+<clue>Expression from the upstream promoter, glnAp1, requires the catabolite activating protein, is repressed by nitrogen regulator I (NRI), the product of glnG, and <clueType>produces</clueType> a transcript with an untranslated leader of 187 nucleotides.</clue>
+</event>
+<sentence id="S5">Expression from the downstream promoter, <term sem="Promoter" id="T12" lex="glnAp2">glnAp2</term>, requires <term sem="Regulator" id="T13" lex="NRI">NRI</term> as well as <term sem="Protein" id="T14" lex="the_glnF_product">the glnF product</term>; <term sem="Gene_Expression" id="T15" lex="full_expression">full expression</term> also requires <term sem="SPAN" id="T16" lex="growth">growth</term> in <term sem="SPAN" id="T17" lex="a_nitrogen-limited_environment">a nitrogen-limited environment</term>.</sentence>
+<event id="E8">
+<type class="Gene_Expression" />
+<Source idref="T12" />
+<clue><clueType>Expression</clueType> from the downstream promoter, glnAp2, requires NRI as well as the glnF product; full expression also requires growth in a nitrogen-limited environment.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E8" />
+<Theme idref="T13" idref1="T14" />
+<clue>Expression from the downstream promoter, glnAp2, <clueType>requires</clueType> NRI as well as the glnF product; full expression also requires growth in a nitrogen-limited environment.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T15" />
+<Theme idref="T16" />
+<Condition idref="T17" />
+<clue>Expression from the downstream promoter, glnAp2, requires NRI as well as the glnF product; full expression also <clueType>requires</clueType> growth in a nitrogen-limited environment.</clue>
+</event>
+<sentence id="S6">The downstream transcript has an untranslated leader of 73 nucleotides.</sentence>
+<sentence id="S7">We also provide evidence that the function of <term sem="SPAN" id="T18" lex="the_glnL_product">the glnL product</term> is to mediate the interconversion of <term sem="Activator" id="T19" lex="NRI">NRI</term> between a form capable of activating <term sem="Promoter" id="T20" lex="glnAp2">glnAp2</term> and an inactive form in response to changes in the intracellular concentration of ammonia.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T18" />
+<Theme idref="E12" />
+<clue>We also provide evidence that the function of the glnL product is to <clueType>mediate</clueType> the interconversion of NRI between a form capable of activating glnAp2 and an inactive form in response to changes in the intracellular concentration of ammonia.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T19" />
+<clue>We also provide evidence that the function of the glnL product is to mediate the <clueType>interconversion</clueType> of NRI between a form capable of activating glnAp2 and an inactive form in response to changes in the intracellular concentration of ammonia.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Activation" />
+<Agent idref="T19" />
+<Theme idref="T20" />
+<clue>We also provide evidence that the function of the glnL product is to mediate the interconversion of NRI between a form capable of <clueType>activating</clueType> glnAp2 and an inactive form in response to changes in the intracellular concentration of ammonia.</clue>
+</event>
+<sentence id="S8">The function of the two minor promoters of the glnALG operon, glnAp1 and glnLp, is to maintain the products of glnA, glutamine synthetase, an essential enzyme, and of glnG, NRI, an activator of nitrogen-controlled genes, during carbon-limited growth.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9346236">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9346236</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The homeobox gene <term sem="Gene" id="T1" lex="GBX2">GBX2</term>, a target of the myb oncogene, mediates <term sem="SPAN" id="T2" lex="autocrine">autocrine</term> <term sem="SPAN" id="T3" lex="growth">growth</term> and <term sem="SPAN" id="T4" lex="monocyte_differentiation">monocyte differentiation</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" idref1="T3" idref2="T4" />
+<clue>The homeobox gene GBX2, a target of the myb oncogene, <clueType>mediates</clueType> autocrine growth and monocyte differentiation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The homeobox gene <term sem="Gene" id="T5" lex="GBX2">GBX2</term> was identified as <term sem="Gene" id="T6" lex="a_target_gene"><term sem="SPAN" id="T7" lex="a_target_gene_of_the_v-Myb_oncoprotein">a target gene of <term sem="Protein" id="T8" lex="the_v-Myb_oncoprotein">the v-Myb oncoprotein</term></term></term> encoded by the avian myeloblastosis virus (<term sem="Virus" id="T9" lex="AMV">AMV</term>).</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T5" />
+<Descriptive-Theme idref="T7" />
+<clue>The homeobox gene GBX2 was <clueType>identified</clueType> as a target gene of the v-Myb oncoprotein encoded by the avian myeloblastosis virus (AMV).</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T8" />
+<clue>The homeobox gene GBX2 was identified as a target gene of the v-Myb oncoprotein <clueType>encoded</clueType> by the avian myeloblastosis virus (AMV).</clue>
+</event>
+<sentence id="S4"><term sem="Gene" id="T10" lex="GBX2">GBX2</term> activation by <term sem="Activator" id="T11" lex="c-Myb">c-Myb</term> requires <term sem="SPAN" id="T12" lex="signal_transduction">signal transduction</term> emanating from the cell surface while <term sem="Gene" id="T13" lex="the_leukemogenic_AMV_v-Myb">the leukemogenic AMV v-Myb</term> <term sem="SPAN" id="T14" lex="constitutively">constitutively</term> induces <term sem="Gene" id="T15" lex="the_GBX2_gene">the GBX2 gene</term>.</sentence>
+<event id="E4">
+<type class="Gene_Activation" />
+<Agent idref="T11" />
+<Theme idref="T10" />
+<clue>GBX2 <clueType>activation</clueType> by c-Myb requires signal transduction emanating from the cell surface while the leukemogenic AMV v-Myb constitutively induces the GBX2 gene.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="E4" />
+<clue>GBX2 activation by c-Myb <clueType>requires</clueType> signal transduction emanating from the cell surface while the leukemogenic AMV v-Myb constitutively induces the GBX2 gene.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T13" />
+<Theme idref="T15" />
+<Manner idref="T14" />
+<clue>GBX2 activation by c-Myb requires signal transduction emanating from the cell surface while the leukemogenic AMV v-Myb constitutively <clueType>induces</clueType> the GBX2 gene.</clue>
+</event>
+<sentence id="S5">Mutations in the DNA binding domain of AMV-Myb render it independent of signaling events and concomitantly abrogate the collaboration between Myb and CCAAT Enhancer Binding Proteins (C/EBP), which are involved in granulocyte differentiation.</sentence>
+<sentence id="S6">Ectopic expression of <term sem="Gene" id="T16" lex="GBX2">GBX2</term> <term sem="SPAN" id="T17" lex="in_growth_factor-dependent_myeloblasts">in <term sem="Cells" id="T18" lex="growth_factor-dependent_myeloblasts">growth factor-dependent myeloblasts</term></term> induces <term sem="SPAN" id="T19" lex="monocytic_features_and_independence_from_exogenous_cytokines">monocytic features and independence from exogenous cytokines</term>, reflecting distinct features of AMV-transformed cells.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<Location idref="T17" />
+<clue>Ectopic <clueType>expression</clueType> of GBX2 in growth factor-dependent myeloblasts induces monocytic features and independence from exogenous cytokines, reflecting distinct features of AMV-transformed cells.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="T19" />
+<clue>Ectopic expression of GBX2 in growth factor-dependent myeloblasts <clueType>induces</clueType> monocytic features and independence from exogenous cytokines, reflecting distinct features of AMV-transformed cells.</clue>
+</event>
+<sentence id="S7">Our results suggest that Myb or factors it interacts with contribute to hematopoietic lineage choice and differentiation in a signal transduction-dependent fashion.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

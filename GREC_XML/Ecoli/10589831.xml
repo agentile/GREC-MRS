@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10589831">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10589831</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="PhoB-dependent">PhoB-dependent</term> <term sem="SPAN" id="T2" lex="transcriptional">transcriptional</term> activation of <term sem="Gene" id="T3" lex="the_iciA_gene">the iciA gene</term> <term sem="SPAN" id="T4" lex="during_starvation">during starvation</term> for phosphate in Escherichia coli.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Theme idref="T3" />
+<Manner idref="T1" />
+<Manner idref="T2" />
+<Temporal idref="T4" />
+<clue>PhoB-dependent transcriptional <clueType>activation</clueType> of the iciA gene during starvation for phosphate in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The IciA protein from Escherichia coli has been shown specifically to inhibit the in vitro initiation of chromosomal DNA replication.</sentence>
+<sentence id="S4">However, the in vivo role of IciA has not yet been established.</sentence>
+<sentence id="S5">In order to investigate the in vivo function of this protein, expression of <term sem="Gene" id="T5" lex="the_iciA_gene">the iciA gene</term> was studied by <term sem="SPAN" id="T6" lex="monitoring">monitoring</term> <term sem="Enzyme" id="T7" lex="the_beta-galactosidase_activity">the beta-galactosidase activity</term> specified by <term sem="Mutant_Gene" id="T8" lex="an_iciA_promoter-lacZ_fusion">an iciA promoter-lacZ fusion</term> inserted into the chromosome.</sentence>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue>In order to investigate the in vivo function of this protein, <clueType>expression</clueType> of the iciA gene was studied by monitoring the beta-galactosidase activity specified by an iciA promoter-lacZ fusion inserted into the chromosome.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="E2" />
+<Manner idref="T6" />
+<clue>In order to investigate the in vivo function of this protein, expression of the iciA gene was <clueType>studied</clueType> by monitoring the beta-galactosidase activity specified by an iciA promoter-lacZ fusion inserted into the chromosome.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T8" />
+<Descriptive-Theme idref="T7" />
+<clue>In order to investigate the in vivo function of this protein, expression of the iciA gene was studied by monitoring the beta-galactosidase activity <clueType>specified</clueType> by an iciA promoter-lacZ fusion inserted into the chromosome.</clue>
+</event>
+<sentence id="S6">Among the conditions tested (<term sem="Inorganic_Compounds" id="T9" lex="carbon_starvation">carbon starvation</term>, <term sem="Inorganic_Compounds" id="T10" lex="the_stringent_response">the stringent response</term>, <term sem="Inorganic_Compounds" id="T11" lex="phosphate_starvation">phosphate starvation</term>, and <term sem="Inorganic_Compounds" id="T12" lex="the_SOS_response">the SOS response</term>), only <term sem="Inorganic_Compounds" id="T13" lex="phosphate_depletion">phosphate depletion</term> increased <term sem="Gene" id="T14" lex="iciA">iciA</term> expression.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T9" idref1="T10" idref2="T11" idref3="T12" idref4="T13" />
+<Theme idref="E6" />
+<clue>Among the conditions tested (carbon starvation, the stringent response, phosphate starvation, and the SOS response), only phosphate depletion <clueType>increased</clueType> iciA expression.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T14" />
+<clue>Among the conditions tested (carbon starvation, the stringent response, phosphate starvation, and the SOS response), only phosphate depletion increased iciA <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S7">Supplementation of phosphate-depleted cultures with inorganic phosphate reduced the beta-galactosidase activity to basal levels.</sentence>
+<sentence id="S8"><term sem="SPAN" id="T15" lex="Enhanced">Enhanced</term> expression of <term sem="Mutant_Gene" id="T16" lex="iciA-lacZ">iciA-lacZ</term> was dependent upon the PhoB protein.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T16" />
+<Manner idref="T15" />
+<clue>Enhanced <clueType>expression</clueType> of iciA-lacZ was dependent upon the PhoB protein.</clue>
+</event>
+<sentence id="S9">PhoB is known to be a transcriptional activator of <term sem="SPAN" id="T17" lex="the_Pho_regulon">the Pho regulon</term>, expression of which is activated <term sem="SPAN" id="T18" lex="during_phosphate_starvation">during <term sem="Inorganic_Compounds" id="T19" lex="phosphate_starvation">phosphate starvation</term></term>.</sentence>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue>PhoB is known to be a transcriptional activator of the Pho regulon, <clueType>expression</clueType> of which is activated during phosphate starvation.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="E8" />
+<Temporal idref="T18" />
+<clue>PhoB is known to be a transcriptional activator of the Pho regulon, expression of which <clueType>is activated</clueType> during phosphate starvation.</clue>
+</event>
+<sentence id="S10">It was also found that <term sem="Promoter" id="T20" lex="the_iciA_promoter">the iciA promoter</term> contains a PhoB protein-binding sequence, termed <term sem="Transcription_Binding_Site" id="T21" lex="the_Pho_box">the Pho box</term>, which is necessary for the activation of <term sem="Gene" id="T22" lex="genes">genes</term> of the Pho regulon.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T20" />
+<Descriptive-Theme idref="T21" />
+<clue>It was also found that the iciA promoter <clueType>contains</clueType> a PhoB protein-binding sequence, termed the Pho box, which is necessary for the activation of genes of the Pho regulon.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Activation" />
+<Theme idref="T22" />
+<clue>It was also found that the iciA promoter contains a PhoB protein-binding sequence, termed the Pho box, which is necessary for the <clueType>activation</clueType> of genes of the Pho regulon.</clue>
+</event>
+<sentence id="S11">These results suggest that the iciA gene is a member of the Pho regulon.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

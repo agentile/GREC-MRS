@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15699038">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15699038</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Global gene expression profiling in Escherichia coli K12: effects of oxygen availability and ArcA.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T1" lex="The_ArcAB_two-component_system">The ArcAB two-component system</term> of Escherichia coli regulates the aerobic/anaerobic expression of <term sem="Gene" id="T2" lex="genes">genes</term> that encode <term sem="Protein" id="T3" lex="respiratory_proteins">respiratory proteins</term> whose synthesis is coordinated during aerobic/anaerobic cell growth.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>The ArcAB two-component system of Escherichia coli <clueType>regulates</clueType> the aerobic/anaerobic expression of genes that encode respiratory proteins whose synthesis is coordinated during aerobic/anaerobic cell growth.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>The ArcAB two-component system of Escherichia coli regulates the aerobic/anaerobic <clueType>expression</clueType> of genes that encode respiratory proteins whose synthesis is coordinated during aerobic/anaerobic cell growth.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="T3" />
+<clue>The ArcAB two-component system of Escherichia coli regulates the aerobic/anaerobic expression of genes that <clueType>encode</clueType> respiratory proteins whose synthesis is coordinated during aerobic/anaerobic cell growth.</clue>
+</event>
+<sentence id="S4">A genomic study of E. coli was undertaken to identify other potential targets of oxygen and ArcA regulation.</sentence>
+<sentence id="S5">A group of 175 genes generated from this study and our previous study on oxygen regulation (Salmon, K., Hung, S.</sentence>
+<sentence id="S6">P., Mekjian, K., Baldi, P., Hatfield, G. W., and Gunsalus, R. P. (2003) J. Biol. Chem. 278, 29837-29855), called our gold standard gene set, have p values &lt;0.00013 and a posterior probability of differential expression value of 0.99.</sentence>
+<sentence id="S7"><term sem="Gene" id="T4" lex="These_175_genes">These 175 genes</term> clustered into <term sem="SPAN" id="T5" lex="eight_expression_patterns">eight expression patterns</term> and represent <term sem="SPAN" id="T6" lex="genes_involved_in_a_large_number_of_cell_processes">genes involved in a large number of cell processes</term>, including small molecule biosynthesis, macromolecular synthesis, and aerobic/anaerobic respiration and fermentation.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T4" />
+<Descriptive-Theme idref="T5" />
+<clue>These 175 genes <clueType>clustered</clueType> into eight expression patterns and represent genes involved in a large number of cell processes, including small molecule biosynthesis, macromolecular synthesis, and aerobic/anaerobic respiration and fermentation.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T6" />
+<clue>These 175 genes clustered into eight expression patterns and <clueType>represent</clueType> genes involved in a large number of cell processes, including small molecule biosynthesis, macromolecular synthesis, and aerobic/anaerobic respiration and fermentation.</clue>
+</event>
+<sentence id="S8">In addition, 119 of these 175 genes were also identified in our previous study of the fnr allele.</sentence>
+<sentence id="S9">A MEME/weight matrix method was used to identify a new putative ArcA-binding site for all genes of the E. coli genome.</sentence>
+<sentence id="S10">16 new sites were identified upstream of genes in our gold standard set.</sentence>
+<sentence id="S11">The strict statistical analyses that we have performed on our data allow us to predict that <term sem="Gene" id="T7" lex="1139_genes">1139 genes</term> in the E. coli genome are regulated either <term sem="SPAN" id="T8" lex="directly_or_indirectly">directly or indirectly</term> by <term sem="Protein" id="T9" lex="the_ArcA_protein">the ArcA protein</term> with a 99% confidence level.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="T7" />
+<Manner idref="T8" />
+<clue>The strict statistical analyses that we have performed on our data allow us to predict that 1139 genes in the E. coli genome are <clueType>regulated</clueType> either directly or indirectly by the ArcA protein with a 99% confidence level.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

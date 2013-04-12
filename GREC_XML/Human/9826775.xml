@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="mobbedo2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9826775">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9826775</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Transcription_Factor" id="T1" lex="Nrf1">Nrf1</term> in a complex with <term sem="Transcription_Factor" id="T2" lex="fosB">fosB</term>, <term sem="Transcription_Factor" id="T3" lex="c-jun">c-jun</term>, <term sem="Transcription_Factor" id="T4" lex="junD">junD</term> and <term sem="Transcription_Factor" id="T5" lex="ATF2">ATF2</term> forms <term sem="Protein_Complex" id="T6" lex="the_AP1_component">the AP1 component</term> <term sem="SPAN" id="T7" lex="at_the_TNF_alpha_promoter">at <term sem="Promoter" id="T8" lex="the_TNF_alpha_promoter">the TNF alpha promoter</term></term> <term sem="SPAN" id="T9" lex="in_stimulated_mast_cells">in <term sem="Cells" id="T10" lex="stimulated_mast_cells">stimulated mast cells</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" idref1="T2" idref2="T3" idref3="T4" idref4="T5" />
+<Theme idref="T6" />
+<Location idref="T7" idref1="T9" />
+<clue>Nrf1 in a complex with fosB, c-jun, junD and ATF2 <clueType>forms</clueType> the AP1 component at the TNF alpha promoter in stimulated mast cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Cap 'n' collar-basic leucine zipper (<term sem="Transcription_Factor" id="T11" lex="CNC-bZIP">CNC-bZIP</term>) proteins are widely implicated in <term sem="SPAN" id="T12" lex="developmental_processes">developmental processes</term> throughout different species.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T11" />
+<Descriptive-Theme idref="T12" />
+<clue>Cap 'n' collar-basic leucine zipper (CNC-bZIP) proteins are widely <clueType>implicated</clueType> in developmental processes throughout different species.</clue>
+</event>
+<sentence id="S4">Evidence is accumulating that <term sem="Transcription_Factor" id="T13" lex="some_of_them">some of them</term> are also participating in induced <term sem="Gene" id="T14" lex="gene">gene</term> expression <term sem="SPAN" id="T15" lex="in_the_adult">in <term sem="Wild_Type_Organism" id="T16" lex="the_adult">the adult</term></term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T13" />
+<Location idref="T15" />
+<Descriptive-Agent idref="E4" />
+<clue>Evidence is accumulating that some of them are also <clueType>participating</clueType> in induced gene expression in the adult.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Activation" />
+<Theme idref="E5" />
+<clue>Evidence is accumulating that some of them are also participating in <clueType>induced</clueType> gene expression in the adult.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T14" />
+<clue>Evidence is accumulating that some of them are also participating in induced gene <clueType>expression</clueType> in the adult.</clue>
+</event>
+<sentence id="S5">Here we show that the three CNC-bZIP members <term sem="Transcription_Factor" id="T17" lex="NF-E2">NF-E2</term>, <term sem="Transcription_Factor" id="T18" lex="Nrf1">Nrf1</term> and <term sem="Transcription_Factor" id="T19" lex="Nrf2">Nrf2</term> are <term sem="SPAN" id="T20" lex="constitutively">constitutively</term> expressed <term sem="SPAN" id="T21" lex="in_the_murine_mast_cell_line_CPII">in <term sem="Cells" id="T22" lex="the_murine_mast_cell_line_CPII">the murine mast cell line CPII</term></term> and that they form <term sem="Protein_Complex" id="T23" lex="transcription_factor_complexes">transcription factor complexes</term> with <term sem="SPAN" id="T24" lex="several_AP1_binding_proteins">several AP1 binding proteins</term>.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T17" idref1="T18" idref2="T19" />
+<Manner idref="T20" />
+<Location idref="T21" />
+<clue>Here we show that the three CNC-bZIP members NF-E2, Nrf1 and Nrf2 are constitutively <clueType>expressed</clueType> in the murine mast cell line CPII and that they form transcription factor complexes with several AP1 binding proteins.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T17" idref1="T18" idref2="T19" />
+<Agent idref="T24" />
+<Theme idref="T23" />
+<clue>Here we show that the three CNC-bZIP members NF-E2, Nrf1 and Nrf2 are constitutively expressed in the murine mast cell line CPII and that they <clueType>form</clueType> transcription factor complexes with several AP1 binding proteins.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T25" lex="Upon_induction">Upon <term sem="Gene_Activation" id="T26" lex="induction">induction</term></term>, <term sem="Protein_Complex" id="T27" lex="complexes">complexes</term> are observed <term sem="SPAN" id="T28" lex="at_the_2_x_NF-E2_consensus_binding_site">at <term sem="Transcription_Binding_Site" id="T29" lex="the_2_x_NF-E2_consensus_binding_site">the 2 x NF-E2 consensus binding site</term></term> and <term sem="Transcription_Binding_Site" id="T30" lex="the_extended_kappa3/AP1"><term sem="SPAN" id="T31" lex="the_extended_kappa3/AP1(+)_site">the extended kappa3/AP1(+) site</term></term> of the TNFalpha promoter.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T27" />
+<Location idref="T28" idref1="T31" />
+<Temporal idref="T25" />
+<clue>Upon induction, complexes are <clueType>observed</clueType> at the 2 x NF-E2 consensus binding site and the extended kappa3/AP1(+) site of the TNFalpha promoter.</clue>
+</event>
+<sentence id="S7">The interaction of <term sem="Transcription_Factor" id="T32" lex="Nrf1">Nrf1</term> with <term sem="Transcription_Factor" id="T33" lex="c_-jun">c -jun</term>, <term sem="Transcription_Factor" id="T34" lex="junD">junD</term>, <term sem="Transcription_Factor" id="T35" lex="fosB">fosB</term> and <term sem="Transcription_Factor" id="T36" lex="ATF2">ATF2</term> <term sem="SPAN" id="T37" lex="in_mast_cells">in <term sem="Cells" id="T38" lex="mast_cells">mast cells</term></term> is in contrast to the recently reported binding of <term sem="SPAN" id="T39" lex="Nrf1">Nrf1</term> <term sem="SPAN" id="T40" lex="alone">alone</term> at <term sem="Transcription_Binding_Site" id="T41" lex="the_kappa3/AP1(-)_site">the kappa3/AP1(-) site</term> <term sem="SPAN" id="T42" lex="in_dendritic_cells">in <term sem="Cells" id="T43" lex="dendritic_cells">dendritic cells</term></term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T32" />
+<Theme idref="T33" idref1="T34" idref2="T35" idref3="T36" />
+<Location idref="T37" />
+<clue>The <clueType>interaction</clueType> of Nrf1 with c -jun, junD, fosB and ATF2 in mast cells is in contrast to the recently reported binding of Nrf1 alone at the kappa3/AP1(-) site in dendritic cells.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T39" />
+<Manner idref="T40" />
+<Location idref="T42" />
+<Destination idref="T41" />
+<clue>The interaction of Nrf1 with c -jun, junD, fosB and ATF2 in mast cells is in contrast to the recently reported <clueType>binding</clueType> of Nrf1 alone at the kappa3/AP1(-) site in dendritic cells.</clue>
+</event>
+<sentence id="S8">We speculated that this may be the result of the expression of <term sem="Protein" id="T44" lex="isoforms">isoforms</term> of Nrf1 <term sem="SPAN" id="T45" lex="in_mast_cells">in <term sem="Cells" id="T46" lex="mast_cells">mast cells</term></term>.</sentence>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T44" />
+<Location idref="T45" />
+<clue>We speculated that this may be the result of the <clueType>expression</clueType> of isoforms of Nrf1 in mast cells.</clue>
+</event>
+<sentence id="S9">Using a PCR cloning strategy, we have isolated six novel splice variants of this transcription factor.</sentence>
+<sentence id="S10">Some of them have deleted the translational stop codon, resulting in an Nrf1 protein with an altered leucine zipper region.</sentence>
+<sentence id="S11">Expression of <term sem="Domain" id="T47" lex="this_altered_binding/interaction_domain">this altered binding/interaction domain</term> interferes with <term sem="Protein" id="T48" lex="TNFalpha">TNFalpha</term> induction, indicating an interaction of <term sem="Protein" id="T49" lex="this_splice_variant">this splice variant</term> with <term sem="Protein_Complex" id="T50" lex="the_active_AP1/NF-AT_complex">the active AP1/NF-AT complex</term> <term sem="SPAN" id="T51" lex="at_this_promoter">at <term sem="Promoter" id="T52" lex="this_promoter">this promoter</term></term>.</sentence>
+<event id="E12">
+<type class="Gene_Expression" />
+<Theme idref="T47" />
+<clue><clueType>Expression</clueType> of this altered binding/interaction domain interferes with TNFalpha induction, indicating an interaction of this splice variant with the active AP1/NF-AT complex at this promoter.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="E14" />
+<clue>Expression of this altered binding/interaction domain <clueType>interferes</clueType> with TNFalpha induction, indicating an interaction of this splice variant with the active AP1/NF-AT complex at this promoter.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Activation" />
+<Theme idref="T48" />
+<clue>Expression of this altered binding/interaction domain interferes with TNFalpha <clueType>induction</clueType>, indicating an interaction of this splice variant with the active AP1/NF-AT complex at this promoter.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Theme idref="T49" />
+<Theme idref="T50" />
+<Location idref="T51" />
+<clue>Expression of this altered binding/interaction domain interferes with TNFalpha induction, indicating an <clueType>interaction</clueType> of this splice variant with the active AP1/NF-AT complex at this promoter.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

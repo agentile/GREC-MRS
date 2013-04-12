@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7928997">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7928997</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Dual regulation of <term sem="Gene" id="T1" lex="inaA">inaA</term> by the multiple antibiotic resistance (<term sem="Operon" id="T2" lex="mar">mar</term>) and superoxide (<term sem="Gene" id="T3" lex="soxRS">soxRS</term>) stress response systems of Escherichia coli.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T2" />
+<Agent idref="T3" />
+<Theme idref="T1" />
+<clue>Dual <clueType>regulation</clueType> of inaA by the multiple antibiotic resistance (mar) and superoxide (soxRS) stress response systems of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The roles of <term sem="Operon" id="T4" lex="the_marRAB"><term sem="SPAN" id="T5" lex="the_marRAB_(multiple_antibiotic_resistance)_operon">the marRAB (multiple antibiotic resistance) operon</term></term> and <term sem="Gene" id="T6" lex="soxRS"><term sem="SPAN" id="T7" lex="soxRS_(superoxide_response)_genes">soxRS (superoxide response) genes</term></term> in the regulation of <term sem="Gene" id="T8" lex="inaA">inaA</term>, an unlinked weak-acid-inducible gene, were studied.</sentence>
+<event id="E2">
+<type class="Regulation" />
+<Agent idref="T5" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>The roles of the marRAB (multiple antibiotic resistance) operon and soxRS (superoxide response) genes in the <clueType>regulation</clueType> of inaA, an unlinked weak-acid-inducible gene, were studied.</clue>
+</event>
+<sentence id="S4"><term sem="Gene" id="T9" lex="inaA"><term sem="SPAN" id="T10" lex="inaA_expression">inaA <term sem="Gene_Expression" id="T11" lex="expression">expression</term></term></term> was estimated from <term sem="SPAN" id="T12" lex="the_beta-galactosidase_activity">the <term sem="Enzyme" id="T13" lex="beta-galactosidase">beta-galactosidase</term> activity</term> of a chromosomal inaA1::lacZ transcriptional fusion.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T10" />
+<Descriptive-Theme idref="T12" />
+<clue>inaA expression was <clueType>estimated</clueType> from the beta-galactosidase activity of a chromosomal inaA1::lacZ transcriptional fusion.</clue>
+</event>
+<sentence id="S5"><term sem="Mutation" id="T14" lex="marR_mutations">marR mutations</term> that elevate <term sem="SPAN" id="T15" lex="marRAB_transcription">marRAB <term sem="Transcription" id="T16" lex="transcription">transcription</term></term> and engender <term sem="SPAN" id="T17" lex="multiple_antibiotic_resistance">multiple antibiotic resistance</term> elevated <term sem="Gene" id="T18" lex="inaA"><term sem="SPAN" id="T19" lex="inaA_expression">inaA expression</term></term> by <term sem="SPAN" id="T20" lex="10-_to_20-fold">10- to 20-fold</term> over that of the wild-type.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>marR mutations that <clueType>elevate</clueType> marRAB transcription and engender multiple antibiotic resistance elevated inaA expression by 10- to 20-fold over that of the wild-type.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T17" />
+<clue>marR mutations that elevate marRAB transcription and <clueType>engender</clueType> multiple antibiotic resistance elevated inaA expression by 10- to 20-fold over that of the wild-type.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T19" />
+<Rate idref="T20" />
+<clue>marR mutations that elevate marRAB transcription and engender multiple antibiotic resistance <clueType>elevated</clueType> inaA expression by 10- to 20-fold over that of the wild-type.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T18" />
+<clue>marR mutations that elevate marRAB transcription and engender multiple antibiotic resistance elevated inaA <clueType>expression</clueType> by 10- to 20-fold over that of the wild-type.</clue>
+</event>
+<sentence id="S6">Similarly, one class of inaA constitutive mutants that mapped to the mar region were multiply antibiotic resistant.</sentence>
+<sentence id="S7"><term sem="SPAN" id="T21" lex="Overexpression_of_marA">Overexpression of <term sem="Gene" id="T22" lex="marA">marA</term></term> alone <term sem="SPAN" id="T23" lex="on_a_multicopy_plasmid">on <term sem="Plasmid" id="T24" lex="a_multicopy_plasmid">a multicopy plasmid</term></term> caused <term sem="SPAN" id="T25" lex="high_constitutive">high constitutive</term> expression of <term sem="Gene" id="T26" lex="inaA">inaA</term> in <term sem=" Mutant_Bacteria" id="T27" lex="a_strain"><term sem="SPAN" id="T28" lex="a_strain_with_an_extensive_(39-kbp)_marRAB_deletion">a strain with an extensive (39-kbp) marRAB deletion</term></term>.</sentence>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T22" />
+<Location idref="T23" />
+<clue><clueType>Overexpression</clueType> of marA alone on a multicopy plasmid caused high constitutive expression of inaA in a strain with an extensive (39-kbp) marRAB deletion.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="E10" />
+<Location idref="T28" />
+<clue>Overexpression of marA alone on a multicopy plasmid <clueType>caused</clueType> high constitutive expression of inaA in a strain with an extensive (39-kbp) marRAB deletion.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T26" />
+<Manner idref="T25" />
+<clue>Overexpression of marA alone on a multicopy plasmid caused high constitutive <clueType>expression</clueType> of inaA in a strain with an extensive (39-kbp) marRAB deletion.</clue>
+</event>
+<sentence id="S8"><term sem="Organic_Compounds" id="T29" lex="Salicylate">Salicylate</term>, an inducer of marRAB and of an unidentified mar-independent antibiotic resistance system, induced <term sem="Gene" id="T30" lex="inaA">inaA</term> by <term sem="SPAN" id="T31" lex="6-fold">6-fold</term>.</sentence>
+<event id="E11">
+<type class="Gene_Activation" />
+<Agent idref="T29" />
+<Theme idref="T30" />
+<Rate idref="T31" />
+<clue>Salicylate, an inducer of marRAB and of an unidentified mar-independent antibiotic resistance system, <clueType>induced</clueType> inaA by 6-fold.</clue>
+</event>
+<sentence id="S9">A portion of this induction was also mar independent.</sentence>
+<sentence id="S10"><term sem=" Mutant_Bacteria" id="T32" lex="Two_soxRS_constitutive_mutants">Two soxRS constitutive mutants</term> that were tested showed <term sem="SPAN" id="T33" lex="elevated_levels_of_inaA">elevated levels of <term sem="Protein" id="T34" lex="inaA">inaA</term></term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T32" />
+<Descriptive-Theme idref="T33" />
+<clue>Two soxRS constitutive mutants that were tested <clueType>showed</clueType> elevated levels of inaA.</clue>
+</event>
+<sentence id="S11"><term sem="Organic_Compounds" id="T35" lex="Paraquat">Paraquat</term>, an inducer of the soxRS system, elevated <term sem="Gene" id="T36" lex="inaA">inaA</term> expression by <term sem="SPAN" id="T37" lex="6-_to_9-fold">6- to 9-fold</term>.</sentence>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T35" />
+<Theme idref="E14" />
+<Rate idref="T37" />
+<clue>Paraquat, an inducer of the soxRS system, <clueType>elevated</clueType> inaA expression by 6- to 9-fold.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Expression" />
+<Theme idref="T36" />
+<clue>Paraquat, an inducer of the soxRS system, elevated inaA <clueType>expression</clueType> by 6- to 9-fold.</clue>
+</event>
+<sentence id="S12">This induction was soxRS dependent and not mar dependent, whereas induction of <term sem="Gene" id="T38" lex="inaA">inaA</term> by <term sem="Organic_Compounds" id="T39" lex="salicylate">salicylate</term> was not dependent on soxRS.</sentence>
+<event id="E15">
+<type class="Gene_Activation" />
+<Agent idref="T39" />
+<Theme idref="T38" />
+<clue>This induction was soxRS dependent and not mar dependent, whereas <clueType>induction</clueType> of inaA by salicylate was not dependent on soxRS.</clue>
+</event>
+<sentence id="S13">Paraquat induced resistance to norfloxacin in the mar-deleted strain but not in a soxRS-deleted strain.</sentence>
+<sentence id="S14">Thus, <term sem="SPAN" id="T40" lex="induction_of_multiple_antibiotic_resistance_and_inaA">induction of multiple antibiotic resistance and <term sem="Gene" id="T41" lex="inaA">inaA</term></term> by <term sem="Organic_Compounds" id="T42" lex="salicylate">salicylate</term> occurs via <term sem="Operon" id="T43" lex="mar">mar</term> and <term sem="SPAN" id="T44" lex="an_unidentified_pathway">an unidentified pathway</term>, while induction by <term sem="Organic_Compounds" id="T45" lex="paraquat">paraquat</term> occurs via <term sem="Gene" id="T46" lex="soxRS">soxRS</term>.</sentence>
+<event id="E16">
+<type class="Gene_Activation" />
+<Agent idref="T42" />
+<Theme idref="T41" />
+<clue>Thus, <clueType>induction</clueType> of multiple antibiotic resistance and inaA by salicylate occurs via mar and an unidentified pathway, while induction by paraquat occurs via soxRS.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T40" />
+<Theme idref="T44" />
+<Manner idref="T43" />
+<clue>Thus, induction of multiple antibiotic resistance and inaA by salicylate <clueType>occurs</clueType> via mar and an unidentified pathway, while induction by paraquat occurs via soxRS.</clue>
+</event>
+<event id="E18">
+<type class="Gene_Activation" />
+<Agent idref="T45" />
+<Theme idref="T41" />
+<clue>Thus, induction of multiple antibiotic resistance and inaA by salicylate occurs via mar and an unidentified pathway, while <clueType>induction</clueType> by paraquat occurs via soxRS.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T40" />
+<Manner idref="T46" />
+<clue>Thus, induction of multiple antibiotic resistance and inaA by salicylate occurs via mar and an unidentified pathway, while induction by paraquat <clueType>occurs</clueType> via soxRS.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

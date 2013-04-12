@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1620116">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1620116</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Transcriptional">Transcriptional</term> repression by <term sem="Transcription_Factor" id="T2" lex="a_novel_member_of_the_bZIP_family">a novel member of the bZIP family</term> of transcription factors.</sentence>
+<event id="E1">
+<type class="Gene_Repression" />
+<Agent idref="T2" />
+<Manner idref="T1" />
+<clue>Transcriptional <clueType>repression</clueType> by a novel member of the bZIP family of transcription factors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We describe here a novel member of the bZIP family of DNA-binding proteins, designated <term sem="Transcription_Factor" id="T3" lex="E4BP4">E4BP4</term>, that displays <term sem="SPAN" id="T4" lex="an_unusual_DNA-binding_specificity">an unusual DNA-binding specificity</term> which overlaps <term sem="SPAN" id="T5" lex="that_of_the_activating_transcription_factor_family">that of the activating transcription factor family</term> of factors.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Theme idref="T3" />
+<Descriptive-Theme idref="T4" />
+<clue>We describe here a novel member of the bZIP family of DNA-binding proteins, designated E4BP4, that <clueType>displays</clueType> an unusual DNA-binding specificity which overlaps that of the activating transcription factor family of factors.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T4" />
+<Descriptive-Theme idref="T5" />
+<clue>We describe here a novel member of the bZIP family of DNA-binding proteins, designated E4BP4, that displays an unusual DNA-binding specificity which <clueType>overlaps</clueType> that of the activating transcription factor family of factors.</clue>
+</event>
+<sentence id="S4">When expressed <term sem="SPAN" id="T6" lex="in_a_transient_transfection_assay">in <term sem="Laboratory_Technique" id="T7" lex="a_transient_transfection_assay">a transient transfection assay</term></term> with a suitable reporter plasmid, <term sem="Transcription_Factor" id="T8" lex="E4BP4">E4BP4</term> <term sem="SPAN" id="T9" lex="strongly">strongly</term> repressed <term sem="Transcription" id="T10" lex="transcription">transcription</term> in <term sem="SPAN" id="T11" lex="a_DNA-binding-site-dependent_manner">a DNA-binding-site-dependent manner</term>.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<Temporal idref="T6" />
+<clue>When <clueType>expressed</clueType> in a transient transfection assay with a suitable reporter plasmid, E4BP4 strongly repressed transcription in a DNA-binding-site-dependent manner.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Repression" />
+<Agent idref="T8" />
+<Theme idref="T10" />
+<Manner idref="T9" idref1="T11" />
+<Temporal idref="E4" />
+<clue>When expressed in a transient transfection assay with a suitable reporter plasmid, E4BP4 strongly <clueType>repressed</clueType> transcription in a DNA-binding-site-dependent manner.</clue>
+</event>
+<sentence id="S5">Examination of a series of deletion mutants revealed that sequences responsible for the repressing potential of E4BP4 lie within the carboxyl-terminal region of the protein.</sentence>
+<sentence id="S6">No similarity was found between this region and the repressing domains of other known eukaryotic transcriptional repressors.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

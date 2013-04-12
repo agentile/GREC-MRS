@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8188587">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8188587</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">DNA sequence and characterization of GcvA, a LysR family regulatory protein for the Escherichia coli glycine cleavage enzyme system.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T1" lex="The_gene">The gene</term> encoding <term sem="Regulator" id="T2" lex="GcvA">GcvA</term>, the trans-acting regulatory protein for the Escherichia coli glycine cleavage enzyme system, has been sequenced.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The gene <clueType>encoding</clueType> GcvA, the trans-acting regulatory protein for the Escherichia coli glycine cleavage enzyme system, has been sequenced.</clue>
+</event>
+<sentence id="S4"><term sem="Locus" id="T3" lex="The_gcvA_locus">The gcvA locus</term> contains an open reading frame of 930 nucleotides that could encode <term sem="Protein" id="T4" lex="a_protein">a protein</term> with a molecular mass of 34.4 kDa, consistent with the results of minicell analysis indicating that GcvA is a polypeptide of approximately 33 kDa.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>The gcvA locus contains an open reading frame of 930 nucleotides that could <clueType>encode</clueType> a protein with a molecular mass of 34.4 kDa, consistent with the results of minicell analysis indicating that GcvA is a polypeptide of approximately 33 kDa.</clue>
+</event>
+<sentence id="S5">The deduced amino acid sequence of GcvA revealed that this protein shares similarity with the LysR family of activator proteins.</sentence>
+<sentence id="S6">The transcription start site was found to be 72 bp upstream of the presumed translation start site.</sentence>
+<sentence id="S7"><term sem="Deletion" id="T5" lex="A_chromosomal_deletion">A chromosomal deletion</term> of gcvA resulted in the inability of cells to activate <term sem="SPAN" id="T6" lex="the_expression">the expression</term> of <term sem="Gene" id="T7" lex="a_gcvT-lacZ_gene_fusion">a gcvT-lacZ gene fusion</term> when <term sem="SPAN" id="T8" lex="grown_in_the_presence_of_glycine">grown in the presence of <term sem="Inorganic_Compounds" id="T9" lex="glycine">glycine</term></term> and an inability to repress <term sem="Gene" id="T10" lex="gcvT-lacZ"><term sem="SPAN" id="T11" lex="gcvT-lacZ_expression">gcvT-lacZ expression</term></term> when <term sem="SPAN" id="T12" lex="grown_in_the_presence_of_inosine">grown in the presence of <term sem="Inorganic_Compounds" id="T13" lex="inosine">inosine</term></term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<Condition idref="T8" />
+<clue>A chromosomal deletion of gcvA resulted in the inability of cells to <clueType>activate</clueType> the expression of a gcvT-lacZ gene fusion when grown in the presence of glycine and an inability to repress gcvT-lacZ expression when grown in the presence of inosine.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T7" />
+<clue>A chromosomal deletion of gcvA resulted in the inability of cells to activate the <clueType>expression</clueType> of a gcvT-lacZ gene fusion when grown in the presence of glycine and an inability to repress gcvT-lacZ expression when grown in the presence of inosine.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<Theme idref="T11" />
+<Condition idref="T12" />
+<clue>A chromosomal deletion of gcvA resulted in the inability of cells to activate the expression of a gcvT-lacZ gene fusion when grown in the presence of glycine and an inability to <clueType>repress</clueType> gcvT-lacZ expression when grown in the presence of inosine.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<clue>A chromosomal deletion of gcvA resulted in the inability of cells to activate the expression of a gcvT-lacZ gene fusion when grown in the presence of glycine and an inability to repress gcvT-lacZ <clueType>expression</clueType> when grown in the presence of inosine.</clue>
+</event>
+<sentence id="S8">The regulation of <term sem="Gene" id="T14" lex="gcvA">gcvA</term> was examined by constructing a gcvA-lacZ gene fusion in which beta-galactosidase synthesis is under the control of the gcvA regulatory region.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<Theme idref="T14" />
+<clue>The <clueType>regulation</clueType> of gcvA was examined by constructing a gcvA-lacZ gene fusion in which beta-galactosidase synthesis is under the control of the gcvA regulatory region.</clue>
+</event>
+<sentence id="S9">Although <term sem="Gene" id="T15" lex="gcvA"><term sem="SPAN" id="T16" lex="gcvA_expression">gcvA expression</term></term> appears to be autogenously regulated over <term sem="SPAN" id="T17" lex="a_two-_to_threefold_range">a two- to threefold range</term>, it is neither induced by <term sem="Inorganic_Compounds" id="T18" lex="glycine">glycine</term> nor repressed by <term sem="Inorganic_Compounds" id="T19" lex="inosine">inosine</term>.</sentence>
+<event id="E8">
+<type class="Gene_Expression" />
+<Theme idref="T15" />
+<clue>Although gcvA <clueType>expression</clueType> appears to be autogenously regulated over a two- to threefold range, it is neither induced by glycine nor repressed by inosine.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<Theme idref="T16" />
+<Rate idref="T17" />
+<clue>Although gcvA expression appears to be autogenously <clueType>regulated</clueType> over a two- to threefold range, it is neither induced by glycine nor repressed by inosine.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<Agent idref="T18" />
+<Theme idref="T16" />
+<clue>Although gcvA expression appears to be autogenously regulated over a two- to threefold range, it is neither <clueType>induced</clueType> by glycine nor repressed by inosine.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<Agent idref="T19" />
+<Theme idref="T16" />
+<clue>Although gcvA expression appears to be autogenously regulated over a two- to threefold range, it is neither induced by glycine nor <clueType>repressed</clueType> by inosine.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

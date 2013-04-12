@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=6406797">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>6406797</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulation" id="T1" lex="Multiple_regulation">Multiple regulation</term> involved in <term sem="SPAN" id="T2" lex="the_expression_of_the_uxuR_regulatory_gene">the expression of the uxuR regulatory gene</term><term sem="Gene" id="T3" lex="the_uxuR_regulatory_gene"></term> <term sem="SPAN" id="T4" lex="in_Escherichia_coli_K-12">in <term sem="Wild_Type_Bacteria" id="T5" lex="Escherichia_coli_K-12">Escherichia coli K-12</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Theme idref="T1" />
+<Descriptive-Theme idref="T2" />
+<clue>Multiple regulation <clueType>involved</clueType> in the expression of the uxuR regulatory gene in Escherichia coli K-12.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<Location idref="T4" />
+<clue>Multiple regulation involved in the <clueType>expression</clueType> of the uxuR regulatory gene in Escherichia coli K-12.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have isolated <term sem=" Mutant_Bacteria" id="T6" lex="a_strain">a strain</term> carrying a fusion of <term sem="Gene" id="T7" lex="the_beta-galactosidase_structural_gene">the beta-galactosidase structural gene</term> to <term sem="Promoter" id="T8" lex="the_promoter"><term sem="SPAN" id="T9" lex="the_promoter_of_the_uxuR_regulatory_gene">the promoter of <term sem="Gene" id="T10" lex="the_uxuR_regulatory_gene">the uxuR regulatory gene</term></term></term> with the aid of the Casadaban Mud (<term sem="Viral_Vector" id="T11" lex="Aprlac">Aprlac</term>) phage.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T6" />
+<Descriptive-Theme idref="E4" />
+<clue>We have isolated a strain <clueType>carrying</clueType> a fusion of the beta-galactosidase structural gene to the promoter of the uxuR regulatory gene with the aid of the Casadaban Mud (Aprlac) phage.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T7" />
+<Descriptive-Theme idref="T9" />
+<Instrument idref="T11" />
+<clue>We have isolated a strain carrying a <clueType>fusion</clueType> of the beta-galactosidase structural gene to the promoter of the uxuR regulatory gene with the aid of the Casadaban Mud (Aprlac) phage.</clue>
+</event>
+<sentence id="S4">Analysis of mutants with deletions that were derived from the uxuR::Mud1 insertion strain confirmed the counterclockwise transcription direction of the uxuR gene.</sentence>
+<sentence id="S5"><term sem=" Mutant_Bacteria" id="T12" lex="The_uxuR-lacZ_fusion_strain">The uxuR-lacZ fusion strain</term> was also used to examine <term sem="SPAN" id="T13" lex="the_regulation_of_expression">the regulation of expression</term> from <term sem="Promoter" id="T14" lex="the_uxuR_promoter">the uxuR promoter</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T13" />
+<Instrument idref="T12" />
+<clue>The uxuR-lacZ fusion strain was also used to <clueType>examine</clueType> the regulation of expression from the uxuR promoter.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<Theme idref="E7" />
+<clue>The uxuR-lacZ fusion strain was also used to examine the <clueType>regulation</clueType> of expression from the uxuR promoter.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Expression" />
+<Source idref="T14" />
+<clue>The uxuR-lacZ fusion strain was also used to examine the regulation of <clueType>expression</clueType> from the uxuR promoter.</clue>
+</event>
+<sentence id="S6">It was observed that an increase in <term sem="SPAN" id="T15" lex="the_copy_number_of_the_uxuR_gene">the copy number of <term sem="Gene" id="T16" lex="the_uxuR_gene">the uxuR gene</term></term> results in <term sem="SPAN" id="T17" lex="an_increased_repression">an increased repression</term> of <term sem="SPAN" id="T18" lex="beta-galactosidase">beta-galactosidase</term> synthesis.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T15" />
+<clue>It was observed that an <clueType>increase</clueType> in the copy number of the uxuR gene results in an increased repression of beta-galactosidase synthesis.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="E8" />
+<Theme idref="T17" />
+<clue>It was observed that an increase in the copy number of the uxuR gene <clueType>results</clueType> in an increased repression of beta-galactosidase synthesis.</clue>
+</event>
+<event id="E10">
+<type class="Gene_Repression" />
+<Theme idref="E11" />
+<clue>It was observed that an increase in the copy number of the uxuR gene results in an increased <clueType>repression</clueType> of beta-galactosidase synthesis.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Theme idref="T18" />
+<clue>It was observed that an increase in the copy number of the uxuR gene results in an increased repression of beta-galactosidase <clueType>synthesis</clueType>.</clue>
+</event>
+<sentence id="S7">Overproduction of <term sem="Repressor" id="T19" lex="the_exuR_repressor">the exuR repressor</term> also caused a decrease of <term sem="SPAN" id="T20" lex="the_beta-galactosidase_level">the beta-galactosidase level</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T19" />
+<clue><clueType>Overproduction</clueType> of the exuR repressor also caused a decrease of the beta-galactosidase level.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E12" />
+<Theme idref="E14" />
+<clue>Overproduction of the exuR repressor also <clueType>caused</clueType> a decrease of the beta-galactosidase level.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T20" />
+<clue>Overproduction of the exuR repressor also caused a <clueType>decrease</clueType> of the beta-galactosidase level.</clue>
+</event>
+<sentence id="S8">In all cases, the repression of <term sem="SPAN" id="T21" lex="beta-galactosidase">beta-galactosidase</term> synthesis was accompanied by a stronger repression of <term sem="Protein" id="T22" lex="uxuB_gene_product">uxuB gene product</term> synthesis.</sentence>
+<event id="E15">
+<type class="Gene_Repression" />
+<Theme idref="E16" />
+<clue>In all cases, the <clueType>repression</clueType> of beta-galactosidase synthesis was accompanied by a stronger repression of uxuB gene product synthesis.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Theme idref="T21" />
+<clue>In all cases, the repression of beta-galactosidase <clueType>synthesis</clueType> was accompanied by a stronger repression of uxuB gene product synthesis.</clue>
+</event>
+<event id="E17">
+<type class="Gene_Repression" />
+<Theme idref="E18" />
+<clue>In all cases, the repression of beta-galactosidase synthesis was accompanied by a stronger <clueType>repression</clueType> of uxuB gene product synthesis.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Theme idref="T22" />
+<clue>In all cases, the repression of beta-galactosidase synthesis was accompanied by a stronger repression of uxuB gene product <clueType>synthesis</clueType>.</clue>
+</event>
+<sentence id="S9">These results indicate that the expression of <term sem="Gene" id="T23" lex="the_uxuR_gene">the uxuR gene</term> is repressed by <term sem="Repressor" id="T24" lex="its_own_product">its own product</term> but also by <term sem="Repressor" id="T25" lex="the_exuR_repressor">the exuR repressor</term>.</sentence>
+<event id="E19">
+<type class="Gene_Expression" />
+<Theme idref="T23" />
+<clue>These results indicate that the <clueType>expression</clueType> of the uxuR gene is repressed by its own product but also by the exuR repressor.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Repression" />
+<Agent idref="T24" />
+<Agent idref="T25" />
+<Theme idref="T23" />
+<clue>These results indicate that the expression of the uxuR gene is <clueType>repressed</clueType> by its own product but also by the exuR repressor.</clue>
+</event>
+<sentence id="S10">The different types of regulation of the two uxu operons are thus identical.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

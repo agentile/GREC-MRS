@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1917830">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1917830</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The tdh and serA operons of Escherichia coli: mutational analysis of the regulatory elements of leucine-responsive genes.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Promoter" id="T1" lex="The_tdh_promoter">The tdh promoter</term> of Escherichia coli is induced <term sem="SPAN" id="T2" lex="seven-_to_eightfold">seven- to eightfold</term> when <term sem="Wild_Type_Bacteria" id="T3" lex="cells"><term sem="SPAN" id="T4" lex="cells_are_grown_in_the_presence_of_exogenous_leucine">cells are grown in the presence of <term sem="Organic_Compounds" id="T5" lex="exogenous_leucine">exogenous leucine</term></term></term>.</sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Theme idref="T1" />
+<Rate idref="T2" />
+<Temporal idref="T4" />
+<clue>The tdh promoter of Escherichia coli is <clueType>induced</clueType> seven- to eightfold when cells are grown in the presence of exogenous leucine.</clue>
+</event>
+<sentence id="S4">A scheme was devised to select <term sem=" Mutant_Bacteria" id="T6" lex="mutants">mutants</term> that exhibited <term sem="SPAN" id="T7" lex="high_constitutive">high constitutive</term> expression of <term sem="Promoter" id="T8" lex="the_tdh_promoter">the tdh promoter</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="E3" />
+<clue>A scheme was devised to select mutants that <clueType>exhibited</clueType> high constitutive expression of the tdh promoter.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T8" />
+<Manner idref="T7" />
+<clue>A scheme was devised to select mutants that exhibited high constitutive <clueType>expression</clueType> of the tdh promoter.</clue>
+</event>
+<sentence id="S5">The mutations <term sem="SPAN" id="T9" lex="in_these_strains">in <term sem=" Mutant_Bacteria" id="T10" lex="these_strains">these strains</term></term> were shown to lie <term sem="SPAN" id="T11" lex="within">within</term> a previously identified gene (<term sem="Gene" id="T12" lex="lrp">lrp</term>) that encodes <term sem="Regulator" id="T13" lex="Lrp">Lrp</term> (leucine-responsive regulatory protein).</sentence>
+<event id="E4">
+<type class="Mutation" />
+<Location idref="T9" />
+<clue>The <clueType>mutations</clueType> in these strains were shown to lie within a previously identified gene (lrp) that encodes Lrp (leucine-responsive regulatory protein).</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="E4" />
+<Location idref="T11" idref1="T12" />
+<clue>The mutations in these strains were shown to <clueType>lie</clueType> within a previously identified gene (lrp) that encodes Lrp (leucine-responsive regulatory protein).</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="T13" />
+<clue>The mutations in these strains were shown to lie within a previously identified gene (lrp) that <clueType>encodes</clueType> Lrp (leucine-responsive regulatory protein).</clue>
+</event>
+<sentence id="S6">By deletion analysis, the site of action of Lrp was localized to a 25-bp region between coordinates -69 and -44 of the tdh promoter.</sentence>
+<sentence id="S7">Disruption of <term sem="Transcription_Binding_Site" id="T14" lex="a_12-bp_presumptive_target_sequence">a 12-bp presumptive target sequence</term> found in this region of tdh resulted in <term sem="Gene_Activation" id="T15" lex="constitutively_derepressed">constitutively derepressed</term> expression from <term sem="Promoter" id="T16" lex="the_tdh_promoter">the tdh promoter</term>.</sentence>
+<event id="E7">
+<type class="Mutation" />
+<Theme idref="T14" />
+<clue><clueType>Disruption</clueType> of a 12-bp presumptive target sequence found in this region of tdh resulted in constitutively derepressed expression from the tdh promoter.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="E9" />
+<clue>Disruption of a 12-bp presumptive target sequence found in this region of tdh <clueType>resulted</clueType> in constitutively derepressed expression from the tdh promoter.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Manner idref="T15" />
+<Source idref="T16" />
+<clue>Disruption of a 12-bp presumptive target sequence found in this region of tdh resulted in constitutively derepressed <clueType>expression</clueType> from the tdh promoter.</clue>
+</event>
+<sentence id="S8">Similar DNA segments (consensus, TTTATTCtNaAT) were also identified in a number of other promoters, including each of the Lrp-regulated promoters whose nucleotide sequence is known.</sentence>
+<sentence id="S9">The sequence of the promoter region of serA, an Lrp-regulated gene, was determined.</sentence>
+<sentence id="S10">No Lrp consensus target sequence was present upstream of serA, suggesting that <term sem="Regulator" id="T17" lex="Lrp">Lrp</term> acts <term sem="SPAN" id="T18" lex="indirectly">indirectly</term> <term sem="SPAN" id="T19" lex="on_the_serA_promoter">on <term sem="Promoter" id="T20" lex="the_serA_promoter">the serA promoter</term></term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T20" />
+<Manner idref="T18" />
+<Location idref="T19" />
+<clue>No Lrp consensus target sequence was present upstream of serA, suggesting that Lrp <clueType>acts</clueType> indirectly on the serA promoter.</clue>
+</event>
+<sentence id="S11">A previously described mutation <term sem="SPAN" id="T21" lex="in">in</term> a leucine-responsive trans-acting factor, <term sem="Regulator" id="T22" lex="LivR">LivR</term> (J.J. Anderson, S.C. Quay, and D.L. Oxender, J. Bacteriol. 126:80-90, 1976), resulted in <term sem="Gene_Repression" id="T23" lex="constitutively_repressed">constitutively repressed</term> expression from <term sem="Promoter" id="T24" lex="the_tdh_promoter">the tdh promoter</term> and <term sem="Gene_Activation" id="T25" lex="constitutively_induced">constitutively induced</term> expression from <term sem="Promoter" id="T26" lex="the_serA_promoter">the serA promoter</term>.</sentence>
+<event id="E11">
+<type class="Mutation" />
+<Location idref="T21" idref1="T22" />
+<clue>A previously described <clueType>mutation</clueType> in a leucine-responsive trans-acting factor, LivR (J.J. Anderson, S.C. Quay, and D.L. Oxender, J. Bacteriol. 126:80-90, 1976), resulted in constitutively repressed expression from the tdh promoter and constitutively induced expression from the serA promoter.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="E11" />
+<Theme idref ="E13" idref1="E14" />
+<clue>A previously described mutation in a leucine-responsive trans-acting factor, LivR (J.J. Anderson, S.C. Quay, and D.L. Oxender, J. Bacteriol. 126:80-90, 1976), <clueType>resulted</clueType> in constitutively repressed expression from the tdh promoter and constitutively induced expression from the serA promoter.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Manner idref="T23" />
+<Source idref="T24" />
+<clue>A previously described mutation in a leucine-responsive trans-acting factor, LivR (J.J. Anderson, S.C. Quay, and D.L. Oxender, J. Bacteriol. 126:80-90, 1976), resulted in constitutively repressed <clueType>expression</clueType> from the tdh promoter and constitutively induced expression from the serA promoter.</clue>
+</event>
+<event id="E14">
+<type class="Gene_Expression" />
+<Manner idref="T25" />
+<Source idref="T26" />
+<clue>A previously described mutation in a leucine-responsive trans-acting factor, LivR (J.J. Anderson, S.C. Quay, and D.L. Oxender, J. Bacteriol. 126:80-90, 1976), resulted in constitutively repressed expression from the tdh promoter and constitutively induced <clueType>expression</clueType> from the serA promoter.</clue>
+</event>
+<sentence id="S12">The possibility that LivR and Lrp are allelic is discussed.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

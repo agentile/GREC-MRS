@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9830102">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9830102</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation <term sem="SPAN" id="T1" lex="in_the_rpoS_regulon">in <term sem="Gene" id="T2" lex="the_rpoS_regulon">the rpoS regulon</term></term> of Escherichia coli.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Location idref="T1" />
+<clue><clueType>Regulation</clueType> in the rpoS regulon of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">In Escherichia coli, <term sem="Sigma_Factor" id="T3" lex="the_transcription_factor_sigma_s">the transcription factor sigma s</term>, encoded by <term sem="Gene" id="T4" lex="rpoS">rpoS</term>, controls the expression of a large number of <term sem="Gene" id="T5" lex="genes">genes</term> involved in <term sem="SPAN" id="T6" lex="cellular_responses">cellular responses</term> to a diverse number of stresses, including starvation, osmotic stress, acid shock, cold shock, heat shock, oxidative DNA damage, and transition to stationary phase.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<clue>In Escherichia coli, the transcription factor sigma s, <clueType>encoded</clueType> by rpoS, controls the expression of a large number of genes involved in cellular responses to a diverse number of stresses, including starvation, osmotic stress, acid shock, cold shock, heat shock, oxidative DNA damage, and transition to stationary phase.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="E4" />
+<clue>In Escherichia coli, the transcription factor sigma s, encoded by rpoS, <clueType>controls</clueType> the expression of a large number of genes involved in cellular responses to a diverse number of stresses, including starvation, osmotic stress, acid shock, cold shock, heat shock, oxidative DNA damage, and transition to stationary phase.</clue>
+</event>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue>In Escherichia coli, the transcription factor sigma s, encoded by rpoS, controls the <clueType>expression</clueType> of a large number of genes involved in cellular responses to a diverse number of stresses, including starvation, osmotic stress, acid shock, cold shock, heat shock, oxidative DNA damage, and transition to stationary phase.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T5" />
+<Descriptive-Agent idref="T6" />
+<clue>In Escherichia coli, the transcription factor sigma s, encoded by rpoS, controls the expression of a large number of genes <clueType>involved</clueType> in cellular responses to a diverse number of stresses, including starvation, osmotic stress, acid shock, cold shock, heat shock, oxidative DNA damage, and transition to stationary phase.</clue>
+</event>
+<sentence id="S4">A list of over 50 genes under the control of rpoS has been compiled.</sentence>
+<sentence id="S5"><term sem="SPAN" id="T7" lex="The_transcription_factor_sigma_s">The transcription factor sigma s</term> acts predominantly as <term sem="SPAN" id="T8" lex="a_positive_effector">a positive effector</term>, but it does have a negative effect on some genes.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T7" />
+<Descriptive-Agent idref="T8" />
+<clue>The transcription factor sigma s <clueType>acts</clueType> predominantly as a positive effector, but it does have a negative effect on some genes.</clue>
+</event>
+<sentence id="S6">The synthesis and accumulation of <term sem="Sigma_Factor" id="T9" lex="sigma_s">sigma s</term> are controlled by <term sem="SPAN" id="T10" lex="mechanisms">mechanisms</term> affecting <term sem="SPAN" id="T11" lex="transcription">transcription</term>, <term sem="SPAN" id="T12" lex="translation">translation</term>, <term sem="SPAN" id="T13" lex="proteolysis">proteolysis</term>, and <term sem="SPAN" id="T14" lex="the_formation">the formation</term> of the holoenzyme complex.</sentence>
+<event id="E7">
+<type class="Gene_Expression" />
+<Theme idref="T9" />
+<clue>The <clueType>synthesis</clueType> and accumulation of sigma s are controlled by mechanisms affecting transcription, translation, proteolysis, and the formation of the holoenzyme complex.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Theme idref="T9" />
+<clue>The synthesis and <clueType>accumulation</clueType> of sigma s are controlled by mechanisms affecting transcription, translation, proteolysis, and the formation of the holoenzyme complex.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="E8" />
+<clue>The synthesis and accumulation of sigma s <clueType>are controlled</clueType> by mechanisms affecting transcription, translation, proteolysis, and the formation of the holoenzyme complex.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" idref1="T12" idref2="T13" idref3="T14" />
+<clue>The synthesis and accumulation of sigma s are controlled by mechanisms <clueType>affecting</clueType> transcription, translation, proteolysis, and the formation of the holoenzyme complex.</clue>
+</event>
+<sentence id="S7"><term sem="SPAN" id="T15" lex="Transcriptional_control">Transcriptional control</term> of rpoS involves guanosine 3',5'-bispyrophosphate (<term sem="SPAN" id="T16" lex="ppGpp">ppGpp</term>) and <term sem="SPAN" id="T17" lex="polyphosphate">polyphosphate</term> as positive regulators and the cAMP receptor protein-cAMP complex (<term sem="SPAN" id="T18" lex="CRP-cAMP">CRP-cAMP</term>) as a negative regulator.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T16" idref1="T17" idref2="T18" />
+<Descriptive-Agent idref="T15" />
+<clue>Transcriptional control of rpoS <clueType>involves</clueType> guanosine 3',5'-bispyrophosphate (ppGpp) and polyphosphate as positive regulators and the cAMP receptor protein-cAMP complex (CRP-cAMP) as a negative regulator.</clue>
+</event>
+<sentence id="S8">Translation of <term sem="mRNA" id="T19" lex="rpoS_mRNA">rpoS mRNA</term> is controlled by <term sem="SPAN" id="T20" lex="a_cascade_of_interacting_factors">a cascade of interacting factors</term>, including Hfq, H-NS, dsrA RNA, LeuO, and oxyS RNA that seem to modulate the stability of a region of secondary structure in the ribosome-binding region of the gene's mRNA.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<Theme idref="T19" />
+<clue><clueType>Translation</clueType> of rpoS mRNA is controlled by a cascade of interacting factors, including Hfq, H-NS, dsrA RNA, LeuO, and oxyS RNA that seem to modulate the stability of a region of secondary structure in the ribosome-binding region of the gene's mRNA.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T20" />
+<Theme idref="E12" />
+<clue>Translation of rpoS mRNA <clueType>is controlled</clueType> by a cascade of interacting factors, including Hfq, H-NS, dsrA RNA, LeuO, and oxyS RNA that seem to modulate the stability of a region of secondary structure in the ribosome-binding region of the gene's mRNA.</clue>
+</event>
+<sentence id="S9"><term sem="Transcription_Factor" id="T21" lex="The_transcription_factor_sigma_s">The transcription factor sigma s</term> is sensitive to proteolysis by ClpPX in a reaction that is promoted by RssB and inhibited by the chaperone DnaK.</sentence>
+<sentence id="S10">Despite the demonstrated involvement of so many factors, arguments have been presented suggesting that sensitivity to proteolysis may be the single most important modulator of sigma s levels.</sentence>
+<sentence id="S11">The activity of sigma s may also be modulated by <term sem="Organic_Compounds" id="T22" lex="trehalose_and_glutamate">trehalose and glutamate</term>, which activate <term sem="SPAN" id="T23" lex="holoenzyme_formation">holoenzyme formation</term> and promote <term sem="SPAN" id="T24" lex="holoenzyme_binding">holoenzyme binding</term> to <term sem="Promoter" id="T25" lex="certain_promoters">certain promoters</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>The activity of sigma s may also be modulated by trehalose and glutamate, which <clueType>activate</clueType> holoenzyme formation and promote holoenzyme binding to certain promoters.</clue>
+</event>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T24" />
+<Destination idref="T25" />
+<clue>The activity of sigma s may also be modulated by trehalose and glutamate, which activate holoenzyme formation and <clueType>promote</clueType> holoenzyme binding to certain promoters.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

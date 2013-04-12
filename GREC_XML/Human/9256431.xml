@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9256431">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9256431</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A thyroid hormone receptor coactivator negatively regulated by the retinoblastoma protein.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The retinoblastoma protein (Rb) plays a critical role in cell proliferation, differentiation, and development.</sentence>
+<sentence id="S4">To decipher the mechanism of Rb function at the molecular level, we have systematically characterized a number of Rb-interacting proteins, among which is <term sem="Gene" id="T1" lex="the_clone_C5">the clone C5</term> described here, which encodes <term sem="Protein" id="T2" lex="a_protein_of_1,978_amino_acids">a protein of 1,978 amino acids</term> with an estimated molecular mass of 230 kDa.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>To decipher the mechanism of Rb function at the molecular level, we have systematically characterized a number of Rb-interacting proteins, among which is the clone C5 described here, which <clueType>encodes</clueType> a protein of 1,978 amino acids with an estimated molecular mass of 230 kDa.</clue>
+</event>
+<sentence id="S5">The corresponding gene was assigned to chromosome 14q31, the same region where genetic alterations have been associated with several abnormalities of thyroid hormone response.</sentence>
+<sentence id="S6">The protein uses two distinct regions to bind Rb and thyroid hormone receptor (TR), respectively, and thus was named Trip230.</sentence>
+<sentence id="S7">Trip230 binds to Rb independently of thyroid hormone while it forms a complex with TR in a thyroid hormone-dependent manner.</sentence>
+<sentence id="S8"><term sem="SPAN" id="T3" lex="Ectopic_expression_of_the_protein_Trip230">Ectopic expression of <term sem="Protein" id="T4" lex="the_protein_Trip230">the protein Trip230</term></term> in cells, but not a mutant form that does not bind to TR, enhances <term sem="Transcription" id="T5" lex="specifically_TR-dependent_transcriptional_activity">specifically TR-dependent transcriptional activity</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T5" />
+<clue>Ectopic expression of the protein Trip230 in cells, but not a mutant form that does not bind to TR, <clueType>enhances</clueType> specifically TR-dependent transcriptional activity.</clue>
+</event>
+<sentence id="S9"><term sem="SPAN" id="T6" lex="Coexpression_of_wild-type_Rb">Coexpression of wild-type Rb</term>, but not mutant Rb that fails to bind to Trip230, inhibits <term sem="Transcription" id="T7" lex="such_activity">such activity</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>Coexpression of wild-type Rb, but not mutant Rb that fails to bind to Trip230, <clueType>inhibits</clueType> such activity.</clue>
+</event>
+<sentence id="S10">These results not only identify a coactivator molecule that modulates TR activity, but also uncover a role for Rb in a pathway that responds to thyroid hormone.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

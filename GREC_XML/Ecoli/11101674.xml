@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11101674">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11101674</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">YeiL, the third member of the CRP-FNR family in Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T1" lex="The_yeiL_open_reading_frame">The yeiL open reading frame</term> located at 48.5 min (2254 kb) in the nfo-fruA region of the Escherichia coli chromosome was predicted to encode <term sem="Protein" id="T2" lex="a_CRP_and_FNR_paralogue">a CRP and FNR paralogue</term> capable of forming inter- or intra-molecular disulphide bonds and incorporating one iron-sulphur centre per 25 kDa subunit.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T2" />
+<clue>The yeiL open reading frame located at 48.5 min (2254 kb) in the nfo-fruA region of the Escherichia coli chromosome was predicted to <clueType>encode</clueType> a CRP and FNR paralogue capable of forming inter- or intra-molecular disulphide bonds and incorporating one iron-sulphur centre per 25 kDa subunit.</clue>
+</event>
+<sentence id="S4">Purified MBP-YeiL (a maltose-binding-protein-YeiL fusion protein) was a high-molecular-mass oligomer or aggregate which released unstable monomers (68 kDa) under reducing conditions.</sentence>
+<sentence id="S5">The MBP-YeiL protein contained substoichiometric amounts of iron and acid-labile sulphide, and an average of one disulphide bond per monomer.</sentence>
+<sentence id="S6">The iron and sulphide contents increased consistent with the acquisition of one [4Fe-4S] cluster per monomer after anaerobic NifS-catalysed reconstitution.</sentence>
+<sentence id="S7">By analogy with FNR and FLP (the FNR-like protein of Lactobacillus casei) it was suggested that <term sem="SPAN" id="T3" lex="the_transcription-regulatory_activity_of_YeiL">the transcription-regulatory activity of <term sem="Regulator" id="T4" lex="YeiL">YeiL</term></term> might be modulated by <term sem="DNA" id="T5" lex="a_sensory_iron-sulphur_cluster">a sensory iron-sulphur cluster</term> and/or by <term sem="DNA" id="T6" lex="reversible_disulphide_bond_formation">reversible disulphide bond formation</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T5" idref1="T6" />
+<Theme idref="T3" />
+<clue>By analogy with FNR and FLP (the FNR-like protein of Lactobacillus casei) it was suggested that the transcription-regulatory activity of YeiL might be <clueType>modulated</clueType> by a sensory iron-sulphur cluster and/or by reversible disulphide bond formation.</clue>
+</event>
+<sentence id="S8">A yeiL-lacZ transcriptional fusion showed that <term sem="SPAN" id="T7" lex="aerobic">aerobic</term> <term sem="SPAN" id="T8" lex="yeiL">yeiL</term> expression increases at least <term sem="SPAN" id="T9" lex="sixfold">sixfold</term> <term sem="SPAN" id="T10" lex="during_stationary_phase">during stationary phase</term>, requires <term sem="Regulator" id="T11" lex="RpoS">RpoS</term>, and is <term sem="SPAN" id="T12" lex="positively">positively</term> autoregulated by <term sem="Regulator" id="T13" lex="YeiL">YeiL</term>, <term sem="SPAN" id="T14" lex="positively">positively</term> activated by <term sem="Activator" id="T15" lex="Lrp">Lrp</term> (and <term sem="Activator" id="T16" lex="IHF">IHF</term> in the absence of <term sem="Regulator" id="T17" lex="FNR">FNR</term>) and <term sem="SPAN" id="T18" lex="negatively">negatively</term> regulated by <term sem="Regulator" id="T19" lex="FNR">FNR</term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<Manner idref="T7" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL <clueType>expression</clueType> increases at least sixfold during stationary phase, requires RpoS, and is positively autoregulated by YeiL, positively activated by Lrp (and IHF in the absence of FNR) and negatively regulated by FNR.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="E3" />
+<Rate idref="T9" />
+<Temporal idref="T10" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL expression <clueType>increases</clueType> at least sixfold during stationary phase, requires RpoS, and is positively autoregulated by YeiL, positively activated by Lrp (and IHF in the absence of FNR) and negatively regulated by FNR.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T11" />
+<Purpose idref="E3" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL expression increases at least sixfold during stationary phase, <clueType>requires</clueType> RpoS, and is positively autoregulated by YeiL, positively activated by Lrp (and IHF in the absence of FNR) and negatively regulated by FNR.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<Agent idref="T13" />
+<Theme idref="E3" />
+<Manner idref="T12" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL expression increases at least sixfold during stationary phase, requires RpoS, and is positively <clueType>autoregulated</clueType> by YeiL, positively activated by Lrp (and IHF in the absence of FNR) and negatively regulated by FNR.</clue>
+</event>
+<event id="E7">
+<type class="Gene_Activation" />
+<Agent idref="T15" idref1="T16" />
+<Theme idref="E3" />
+<Manner idref="T14" />
+<Condition idref="T17" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL expression increases at least sixfold during stationary phase, requires RpoS, and is positively autoregulated by YeiL, positively <clueType>activated</clueType> by Lrp (and IHF in the absence of FNR) and negatively regulated by FNR.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<Agent idref="T19" />
+<Theme idref="E3" />
+<Manner idref="T18" />
+<clue>A yeiL-lacZ transcriptional fusion showed that aerobic yeiL expression increases at least sixfold during stationary phase, requires RpoS, and is positively autoregulated by YeiL, positively activated by Lrp (and IHF in the absence of FNR) and negatively <clueType>regulated</clueType> by FNR.</clue>
+</event>
+<sentence id="S9">A regulatory link between the synthesis of YeiK (a potential nucleoside hydrolase) and YeiL was inferred by showing that <term sem="Gene" id="T20" lex="the_yeiK_and_yeiL_genes">the yeiK and yeiL genes</term> are divergently transcribed from <term sem="Promoter" id="T21" lex="overlapping_promoters">overlapping promoters</term>.</sentence>
+<event id="E9">
+<type class="Transcription" />
+<Theme idref="T20" />
+<Source idref="T21" />
+<clue>A regulatory link between the synthesis of YeiK (a potential nucleoside hydrolase) and YeiL was inferred by showing that the yeiK and yeiL genes are divergently <clueType>transcribed</clueType> from overlapping promoters.</clue>
+</event>
+<sentence id="S10">A 10-15% deficiency in aerobic growth yield and an enhanced loss of viability under nitrogen starvation conditions were detected with a yeiL::kan(R) mutant, suggesting that YeiL might function as a post-exponential-phase nitrogen-starvation regulator.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

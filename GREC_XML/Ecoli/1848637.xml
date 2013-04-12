@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1848637">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1848637</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Regulator" id="T1" lex="CAP">CAP</term> and <term sem="Repressor" id="T2" lex="Nag_repressor">Nag repressor</term> binding to <term sem="Locus" id="T3" lex="the_regulatory_regions">the regulatory regions</term> of the nagE-B and manX genes of Escherichia coli.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" idref1="T2" />
+<Destination idref="T3" />
+<clue>CAP and Nag repressor <clueType>binding</clueType> to the regulatory regions of the nagE-B and manX genes of Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">The divergent nagE-BACD operons located at 15.5 min on the Escherichia coli chromosome encode genes involved in the uptake and metabolism of N-acetylglucosamine.</sentence>
+<sentence id="S4">The start sites of the divergent transcripts are separated by 133 base-pairs (bp).</sentence>
+<sentence id="S5"><term sem="Repressor" id="T4" lex="A_repressor_protein">A repressor protein</term> for the regulon is encoded by <term sem="Gene" id="T5" lex="the_gene_nagC">the gene nagC</term>, one of the genes of the nagBACD operon.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T4" />
+<clue>A repressor protein for the regulon is <clueType>encoded</clueType> by the gene nagC, one of the genes of the nagBACD operon.</clue>
+</event>
+<sentence id="S6"><term sem="Bacteria" id="T6" lex="Strains">Strains</term> overproducing <term sem="Repressor" id="T7" lex="the_NagC_protein">the NagC protein</term> have been used to investigate the binding of <term sem="Repressor" id="T8" lex="repressor">repressor</term> to <term sem="Transcription_Binding_Site" id="T9" lex="the_intergenic_nagE-B_regulatory_region">the intergenic nagE-B regulatory region</term>.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T7" />
+<clue>Strains <clueType>overproducing</clueType> the NagC protein have been used to investigate the binding of repressor to the intergenic nagE-B regulatory region.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T8" />
+<Destination idref="T9" />
+<clue>Strains overproducing the NagC protein have been used to investigate the <clueType>binding</clueType> of repressor to the intergenic nagE-B regulatory region.</clue>
+</event>
+<sentence id="S7"><term sem="Transcription_Binding_Site" id="T10" lex="Two_binding_sites">Two binding sites</term> have been detected, <term sem="SPAN" id="T11" lex="overlapping_the_promoters">overlapping <term sem="Promoter" id="T12" lex="the_promoters">the promoters</term></term> of the nagE and nagB genes.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T10" />
+<Location idref="T11" />
+<clue>Two binding sites have been <clueType>detected</clueType>, overlapping the promoters of the nagE and nagB genes.</clue>
+</event>
+<sentence id="S8"><term sem="Repressor" id="T13" lex="NagC">NagC</term> binding produces a series of <term sem="SPAN" id="T14" lex="DNase_I_hypersensitive_sites">DNase I hypersensitive sites</term> separated by 9 to 11 bp in the region between the two NagC binding sites, supporting a model where <term sem="Repressor" id="T15" lex="the_NagC_proteins">the NagC proteins</term> bind <term sem="SPAN" id="T16" lex="co-operatively">co-operatively</term> to <term sem="Locus" id="T17" lex="these_two_sites">these two sites</term> on the DNA and interact to form a DNA loop.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T13" />
+<clue>NagC <clueType>binding</clueType> produces a series of DNase I hypersensitive sites separated by 9 to 11 bp in the region between the two NagC binding sites, supporting a model where the NagC proteins bind co-operatively to these two sites on the DNA and interact to form a DNA loop.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="E6" />
+<Theme idref="T14" />
+<clue>NagC binding <clueType>produces</clueType> a series of DNase I hypersensitive sites separated by 9 to 11 bp in the region between the two NagC binding sites, supporting a model where the NagC proteins bind co-operatively to these two sites on the DNA and interact to form a DNA loop.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T15" />
+<Manner idref="T16" />
+<Destination idref="T17" />
+<clue>NagC binding produces a series of DNase I hypersensitive sites separated by 9 to 11 bp in the region between the two NagC binding sites, supporting a model where the NagC proteins <clueType>bind</clueType> co-operatively to these two sites on the DNA and interact to form a DNA loop.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T15" />
+<clue>NagC binding produces a series of DNase I hypersensitive sites separated by 9 to 11 bp in the region between the two NagC binding sites, supporting a model where the NagC proteins bind co-operatively to these two sites on the DNA and <clueType>interact</clueType> to form a DNA loop.</clue>
+</event>
+<sentence id="S9"><term sem="Transcription_Binding_Site" id="T18" lex="A_strong_CAP_binding_site">A strong CAP binding site</term> exists <term sem="SPAN" id="T19" lex="between_the_two_operator_sites">between <term sem="Operator" id="T20" lex="the_two_operator_sites">the two operator sites</term></term>.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Theme idref="T18" />
+<Location idref="T19" />
+<clue>A strong CAP binding site <clueType>exists</clueType> between the two operator sites.</clue>
+</event>
+<sentence id="S10">It is located at -61.5 and -71.5 relative to the nagE and nagB transcription start sites.</sentence>
+<sentence id="S11"><term sem="Regulator" id="T21" lex="CAP_and_NagC">CAP and NagC</term> can bind <term sem="SPAN" id="T22" lex="simultaneously">simultaneously</term> and produce <term sem="Protein_Complex" id="T23" lex="a_complex">a complex</term> more stable than the binary NagC-DNA complex.</sentence>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T21" />
+<Manner idref="T22" />
+<clue>CAP and NagC can <clueType>bind</clueType> simultaneously and produce a complex more stable than the binary NagC-DNA complex.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T23" />
+<clue>CAP and NagC can bind simultaneously and <clueType>produce</clueType> a complex more stable than the binary NagC-DNA complex.</clue>
+</event>
+<sentence id="S12">In addition NagC and CAP binding sites have been found upstream from the manXYZ operon.</sentence>
+<sentence id="S13">Although the sites exhibit a similar organization there is no evidence for formation of a DNA loop in this operon.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

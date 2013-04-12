@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a2" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9020188">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9020188</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Activator" id="T1" lex="Stat2">Stat2</term> is <term sem="Activator" id="T2" lex="a_transcriptional_activator">a transcriptional activator</term> that requires <term sem="SPAN" id="T3" lex="sequence-specific">sequence-specific</term> contacts provided by <term sem="Activator" id="T4" lex="stat1">stat1</term> and <term sem="Activator" id="T5" lex="p48">p48</term> for stable interaction with <term sem="DNA" id="T6" lex="DNA">DNA</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="E2" />
+<Purpose idref="E4" />
+<clue>Stat2 is a transcriptional activator that <clueType>requires</clueType> sequence-specific contacts provided by stat1 and p48 for stable interaction with DNA.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Manner idref="T3" />
+<clue>Stat2 is a transcriptional activator that requires sequence-specific <clueType>contacts</clueType> provided by stat1 and p48 for stable interaction with DNA.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T4" idref1="T5" />
+<Theme idref="E2" />
+<clue>Stat2 is a transcriptional activator that requires sequence-specific contacts <clueType>provided</clueType> by stat1 and p48 for stable interaction with DNA.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T1" />
+<Agent idref="T6" />
+<clue>Stat2 is a transcriptional activator that requires sequence-specific contacts provided by stat1 and p48 for stable <clueType>interaction</clueType> with DNA.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="SPAN" id="T7" lex="Transcriptional">Transcriptional</term> responses to interferon (<term sem="Protein" id="T8" lex="IFN">IFN</term>) are mediated by <term sem="SPAN" id="T9" lex="tyrosine_phosphorylation">tyrosine phosphorylation</term> and <term sem="SPAN" id="T10" lex="nuclear_translocation">nuclear translocation</term> of transcription factors of the signal transducer and activator of transcription (Stat) family.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Theme idref="T8" />
+<Manner idref="T7" />
+<clue>Transcriptional <clueType>responses</clueType> to interferon (IFN) are mediated by tyrosine phosphorylation and nuclear translocation of transcription factors of the signal transducer and activator of transcription (Stat) family.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T9" idref1="T10" />
+<Theme idref="E5" />
+<clue>Transcriptional responses to interferon (IFN) are <clueType>mediated</clueType> by tyrosine phosphorylation and nuclear translocation of transcription factors of the signal transducer and activator of transcription (Stat) family.</clue>
+</event>
+<sentence id="S4"><term sem="Activator" id="T11" lex="The_Stat1_protein">The Stat1 protein</term> is required for all <term sem="SPAN" id="T12" lex="transcriptional">transcriptional</term> responses to <term sem="Organic_Compounds" id="T13" lex="IFN">IFN</term> (both type I and type II).</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T11" />
+<Purpose idref="E8" />
+<clue>The Stat1 protein is <clueType>required</clueType> for all transcriptional responses to IFN (both type I and type II).</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Manner idref="T12" />
+<Theme idref="T13" />
+<clue>The Stat1 protein is required for all transcriptional <clueType>responses</clueType> to IFN (both type I and type II).</clue>
+</event>
+<sentence id="S5">Responses to <term sem="Protein" id="T14" lex="type_I_IFN">type I IFN</term> (alpha and beta) also require <term sem="Activator" id="T15" lex="Stat2">Stat2</term> and <term sem="Activator" id="T16" lex="the_IFN_regulatory_factor_family_protein_p48">the IFN regulatory factor family protein p48</term>, which form a heterotrimeric transcription complex with <term sem="Activator" id="T17" lex="Stat1_termed_ISGF3">Stat1 termed ISGF3</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Theme idref="T14" />
+<clue><clueType>Responses</clueType> to type I IFN (alpha and beta) also require Stat2 and the IFN regulatory factor family protein p48, which form a heterotrimeric transcription complex with Stat1 termed ISGF3.</clue>
+</event>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="E9" />
+<Theme idref="T15" idref1="T16" />
+<clue>Responses to type I IFN (alpha and beta) also <clueType>require</clueType> Stat2 and the IFN regulatory factor family protein p48, which form a heterotrimeric transcription complex with Stat1 termed ISGF3.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T15" idref1="T16" />
+<Agent idref="T17" />
+<clue>Responses to type I IFN (alpha and beta) also require Stat2 and the IFN regulatory factor family protein p48, which <clueType>form</clueType> a heterotrimeric transcription complex with Stat1 termed ISGF3.</clue>
+</event>
+<sentence id="S6"><term sem="Activator" id="T18" lex="Stat1_homodimers">Stat1 homodimers</term> formed in response to <term sem="Laboratory_Technique" id="T19" lex="IFN-gamma_treatment">IFN-gamma treatment</term> can also interact with <term sem="Activator" id="T20" lex="p48">p48</term> and function as <term sem="Activator" id="T21" lex="transcriptional_activators">transcriptional activators</term>.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T18" />
+<Condition idref="T19" />
+<clue>Stat1 homodimers <clueType>formed</clueType> in response to IFN-gamma treatment can also interact with p48 and function as transcriptional activators.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="T18" />
+<Agent idref="T20" />
+<clue>Stat1 homodimers formed in response to IFN-gamma treatment can also <clueType>interact</clueType> with p48 and function as transcriptional activators.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T18" />
+<Descriptive-Agent idref="T21" />
+<clue>Stat1 homodimers formed in response to IFN-gamma treatment can also interact with p48 and <clueType>function</clueType> as transcriptional activators.</clue>
+</event>
+<sentence id="S7">We now show that <term sem="Activator" id="T22" lex="Stat2">Stat2</term> is capable of forming <term sem="Protein_Complex" id="T23" lex="a_stable_homodimer">a stable homodimer</term> that interacts with <term sem="Activator" id="T24" lex="p48">p48</term>, can be recruited to <term sem="SPAN" id="T25" lex="DNA">DNA</term>, and can activate <term sem="Transcription" id="T26" lex="transcription">transcription</term>, raising a question of why <term sem="Activator" id="T27" lex="Stat1">Stat1</term> is required.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T23" />
+<clue>We now show that Stat2 is capable of <clueType>forming</clueType> a stable homodimer that interacts with p48, can be recruited to DNA, and can activate transcription, raising a question of why Stat1 is required.</clue>
+</event>
+<event id="E16">
+<type class="GRE" />
+<Agent idref="T23" />
+<Agent idref="T24" />
+<clue>We now show that Stat2 is capable of forming a stable homodimer that <clueType>interacts</clueType> with p48, can be recruited to DNA, and can activate transcription, raising a question of why Stat1 is required.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Theme idref="T22" />
+<Destination idref="T25" />
+<clue>We now show that Stat2 is capable of forming a stable homodimer that interacts with p48, can be <clueType>recruited</clueType> to DNA, and can activate transcription, raising a question of why Stat1 is required.</clue>
+</event>
+<event id="E18">
+<type class="GRE" />
+<Agent idref="T22" />
+<Theme idref="T26" />
+<clue>We now show that Stat2 is capable of forming a stable homodimer that interacts with p48, can be recruited to DNA, and can <clueType>activate</clueType> transcription, raising a question of why Stat1 is required.</clue>
+</event>
+<event id="E19">
+<type class="GRE" />
+<Theme idref="T27" />
+<clue>We now show that Stat2 is capable of forming a stable homodimer that interacts with p48, can be recruited to DNA, and can activate transcription, raising a question of why Stat1 is <clueType>required</clueType>.</clue>
+</event>
+<sentence id="S8">Analysis of the transcriptional competence, affinity, and specificity of Stat2-p48 complexes compared with other Stat protein-containing transcription factor complexes suggests distinct roles for each component.</sentence>
+<sentence id="S9">Although <term sem="Activator" id="T28" lex="Stat2">Stat2</term> is a potent transactivator, it does not interact stably with <term sem="DNA" id="T29" lex="DNA">DNA</term> in complex with p48 alone.</sentence>
+<event id="E20">
+<type class="GRE" />
+<Agent idref="T28" />
+<Agent idref="T29" />
+<clue>Although Stat2 is a potent transactivator, it does not <clueType>interact</clueType> stably with DNA in complex with p48 alone.</clue>
+</event>
+<sentence id="S10">Adding <term sem="Activator" id="T30" lex="Stat1">Stat1</term> increases <term sem="SPAN" id="T31" lex="the_affinity">the affinity</term> and alters <term sem="SPAN" id="T32" lex="the_sequence_selectivity">the sequence selectivity</term> of <term sem="Protein_Complex" id="T33" lex="p48-DNA">p48-DNA</term> interactions by contacting <term sem="SPAN" id="T34" lex="a_half-site">a half-site</term> of its palindromic recognition motif adjacent to <term sem="Transcription_Binding_Site" id="T35" lex="a_p48_interaction_sequence">a p48 interaction sequence</term>.</sentence>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T30" />
+<Theme idref="T31" />
+<clue>Adding Stat1 <clueType>increases</clueType> the affinity and alters the sequence selectivity of p48-DNA interactions by contacting a half-site of its palindromic recognition motif adjacent to a p48 interaction sequence.</clue>
+</event>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T30" />
+<Theme idref="T32" />
+<clue>Adding Stat1 increases the affinity and <clueType>alters</clueType> the sequence selectivity of p48-DNA interactions by contacting a half-site of its palindromic recognition motif adjacent to a p48 interaction sequence.</clue>
+</event>
+<event id="E23">
+<type class="GRE" />
+<Agent idref="T33" />
+<clue>Adding Stat1 increases the affinity and alters the sequence selectivity of p48-DNA <clueType>interactions</clueType> by contacting a half-site of its palindromic recognition motif adjacent to a p48 interaction sequence.</clue>
+</event>
+<event id="E24">
+<type class="GRE" />
+<Theme idref="T34" />
+<Destination idref="T35" />
+<clue>Adding Stat1 increases the affinity and alters the sequence selectivity of p48-DNA interactions by <clueType>contacting</clueType> a half-site of its palindromic recognition motif adjacent to a p48 interaction sequence.</clue>
+</event>
+<sentence id="S11">Thus, <term sem="Protein_Complex" id="T36" lex="ISGF3_assembly">ISGF3 assembly</term> involves <term sem="Activator" id="T37" lex="p48">p48</term> functioning as <term sem="Protein" id="T38" lex="an_adaptor_protein">an adaptor protein</term> to recruit <term sem="Activator" id="T39" lex="Stat1">Stat1</term> and <term sem="Activator" id="T40" lex="Stat2">Stat2</term> to <term sem="Transcription_Binding_Site" id="T41" lex="an_IFN-alpha-stimulated_response_element">an IFN-alpha-stimulated response element</term>, <term sem="Activator" id="T42" lex="Stat2">Stat2</term> contributes <term sem="SPAN" id="T43" lex="a_potent_transactivation_domain">a potent transactivation domain</term> but is unable to <term sem="SPAN" id="T44" lex="directly">directly</term> contact <term sem="DNA" id="T45" lex="DNA">DNA</term>, while <term sem="Activator" id="T46" lex="Stat1">Stat1</term> stabilizes <term sem="Protein_Complex" id="T47" lex="the_heteromeric_complex">the heteromeric complex</term> by contacting <term sem="DNA" id="T48" lex="DNA">DNA</term> <term sem="SPAN" id="T49" lex="directly">directly</term>.</sentence>
+<event id="E25">
+<type class="GRE" />
+<Agent idref="T36" />
+<Theme idref="T37" />
+<clue>Thus, ISGF3 assembly <clueType>involves</clueType> p48 functioning as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly contact DNA, while Stat1 stabilizes the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E26">
+<type class="GRE" />
+<Agent idref="T37" />
+<Descriptive-Agent idref="T38" />
+<Purpose idref="E27" />
+<clue>Thus, ISGF3 assembly involves p48 <clueType>functioning</clueType> as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly contact DNA, while Stat1 stabilizes the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E27">
+<type class="GRE" />
+<Agent idref="T37" />
+<Theme idref="T39" idref1="T40" />
+<Destination idref="T41" />
+<clue>Thus, ISGF3 assembly involves p48 functioning as an adaptor protein to <clueType>recruit</clueType> Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly contact DNA, while Stat1 stabilizes the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E28">
+<type class="GRE" />
+<Agent idref="T42" />
+<Theme idref="T43" />
+<clue>Thus, ISGF3 assembly involves p48 functioning as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 <clueType>contributes</clueType> a potent transactivation domain but is unable to directly contact DNA, while Stat1 stabilizes the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E29">
+<type class="GRE" />
+<Agent idref="T42" />
+<Theme idref="T45" />
+<Manner idref="T44" />
+<clue>Thus, ISGF3 assembly involves p48 functioning as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly <clueType>contact</clueType> DNA, while Stat1 stabilizes the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E30">
+<type class="GRE" />
+<Agent idref="T46" />
+<Theme idref="T47" />
+<clue>Thus, ISGF3 assembly involves p48 functioning as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly contact DNA, while Stat1 <clueType>stabilizes</clueType> the heteromeric complex by contacting DNA directly.</clue>
+</event>
+<event id="E31">
+<type class="GRE" />
+<Agent idref="T46" />
+<Theme idref="T48" />
+<Manner idref="T49" />
+<clue>Thus, ISGF3 assembly involves p48 functioning as an adaptor protein to recruit Stat1 and Stat2 to an IFN-alpha-stimulated response element, Stat2 contributes a potent transactivation domain but is unable to directly contact DNA, while Stat1 stabilizes the heteromeric complex by <clueType>contacting</clueType> DNA directly.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

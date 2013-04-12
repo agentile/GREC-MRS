@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a3" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9647758">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9647758</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of a novel isoform of microphthalmia-associated transcription factor that is enriched in retinal pigment epithelium.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Mutation" id="T1" lex="Mutations">Mutations</term> at <term sem="Locus" id="T2" lex="the_mouse_locus">the mouse locus</term> encoding microphthalmia-associated transcription factor (<term sem="Transcription_Factor" id="T3" lex="Mitf">Mitf</term>) affect <term sem="SPAN" id="T4" lex="the_development_of_many_cell_types">the development of <term sem="Cells" id="T5" lex="many_cell_types">many cell types</term></term>, including retinal pigment epithelium (RPE), melanocytes, mast cells, and osteoclasts.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T2" />
+<Theme idref="T3" />
+<clue>Mutations at the mouse locus <clueType>encoding</clueType> microphthalmia-associated transcription factor (Mitf) affect the development of many cell types, including retinal pigment epithelium (RPE), melanocytes, mast cells, and osteoclasts.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T4" />
+<clue>Mutations at the mouse locus encoding microphthalmia-associated transcription factor (Mitf) <clueType>affect</clueType> the development of many cell types, including retinal pigment epithelium (RPE), melanocytes, mast cells, and osteoclasts.</clue>
+</event>
+<sentence id="S4">Here we have identified a novel Mitf isoform, Mitf-a, and its human homologue MITF-A by cDNA cloning.</sentence>
+<sentence id="S5">MITF-A consists of 520 amino acid residues and differs in the amino-terminus from authentic melanocyte-type MITF (MITF-M).</sentence>
+<sentence id="S6"><term sem="mRNA" id="T6" lex="MITF-A_mRNA">MITF-A mRNA</term> is <term sem="SPAN" id="T7" lex="widely">widely</term> expressed and represents a <term sem="Transcription_Factor" id="T8" lex="predominant_MITF_isoform">predominant MITF isoform</term> <term sem="SPAN" id="T9" lex="in_cultured_RPE_cells">in cultured RPE cells</term>, whereas <term sem="mRNA" id="T10" lex="MITF-M_mRNA">MITF-M mRNA</term> is <term sem="SPAN" id="T11" lex="exclusively">exclusively</term> expressed <term sem="SPAN" id="T12" lex="in_melanocytes_and_melanoma_cells">in <term sem="Cells" id="T13" lex="melanocytes">melanocytes</term> and melanoma cells</term>.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T6" />
+<Manner idref="T7" />
+<clue>MITF-A mRNA is widely <clueType>expressed</clueType> and represents a predominant MITF isoform in cultured RPE cells, whereas MITF-M mRNA is exclusively expressed in melanocytes and melanoma cells.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T6" />
+<Location idref="T9" />
+<Descriptive-Theme idref="T8" />
+<clue>MITF-A mRNA is widely expressed and <clueType>represents</clueType> a predominant MITF isoform in cultured RPE cells, whereas MITF-M mRNA is exclusively expressed in melanocytes and melanoma cells.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T10" />
+<Manner idref="T11" />
+<Location idref="T12" />
+<clue>MITF-A mRNA is widely expressed and represents a predominant MITF isoform in cultured RPE cells, whereas MITF-M mRNA is exclusively <clueType>expressed</clueType> in melanocytes and melanoma cells.</clue>
+</event>
+<sentence id="S7">In situ hybridization analysis suggested that Mitf-a mRNA is enriched in the prospective RPE of mouse embryo.</sentence>
+<sentence id="S8">Moreover, transient cotransfection assays suggested that <term sem="Transcription_Factor" id="T14" lex="MITF-A">MITF-A</term> activated transcription of <term sem="Gene" id="T15" lex="the_tyrosinase"><term sem="SPAN" id="T16" lex="the_tyrosinase_and_tyrosinase-related_protein_1_genes">the tyrosinase and tyrosinase-related protein 1 genes</term></term>.</sentence>
+<event id="E6">
+<type class="Gene_Activation" />
+<Agent idref="T14" />
+<Theme idref="E7" />
+<clue>Moreover, transient cotransfection assays suggested that MITF-A <clueType>activated</clueType> transcription of the tyrosinase and tyrosinase-related protein 1 genes.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<Theme idref="T16" />
+<clue>Moreover, transient cotransfection assays suggested that MITF-A activated <clueType>transcription</clueType> of the tyrosinase and tyrosinase-related protein 1 genes.</clue>
+</event>
+<sentence id="S9">MITF-A/Mitf-a therefore may play an important role in melanogenesis in RPE.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a4" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8576063">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8576063</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein" id="T1" lex="The_periplasmic_TorT_protein">The periplasmic TorT protein</term> is required for <term sem="Gene" id="T2" lex="trimethylamine_N-oxide_reductase_gene">trimethylamine N-oxide reductase gene</term> induction <term sem="SPAN" id="T3" lex="in_Escherichia_coli">in <term sem="Bacteria" id="T4" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Location idref="T3" />
+<Purpose idref="E2" />
+<Theme idref="T1" />
+<clue>The periplasmic TorT protein is <clueType>required</clueType> for trimethylamine N-oxide reductase gene induction in Escherichia coli.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<Theme idref="T2" />
+<clue>The periplasmic TorT protein is required for trimethylamine N-oxide reductase gene <clueType>induction</clueType> in Escherichia coli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression of <term sem="Operon" id="T5" lex="the_Escherichia_coli_torCAD_operon">the Escherichia coli torCAD operon</term>, which encodes <term sem="Enzyme" id="T6" lex="the_trimethylamine_N-oxide_reductase_system">the trimethylamine N-oxide reductase system</term>, is regulated by the presence of <term sem="Inorganic_Compounds" id="T7" lex="trimethylamine_N-oxide">trimethylamine N-oxide</term> through the action of the TorR response regulator.</sentence>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T5" />
+<clue><clueType>Expression</clueType> of the Escherichia coli torCAD operon, which encodes the trimethylamine N-oxide reductase system, is regulated by the presence of trimethylamine N-oxide through the action of the TorR response regulator.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>Expression of the Escherichia coli torCAD operon, which <clueType>encodes</clueType> the trimethylamine N-oxide reductase system, is regulated by the presence of trimethylamine N-oxide through the action of the TorR response regulator.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<Agent idref="T7" />
+<Theme idref="E3" />
+<clue>Expression of the Escherichia coli torCAD operon, which encodes the trimethylamine N-oxide reductase system, is <clueType>regulated</clueType> by the presence of trimethylamine N-oxide through the action of the TorR response regulator.</clue>
+</event>
+<sentence id="S4">We have identified an additional gene, torT, located just downstream from the torR gene, which is necessary for <term sem="Operon" id="T8" lex="torCAD_structural_operon">torCAD structural operon</term> expression.</sentence>
+<event id="E6">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>We have identified an additional gene, torT, located just downstream from the torR gene, which is necessary for torCAD structural operon <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S5">Insertion <term sem="SPAN" id="T9" lex="within_the_torT_gene">within <term sem="Gene" id="T10" lex="the_torT_gene">the torT gene</term></term> dramatically reduced the expression of <term sem="Gene" id="T11" lex="a_torA'-'lacZ_fusion">a torA'-'lacZ fusion</term>, while presence of the gene in trans restored the wild-type phenotype.</sentence>
+<event id="E7">
+<type class="Insertion" />
+<Location idref="T9" />
+<clue><clueType>Insertion</clueType> within the torT gene dramatically reduced the expression of a torA'-'lacZ fusion, while presence of the gene in trans restored the wild-type phenotype.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="E7" />
+<Theme idref="E9" />
+<clue>Insertion within the torT gene dramatically <clueType>reduced</clueType> the expression of a torA'-'lacZ fusion, while presence of the gene in trans restored the wild-type phenotype.</clue>
+</event>
+<event id="E9">
+<type class="Gene_Expression" />
+<Theme idref="T11" />
+<clue>Insertion within the torT gene dramatically reduced the <clueType>expression</clueType> of a torA'-'lacZ fusion, while presence of the gene in trans restored the wild-type phenotype.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T12" lex="Overproduction">Overproduction</term> of TorR in a torT strain resulted in partial constitutive expression of <term sem="Gene" id="T13" lex="the_torA'-'lacZ_fusion">the torA'-'lacZ fusion</term>, suggesting that TorR acts downstream from TorT.</sentence>
+<event id="E10">
+<type class="GRE" />
+<Agent idref="T12" />
+<Theme idref="E11" />
+<clue>Overproduction of TorR in a torT strain <clueType>resulted</clueType> in partial constitutive expression of the torA'-'lacZ fusion, suggesting that TorR acts downstream from TorT.</clue>
+</event>
+<event id="E11">
+<type class="Gene_Expression" />
+<Theme idref="T13" />
+<clue>Overproduction of TorR in a torT strain resulted in partial constitutive <clueType>expression</clueType> of the torA'-'lacZ fusion, suggesting that TorR acts downstream from TorT.</clue>
+</event>
+<sentence id="S7"><term sem="Gene" id="T14" lex="The_torT_gene">The torT gene</term> codes for <term sem="Protein" id="T15" lex="a_35.7-kDa_periplasmic_protein">a 35.7-kDa periplasmic protein</term> which presents some homology with the periplasmic ribose-binding protein of E. coli.</sentence>
+<event id="E12">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="T15" />
+<clue>The torT gene <clueType>codes</clueType> for a 35.7-kDa periplasmic protein which presents some homology with the periplasmic ribose-binding protein of E. coli.</clue>
+</event>
+<sentence id="S8">We discuss the possible role of TorT as an inducer-binding protein involved in signal transduction of the tor regulatory pathway.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

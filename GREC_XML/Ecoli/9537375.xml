@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a1" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9537375">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9537375</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="Positive_and_negative">Positive and negative</term> <term sem="SPAN" id="T2" lex="transcriptional">transcriptional</term> regulation of <term sem="Gene" id="T3" lex="the_Escherichia_coli_gluconate_regulon_gene_gntT">the Escherichia coli gluconate regulon gene gntT</term> by <term sem="Protein_Complex" id="T4" lex="GntR_and_the_cyclic_AMP_(cAMP)-cAMP_receptor_protein_complex">GntR and the cyclic AMP (cAMP)-cAMP receptor protein complex</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<Manner idref="T1" />
+<Manner idref="T2" />
+<clue>Positive and negative transcriptional <clueType>regulation</clueType> of the Escherichia coli gluconate regulon gene gntT by GntR and the cyclic AMP (cAMP)-cAMP receptor protein complex.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Gene" id="T5" lex="The_gntT_gene">The gntT gene</term> of Escherichia coli is specifically induced by <term sem="Organic_Compounds" id="T6" lex="gluconate">gluconate</term> and repressed via <term sem="SPAN" id="T7" lex="catabolite_repression">catabolite repression</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="T5" />
+<clue>The gntT gene of Escherichia coli is specifically <clueType>induced</clueType> by gluconate and repressed via catabolite repression.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T5" />
+<Manner idref="T7" />
+<clue>The gntT gene of Escherichia coli is specifically induced by gluconate and <clueType>repressed</clueType> via catabolite repression.</clue>
+</event>
+<sentence id="S4">Thus, gluconate is both an inducer and a repressor of <term sem="Gene" id="T8" lex="gntT">gntT</term> expression since gluconate is a catabolite-repressing sugar.</sentence>
+<event id="E4">
+<type class="Gene_Expression" />
+<Theme idref="T8" />
+<clue>Thus, gluconate is both an inducer and a repressor of gntT <clueType>expression</clueType> since gluconate is a catabolite-repressing sugar.</clue>
+</event>
+<sentence id="S5"><term sem="SPAN" id="T9" lex="In_a_gntR_deletion_mutant">In <term sem=" Mutant_Bacteria" id="T10" lex="a_gntR_deletion_mutant">a gntR deletion mutant</term></term>, the expression of <term sem="Mutant_Gene" id="T11" lex="a_chromosomal_gntT::lacZ_fusion">a chromosomal gntT::lacZ fusion</term> is both high and constitutive, confirming that GntR is the negative regulator of gntT.</sentence>
+<event id="E5">
+<type class="Gene_Expression" />
+<Theme idref="T11" />
+<Location idref="T9" />
+<clue>In a gntR deletion mutant, the <clueType>expression</clueType> of a chromosomal gntT::lacZ fusion is both high and constitutive, confirming that GntR is the negative regulator of gntT.</clue>
+</event>
+<sentence id="S6">Indeed, <term sem="Regulator" id="T12" lex="GntR">GntR</term> binds to <term sem="Operator" id="T13" lex="two_consensus_gnt_operator_sites">two consensus gnt operator sites</term>; one overlaps the -10 region of the gntT promoter, and the other is centered at +120 with respect to the transcriptional start site.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T12" />
+<Destination idref="T13" />
+<clue>Indeed, GntR <clueType>binds</clueType> to two consensus gnt operator sites; one overlaps the -10 region of the gntT promoter, and the other is centered at +120 with respect to the transcriptional start site.</clue>
+</event>
+<sentence id="S7">The binding of <term sem="Regulator" id="T14" lex="GntR">GntR</term> to <term sem="SPAN" id="T15" lex="these_sites">these sites</term> was proven in vitro by gel redardation assays and in vivo by site-directed mutagenesis of the binding sites.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T14" />
+<Destination idref="T15" />
+<clue>The <clueType>binding</clueType> of GntR to these sites was proven in vitro by gel redardation assays and in vivo by site-directed mutagenesis of the binding sites.</clue>
+</event>
+<sentence id="S8">Binding of <term sem="Regulator" id="T16" lex="GntR">GntR</term> to <term sem="Operator" id="T17" lex="the_operators">the operators</term> is eliminated by <term sem="Organic_Compounds" id="T18" lex="gluconate">gluconate</term> and also by <term sem="Organic_Compounds" id="T19" lex="6-phosphogluconate">6-phosphogluconate</term> at a 10-fold-higher concentration.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T16" />
+<Destination idref="T17" />
+<clue><clueType>Binding</clueType> of GntR to the operators is eliminated by gluconate and also by 6-phosphogluconate at a 10-fold-higher concentration.</clue>
+</event>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T18" idref1="T19" />
+<Theme idref="E8" />
+<clue>Binding of GntR to the operators <clueType>is eliminated</clueType> by gluconate and also by 6-phosphogluconate at a 10-fold-higher concentration.</clue>
+</event>
+<sentence id="S9">Interestingly, when gntR deletion strains are grown in the presence of gluconate, there is a twofold decrease in <term sem="Gene" id="T20" lex="gntT">gntT</term> expression which is independent of catabolite repression and binding of <term sem="Regulator" id="T21" lex="GntR">GntR</term> to <term sem="Operator" id="T22" lex="the_operator_sites">the operator sites</term>.</sentence>
+<event id="E10">
+<type class="Gene_Expression" />
+<Theme idref="T20" />
+<clue>Interestingly, when gntR deletion strains are grown in the presence of gluconate, there is a twofold decrease in gntT <clueType>expression</clueType> which is independent of catabolite repression and binding of GntR to the operator sites.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T21" />
+<Destination idref="T22" />
+<clue>Interestingly, when gntR deletion strains are grown in the presence of gluconate, there is a twofold decrease in gntT expression which is independent of catabolite repression and <clueType>binding</clueType> of GntR to the operator sites.</clue>
+</event>
+<sentence id="S10">This novel response of gntR mutants to the inducer is termed ultrarepression.</sentence>
+<sentence id="S11">Transcription of <term sem="Gene" id="T23" lex="gntT">gntT</term> is activated by binding of <term sem="Protein_Complex" id="T24" lex="the_cyclic_AMP_(cAMP)-cAMP_receptor_protein_(CRP)_complex">the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex</term> to <term sem="Transcription_Binding_Site" id="T25" lex="a_CRP_binding_site">a CRP binding site</term> positioned at -71 upstream of the gntT transcription start site.</sentence>
+<event id="E12">
+<type class="Transcription" />
+<Theme idref="T23" />
+<clue><clueType>Transcription</clueType> of gntT is activated by binding of the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex to a CRP binding site positioned at -71 upstream of the gntT transcription start site.</clue>
+</event>
+<event id="E13">
+<type class="GRE" />
+<Agent idref="E14" />
+<Theme idref="E12" />
+<clue>Transcription of gntT <clueType>is activated</clueType> by binding of the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex to a CRP binding site positioned at -71 upstream of the gntT transcription start site.</clue>
+</event>
+<event id="E14">
+<type class="GRE" />
+<Theme idref="T24" />
+<Destination idref="T25" />
+<clue>Transcription of gntT is activated by <clueType>binding</clueType> of the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex to a CRP binding site positioned at -71 upstream of the gntT transcription start site.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

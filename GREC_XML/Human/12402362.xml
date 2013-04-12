@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=12402362">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>12402362</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Solution structure of the DNA-binding domain of interleukin enhancer binding factor 1 (FOXK1a).</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Interleukin enhancer binding factor (<term sem="Protein" id="T1" lex="ILF">ILF</term>) binds to the interleukin-2 <term sem="SPAN" id="T2" lex="(IL-2)_promoter">(IL-2) promoter</term> and regulates <term sem="Gene" id="T3" lex="IL-2_gene">IL-2 gene</term> expression.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue>Interleukin enhancer binding factor (ILF) <clueType>binds</clueType> to the interleukin-2 (IL-2) promoter and regulates IL-2 gene expression.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="E3" />
+<clue>Interleukin enhancer binding factor (ILF) binds to the interleukin-2 (IL-2) promoter and <clueType>regulates</clueType> IL-2 gene expression.</clue>
+</event>
+<event id="E3">
+<type class="Gene_Expression" />
+<Theme idref="T3" />
+<clue>Interleukin enhancer binding factor (ILF) binds to the interleukin-2 (IL-2) promoter and regulates IL-2 gene <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S4">In this study, the 3D structure of the DNA-binding domain of ILF was determined by multidimensional NMR spectroscopy.</sentence>
+<sentence id="S5">NMR structure analysis revealed that the DNA-binding domain of ILF is a new member of the winged helix/forkhead family, and that its wing 2 contains an extra alpha-helix.</sentence>
+<sentence id="S6">This is the first study to report the presence of a C-terminal alpha-helix in place of a typical wing 2 in a member of this family.</sentence>
+<sentence id="S7">This structural difference may be responsible for the different DNA-binding specificity of ILF compared to other winged helix/forkhead proteins.</sentence>
+<sentence id="S8">Our deletion studies of the fragments of ILF also suggest that <term sem="DNA" id="T4" lex="the_C-terminal_region">the C-terminal region</term> plays <term sem="SPAN" id="T5" lex="a_regulatory_role">a regulatory role</term> in DNA binding.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T4" />
+<Theme idref="T5" />
+<clue>Our deletion studies of the fragments of ILF also suggest that the C-terminal region <clueType>plays</clueType> a regulatory role in DNA binding.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

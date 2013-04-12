@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1916817">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1916817</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Localization of the gene for the DNA-binding protein AP-2 to human chromosome 6p22.3-pter.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">A variety of <term sem="Protein" id="T1" lex="cellular_proteins">cellular proteins</term> bind to <term sem="Enhancer" id="T2" lex="cellular_and_viral_enhancer_elements">cellular and viral enhancer elements</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Destination idref="T2" />
+<clue>A variety of cellular proteins <clueType>bind</clueType> to cellular and viral enhancer elements.</clue>
+</event>
+<sentence id="S4">One such factor, known as AP-2, is a 52-kDa transcription factor identified by its interaction with the SV40 and metallothionein enhancers.</sentence>
+<sentence id="S5">In addition, it has been found that <term sem="Transcription_Factor" id="T3" lex="AP-2">AP-2</term> binds to <term sem="Peptide" id="T4" lex="the_SV40_T-antigen">the SV40 T-antigen</term>.</sentence>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="T4" />
+<clue>In addition, it has been found that AP-2 <clueType>binds</clueType> to the SV40 T-antigen.</clue>
+</event>
+<sentence id="S6"><term sem="SPAN" id="T5" lex="AP-2_activity">AP-2 activity</term> is mediated by both <term sem="SPAN" id="T6" lex="the_state_of_cellular_differentiation">the state of cellular differentiation</term> and <term sem="SPAN" id="T7" lex="changes_in_signal_transduction_pathways">changes in signal transduction pathways</term>, suggesting a potential role of AP-2 in the regulation of diverse cellular processes.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T6" idref1="T7" />
+<Theme idref="T5" />
+<clue>AP-2 activity is <clueType>mediated</clueType> by both the state of cellular differentiation and changes in signal transduction pathways, suggesting a potential role of AP-2 in the regulation of diverse cellular processes.</clue>
+</event>
+<sentence id="S7">As part of an effort to examine the chromosomal organization of <term sem="Gene" id="T8" lex="cellular_genes">cellular genes</term> encoding <term sem="Transcription_Factor" id="T9" lex="transcription_factors">transcription factors</term>, we report the mapping of <term sem="Gene" id="T10" lex="the_gene">the gene</term> encoding <term sem="Transcription_Factor" id="T11" lex="AP-2">AP-2</term> to human chromosome 6p22.3-24 by analysis of somatic cell hybrids and in situ hybridization to chromosomes.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T8" />
+<Theme idref="T9" />
+<clue>As part of an effort to examine the chromosomal organization of cellular genes <clueType>encoding</clueType> transcription factors, we report the mapping of the gene encoding AP-2 to human chromosome 6p22.3-24 by analysis of somatic cell hybrids and in situ hybridization to chromosomes.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T10" />
+<Theme idref="T11" />
+<clue>As part of an effort to examine the chromosomal organization of cellular genes encoding transcription factors, we report the mapping of the gene <clueType>encoding</clueType> AP-2 to human chromosome 6p22.3-24 by analysis of somatic cell hybrids and in situ hybridization to chromosomes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

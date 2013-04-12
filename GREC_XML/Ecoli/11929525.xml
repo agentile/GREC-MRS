@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=11929525">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>11929525</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Independent regulation of <term sem="Promoter" id="T1" lex="the_divergent_Escherichia_coli_nrfA_and_acsP1_promoters">the divergent Escherichia coli nrfA and acsP1 promoters</term> by <term sem="Protein_Complex" id="T2" lex="a_nucleoprotein_assembly">a nucleoprotein assembly</term> at a shared regulatory region.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T2" />
+<Theme idref="T1" />
+<clue>Independent <clueType>regulation</clueType> of the divergent Escherichia coli nrfA and acsP1 promoters by a nucleoprotein assembly at a shared regulatory region.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Expression from the Escherichia coli nrfA promoter (<term sem="Promoter" id="T3" lex="pnrfA">pnrfA</term>) is activated by both <term sem="Regulator" id="T4" lex="the_FNR_protein">the FNR protein</term> (an anaerobically triggered transcription activator) and <term sem="Regulator" id="T5" lex="the_NarL_or_NarP_proteins">the NarL or NarP proteins</term> (transcription activators triggered by nitrite and nitrate).</sentence>
+<event id="E2">
+<type class="Gene_Expression" />
+<Source idref="T3" />
+<clue><clueType>Expression</clueType> from the Escherichia coli nrfA promoter (pnrfA) is activated by both the FNR protein (an anaerobically triggered transcription activator) and the NarL or NarP proteins (transcription activators triggered by nitrite and nitrate).</clue>
+</event>
+<event id="E3">
+<type class="Gene_Activation" />
+<Agent idref="T4" idref1="T5" />
+<Theme idref="E2" />
+<clue>Expression from the Escherichia coli nrfA promoter (pnrfA) is <clueType>activated</clueType> by both the FNR protein (an anaerobically triggered transcription activator) and the NarL or NarP proteins (transcription activators triggered by nitrite and nitrate).</clue>
+</event>
+<sentence id="S4">Under <term sem="SPAN" id="T6" lex="anaerobic_conditions">anaerobic conditions</term>, <term sem="Regulator" id="T7" lex="FNR">FNR</term> binds to <term sem="Locus" id="T8" lex="a_site">a site</term> centred at position -41.5 at pnrfA and activates <term sem="Transcription" id="T9" lex="transcription">transcription</term>.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<Condition idref="T6" />
+<clue>Under anaerobic conditions, FNR <clueType>binds</clueType> to a site centred at position -41.5 at pnrfA and activates transcription.</clue>
+</event>
+<event id="E5">
+<type class="Gene_Activation" />
+<Agent idref="T7" />
+<Theme idref="T9" />
+<clue>Under anaerobic conditions, FNR binds to a site centred at position -41.5 at pnrfA and <clueType>activates</clueType> transcription.</clue>
+</event>
+<sentence id="S5"><term sem="Gene_Activation" id="T10" lex="Further_activation">Further activation</term>, induced by the presence of <term sem="Inorganic_Compounds" id="T11" lex="nitrite">nitrite</term>, results from the binding of <term sem="Regulator" id="T12" lex="NarL_and_NarP">NarL and NarP</term> to <term sem="Locus" id="T13" lex="a_site">a site</term> centred at position -74.5.</sentence>
+<event id="E6">
+<type class="GRE" />
+<Theme idref="T10" />
+<Condition idref="T11" />
+<clue>Further activation, <clueType>induced</clueType> by the presence of nitrite, results from the binding of NarL and NarP to a site centred at position -74.5.</clue>
+</event>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Descriptive-Agent idref="E8" />
+<clue>Further activation, induced by the presence of nitrite, <clueType>results</clueType> from the binding of NarL and NarP to a site centred at position -74.5.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T12" />
+<Destination idref="T13" />
+<clue>Further activation, induced by the presence of nitrite, results from the <clueType>binding</clueType> of NarL and NarP to a site centred at position -74.5.</clue>
+</event>
+<sentence id="S6">A second promoter (<term sem="Promoter" id="T14" lex="pacsP1">pacsP1</term>), which directs transcription into <term sem="Gene" id="T15" lex="the_adjacent_gene">the adjacent gene</term> encoding <term sem="Enzyme" id="T16" lex="acetyl_coenzyme_A_synthetase">acetyl coenzyme A synthetase</term> (<term sem="SPAN" id="T17" lex="acs">acs</term>), is overlapping and divergent to <term sem="Promoter" id="T18" lex="pnrfA">pnrfA</term>.</sentence>
+<event id="E9">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="E10" />
+<clue>A second promoter (pacsP1), which <clueType>directs</clueType> transcription into the adjacent gene encoding acetyl coenzyme A synthetase (acs), is overlapping and divergent to pnrfA.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<Destination idref="T17" />
+<clue>A second promoter (pacsP1), which directs <clueType>transcription</clueType> into the adjacent gene encoding acetyl coenzyme A synthetase (acs), is overlapping and divergent to pnrfA.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="T17" />
+<Theme idref="T16" />
+<clue>A second promoter (pacsP1), which directs transcription into the adjacent gene <clueType>encoding</clueType> acetyl coenzyme A synthetase (acs), is overlapping and divergent to pnrfA.</clue>
+</event>
+<event id="E12">
+<type class="GRE" />
+<Theme idref="T14" />
+<Descriptive-Theme idref="T18" />
+<clue>A second promoter (pacsP1), which directs transcription into the adjacent gene encoding acetyl coenzyme A synthetase (acs), is <clueType>overlapping</clueType> and divergent to pnrfA.</clue>
+</event>
+<sentence id="S7">Despite extensive overlap of regulatory elements, <term sem="Promoter" id="T19" lex="pnrfA_and_pacsP1">pnrfA and pacsP1</term> are regulated <term sem="SPAN" id="T20" lex="independently">independently</term>.</sentence>
+<event id="E13">
+<type class="Regulation" />
+<Theme idref="T19" />
+<Manner idref="T20" />
+<clue>Despite extensive overlap of regulatory elements, pnrfA and pacsP1 are <clueType>regulated</clueType> independently.</clue>
+</event>
+<sentence id="S8">We demonstrate that <term sem="Regulator" id="T21" lex="at_least_two_nucleoid-associated_factors">at least two nucleoid-associated factors</term> bind to <term sem="Locus" id="T22" lex="the_nrfA-acs_intergenic_region">the nrfA-acs intergenic region</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T21" />
+<Destination idref="T22" />
+<clue>We demonstrate that at least two nucleoid-associated factors <clueType>bind</clueType> to the nrfA-acs intergenic region.</clue>
+</event>
+<sentence id="S9"><term sem="Repressor" id="T23" lex="The_Fis_protein">The Fis protein</term> binds to <term sem="Locus" id="T24" lex="a_site">a site</term> centred at position -15 (in relation to <term sem="Gene" id="T25" lex="pnrfA">pnrfA</term> transcription), whereas <term sem="Repressor" id="T26" lex="the_IHF_protein">the IHF protein</term> binds to <term sem="Locus" id="T27" lex="a_site">a site</term> centred at position -54.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T23" />
+<Theme idref="T24" />
+<clue>The Fis protein <clueType>binds</clueType> to a site centred at position -15 (in relation to pnrfA transcription), whereas the IHF protein binds to a site centred at position -54.</clue>
+</event>
+<event id="E16">
+<type class="Transcription" />
+<Theme idref="T25" />
+<clue>The Fis protein binds to a site centred at position -15 (in relation to pnrfA <clueType>transcription</clueType>), whereas the IHF protein binds to a site centred at position -54.</clue>
+</event>
+<event id="E17">
+<type class="GRE" />
+<Agent idref="T26" />
+<Destination idref="T27" />
+<clue>The Fis protein binds to a site centred at position -15 (in relation to pnrfA transcription), whereas the IHF protein <clueType>binds</clueType> to a site centred at position -54.</clue>
+</event>
+<sentence id="S10">Both <term sem="Repressor" id="T28" lex="Fis">Fis</term> and <term sem="Repressor" id="T29" lex="IHF">IHF</term> repress <term sem="SPAN" id="T30" lex="in_vivo">in vivo</term> expression from <term sem="Promoter" id="T31" lex="pacsP1">pacsP1</term>, but have smaller repressive effects on expression from <term sem="Gene" id="T32" lex="pnrfA">pnrfA</term>.</sentence>
+<event id="E18">
+<type class="Gene_Repression" />
+<Agent idref="T28" idref1="T29" />
+<Theme idref="E19" />
+<clue>Both Fis and IHF <clueType>repress</clueType> in vivo expression from pacsP1, but have smaller repressive effects on expression from pnrfA.</clue>
+</event>
+<event id="E19">
+<type class="Gene_Expression" />
+<Manner idref="T30" />
+<Source idref="T31" />
+<clue>Both Fis and IHF repress in vivo <clueType>expression</clueType> from pacsP1, but have smaller repressive effects on expression from pnrfA.</clue>
+</event>
+<event id="E20">
+<type class="Gene_Expression" />
+<Theme idref="T32" />
+<clue>Both Fis and IHF repress in vivo expression from pacsP1, but have smaller repressive effects on <clueType>expression</clueType> from pnrfA.</clue>
+</event>
+<sentence id="S11">Gel retardation assays were used to investigate the <term sem="SPAN" id="T33" lex="pairwise">pairwise</term> binding of <term sem="Regulator" id="T34" lex="FNR,_NarL,_Fis_and_IHF_proteins">FNR, NarL, Fis and IHF proteins</term> to <term sem="Locus" id="T35" lex="the_nrfA-acs_intergenic_region">the nrfA-acs intergenic region</term>.</sentence>
+<event id="E21">
+<type class="GRE" />
+<Agent idref="T34" />
+<Manner idref="T33" />
+<Destination idref="T35" />
+<clue>Gel retardation assays were used to investigate the pairwise <clueType>binding</clueType> of FNR, NarL, Fis and IHF proteins to the nrfA-acs intergenic region.</clue>
+</event>
+<sentence id="S12">The binding of <term sem="Regulator" id="T36" lex="NarL_and_IHF">NarL and IHF</term> is mutually exclusive, whereas all other combinations can bind simultaneously.</sentence>
+<event id="E22">
+<type class="GRE" />
+<Agent idref="T36" />
+<clue>The <clueType>binding</clueType> of NarL and IHF is mutually exclusive, whereas all other combinations can bind simultaneously.</clue>
+</event>
+<sentence id="S13">Experiments in which <term sem="Mutation" id="T37" lex="deletions_and_point_mutations">deletions and point mutations</term> were introduced into the upstream region of <term sem="Promoter" id="T38" lex="pnrfA">pnrfA</term> demonstrated that <term sem="SPAN" id="T39" lex="an_additional_factor">an additional factor</term> must bind <term sem="Locus" id="T40" lex="upstream">upstream</term> to inhibit <term sem="Transcription" id="T41" lex="FNR-dependent_transcription">FNR-dependent transcription</term>.</sentence>
+<event id="E23">
+<type class="GRE" />
+<Theme idref="T37" />
+<Destination idref="T38" />
+<clue>Experiments in which deletions and point mutations were <clueType>introduced</clueType> into the upstream region of pnrfA demonstrated that an additional factor must bind upstream to inhibit FNR-dependent transcription.</clue>
+</event>
+<event id="E24">
+<type class="GRE" />
+<Agent idref="T39" />
+<Destination idref="T40" />
+<clue>Experiments in which deletions and point mutations were introduced into the upstream region of pnrfA demonstrated that an additional factor must <clueType>bind</clueType> upstream to inhibit FNR-dependent transcription.</clue>
+</event>
+<event id="E25">
+<type class="Gene_Repression" />
+<Agent idref="T39" />
+<Theme idref="T41" />
+<clue>Experiments in which deletions and point mutations were introduced into the upstream region of pnrfA demonstrated that an additional factor must bind upstream to <clueType>inhibit</clueType> FNR-dependent transcription.</clue>
+</event>
+<sentence id="S14">We conclude that the nrfA-acs intergenic region is folded into an ordered nucleoprotein structure that permits <term sem="Promoter" id="T42" lex="the_two_divergent_promoters">the two divergent promoters</term> to be regulated <term sem="SPAN" id="T43" lex="independently">independently</term> in response to <term sem="SPAN" id="T44" lex="different_physiological_signals">different physiological signals</term>.</sentence>
+<event id="E26">
+<type class="Regulation" />
+<Theme idref="T42" />
+<Manner idref="T43" />
+<Condition idref="T44" />
+<clue>We conclude that the nrfA-acs intergenic region is folded into an ordered nucleoprotein structure that permits the two divergent promoters to be <clueType>regulated</clueType> independently in response to different physiological signals.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

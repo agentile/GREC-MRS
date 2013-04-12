@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15805526">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15805526</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Catabolite repression of the propionate catabolic genes in Escherichia coli and Salmonella enterica: evidence for involvement of the cyclic AMP receptor protein.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Previous studies with Salmonella enterica serovar Typhimurium LT2 demonstrated that transcriptional activation of <term sem="Operon" id="T1" lex="the_prpBCDE_operon">the prpBCDE operon</term> requires the function of <term sem="Transcription_Factor" id="T2" lex="transcription_factor_PrpR,_sigma-54,_and_IHF.">transcription factor PrpR, sigma-54, and IHF.</term></sentence>
+<event id="E1">
+<type class="Gene_Activation" />
+<Theme idref="T1" />
+<clue>Previous studies with Salmonella enterica serovar Typhimurium LT2 demonstrated that transcriptional <clueType>activation</clueType> of the prpBCDE operon requires the function of transcription factor PrpR, sigma-54, and IHF.</clue>
+</event>
+<event id="E2">
+<type class="GRE" />
+<Agent idref="E1" />
+<Theme idref="E3" />
+<clue>Previous studies with Salmonella enterica serovar Typhimurium LT2 demonstrated that transcriptional activation of the prpBCDE operon <clueType>requires</clueType> the function of transcription factor PrpR, sigma-54, and IHF.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Theme idref="T2" />
+<clue>Previous studies with Salmonella enterica serovar Typhimurium LT2 demonstrated that transcriptional activation of the prpBCDE operon requires the <clueType>function</clueType> of transcription factor PrpR, sigma-54, and IHF.</clue>
+</event>
+<sentence id="S4">In this study, we found that transcription from the prpBCDE and prpR promoters was down-regulated by the addition of glucose or glycerol, indicating that <term sem="Gene" id="T3" lex="these_genes">these genes</term> may be regulated by <term sem="SPAN" id="T4" lex="the_cyclic_AMP_(cAMP)-cAMP_receptor_protein_(CRP)_complex">the cyclic AMP (<term sem="Protein_Complex" id="T5" lex="cAMP">cAMP</term>)-cAMP receptor protein (CRP) complex</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<Agent idref="T4" />
+<Theme idref="T3" />
+<clue>In this study, we found that transcription from the prpBCDE and prpR promoters was down-regulated by the addition of glucose or glycerol, indicating that these genes may be <clueType>regulated</clueType> by the cyclic AMP (cAMP)-cAMP receptor protein (CRP) complex.</clue>
+</event>
+<sentence id="S5">Targeted mutagenesis of a putative CRP-binding site in the promoter region between prpR and prpBCDE suggested that these genes are under the control of CRP.</sentence>
+<sentence id="S6">Furthermore, cells with <term sem="SPAN" id="T6" lex="defects">defects</term> in cya or crp exhibited <term sem="SPAN" id="T7" lex="reduced">reduced</term> transcriptional activation of <term sem="Gene" id="T8" lex="prpR_and_prpBCDE">prpR and prpBCDE</term> in <term sem="Wild_Type_Bacteria" id="T9" lex="Escherichia_coli">Escherichia coli</term>.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T6" />
+<Theme idref="E6" />
+<Manner idref="T7" />
+<clue>Furthermore, cells with defects in cya or crp <clueType>exhibited</clueType> reduced transcriptional activation of prpR and prpBCDE in Escherichia coli.</clue>
+</event>
+<event id="E6">
+<type class="Gene_Activation" />
+<Theme idref="T8" />
+<Location idref="T9" />
+<clue>Furthermore, cells with defects in cya or crp exhibited reduced transcriptional <clueType>activation</clueType> of prpR and prpBCDE in Escherichia coli.</clue>
+</event>
+<sentence id="S7">These results demonstrate that propionate metabolism is subject to catabolite repression by the global transcriptional regulator CRP and that <term sem="Regulation" id="T10" lex="this_regulation">this regulation</term> is effected through control of both the <term sem="Gene" id="T11" lex="regulator_gene_prpR">regulator gene prpR</term> and <term sem="Operon" id="T12" lex="the_prpBCDE_operon">the prpBCDE operon</term> itself.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Theme idref="T10" />
+<Descriptive-Theme idref="E8" />
+<clue>These results demonstrate that propionate metabolism is subject to catabolite repression by the global transcriptional regulator CRP and that this regulation is <clueType>effected</clueType> through control of both the regulator gene prpR and the prpBCDE operon itself.</clue>
+</event>
+<event id="E8">
+<type class="GRE" />
+<Theme idref="T11" idref1="T12" />
+<clue>These results demonstrate that propionate metabolism is subject to catabolite repression by the global transcriptional regulator CRP and that this regulation is effected through <clueType>control</clueType> of both the regulator gene prpR and the prpBCDE operon itself.</clue>
+</event>
+<sentence id="S8">The unique properties of the regulation of these two divergent promoters may have important implications for mechanisms of CRP-dependent catabolite repression acting in conjunction with a member of the sigma-54 family of transcriptional activators.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

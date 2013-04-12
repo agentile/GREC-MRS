@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=16077119">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>16077119</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="SPAN" id="T1" lex="The_Escherichia_coli_CpxA-CpxR_envelope_stress_response_system">The Escherichia coli CpxA-CpxR envelope stress response system</term> regulates expression of <term sem="Gene" id="T2" lex="the_porins_ompF_and_ompC">the porins ompF and ompC</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<Agent idref="T1" />
+<Theme idref="E2" />
+<clue>The Escherichia coli CpxA-CpxR envelope stress response system <clueType>regulates</clueType> expression of the porins ompF and ompC.</clue>
+</event>
+<event id="E2">
+<type class="Gene_Expression" />
+<Theme idref="T2" />
+<clue>The Escherichia coli CpxA-CpxR envelope stress response system regulates <clueType>expression</clueType> of the porins ompF and ompC.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We performed transposon mutagenesis of a two-color fluorescent reporter strain to identify new regulators of the porin genes ompF and ompC in Escherichia coli.</sentence>
+<sentence id="S4">Screening of colonies by fluorescence microscopy revealed <term sem=" Mutant_Bacteria" id="T3" lex="numerous_mutants">numerous mutants</term> that exhibited interesting patterns of <term sem="SPAN" id="T4" lex="porin">porin</term> expression.</sentence>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T3" />
+<Theme idref="E4" />
+<clue>Screening of colonies by fluorescence microscopy revealed numerous mutants that <clueType>exhibited</clueType> interesting patterns of porin expression.</clue>
+</event>
+<event id="E4">
+<type class="GRE" />
+<Theme idref="T4" />
+<clue>Screening of colonies by fluorescence microscopy revealed numerous mutants that exhibited interesting patterns of porin <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S5"><term sem=" Mutant_Bacteria" id="T5" lex="One_mutant">One mutant</term> harbored <term sem="Insertion" id="T6" lex="an_insertion">an insertion</term> in <term sem="Gene" id="T7" lex="the_gene">the gene</term> encoding <term sem="Enzyme" id="T8" lex="the_histidine_kinase_CpxA">the histidine kinase CpxA</term>, the sensor for a two-component signaling system that responds to envelope stress.</sentence>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<Location idref="T7" />
+<clue>One mutant <clueType>harbored</clueType> an insertion in the gene encoding the histidine kinase CpxA, the sensor for a two-component signaling system that responds to envelope stress.</clue>
+</event>
+<event id="E6">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="T8" />
+<clue>One mutant harbored an insertion in the gene <clueType>encoding</clueType> the histidine kinase CpxA, the sensor for a two-component signaling system that responds to envelope stress.</clue>
+</event>
+<sentence id="S6"><term sem=" Mutant_Bacteria" id="T9" lex="The_cpxA_mutant">The cpxA mutant</term> exhibited increased transcription of <term sem="Gene" id="T10" lex="ompC">ompC</term> and <term sem="SPAN" id="T11" lex="a_very_strong_decrease">a very strong decrease</term> in transcription of <term sem="Gene" id="T12" lex="ompF">ompF</term> under conditions in which <term sem="Enzyme" id="T13" lex="acetyl_phosphate_levels"><term sem="SPAN" id="T14" lex="acetyl_phosphate_levels_were_high">acetyl phosphate levels were high</term></term>.</sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T9" />
+<Theme idref="E8" />
+<clue>The cpxA mutant <clueType>exhibited</clueType> increased transcription of ompC and a very strong decrease in transcription of ompF under conditions in which acetyl phosphate levels were high.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<Theme idref="T10" />
+<clue>The cpxA mutant exhibited increased <clueType>transcription</clueType> of ompC and a very strong decrease in transcription of ompF under conditions in which acetyl phosphate levels were high.</clue>
+</event>
+<event id="E9">
+<type class="Transcription" />
+<Theme idref="T12" />
+<Manner idref="T11" />
+<Condition idref="T14" />
+<clue>The cpxA mutant exhibited increased transcription of ompC and a very strong decrease in <clueType>transcription</clueType> of ompF under conditions in which acetyl phosphate levels were high.</clue>
+</event>
+<sentence id="S7">Subsequent genetic analysis revealed that this phenotype is dependent on phosphorylation of the response regulator CpxR and that activation of <term sem="Gene" id="T15" lex="CpxA">CpxA</term> in <term sem="Cells" id="T16" lex="wild-type_cells">wild-type cells</term> results in similar regulation of <term sem="SPAN" id="T17" lex="porin">porin</term> expression.</sentence>
+<event id="E10">
+<type class="Gene_Activation" />
+<Theme idref="T15" />
+<Location idref="T16" />
+<clue>Subsequent genetic analysis revealed that this phenotype is dependent on phosphorylation of the response regulator CpxR and that <clueType>activation</clueType> of CpxA in wild-type cells results in similar regulation of porin expression.</clue>
+</event>
+<event id="E11">
+<type class="GRE" />
+<Agent idref="E10" />
+<Theme idref="T16" />
+<clue>Subsequent genetic analysis revealed that this phenotype is dependent on phosphorylation of the response regulator CpxR and that activation of CpxA in wild-type cells <clueType>results</clueType> in similar regulation of porin expression.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<Theme idref="E13" />
+<clue>Subsequent genetic analysis revealed that this phenotype is dependent on phosphorylation of the response regulator CpxR and that activation of CpxA in wild-type cells results in similar <clueType>regulation</clueType> of porin expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_Expression" />
+<Theme idref="T17" />
+<clue>Subsequent genetic analysis revealed that this phenotype is dependent on phosphorylation of the response regulator CpxR and that activation of CpxA in wild-type cells results in similar regulation of porin <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">Using DNase I footprinting, we demonstrated that <term sem="Protein" id="T18" lex="CpxR">CpxR</term> binds <term sem="SPAN" id="T19" lex="upstream">upstream</term> of both <term sem="Promoter" id="T20" lex="the_ompF_and_ompC_promoters">the ompF and ompC promoters</term>.</sentence>
+<event id="E14">
+<type class="GRE" />
+<Agent idref="T18" />
+<Destination idref="T19" />
+<clue>Using DNase I footprinting, we demonstrated that CpxR <clueType>binds</clueType> upstream of both the ompF and ompC promoters.</clue>
+</event>
+<sentence id="S9">It thus appears that two distinct two-component systems, CpxA-CpxR and EnvZ-OmpR, converge at the porin promoters.</sentence>
+<sentence id="S10">Within the context of envelope stress, outer membrane beta-barrel proteins have generally been associated with the sigma E pathway.</sentence>
+<sentence id="S11">However, at least for the classical porins OmpF and OmpC, our results show that <term sem="SPAN" id="T21" lex="the_Cpx_envelope_stress_response_system">the Cpx envelope stress response system</term> plays <term sem="SPAN" id="T22" lex="a_role_in_regulating_their_expression">a role in <term sem="Regulation" id="T23" lex="regulating">regulating</term> their expression</term><term sem="Gene_Expression" id="T24" lex="their_expression"></term>.</sentence>
+<event id="E15">
+<type class="GRE" />
+<Agent idref="T21" />
+<Theme idref="T22" />
+<clue>However, at least for the classical porins OmpF and OmpC, our results show that the Cpx envelope stress response system <clueType>plays</clueType> a role in regulating their expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+<Annotation created="11/5/2009" creator="a5" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=15879709">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>15879709</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Effects of FIS protein on rnpB transcription in Escherichia coli.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Factor for inversion stimulation (FIS), the Escherichia coli protein, is a positive regulator of the transcription of <term sem="Gene" id="T1" lex="genes">genes</term> that encode <term sem="RNA" id="T2" lex="stable_RNA_species">stable RNA species</term>, such as <term sem="RNA" id="T3" lex="rRNA">rRNA</term> and <term sem="RNA" id="T4" lex="tRNA">tRNA</term>.</sentence>
+<event id="E1">
+<type class="GRE" />
+<Agent idref="T1" />
+<Theme idref="T3" idref1="T4" />
+<clue>Factor for inversion stimulation (FIS), the Escherichia coli protein, is a positive regulator of the transcription of genes that <clueType>encode</clueType> stable RNA species, such as rRNA and tRNA.</clue>
+</event>
+<sentence id="S4">Transcription of <term sem="Gene" id="T5" lex="the_rnpB_gene">the rnpB gene</term> encoding <term sem="RNA" id="T6" lex="M1_RNA">M1 RNA</term>, the catalytic subunit of E. coli RNase P, rapidly declines under stringent conditions, as does that of other stable RNAs.</sentence>
+<event id="E2">
+<type class="Transcription" />
+<Theme idref="T5" />
+<clue><clueType>Transcription</clueType> of the rnpB gene encoding M1 RNA, the catalytic subunit of E. coli RNase P, rapidly declines under stringent conditions, as does that of other stable RNAs.</clue>
+</event>
+<event id="E3">
+<type class="GRE" />
+<Agent idref="T5" />
+<Theme idref="T6" />
+<clue>Transcription of the rnpB gene <clueType>encoding</clueType> M1 RNA, the catalytic subunit of E. coli RNase P, rapidly declines under stringent conditions, as does that of other stable RNAs.</clue>
+</event>
+<sentence id="S5">There are multiple putative FIS binding sites upstream of the rnpB promoter.</sentence>
+<sentence id="S6">We tested whether <term sem="Protein" id="T7" lex="FIS">FIS</term> binds to <term sem="SPAN" id="T8" lex="these_sites">these sites</term>, and if so, how it affects <term sem="Gene" id="T9" lex="rnpB">rnpB</term> transcription.</sentence>
+<event id="E4">
+<type class="GRE" />
+<Agent idref="T7" />
+<Destination idref="T8" />
+<clue>We tested whether FIS <clueType>binds</clueType> to these sites, and if so, how it affects rnpB transcription.</clue>
+</event>
+<event id="E5">
+<type class="GRE" />
+<Agent idref="T7" />
+<Theme idref="E6" />
+<clue>We tested whether FIS binds to these sites, and if so, how it <clueType>affects</clueType> rnpB transcription.</clue>
+</event>
+<event id="E6">
+<type class="Transcription" />
+<Theme idref="T9" />
+<clue>We tested whether FIS binds to these sites, and if so, how it affects rnpB <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S7">In vitro binding assays revealed specific binding of FIS to multiple sites in the rnpB promoter region.</sentence>
+<sentence id="S8">Interestingly, <term sem="Protein" id="T10" lex="FIS">FIS</term> bound not only to <term sem="SPAN" id="T11" lex="the_upstream_region_of_the_promoter">the upstream region of <term sem="Promoter" id="T12" lex="the_promoter">the promoter</term></term>, but also to <term sem="SPAN" id="T13" lex="the_region_from_+4_to_+18.">the region from +4 to +18.</term></sentence>
+<event id="E7">
+<type class="GRE" />
+<Agent idref="T10" />
+<Destination idref="T11" idref1="T13" />
+<clue>Interestingly, FIS <clueType>bound</clueType> not only to the upstream region of the promoter, but also to the region from +4 to +18.</clue>
+</event>
+<sentence id="S9"><term sem="SPAN" id="T14" lex="FIS">FIS</term> activated <term sem="Gene" id="T15" lex="rnpB">rnpB</term> transcription <term sem="SPAN" id="T16" lex="in_vitro">in vitro</term>, but the level of activation was much lower than that of the rrnB promoter for rRNA.</sentence>
+<event id="E8">
+<type class="GRE" />
+<Agent idref="T14" />
+<Theme idref="E9" />
+<Instrument idref="T16" />
+<clue>FIS <clueType>activated</clueType> rnpB transcription in vitro, but the level of activation was much lower than that of the rrnB promoter for rRNA.</clue>
+</event>
+<event id="E9">
+<type class="Transcription" />
+<Theme idref="T15" />
+<clue>FIS activated rnpB <clueType>transcription</clueType> in vitro, but the level of activation was much lower than that of the rrnB promoter for rRNA.</clue>
+</event>
+<sentence id="S10">We also examined the effects of FIS on rnpB transcription in vivo using isogenic fis+ and fis- strains.</sentence>
+<sentence id="S11">rnpB transcription was higher in the fis- than the fis+ cells during the transitions from lag to exponential phase, and from exponential to stationary phase.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>
