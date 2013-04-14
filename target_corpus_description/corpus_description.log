@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 APR 2013 22:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 APR 2013 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -37,47 +37,122 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@indent=\dimen106
+\caption@parindent=\dimen107
+\caption@hangindent=\dimen108
+)
+\c@ContinuedFloat=\count87
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/gb4e/gb4e.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/gb4e/cgloss4e.sty
+\lineone=\box26
+\linetwo=\box27
+\linethree=\box28
+\wordone=\box29
+\wordtwo=\box30
+\wordthree=\box31
+\gline=\box32
+\glossglue=\skip44
+)
+\c@fnx=\count88
+\@xnumdepth=\count89
+\c@xnumi=\count90
+\c@xnumii=\count91
+\c@xnumiii=\count92
+\c@xnumiv=\count93
+\c@exx=\count94
+\c@rxnumi=\count95
+\c@rxnumii=\count96
+\c@rxnumiii=\count97
+\c@rxnumiv=\count98
+\lcommentsep=\skip45
+)
 (./corpus_description.aux)
 \openout1 = `corpus_description.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
- [1
+(Font)              <6> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 41.
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./corp
-us_description.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+[1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Overfull \hbox (2.47375pt too wide) in paragraph at lines 102--103
+[]\OT1/cmr/m/n/10.95 annotated cor-pus to sup-port biomed-i-cal in-for-ma-tion 
+ex-trac-tion. \OT1/cmr/m/it/10.95 BMC Bioin-for-mat-ics\OT1/cmr/m/n/10.95 , 10(
+1):349. 
+ []
+
+[2] (./corpus_description.aux) ) 
 Here is how much of TeX's memory you used:
- 245 strings out of 493488
- 2889 string characters out of 3141326
- 49432 words of memory out of 3000000
- 3624 multiletter control sequences out of 15000+200000
- 6975 words of font info for 25 fonts, out of 3000000 for 9000
+ 1546 strings out of 493488
+ 24090 string characters out of 3141326
+ 82835 words of memory out of 3000000
+ 4901 multiletter control sequences out of 15000+200000
+ 8637 words of font info for 31 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 21i,6n,19p,149b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb>
-Output written on corpus_description.pdf (1 page, 27579 bytes).
+ 36i,7n,38p,752b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb>
+Output written on corpus_description.pdf (2 pages, 89762 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
