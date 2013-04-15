@@ -49,7 +49,7 @@ Events related to gene expression and regulation are comprised of either verbs (
 
 In addition to semantic roles that were selected (and sometimes modified to fit the domain) from VerbNet and PropBank,  a few domain-specific roles were created.  The 13 semantic roles used in annotation are AGENT, THEME, MANNER, INSTRUMENT, LOCATION, SOURCE, DESTINATION, RATE, TEMPORAL, CONDITION, PURPOSE, DESCRIPTIVE-AGENT, and DESCRIPTIVE-THEME.
 
-Biological concept labels were chosen from five different hierarchies that were based on the Gene Regulation Ontology.  The five hierarchies were {\it Nucleic\_Acids}, {\it Proteins}, {\it Living\_Systems}, {\it Processes}, and {\it Experimental}.  Each hierarchy consisted of increasingly specific labels.  For each argument, the most specific possible label was chosen from the hierarchies, based on context.
+Biological concept labels were chosen from five different hierarchies that were based on the Gene Regulation Ontology.  The five hierarchies are {\it Nucleic\_Acids}, {\it Proteins}, {\it Living\_Systems}, {\it Processes}, and {\it Experimental}.  Each hierarchy consists of increasingly specific labels.  For each argument, the most specific label  possible was chosen, based on context, from the hierarchies.
 
 Thompson et al. (2009) give the following example of a labeled event (shown in example 1), in which the event is the verb {\it activated} and the arguments of the event are {\it In Escherichia Coli}, {\it glnAP2},  and {\it NifA}.  These arguments were labeled with semantic roles and biological concept types as shown in Table \ref{tab:labels}.
 
@@ -72,7 +72,7 @@ In Escherichia Coli & LOCATION & Wild\_Type\_Bacteria \\ \hline
 \noindent {\bf Linguistic constraints}
 
 % How closely constrained are the annotations by linguistic (syntactic, morphological) structure?
-In order to ensure that the argument text spans chosen for annotation were consistent, the text was tagged using the GENIA tagger prior to annotation.  Example 2 shows a GENIA-tagged sentence (Thompson et al., 2009)  Only base NP chunks were annotated and any NP with additional descriptive information, typically indicated by an NP following a preposition,  was excluded.  Thus, the only arguments of the event {\it encoded} in example 2 are {\it The klebsiella rcsA gene} and {\it a polypeptide}.
+In order to ensure that the argument text spans chosen for annotation were consistent, the text was tagged using the GENIA tagger prior to annotation.  Example 2 shows a GENIA-tagged sentence (Thompson et al., 2009).  Only base NP chunks were annotated and any NP with additional descriptive information, typically indicated by an NP following a preposition,  was excluded.  Thus, the only arguments of the event {\it encoded} in example 2 are {\it The klebsiella rcsA gene} and {\it a polypeptide} (Thompson et al., 2009).
 
 \begin{exe}
 	\ex $[$NP The klebsiella rcsA gene] [VP encoded] [NP a polypeptide] [PP of] [NP 23 kDa].
