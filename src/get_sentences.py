@@ -89,7 +89,7 @@ def main():
             annotated_sentences.append(sentence)
 
 
-    #output_sentences(annotated_sentences)
+    output_sentences(annotated_sentences)
 
 
 
