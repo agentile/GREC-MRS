@@ -4,20 +4,54 @@ In vitro transcription from ompB promoter fragments was specifically blocked by 
 
 RELS:
 [ udef_q_rel<0:51> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+
+
 [ "_in+vitro_a_1_rel"<0:8> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+In vitro
+
+
 [ "_transcription_n_1_rel"<9:22> LBL: h7 ARG0: x3 ]
+transcription
+
+
 [ _from_p_rel<23:27> LBL: h7 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+from
+
+
 [ udef_q_rel<28:51> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ompB promoter fragments
+
+
 [ "_ompb/JJ_u_unknown_rel"<28:32> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ompB
+
+
 [ compound_rel<33:51> LBL: h14 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x17 [ x IND: + ] ]
+promoter fragments
+
+
 [ udef_q_rel<33:41> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
 [ "_promoter_n_of_rel"<33:41> LBL: h21 ARG0: x17 ARG1: i22 ]
+promoter
+
+
 [ "_fragment_n_1_rel"<42:51> LBL: h14 ARG0: x10 ]
+fragments
+
+
 [ "_specific_a_to_rel"<56:68> LBL: h1 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+specifically
+
+
 [ "_block_v_1_rel"<69:76> LBL: h1 ARG0: e2 ARG1: x24 [ x PERS: 3 NUM: sg IND: + ] ARG2: x3 ]
 [ parg_d_rel<69:76> LBL: h1 ARG0: e25 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+blocked
+
+
 [ proper_q_rel<80:84> LBL: h26 ARG0: x24 RSTR: h27 BODY: h28 ]
 [ named_rel<80:84> LBL: h29 CARG: "IHF" ARG0: x24 ]
+IHF.
+
 
 HCONS: 
 < h0 qeq h1 h5 qeq h7 h12 qeq h14 h19 qeq h21 h27 qeq h29 >
@@ -58,6 +92,8 @@ udef_q_rel<33:41> : Source
 "_promoter_n_of_rel"<33:41> : Source
 "_fragment_n_1_rel"<42:51> : Source
 
+ARG0: x3
+
 
 
 Event E7
@@ -67,9 +103,22 @@ Agent string - IHF
 proper_q_rel<80:84> : Agent
 named_rel<80:84> : Agent
 
-Theme string - transcription (??)
-"_transcription_n_1_rel"<9:22> : Theme (??)
+Theme (E6)
+"_in+vitro_a_1_rel"<0:8> : Manner
+udef_q_rel<28:51> : Source
+"_ompb/JJ_u_unknown_rel"<28:32> : Source
+compound_rel<33:51> : Source
+udef_q_rel<33:41> : Source
+"_promoter_n_of_rel"<33:41> : Source
+"_fragment_n_1_rel"<42:51> : Source
 
 Manner string - specifically
 "_specific_a_to_rel"<56:68> : Manner
 
+ARG0: e2 
+ARG1: x24 
+ARG2: x3
+
+ARG0: e25
+ARG1: e2 
+ARG2: x3
