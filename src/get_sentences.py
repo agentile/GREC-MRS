@@ -5,6 +5,9 @@ from term import Term
 from event import Event
 
 
+# need to add a way to get nested terms
+
+
 def get_filenames(directories):
     file_paths = []
     for directory in directories:
@@ -14,6 +17,7 @@ def get_filenames(directories):
                 file_paths.append(path)
     return file_paths
 
+# creates a sentence object.  appends a list of events to each sentence.
 def store_data(input_file, filename, all_sentences):
     semantic_roles = ['Agent', 'Theme', 'Manner', 'Instrument', 'Location', \
                         'Source', 'Destination', 'Temporal', 'Condition', \
@@ -66,9 +70,16 @@ def store_data(input_file, filename, all_sentences):
 def output_sentences(all_sentences):
     #f = open('sentences_for_erg', 'w')
     for s in all_sentences:
-        if len(s.terms) > 0:
-            print s.text
- 
+        print s.text 
+
+
+# find a particular sentence.  using this to get GREC sentence/terms to
+# match up with MRS sentence
+def find_sentence(annotated_sentences, s):
+    for sentence in annotated_sentences:
+        if sentence.text == s:
+            print sentence.text
+            # print other stuff
 
 
 
@@ -89,7 +100,12 @@ def main():
             annotated_sentences.append(sentence)
 
 
-    output_sentences(annotated_sentences)
+    mrs_sentence = 'Complementation analysis of the wild-type and mutant ompR genes exhibiting different phenotypes of osmoregulation of the ompF and ompC genes of Escherichia coli.'
+    find_sentence(annotated_sentences, mrs_sentence)
+
+
+
+    #output_sentences(annotated_sentences)
 
 
 
