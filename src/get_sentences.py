@@ -78,7 +78,7 @@ def output_sentences(all_sentences):
 def find_sentence(annotated_sentences, s):
     for sentence in annotated_sentences:
         if sentence.text == s:
-            print sentence.text
+            print sentence.filename
             # print other stuff
 
 
