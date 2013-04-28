@@ -28,3 +28,209 @@
 
 
 \end{document}
+
+
+
+%As discussed in class, I think you'll likely have more traction in
+%mapping the semantic roles than in trying to do anything with the
+%ontological categories. For the semantic roles, you may well need to
+%create a lexical resource which specifies the mapping of MRS role
+%labels (ARGn) to GREC semantic roles.
+
+%I'm also interested to see what kind of parsing accuracy/coverage
+%you're going to get with the ERG, given the domain-specific vocab.
+
+%-------------------------
+
+%<ArticleTitle>
+    %Positive and negative control of ompB transcription in Escherichia coli by cyclic AMP and the cyclic AMP receptor protein.
+%</ArticleTitle>
+%<Pagination>
+  %<MedlinePgn>664-70</MedlinePgn>
+%</Pagination>
+%<Abstract>
+  %<AbstractText>
+      %The ompB operon encodes OmpR and EnvZ, two proteins that are necessary for the expression and osmoregulation of the OmpF and OmpC porins in Escherichia coli. 
+      %We have used in vitro and in vivo experiments to show that cyclic AMP and the cyclic AMP receptor protein (CRP) directly regulate ompB. 
+      %ompB expression in an ompB-lacZ chromosomal fusion strain was increased two- to fivefold when cells were grown in medium containing poor carbon sources or with added cyclic AMP. 
+      %In vivo primer extension analysis indicated that this control is complex and involves both positive and negative effects by cyclic AMP-CRP on multiple ompB promoters. 
+      %In vitro footprinting showed that cyclic AMP-CRP binds to a 34-bp site centered at -53 and at -75 in relation to the start sites of the major transcripts that are inhibited and activated, respectively, by this complex. 
+      %Site-directed mutagenesis of the crp binding site provided evidence that this site is necessary for the in vivo regulation of ompB expression by cyclic AMP. 
+      %Control of the ompB operon by cyclic AMP-CRP may account for the observed regulation of the formation of OmpF and OmpC by this complex (N. W. Scott and C. R. Harwood, FEMS Microbiol. Lett. 9:95-98, 1980).
+  %</AbstractText>
+%</Abstract>
+
+%---------------
+
+%<?xml version="1.0" encoding="utf-8"?>
+%<!DOCTYPE Annotation PUBLIC "-//GREC//DTD GREC EVENT ANNOTATION//EN" "../GRECResources/GREC_event.dtd">
+%<Annotation created="11/5/2009" creator="a6" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1310090">
+%<PubmedArticleSet>
+%<PubmedArticle>
+%<MedlineCitation>
+%<PMID>1310090</PMID>
+%<Article>
+%<ArticleTitle>
+%<sentence id="S1">Positive and negative control of <term sem="SPAN" id="T1" lex="ompB">ompB</term> transcription <term sem="SPAN" id="T2" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T3" lex="Escherichia_coli">Escherichia coli</term></term> by <term sem="Organic_Compounds" id="T4" lex="cyclic_AMP">cyclic AMP</term> and <term sem="Protein" id="T5" lex="the_cyclic_AMP_receptor_protein">the cyclic AMP receptor protein</term>.</sentence>
+%<event id="E1">
+%<type class="Transcription" />
+%<Agent idref="T4" idref1="T5" />
+%<Theme idref="T1" />
+%<Location idref="T2" />
+%<clue>Positive and negative control of ompB <clueType>transcription</clueType> in Escherichia coli by cyclic AMP and the cyclic AMP receptor protein.</clue>
+%</event>
+%</ArticleTitle>
+%<Abstract>
+%<AbstractText>
+%<sentence id="S3"><term sem="Operon" id="T6" lex="The_ompB_operon">The ompB operon</term> encodes <term sem="Protein" id="T7" lex="OmpR_and_EnvZ">OmpR and EnvZ</term>, two proteins that are necessary for the expression and osmoregulation of <term sem="Protein" id="T8" lex="the_OmpF_and_OmpC_porins">the OmpF and OmpC porins</term> <term sem="SPAN" id="T9" lex="in_Escherichia_coli">in <term sem="Wild_Type_Bacteria" id="T10" lex="Escherichia_coli">Escherichia coli</term></term>.</sentence>
+%<event id="E2">
+%<type class="GRE" />
+%<Agent idref="T6" />
+%<Theme idref="T7" />
+%<clue>The ompB operon <clueType>encodes</clueType> OmpR and EnvZ, two proteins that are necessary for the expression and osmoregulation of the OmpF and OmpC porins in Escherichia coli.</clue>
+%</event>
+%<event id="E3">
+%<type class="Gene_Expression" />
+%<Theme idref="T8" />
+%<Location idref="T9" />
+%<clue>The ompB operon encodes OmpR and EnvZ, two proteins that are necessary for the <clueType>expression</clueType> and osmoregulation of the OmpF and OmpC porins in Escherichia coli.</clue>
+%</event>
+%<event id="E4">
+%<type class="Regulation" />
+%<Theme idref="T8" />
+%<Location idref="T9" />
+%<clue>The ompB operon encodes OmpR and EnvZ, two proteins that are necessary for the expression and <clueType>osmoregulation</clueType> of the OmpF and OmpC porins in Escherichia coli.</clue>
+%</event>
+%<sentence id="S4">We have used in vitro and in vivo experiments to show that cyclic AMP and the cyclic AMP receptor protein (CRP) directly regulate ompB.</sentence>
+%<sentence id="S5"><term sem="Gene" id="T11" lex="ompB">ompB</term> expression <term sem="SPAN" id="T12" lex="in_an_ompB-lacZ_chromosomal_fusion_strain">in <term sem=" Mutant_Bacteria" id="T13" lex="an_ompB-lacZ_chromosomal_fusion_strain">an ompB-lacZ chromosomal fusion strain</term></term> was increased <term sem="SPAN" id="T14" lex="two-_to_fivefold">two- to fivefold</term> <term sem="SPAN" id="T15" lex="when_cells_were_grown">when <term sem="Wild_Type_Bacteria" id="T16" lex="cells">cells</term> were grown</term> in <term sem="Organic_Compounds" id="T17" lex="medium_containing_poor_carbon_sources_or_with_added_cyclic_AMP">medium containing poor carbon sources or with added cyclic AMP</term>.</sentence>
+%<event id="E5">
+%<type class="Gene_Expression" />
+%<Theme idref="T11" />
+%<Location idref="T12" />
+%<clue>ompB <clueType>expression</clueType> in an ompB-lacZ chromosomal fusion strain was increased two- to fivefold when cells were grown in medium containing poor carbon sources or with added cyclic AMP.</clue>
+%</event>
+%<event id="E6">
+%<type class="GRE" />
+%<Theme idref="E5" />
+%<Condition idref="T17" />
+%<Rate idref="T14" />
+%<Temporal idref="T15" />
+%<clue>ompB expression in an ompB-lacZ chromosomal fusion strain was <clueType>increased</clueType> two- to fivefold when cells were grown in medium containing poor carbon sources or with added cyclic AMP.</clue>
+%</event>
+%<sentence id="S6">In vivo primer extension analysis indicated that <term sem="SPAN" id="T18" lex="this_control">this control</term> is complex and involves both <term sem="SPAN" id="T19" lex="positive_and_negative">positive and negative</term> effects by <term sem="Protein_Complex" id="T20" lex="cyclic_AMP-CRP">cyclic AMP-CRP</term> <term sem="SPAN" id="T21" lex="on_multiple_ompB_promoters">on <term sem="Promoter" id="T22" lex="multiple_ompB_promoters">multiple ompB promoters</term></term>.</sentence>
+%<event id="E7">
+%<type class="GRE" />
+%<Theme idref="T18" />
+%<Descriptive-Theme idref="E8" />
+%<clue>In vivo primer extension analysis indicated that this control is complex and <clueType>involves</clueType> both positive and negative effects by cyclic AMP-CRP on multiple ompB promoters.</clue>
+%</event>
+%<event id="E8">
+%<type class="GRE" />
+%<Agent idref="T20" />
+%<Manner idref="T19" />
+%<Location idref="T21" />
+%<clue>In vivo primer extension analysis indicated that this control is complex and involves both positive and negative <clueType>effects</clueType> by cyclic AMP-CRP on multiple ompB promoters.</clue>
+%</event>
+%<sentence id="S7">In vitro footprinting showed that <term sem="Protein_Complex" id="T23" lex="cyclic_AMP-CRP">cyclic AMP-CRP</term> binds to <term sem="Locus" id="T24" lex="a_34-bp_site">a 34-bp site</term> centered at -53 and at -75 in relation to the start sites of <term sem="mRNA" id="T25" lex="the_major_transcripts">the major transcripts</term> that are inhibited and activated, respectively, by <term sem="Protein_Complex" id="T26" lex="this_complex">this complex</term>.</sentence>
+%<event id="E9">
+%<type class="GRE" />
+%<Agent idref="T23" />
+%<Destination idref="T24" />
+%<clue>In vitro footprinting showed that cyclic AMP-CRP <clueType>binds</clueType> to a 34-bp site centered at -53 and at -75 in relation to the start sites of the major transcripts that are inhibited and activated, respectively, by this complex.</clue>
+%</event>
+%<event id="E10">
+%<type class="Gene_Repression" />
+%<Agent idref="T26" />
+%<Theme idref="T25" />
+%<clue>In vitro footprinting showed that cyclic AMP-CRP binds to a 34-bp site centered at -53 and at -75 in relation to the start sites of the major transcripts that are <clueType>inhibited</clueType> and activated, respectively, by this complex.</clue>
+%</event>
+%<event id="E11">
+%<type class="Gene_Activation" />
+%<Agent idref="T26" />
+%<Theme idref="T25" />
+%<clue>In vitro footprinting showed that cyclic AMP-CRP binds to a 34-bp site centered at -53 and at -75 in relation to the start sites of the major transcripts that are inhibited and <clueType>activated</clueType>, respectively, by this complex.</clue>
+%</event>
+%<sentence id="S8">Site-directed mutagenesis of the crp binding site provided evidence that this site is necessary for the <term sem="SPAN" id="T27" lex="in_vivo">in vivo</term> regulation of <term sem="Gene" id="T28" lex="ompB">ompB</term> expression by <term sem="Organic_Compounds" id="T29" lex="cyclic_AMP">cyclic AMP</term>.</sentence>
+%<event id="E12">
+%<type class="Regulation" />
+%<Agent idref="T29" />
+%<Theme idref="E13" />
+%<Manner idref="T27" />
+%<clue>Site-directed mutagenesis of the crp binding site provided evidence that this site is necessary for the in vivo <clueType>regulation</clueType> of ompB expression by cyclic AMP.</clue>
+%</event>
+%<event id="E13">
+%<type class="Gene_Expression" />
+%<Theme idref="T28" />
+%<clue>Site-directed mutagenesis of the crp binding site provided evidence that this site is necessary for the in vivo regulation of ompB <clueType>expression</clueType> by cyclic AMP.</clue>
+%</event>
+%<sentence id="S9">Control of <term sem="Operon" id="T30" lex="the_ompB_operon">the ompB operon</term> by <term sem="Protein_Complex" id="T31" lex="cyclic_AMP-CRP">cyclic AMP-CRP</term> may account for the observed regulation of the formation of <term sem="Protein" id="T32" lex="OmpF_and_OmpC">OmpF and OmpC</term> by <term sem="Protein_Complex" id="T33" lex="this_complex">this complex</term> (N.W. Scott and C.R. Harwood, FEMS Microbiol. Lett. 9:95-98, 1980).</sentence>
+%<event id="E14">
+%<type class="GRE" />
+%<Agent idref="T31" />
+%<Theme idref="T30" />
+%<clue><clueType>Control</clueType> of the ompB operon by cyclic AMP-CRP may account for the observed regulation of the formation of OmpF and OmpC by this complex (N.W. Scott and C.R. Harwood, FEMS Microbiol. Lett. 9:95-98, 1980).</clue>
+%</event>
+%<event id="E15">
+%<type class="Regulation" />
+%<Theme idref="E16" />
+%<clue>Control of the ompB operon by cyclic AMP-CRP may account for the observed <clueType>regulation</clueType> of the formation of OmpF and OmpC by this complex (N.W. Scott and C.R. Harwood, FEMS Microbiol. Lett. 9:95-98, 1980).</clue>
+%</event>
+%<event id="E16">
+%<type class="GRE" />
+%<Agent idref="T33" />
+%<Theme idref="T32" />
+%<clue>Control of the ompB operon by cyclic AMP-CRP may account for the observed regulation of the <clueType>formation</clueType> of OmpF and OmpC by this complex (N.W. Scott and C.R. Harwood, FEMS Microbiol. Lett. 9:95-98, 1980).</clue>
+%</event>
+%</AbstractText>
+%</Abstract>
+%</Article>
+%</MedlineCitation>
+%</PubmedArticle>
+%</PubmedArticleSet>
+%</Annotation>
+
+%-------------
+
+%SENT: The ompB operon encodes OmpR and EnvZ, two proteins that are necessary for the expression and osmoregulation of the OmpF and OmpC porins in Escherichia coli.
+%[ LTOP: h0
+%INDEX: e2 [ e SF: prop ]
+%RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ %[ compound_rel<4:15> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ %[ proper_q_rel<4:8> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ %[ named_rel<4:8> LBL: h13 CARG: "ompB" ARG0: x9 ]
+ %[ "_operon/NN_u_unknown_rel"<9:15> LBL: h7 ARG0: x3 ]
+ %[ "_encode_v_1_rel"<16:23> LBL: h15 ARG0: e16 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ %[ udef_q_rel<24:38> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ %[ proper_q_rel<24:28> LBL: h21 ARG0: x22 [ x PERS: 3 NUM: sg IND: + ] RSTR: h23 BODY: h24 ]
+ %[ named_rel<24:28> LBL: h25 CARG: "OmpR" ARG0: x22 ]
+ %[ _and_c_rel<29:32> LBL: h27 ARG0: x17 L-INDEX: x22 R-INDEX: x28 [ x PERS: 3 NUM: sg IND: + ] ]
+ %[ proper_q_rel<33:38> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ %[ named_rel<33:38> LBL: h32 CARG: "EnvZ" ARG0: x28 ]
+ %[ subord_rel<39:157> LBL: h1 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h35 ARG2: h36 ]
+ %[ udef_q_rel<39:42> LBL: h37 ARG0: x38 [ x PERS: 3 NUM: pl ] RSTR: h39 BODY: h40 ]
+ %[ card_rel<39:42> LBL: h41 CARG: "2" ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x38 ]
+ %[ "_protein_n_1_rel"<43:51> LBL: h41 ARG0: x38 ]
+ %[ "_necessary_a_for_rel"<61:70> LBL: h41 ARG0: e44 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x38 ARG2: x45 [ x PERS: 3 ] ]
+ %[ _the_q_rel<75:78> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
+ %[ udef_q_rel<79:89> LBL: h49 ARG0: x50 [ x PERS: 3 NUM: sg ] RSTR: h51 BODY: h52 ]
+ %[ "_expression_n_1_rel"<79:89> LBL: h53 ARG0: x50 ]
+ %[ udef_q_rel<90:108> LBL: h54 ARG0: x55 [ x PERS: 3 NUM: sg ] RSTR: h56 BODY: h57 ]
+ %[ _and_c_rel<90:93> LBL: h58 ARG0: x45 L-INDEX: x50 R-INDEX: x55 ]
+ %[ "_osmoregulation/NN_u_unknown_rel"<94:108> LBL: h59 ARG0: x55 ]
+ %[ _of_p_rel<109:111> LBL: h58 ARG0: e60 [ e SF: prop ] ARG1: x45 ARG2: x61 [ x PERS: 3 NUM: pl ] ]
+ %[ _the_q_rel<112:115> LBL: h62 ARG0: x61 RSTR: h63 BODY: h64 ]
+ %[ compound_rel<116:136> LBL: h65 ARG0: e66 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x61 ARG2: x67 [ x PERS: 3 NUM: pl ] ]
+ %[ udef_q_rel<116:129> LBL: h68 ARG0: x67 RSTR: h69 BODY: h70 ]
+ %[ proper_q_rel<116:120> LBL: h71 ARG0: x72 [ x IND: + ] RSTR: h73 BODY: h74 ]
+ %[ named_rel<116:120> LBL: h75 CARG: "OmpF" ARG0: x72 ]
+ %[ _and_c_rel<121:124> LBL: h77 ARG0: x67 L-INDEX: x72 R-INDEX: x78 [ x IND: + ] ]
+ %[ proper_q_rel<125:129> LBL: h79 ARG0: x78 RSTR: h80 BODY: h81 ]
+ %[ named_rel<125:129> LBL: h82 CARG: "OmpC" ARG0: x78 ]
+ %[ "_porins/NNS_u_unknown_rel"<130:136> LBL: h65 ARG0: x61 ]
+ %[ _in_p_rel<137:139> LBL: h84 ARG0: e85 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x38 ARG2: x86 [ x PERS: 3 NUM: sg ] ]
+ %[ udef_q_rel<140:157> LBL: h87 ARG0: x86 RSTR: h88 BODY: h89 ]
+ %[ compound_rel<140:157> LBL: h90 ARG0: e91 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x86 ARG2: x92 [ x IND: + ] ]
+ %[ proper_q_rel<140:151> LBL: h93 ARG0: x92 RSTR: h94 BODY: h95 ]
+ %[ named_rel<140:151> LBL: h96 CARG: "Escherichia" ARG0: x92 ]
+ %[ "_coli/NN_u_unknown_rel"<152:157> LBL: h90 ARG0: x86 ] >
+%HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h27 h23 qeq h25 h30 qeq h32 h35 qeq h15 h36 qeq h84 h39 qeq h41 h47 qeq h58 h51 qeq h53 h56 qeq h59 h63 qeq h65 h69 qeq h77 h73 qeq h75 h80 qeq h82 h88 qeq h90 h94 qeq h96 > ]
