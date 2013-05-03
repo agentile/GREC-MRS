@@ -14,14 +14,77 @@
 \begin{document}
 \maketitle
 
-\noindent {\bf Formalism of target semantic representation}
+\noindent {\bf Formalism of GREC semantic representation}\newline
 
-\noindent {\bf Atomic pieces of the representations}
+The semantic annotations of the GREC corpus are centered around events related to gene expression and regulation. 
+These events stem from verbs or nominalized verbs within the MEDLINE abstract and title. The first sentence is evaluated to see 
+if it is on the topic gene regulation, if not, it goes on to the next sentence to do the same check. Of these sentences, 
+the main verb of the sentence is located. This is the verb that describes the main event of the sentence. \newline
 
-\noindent {\bf Evaluation}
+This means that events are not necessarily annotated in order. All events for all verbs are annotated as 
+long as the sentence is related to gene regulation. Related variables for these events are identified and then semantic roles are 
+listed corresponding to these variables. It is possible for the identified semantic roles to correspond with another event as 
+opposed to an identified trigger words. This means that there can be nested events. These annotations are available in an XML format as well as a standoff format.\newline
+
+\noindent {\bf Atomic pieces of the representations}\newline
+
+\noindent Using the standoff format of the annotations, the atomic pieces can be easily identified.\newline
+
+\noindent For each MEDLINE abstract we have three files corresponding to the PMID of the abstract.
+
+\begin{verbatim}
+1885551.txt
+1885551.a1
+1885551.a2
+\end{verbatim}
+
+\noindent The .txt file contains the text of the MEDLINE abstract on two lines. The first being the abstract title, the second being the body of the abstract.\newline
+\noindent The .a1 file contains named entity and event argument text spans. The .a2 file contains annotations relating to events.\newline
+
+1885551.a1 (snippet)
+\begin{verbatim}
+T1	Repressor 0 23	Integration host factor
+T2	SPAN 30 42	specifically
+T3	Locus 46 60	multiple sites
+T4	Transcription 115 128	transcription
+T5	Regulator 181 202	a DNA-binding protein
+T6	Gene 224 228	gene
+\end{verbatim}
+
+For each line we start with an ID for the annotation, followed by the annotation type, character offsets, and finally the surface text span of the annotation.\newline
+
+1885551.a2 (snippet)
+\begin{verbatim}
+T26	GRE 24 29	binds
+T27	GRE 106 114	inhibits
+T28	GRE 208 220	participates
+T29	Regulation 229 239	regulation
+T30	GRE 527 532	binds
+T31	Transcription 586 599	transcription
+T35	GRE 825 832	binding
+E1	GRE:T26 Agent:T1 Manner:T2 Destination:T3
+E2	GRE:T27 Agent:T1 Theme:T4
+E3	GRE:T28 Agent:T5 Location:T9,T11,T12 Descriptive-Agent:E4,T7,T8
+E4	Regulation:T29 Theme:T6 Location:T9
+\end{verbatim}
+
+At the top of the .a2 files are annotations related to event trigger words. These are in the same format as .a1 files and often of the type GRE (Gene Regulation Event) which are often assigned to the top level verb trigger words.
+After these event trigger word annotations, we have event annotations, for which the IDs start with 'E' instead of 'T'. Following this identifier is an event type and argument identifier pair followed by a list of semantic role 
+and argument identifier pairs for the corresponding event.\newline
+
+We will use most if not all of this information in our mapping. However, we will need to do certain manipulations. One such manipulation will be to change offsets from being on the abstract level to a sentence level to mimic the MRS.\newline
 
 
-\noindent {\bf References}
+\noindent {\bf Evaluation}\newline
+
+We hope to evaluate the MEDLINE abstract sentences independently using MRS and also with our gold standard GREC annotations.
+By doing so we will be able to identify the sentences in which MRS and GREC annotations representations deviate and further delve into what those deviations are. 
+We will measure the precision by taking the ouput of our mapping of the MRS format to GREC format and seeing where we have information that is not in the GREC annotations (gold standard). 
+For recall, we will take the the output of our mapping to see which parts of the GREC annotations (gold standard) are not mapped to correctly.\newline
+
+After these instances are quantified, the deviations will be listed for inspection. Furthermore, we plan to list which parts of the MRS were not needed in the mapping procedure for futher analysis.\newline
+
+\noindent {\bf References}\newline
 
 \noindent Paul Thompson, Syed A Iqbal, John McNaught and Sophia Ananiadou. 2009. Construction of an \\ \indent annotated corpus to support biomedical information extraction. {\em BMC Bioinformatics}, 10(1):349.
 

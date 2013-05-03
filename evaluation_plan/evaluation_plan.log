@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.26)  28 APR 2013 11:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.26)  3 MAY 2013 12:02
 entering extended mode
  %&-line parsing enabled.
 **evaluation_plan.tex
@@ -79,8 +79,7 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 \c@rxnumiii=\count97
 \c@rxnumiv=\count98
 \lcommentsep=\skip45
-)
-No file evaluation_plan.aux.
+) (./evaluation_plan.aux)
 \openout1 = `evaluation_plan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -104,22 +103,87 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
 
-Overfull \hbox (2.47375pt too wide) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Overfull \hbox (2.47375pt too wide) in paragraph at lines 89--90
 []\OT1/cmr/m/n/10.95 annotated cor-pus to sup-port biomed-i-cal in-for-ma-tion 
 ex-trac-tion. \OT1/cmr/m/it/10.95 BMC Bioin-for-mat-ics\OT1/cmr/m/n/10.95 , 10(
 1):349. 
  []
 
-[1
-
-] (./evaluation_plan.aux) ) 
+[2] (./evaluation_plan.aux) ) 
 Here is how much of TeX's memory you used:
- 1461 strings out of 493849
- 22207 string characters out of 1152845
- 82195 words of memory out of 3000000
- 4789 multiletter control sequences out of 15000+50000
- 7853 words of font info for 28 fonts, out of 3000000 for 9000
+ 1465 strings out of 493849
+ 22271 string characters out of 1152845
+ 85195 words of memory out of 3000000
+ 4790 multiletter control sequences out of 15000+50000
+ 8021 words of font info for 29 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 36i,6n,38p,251b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,38p,263b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on evaluation_plan.dvi (1 page, 720 bytes).
+Output written on evaluation_plan.dvi (2 pages, 5780 bytes).
