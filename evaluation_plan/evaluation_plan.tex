@@ -20,10 +20,10 @@ The semantic annotations of the GREC corpus are centered around events related t
 These events stem from verbs or nominalized verbs within the MEDLINE abstract and title. The first sentence is evaluated to see 
 if it is on the topic gene regulation, if not, it goes on to the next sentence to do the same check. Of these sentences, 
 the main verb of the sentence is located. This is the verb that describes the main event of the sentence. This event is annotated 
-first, and then events from other verbs in the sentence thereafter.\newline
+first, and then events from other verbs in the sentence thereafter. This means that events are not necessarily annotated in order. 
+All events for all verbs in a sentence are annotated as long as the sentence is related to gene regulation. \newline
 
-This means that events are not necessarily annotated in order. All events for all verbs in a sentence are annotated as 
-long as the sentence is related to gene regulation. Related variables for these events are identified and then semantic roles are 
+Related variables for these events are identified and then semantic roles are 
 listed corresponding to these variables. It is possible for the identified semantic roles to correspond with another event as 
 opposed to an identified trigger word. This means that there can be nested events. These annotations are available in an XML format as well as a standoff format.\newline
 
