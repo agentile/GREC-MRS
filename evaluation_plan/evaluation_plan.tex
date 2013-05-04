@@ -19,12 +19,20 @@
 The semantic annotations of the GREC corpus are centered around events related to gene expression and regulation. 
 These events stem from verbs or nominalized verbs within the MEDLINE abstract and title. The first sentence is evaluated to see 
 if it is on the topic gene regulation, if not, it goes on to the next sentence to do the same check. Of these sentences, 
-the main verb of the sentence is located. This is the verb that describes the main event of the sentence. \newline
+the main verb of the sentence is located. This is the verb that describes the main event of the sentence. This event is annotated 
+first, and then events from other verbs in the sentence thereafter.\newline
 
-This means that events are not necessarily annotated in order. All events for all verbs are annotated as 
+This means that events are not necessarily annotated in order. All events for all verbs in a sentence are annotated as 
 long as the sentence is related to gene regulation. Related variables for these events are identified and then semantic roles are 
 listed corresponding to these variables. It is possible for the identified semantic roles to correspond with another event as 
-opposed to an identified trigger words. This means that there can be nested events. These annotations are available in an XML format as well as a standoff format.\newline
+opposed to an identified trigger word. This means that there can be nested events. These annotations are available in an XML format as well as a standoff format.\newline
+
+\noindent {\bf Different types of information encoded in the formalism}\newline
+
+Within the GREC annotations, we are provided with event relationships from verbs. Within these we have two main types of information. 
+First, we have concept classes used to label biological processes such as Repressor, Regulator, and Gene. Second, we have semantic role 
+types such as Theme, Manner, Agent, and Location. These two types of information are tied to spans of the sentence by unique identifiers 
+and structured within particular verb events that help us identify relationships.\newline
 
 \noindent {\bf Atomic pieces of the representations}\newline
 
@@ -72,17 +80,40 @@ At the top of the .a2 files are annotations related to event trigger words. Thes
 After these event trigger word annotations, we have event annotations, for which the IDs start with 'E' instead of 'T'. Following this identifier is an event type and argument identifier pair followed by a list of semantic role 
 and argument identifier pairs for the corresponding event.\newline
 
-We will use most if not all of this information in our mapping. However, we will need to do certain manipulations. One such manipulation will be to change offsets from being on the abstract level to a sentence level to mimic the MRS.\newline
+\noindent {\bf The atomic pieces to be used}\newline
+
+We will use most of this information in our mapping process, however, we do not plan to consider the type information, such as GRE, Regulation, and other biological concept types in our work. 
+We will be focused solely on the semantic role information provided. Additionally, we will need to do certain manipulations. One such manipulation will be to change offsets from being on the abstract level to a sentence level to mimic the MRS. \newline
 
 
-\noindent {\bf Evaluation}\newline
+
+\noindent {\bf Calculation of precision and recall}\newline
 
 We hope to evaluate the MEDLINE abstract sentences independently using MRS and also with our gold standard GREC annotations.
 By doing so we will be able to identify the sentences in which MRS and GREC annotations representations deviate and further delve into what those deviations are. 
 We will measure the precision by taking the ouput of our mapping of the MRS format to GREC format and seeing where we have information that is not in the GREC annotations (gold standard). 
 For recall, we will take the the output of our mapping to see which parts of the GREC annotations (gold standard) are not mapped to correctly.\newline
 
-After these instances are quantified, the deviations will be listed for inspection. Furthermore, we plan to coutn and list which parts of the MRS were not needed in the mapping procedure for futher analysis.\newline
+An example of such calculations are as follows:
+
+\begin{verbatim}
+GREC
+"transcription" <9:22>
+ARG1: Manner <0:8>
+ARG2: Source <28:51> 
+
+MRS
+"_transcription_n_1_rel" <9:22>
+ARG0: x3 <9:22> 
+\end{verbatim}
+
+From the MRS, the \verb|"_transcription_n_1_rel"| relation doesn't take any arguments so it doesn't provide us any relationships, whereas the GREC annotation (gold standard) provides for two. Given this sole context, we 
+would have a precision of 0/2 and a recall of 0/2.\newline
+
+\noindent {\bf Calculation of elements not mapped}\newline
+
+In addition to quantifying instances, we also intend to list the deviations for inspection. We plan to count and list which parts of the MRS were not needed in the mapping procedure for futher analysis.
+We hope to be able to provide a similar type of precision and recall calculation for this information as well, but are hestitant to show an example as we have yet to determine how we intend to structure that output. \newline
 
 \noindent {\bf References}\newline
 
