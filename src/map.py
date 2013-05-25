@@ -13,38 +13,39 @@ from datetime import datetime
 import mmap
 import pprint
 
-# Take a sentence and find it in the GREC corpus 
-# returning back the things we want to use
-def getGRECData(grec_files, sentence):
-    for k in grec_files:
-        if sentence in grec_files[k]:
-            path = k
+# store all GREC data
+def getGRECData(grec_files):
+    all_grec = {}
+    for path, file_num in grec_files:
+        abstract = {}
 
-            # Get abstract title and body from .txt file
-            ff = open(path)
-            txt_lines = ff.readlines()
-            ff.close()
-            
-            # Get .a1 info
-            ff = open(path.replace('.txt','.a1'))
-            a1_lines = ff.readlines()
-            ff.close()
-            
-            # Get .a2 info
-            ff = open(path.replace('.txt','.a2'))
-            a2_lines = ff.readlines()
-            ff.close()
-            
-            return {
-                'abstract_title' : txt_lines[0].strip(),
-                'abstract_body' : txt_lines[1].strip(),
+        # Get abstract title and body from .txt file
+        ff = open(path)
+        txt_lines = ff.readlines()
+        ff.close()
+
+        # Get .a1 info
+        ff = open(path.replace('.txt','.a1'))
+        a1_lines = ff.readlines()
+        ff.close()
+
+        # Get .a2 info
+        ff = open(path.replace('.txt','.a2'))
+        a2_lines = ff.readlines()
+        ff.close()
+
+        abstract_text = '%s %s' % (txt_lines[0], txt_lines[1].strip())
+        abstract = {
+                'abstract_text' : abstract_text,
                 'text_spans' : parseA1(a1_lines),
                 'annotations' : parseA2(a2_lines)
-            }
-         
-    return {}
-    
-    
+                }
+
+        all_grec[file_num] = abstract
+
+    return all_grec
+
+
 # Parse a GREC .a1 file
 def parseA1(lines):
     spans = []
@@ -252,42 +253,102 @@ def parseIndex(index_str):
 
     return args
 
+# takes a sentence and returns associated events from GREC
+def get_sentence(s, GREC):
+    abstract = {}
+    for file_num, a in GREC.iteritems():
+        if a['abstract_text'].find(sentence) != -1:
+            abstract = a
+
+    if not abstract:
+        raise Exception('Did not find sentence')
+
+    start = abstract['abstract_text'].index(s)
+    end = start + len(s)
+
+    triggers = abstract['annotations']['trigger_annotations']
+    events = abstract['annotations']['event_annotations']
+
+    triggers_this_sent = set()
+    for t in triggers:
+        if t['start_offset'] >= start and t['end_offset'] <= end:
+            triggers_this_sent.add(t['ID'])
+
+    events_this_sent = []
+    for e in events:
+        for t in e['tuples']:
+            for trigger in triggers_this_sent:
+                if trigger in t['ids']:
+                    events_this_sent.append((e['ID'], e['tuples']))
+
+    return events_this_sent
+
+
+
+
+
+
+
 if __name__=='__main__':
     # Start timer
     start = datetime.now()
-    
+
     # Load up GREC corpus .txt into memory 
     standoff_dirs = ['../GREC_Standoff/Ecoli/', '../GREC_Standoff/Human/']
-    grec_files = {}
+    grec_files = []
     for sdir in standoff_dirs:
         for r,d,files in os.walk(sdir):
             for f in files:
                 if f.endswith(".txt"):
+                    file_num = f.replace('.txt', '')
                     path = os.path.join(r,f)
-                    grec_files[path] = open(path).read()
-    
+                    grec_files.append((path, file_num))
+
+
+    # Put all GREC data into a dict
+    GREC = getGRECData(grec_files)
+
     # Fetch our ace MRS file
     ace_mrs = os.path.realpath(sys.argv[1])
-    
+
     f = open(ace_mrs)
     lines = f.readlines()
-    
+
     data = []
-    
+
     # Lets parse our MRS file to get sentence, mrs, and grec info 
     # in a python data structure to make things sane to work with.
     i = 0
+    j = 1
     for line in lines:
         if line[:5] == 'SENT:':
-            data.append({
-                'sentence' : line[6:].strip(), 
-                'mrs' : parseMRS(lines[i+1].strip()),
-                'grec' : getGRECData(grec_files, line[6:].strip())
-            })
+            sentence = line[6:].strip()
+
+            print '*' * 100
+
+            print 'SENTENCE #%d\n' % (j)
+            print sentence
+
+
+            sentence_events = get_sentence(sentence, GREC)
+            mrs = parseMRS(lines[i+1].strip())
+
             # lets just do one so we can see the output, comment this out 
             # when ready to move on.
+            print 'MRS representation:\n'
             pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint(data)
+            pp.pprint(mrs)
+            print
+
+            print 'GREC representation:\n'
+            for event_id, event_types in sentence_events:
+                print event_id
+                for event in event_types:
+                    print '\t%s' % (event)
+            print
+
+            print '*' * 100
+            j += 1
             break
 
         i += 1
