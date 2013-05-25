@@ -254,7 +254,7 @@ def parseIndex(index_str):
     return args
 
 # takes a sentence and returns associated events from GREC
-def get_sentence(s, GREC):
+def get_GREC_events(s, GREC):
     abstract = {}
     for file_num, a in GREC.iteritems():
         if a['abstract_text'].find(sentence) != -1:
@@ -324,13 +324,12 @@ if __name__=='__main__':
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
 
-            print '*' * 100
 
             print 'SENTENCE #%d\n' % (j)
             print sentence
 
 
-            sentence_events = get_sentence(sentence, GREC)
+            sentence_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
 
             # lets just do one so we can see the output, comment this out 
