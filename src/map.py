@@ -8,7 +8,7 @@
 #
 # @author Anthony Gentile <agentile@uw.edu>
 # @author Lisa Gress <gress@uw.edu>
-import os, sys, operator
+import os, sys, operator, re
 from datetime import datetime
 import mmap
 import pprint
@@ -105,13 +105,152 @@ def parseA2(lines):
 # that we can work with. Nothing fancy here just some substring matching
 def parseMRS(mrs_string):
     LTOP = mrs_string[mrs_string.find('LTOP:') + 5:mrs_string.find('INDEX:')].strip()
-    INDEX = mrs_string[mrs_string.find('INDEX:') + 6:mrs_string.find('RELS:')].strip()
-    RELS = mrs_string[mrs_string.find('RELS:') + 5:mrs_string.find('HCONS:')].strip()
-    HCONS = mrs_string[mrs_string.find('HCONS:') + 6:mrs_string.rfind(']')].strip()
+    INDEX = parseIndex(mrs_string[mrs_string.find('INDEX:') + 6:mrs_string.find('RELS:')].strip())
+    RELS = parseRels(mrs_string[mrs_string.find('RELS:') + 5:mrs_string.find('HCONS:')].strip())
+    HCONS = mrs_string[mrs_string.find('HCONS:') + 6:mrs_string.rfind(']')].strip()[2:-2].split(' ')
 
     # TODO: for INDEX and RELS, parse and break down the nested [] arguments 
     # so that we can work with those easily.
-    return {'LTOP' : LTOP, 'INDEX' : INDEX, 'RELS' : RELS, 'HCONS' : HCONS}
+    return {
+        'LTOP' : LTOP, 
+        'INDEX' : INDEX, 
+        'RELS' : RELS, 
+        'HCONS' : HCONS
+    }
+    
+def parseRels(rels_str):
+
+    args = {}
+    
+    eps = []
+    start = 0
+    bracket_start = rels_str.find('[', start)
+    while bracket_start != -1:
+        bracket_end = getMatchingBracket(rels_str, bracket_start)
+        
+        e = rels_str[bracket_start + 1:bracket_end].strip()
+
+        arg = {}
+        
+        if e.find('<') != -1:
+            arg['label'] = e[:e.find('<')] # this probably should be renamed, what is the proper name for this?
+            arg['offset_start'] = int(e[e.find('<') + 1:e.find(':', e.find('<'))])
+            arg['offset_end'] = int(e[e.find(':', e.find('<')) + 1:e.find('>', e.find(':', e.find('<')))])
+            
+        if e.find('LBL: ') != -1:
+            arg['LBL'] = e[e.find('LBL: ') + 5:e.find(' ', e.find('LBL: ') + 5)]
+            
+        if e.find('CARG: ') != -1:
+            arg['CARG'] = e[e.find('CARG: ') + 6:e.find(' ', e.find('CARG: ') + 6)]
+            
+        if e.find('RSTR: ') != -1:
+            arg['RSTR'] = e[e.find('RSTR: ') + 6:e.find(' ', e.find('RSTR: ') + 6)]
+            
+        if e.find('BODY: ') != -1:
+            arg['BODY'] = e[e.find('BODY: ') + 6:e.find(' ', e.find('BODY: ') + 6)]
+            
+        if e.find('BODY: ') != -1:
+            arg['BODY'] = e[e.find('BODY: ') + 6:e.find(' ', e.find('BODY: ') + 6)]
+            
+        if e.find('L-INDEX: ') != -1:
+            arg['L-INDEX'] = parseIndex(getArgValue(e, 'L-INDEX'))
+            
+        if e.find('R-INDEX: ') != -1:
+            arg['R-INDEX'] = parseIndex(getArgValue(e, 'R-INDEX'))
+
+        if e.find('L-HNDL: ') != -1:
+            arg['L-HNDL'] = parseIndex(getArgValue(e, 'L-HNDL'))
+            
+        if e.find('R-HNDL: ') != -1:
+            arg['R-HNDL'] = parseIndex(getArgValue(e, 'R-HNDL'))
+        
+        # Handle ARG
+        for m in re.finditer("ARG:", e):
+            arg['ARG'] = parseIndex(getArgValue(e, m.group(0)[:-1]))
+            
+        # Handle ARGN
+        arg['ARGN'] = {}
+        for m in re.finditer("ARG[0-9]:", e):
+            arg['ARGN'][m.group(0)[:-1]] = parseIndex(getArgValue(e, m.group(0)[:-1]))
+        
+        eps.append(arg)
+        
+        # find next eps
+        bracket_start = rels_str.find('[', bracket_end + 1)
+        
+    return eps
+    
+# given ARG: x4 [ x PERS: 3 NUM: sg ] or ARG: h4 return x4 [ x PERS: 3 NUM: sg ] or h4 respectively
+# making sure not to collide with other args/nested brackets
+def getArgValue(e, key):
+    s = e.find(key + ': ')
+    s_bracket_pos = e.find(' ',s + (len(key) + 2)) + 1
+    s_bracket = e[s_bracket_pos]
+    if s_bracket == '[':
+        e_bracket = getMatchingBracket(e,s_bracket_pos)
+        return e[s + (len(key) + 2):e_bracket + 1]
+    else:
+        m = re.search("[A-Z0-9-]+:", e[e.find(key + ': ') + (len(key) + 2):])
+        if m:
+            return e[e.find(key + ': ') + (len(key) + 2):e.find(m.group(0), e.find(key + ': ') + (len(key) + 2)) - 1]
+        else:
+            # assume it is the last arg in the string and there is none after it
+            return e[e.find(key + ': ') + (len(key) + 2):]
+            
+
+def getMatchingBracket(string, start_pos):
+    length = len(string)
+    bracket = 1
+    for i in xrange(start_pos + 1, length):
+        if string[i] == '[':
+            bracket += 1
+        elif string[i] == ']':
+            bracket -= 1
+        if bracket == 0:
+            return i
+
+def parseIndex(index_str):
+    # I don't think e2 is called root or the e is child, but I don't know what they 
+    # are called properly
+    args = {}
+
+    if index_str.find(' ') != -1:
+        args['root'] = index_str[:index_str.find(' ')]
+    else:
+        args['root'] = index_str
+    
+    if index_str.find('[') != -1:
+        args['child'] = index_str[index_str.find('[')+2:index_str.find(' ', index_str.find('[')+2)]
+        
+    if index_str.find('SF: ') != -1:
+        args['SF'] = index_str[index_str.find('SF: ') + 4:index_str.find(' ', index_str.find('SF: ') + 4)]
+        
+    if index_str.find('TENSE: ') != -1:
+        #print index_str
+        args['TENSE'] = index_str[index_str.find('TENSE: ') + 7:index_str.find(' ', index_str.find('TENSE: ') + 7)]
+        
+    if index_str.find('MOOD: ') != -1:
+        args['MOOD'] = index_str[index_str.find('MOOD: ') + 6:index_str.find(' ', index_str.find('MOOD: ') + 6)]
+        
+    if index_str.find('PROG: ') != -1:
+        args['PROG'] = index_str[index_str.find('PROG: ') + 6:index_str.find(' ', index_str.find('PROG: ') + 6)]
+        
+    if index_str.find('PERF: ') != -1:
+        args['PERF'] = index_str[index_str.find('PERF: ') + 6:index_str.find(' ', index_str.find('PERF: ') + 6)]
+        
+    if index_str.find('PERS: ') != -1:
+        args['PERS'] = index_str[index_str.find('PERS: ') + 6:index_str.find(' ', index_str.find('PERS: ') + 6)]
+        
+    if index_str.find('GEND: ') != -1:
+        args['GEND'] = index_str[index_str.find('GEND: ') + 6:index_str.find(' ', index_str.find('GEND: ') + 6)]
+        
+    if index_str.find('NUM: ') != -1:
+        args['NUM'] = index_str[index_str.find('NUM: ') + 5:index_str.find(' ', index_str.find('NUM: ') + 5)]
+        
+    if index_str.find('IND: ') != -1:
+        args['IND'] = index_str[index_str.find('IND: ') + 5:index_str.find(' ', index_str.find('IND: ') + 5)]
+
+    return args
 
 if __name__=='__main__':
     # Start timer
@@ -145,13 +284,15 @@ if __name__=='__main__':
                 'mrs' : parseMRS(lines[i+1].strip()),
                 'grec' : getGRECData(grec_files, line[6:].strip())
             })
-            # lets just do one so we can see the output
+            # lets just do one so we can see the output, comment this out 
+            # when ready to move on.
             pp = pprint.PrettyPrinter(indent=4)
             pp.pprint(data)
             break
+
         i += 1
     f.close()
-    
+
     # End Timer
     end = datetime.now()
     print 'Time elapsed: ' + str(end - start)
