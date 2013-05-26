@@ -268,6 +268,7 @@ def get_GREC_events(s, GREC):
 
     triggers = abstract['annotations']['trigger_annotations']
     events = abstract['annotations']['event_annotations']
+    thematic_spans = abstract['text_spans']
 
     trigger_ids = set()
     triggers_this_sent = []
@@ -276,19 +277,44 @@ def get_GREC_events(s, GREC):
             triggers_this_sent.append(t)
             trigger_ids.add(t['ID'])
 
+    thematic_this_sent = []
+    for t in thematic_spans:
+        if t['start_offset'] >= start and  t['end_offset'] <= end:
+            trigger_ids.add(t['ID'])
+            thematic_this_sent.append(t)
 
     events_this_sent = []
     for e in events:
         for t in e['tuples']:
             for trigger in trigger_ids:
-                if trigger in t['ids']:
+                if trigger in t['ids'] and (e['ID'], e['tuples']) not in events_this_sent:
                     events_this_sent.append((e['ID'], e['tuples']))
 
-    return start, end, events_this_sent, triggers_this_sent
+
+    return (start, events_this_sent, triggers_this_sent, thematic_this_sent)
 
 
 
-
+def print_GREC_representation(sentence, GREC_events):
+    offset, sentence_events, sentence_triggers, sentence_thematic = GREC_events
+    print 'GREC representation:\n'
+    for event_id, event_types in sentence_events:
+        print event_id,
+        for event in event_types:
+            print '\tEvent type: %s (%s)' % (event['event_type'], ','.join(event['ids']))
+            #print event
+            for ID in event['ids']:
+                for t in sentence_triggers:
+                    if ID ==  t['ID']:
+                        print '\tTrigger word: %s' % (t['span'])
+                        print '\tTrigger Span: %s:%s' % (t['start_offset'] - offset, t['end_offset'] - offset)
+                for t in sentence_thematic:
+                    if ID == t['ID']:
+                        print '\tText: %s' % (t['span'])
+                        print '\tText span: %s:%s' % (t['start_offset'] - offset, t['end_offset'] - offset)
+            print
+        print
+    print
 
 
 
@@ -332,7 +358,7 @@ if __name__=='__main__':
             print sentence
 
 
-            sent_start, sent_end, sentence_events, sentence_triggers = get_GREC_events(sentence, GREC)
+            GREC_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
 
             # lets just do one so we can see the output, comment this out 
@@ -342,21 +368,7 @@ if __name__=='__main__':
             pp.pprint(mrs)
             print
 
-            # needs stuff from .a1 files for thematic roles
-            print 'GREC representation:\n'
-            for event_id, event_types in sentence_events:
-                print event_id,
-                for event in event_types:
-                    print '\tEvent type: %s' % (event['event_type'])
-                    for ID in event['ids']:
-                        for t in sentence_triggers:
-                            if ID ==  t['ID']:
-                                print '\tTrigger word: %s' % (t['span'])
-                                print '\tTrigger Span: %s:%s' % (t['start_offset'], t['end_offset'])
-                                print
-                print
-            print
-
+            print_GREC_representation(sentence, GREC_events)
 
             print '*' * 100
             j += 1
