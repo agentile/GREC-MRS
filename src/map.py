@@ -317,11 +317,15 @@ def print_GREC_representation(sentence, GREC_events):
     print
 
 
+# key errors are due to two records: {'ARGN': {}} and {'ARGN': {}}
 def print_MRS_representation(sentence, mrs):
     for rel in mrs['RELS']:
-        print '\tRel type: %s' % (rel['label'])
-        print '\tRel text: %s' % (sentence[rel['offset_start']:rel['offset_end']])
-        print '\tRel span: %s:%s' % (rel['offset_start'], rel['offset_end'])
+        try:
+            print '\tRel type: %s' % (rel['label'])
+            print '\tRel text: %s' % (sentence[rel['offset_start']:rel['offset_end']])
+            print '\tRel span: %s:%s' % (rel['offset_start'], rel['offset_end'])
+        except:
+            pass
         print '\tARG list: '
         for arg, arg_details in rel['ARGN'].iteritems():
             if 'ARG' in arg:
