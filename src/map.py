@@ -269,19 +269,22 @@ def get_GREC_events(s, GREC):
     triggers = abstract['annotations']['trigger_annotations']
     events = abstract['annotations']['event_annotations']
 
-    triggers_this_sent = set()
+    trigger_ids = set()
+    triggers_this_sent = []
     for t in triggers:
         if t['start_offset'] >= start and t['end_offset'] <= end:
-            triggers_this_sent.add(t['ID'])
+            triggers_this_sent.append(t)
+            trigger_ids.add(t['ID'])
+
 
     events_this_sent = []
     for e in events:
         for t in e['tuples']:
-            for trigger in triggers_this_sent:
+            for trigger in trigger_ids:
                 if trigger in t['ids']:
                     events_this_sent.append((e['ID'], e['tuples']))
 
-    return events_this_sent
+    return start, end, events_this_sent, triggers_this_sent
 
 
 
@@ -329,7 +332,7 @@ if __name__=='__main__':
             print sentence
 
 
-            sentence_events = get_GREC_events(sentence, GREC)
+            sent_start, sent_end, sentence_events, sentence_triggers = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
 
             # lets just do one so we can see the output, comment this out 
@@ -339,12 +342,21 @@ if __name__=='__main__':
             pp.pprint(mrs)
             print
 
+            # needs stuff from .a1 files for thematic roles
             print 'GREC representation:\n'
             for event_id, event_types in sentence_events:
-                print event_id
+                print event_id,
                 for event in event_types:
-                    print '\t%s' % (event)
+                    print '\tEvent type: %s' % (event['event_type'])
+                    for ID in event['ids']:
+                        for t in sentence_triggers:
+                            if ID ==  t['ID']:
+                                print '\tTrigger word: %s' % (t['span'])
+                                print '\tTrigger Span: %s:%s' % (t['start_offset'], t['end_offset'])
+                                print
+                print
             print
+
 
             print '*' * 100
             j += 1
