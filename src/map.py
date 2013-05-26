@@ -317,6 +317,17 @@ def print_GREC_representation(sentence, GREC_events):
     print
 
 
+def print_MRS_representation(sentence, mrs):
+    for rel in mrs['RELS']:
+        print '\tRel type: %s' % (rel['label'])
+        print '\tRel text: %s' % (sentence[rel['offset_start']:rel['offset_end']])
+        print '\tRel span: %s:%s' % (rel['offset_start'], rel['offset_end'])
+        print '\tARG list: '
+        for arg, arg_details in rel['ARGN'].iteritems():
+            if 'ARG' in arg:
+                print '\t\t%s: root %s' % (arg, arg_details['root'])
+        print
+
 
 if __name__=='__main__':
     # Start timer
@@ -365,7 +376,8 @@ if __name__=='__main__':
             # when ready to move on.
             print 'MRS representation:\n'
             pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint(mrs)
+            #pp.pprint(mrs)
+            print_MRS_representation(sentence, mrs)
             print
 
             print_GREC_representation(sentence, GREC_events)
