@@ -376,18 +376,21 @@ def output():
     pass
 
 
-# lexical resource is a dictionary
-# key: trigger word
-# value: dictionary of thematic roles and counts for that role with that
-# particular trigger word
+# two dictionaries are returned
 def create_lexical_resource(sentences):
-    d = {}
+    triggers_and_roles = {} # trigger : {role : count, ...}
+    relations_and_triggers = {}  # relation : [trigger1, trigger2, ...]
+
     for sentence in sentences:
         for event in sentence.GREC_events:
-            roles = d.setdefault(event.trigger_text, {})
+            roles = triggers_and_roles.setdefault(event.trigger_text, {})
             for tr in event.thematic_roles:
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
-    return d
+            for relation in sentence.MRS_relations:
+                if relation.start_offset == event.trigger_start_offset and \
+                        relation.end_offset == event.trigger_end_offset:
+                    triggers = relations_and_triggers.setdefault(relation.rel_type, []).append(event.trigger_text)
+    return triggers_and_roles, relations_and_triggers
 
 
 if __name__=='__main__':
@@ -414,8 +417,6 @@ if __name__=='__main__':
 
     f = open(ace_mrs)
     lines = f.readlines()
-
-    data = []
 
     semantic_roles = ['Agent', 'Theme', 'Manner', 'Instrument', 'Location', \
                     'Source', 'Destination', 'Temporal', 'Condition', \
@@ -449,12 +450,13 @@ if __name__=='__main__':
 
 
             # output GREC and MRS representations
-            print 'SENTENCE #%d\n' % (j)
-            print sentence
-            new_sentence.print_GREC_representation()
-            new_sentence.print_MRS_representation()
-            print '*' * 100
+            #print 'SENTENCE #%d\n' % (j)
+            #print sentence
+            #new_sentence.print_GREC_representation()
+            #new_sentence.print_MRS_representation()
+            #print '*' * 100
 
+            
             print 'POSSIBLE HEAD NOUN CANDIATES - ' + sentence
             print
 
@@ -482,14 +484,15 @@ if __name__=='__main__':
             
             
             j += 1
-            break
+            #break
 
 
         i += 1
     f.close()
 
     # create lexical resource
-    lexical_resource = create_lexical_resource(all_sentences)
+    triggers_and_roles, relations_and_triggers = create_lexical_resource(all_sentences)
+
 
 
     # End Timer
