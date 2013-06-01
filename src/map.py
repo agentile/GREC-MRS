@@ -12,7 +12,7 @@ import os, sys, operator, re
 from datetime import datetime
 import mmap
 import pprint
-from sentence import Sentence, Event, ThematicRole
+from sentence import Sentence, Event, ThematicRole, Relation, Argument
 
 # store all GREC data
 def getGRECData(grec_files):
@@ -310,20 +310,19 @@ def get_GREC_events(s, GREC):
 
 # to do:  some fields are None - why is this?
 # to do: recursive events are not dealt with
-def create_GREC_structure(s, GREC_events, semantic_roles):
+def create_GREC_structure(sentence, GREC_events, semantic_roles):
     start, end, sentence_events, sentence_triggers, sentence_thematic = GREC_events
 
     # create new sentence object
-    sentence = Sentence(s, start, end)
+    sentence.GREC_start_offset = start
+    sentence.GREC_end_offset = end
 
     for event_id, event_types in sentence_events:
         new_event = Event(event_id)
-        sentence.events.append(new_event)
+        sentence.GREC_events.append(new_event)
 
 
         for event in event_types:
-
-            #print '\tEvent type: %s (%s)' % (event['event_type'], ','.join(event['ids']))
             if event['event_type'] in semantic_roles:
                 new_role = ThematicRole()
                 new_event.thematic_roles.append(new_role)
@@ -346,29 +345,36 @@ def create_GREC_structure(s, GREC_events, semantic_roles):
                             new_event.trigger_text = t['span']
                             new_event.trigger_start_offset = t['start_offset'] - start
                             new_event.trigger_end_offset = t['end_offset'] - start
-    return sentence
 
 
 
 
-
-# key errors are due to two records: {'ARGN': {}} and {'ARGN': {}}
-def print_MRS_representation(sentence, mrs):
+# to do: key errors w two records: {'ARGN': {}} and {'ARGN': {}} - why?
+def create_MRS_structure(sentence, s, mrs):
     for rel in mrs['RELS']:
+        new_relation = Relation()
+        sentence.MRS_relations.append(new_relation)
         try:
-            print '\tRel type: %s' % (rel['label'])
-            print '\tRel text: %s' % (sentence[rel['offset_start']:rel['offset_end']])
-            print '\tRel span: %s:%s' % (rel['offset_start'], rel['offset_end'])
-        except:
-            pass
-        print '\tARG list: '
+            new_relation.rel_type = rel['label']
+            new_relation.rel_text = s[rel['offset_start']:rel['offset_end']]
+            new_relation.start_offset = rel['offset_start']
+            new_relation.end_offset = rel['offset_end']
+        except KeyError:
+            print 'not found'
+
         for arg, arg_details in rel['ARGN'].iteritems():
             if 'ARG' in arg:
-                print '\t\t%s: root %s' % (arg, arg_details['root'])
-        print
+                new_arg = Argument()
+                new_relation.argument_list.append(new_arg)
+                new_arg.name = arg
+                new_arg.root = arg_details['root']
+                #print '\t\t%s: root %s' % (arg, arg_details['root'])
+
+
 
 def output():
     pass
+
 
 # lexical resource is a dictionary
 # key: trigger word
@@ -377,7 +383,7 @@ def output():
 def create_lexical_resource(sentences):
     d = {}
     for sentence in sentences:
-        for event in sentence.events:
+        for event in sentence.GREC_events:
             roles = d.setdefault(event.trigger_text, {})
             for tr in event.thematic_roles:
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
@@ -427,32 +433,31 @@ if __name__=='__main__':
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
 
-            print 'SENTENCE #%d\n' % (j)
-            print sentence
-
+            # store GREC and MRS details in data structures
             GREC_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
 
-            # lets just do one so we can see the output, comment this out 
-            # when ready to move on.
-            #print 'MRS representation:\n'
-            #pp = pprint.PrettyPrinter(indent=4)
-            #pp.pprint(mrs)
-            #print_MRS_representation(sentence, mrs)
-            print
 
             # create new sentence object and append to sentences list
-            new_sentence = create_GREC_structure(sentence, GREC_events, semantic_roles)
+            new_sentence = Sentence(sentence)
             all_sentences.append(new_sentence)
 
+
+            # add GREC and MRS details to sentence object
+            create_GREC_structure(new_sentence, GREC_events, semantic_roles)
+            create_MRS_structure(new_sentence, sentence, mrs)
+
+
+            # output GREC and MRS representations
+            print 'SENTENCE #%d\n' % (j)
+            print sentence
             new_sentence.print_GREC_representation()
-
-
+            new_sentence.print_MRS_representation()
             print '*' * 100
-            
+
             print 'POSSIBLE HEAD NOUN CANDIATES - ' + sentence
             print
-            
+
             #<DT|PP\$>?<JJ>*<NN|NNP>+
             print 'ALL NOUNS'
             for rel in mrs['RELS']:
@@ -475,8 +480,9 @@ if __name__=='__main__':
             print '*' * 100
             
             
+            
             j += 1
-            #break
+            break
 
 
         i += 1
