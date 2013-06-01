@@ -12,6 +12,7 @@ import os, sys, operator, re
 from datetime import datetime
 import mmap
 import pprint
+from sentence import Sentence, Event, ThematicRole
 
 # store all GREC data
 def getGRECData(grec_files):
@@ -262,17 +263,21 @@ def parseIndex(index_str):
 
 # takes a sentence and returns associated events from GREC
 def get_GREC_events(s, GREC):
+
     abstract = {}
     for file_num, a in GREC.iteritems():
-        if a['abstract_text'].find(sentence) != -1:
+        if a['abstract_text'].find(s) != -1:
             abstract = a
 
     if not abstract:
         raise Exception('Did not find sentence')
 
+    # get sentence offsets
     start = abstract['abstract_text'].index(s)
     end = start + len(s)
 
+
+    # pull relevant info from existing data structures
     triggers = abstract['annotations']['trigger_annotations']
     events = abstract['annotations']['event_annotations']
     thematic_spans = abstract['text_spans']
@@ -298,30 +303,52 @@ def get_GREC_events(s, GREC):
                     events_this_sent.append((e['ID'], e['tuples']))
 
 
-    return (start, events_this_sent, triggers_this_sent, thematic_this_sent)
+
+    return (start, end, events_this_sent, triggers_this_sent, thematic_this_sent)
 
 
 
-def print_GREC_representation(sentence, GREC_events):
-    offset, sentence_events, sentence_triggers, sentence_thematic = GREC_events
-    print 'GREC representation:\n'
+
+def create_GREC_structure(s, GREC_events, semantic_roles):
+    start, end, sentence_events, sentence_triggers, sentence_thematic = GREC_events
+
+    # create new sentence object
+    sentence = Sentence(s, start, end)
+
     for event_id, event_types in sentence_events:
-        print event_id,
+        new_event = Event(event_id)
+        sentence.events.append(new_event)
+
+
         for event in event_types:
-            print '\tEvent type: %s (%s)' % (event['event_type'], ','.join(event['ids']))
-            #print event
-            for ID in event['ids']:
-                for t in sentence_triggers:
-                    if ID ==  t['ID']:
-                        print '\tTrigger word: %s' % (t['span'])
-                        print '\tTrigger Span: %s:%s' % (t['start_offset'] - offset, t['end_offset'] - offset)
-                for t in sentence_thematic:
-                    if ID == t['ID']:
-                        print '\tText: %s' % (t['span'])
-                        print '\tText span: %s:%s' % (t['start_offset'] - offset, t['end_offset'] - offset)
-            print
-        print
-    print
+
+            #print '\tEvent type: %s (%s)' % (event['event_type'], ','.join(event['ids']))
+            if event['event_type'] in semantic_roles:
+                new_role = ThematicRole()
+                new_event.thematic_roles.append(new_role)
+                new_role.role_type = event['event_type']
+                new_role.ID = event['ids']
+
+                for ID in new_role.ID:
+                    for t in sentence_thematic:
+                        if ID == t['ID']:
+                            new_role.text = t['span']
+                            new_role.start_offset = t['start_offset'] - start
+                            new_role.end_offset = t['end_offset'] - start
+            else:
+                new_event.trigger_type = event['event_type']
+                new_event.trigger_ID = event['ids']
+
+                for ID in new_event.trigger_ID:
+                    for t in sentence_triggers:
+                        if ID ==  t['ID']:
+                            new_event.trigger_text = t['span']
+                            new_event.trigger_start_offset = t['start_offset'] - start
+                            new_event.trigger_end_offset = t['end_offset'] - start
+    return sentence
+
+
+
 
 
 # key errors are due to two records: {'ARGN': {}} and {'ARGN': {}}
@@ -367,6 +394,10 @@ if __name__=='__main__':
 
     data = []
 
+    semantic_roles = ['Agent', 'Theme', 'Manner', 'Instrument', 'Location', \
+                    'Source', 'Destination', 'Temporal', 'Condition', \
+                    'Rate', 'Descriptive-Theme', 'Descriptive-Agent']
+
     # Lets parse our MRS file to get sentence, mrs, and grec info 
     # in a python data structure to make things sane to work with.
     i = 0
@@ -383,13 +414,15 @@ if __name__=='__main__':
 
             # lets just do one so we can see the output, comment this out 
             # when ready to move on.
-            print 'MRS representation:\n'
+            #print 'MRS representation:\n'
             #pp = pprint.PrettyPrinter(indent=4)
             #pp.pprint(mrs)
-            print_MRS_representation(sentence, mrs)
+            #print_MRS_representation(sentence, mrs)
             print
 
-            print_GREC_representation(sentence, GREC_events)
+
+            new_sentence = create_GREC_structure(sentence, GREC_events, semantic_roles)
+            new_sentence.print_GREC_representation()
 
             print '*' * 100
             
@@ -399,14 +432,14 @@ if __name__=='__main__':
             #<DT|PP\$>?<JJ>*<NN|NNP>+
             print 'ALL NOUNS'
             for rel in mrs['RELS']:
-                # All nouns
+                #All nouns
                 if '/N' in rel['label'] or '_n_' in rel['label']:
                     print rel['label']
                     
             z = 0
             print 'HEAD NOUNS ?'
             for rel in mrs['RELS']:
-                # All nouns
+                #All nouns
                 if '/N' in rel['label'] or '_n_' in rel['label']:
                     try:
                         if '/JJ' in mrs['RELS'][z-1]['label'] or '_a_' in mrs['RELS'][z-1]['label']:
