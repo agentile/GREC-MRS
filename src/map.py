@@ -308,7 +308,8 @@ def get_GREC_events(s, GREC):
 
 
 
-
+# to do:  some fields are None - why is this?
+# to do: recursive events are not dealt with
 def create_GREC_structure(s, GREC_events, semantic_roles):
     start, end, sentence_events, sentence_triggers, sentence_thematic = GREC_events
 
@@ -366,6 +367,22 @@ def print_MRS_representation(sentence, mrs):
                 print '\t\t%s: root %s' % (arg, arg_details['root'])
         print
 
+def output():
+    pass
+
+# lexical resource is a dictionary
+# key: trigger word
+# value: dictionary of thematic roles and counts for that role with that
+# particular trigger word
+def create_lexical_resource(sentences):
+    d = {}
+    for sentence in sentences:
+        for event in sentence.events:
+            roles = d.setdefault(event.trigger_text, {})
+            for tr in event.thematic_roles:
+                roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
+    return d
+
 
 if __name__=='__main__':
     # Start timer
@@ -402,6 +419,10 @@ if __name__=='__main__':
     # in a python data structure to make things sane to work with.
     i = 0
     j = 1
+
+    # create list for sentence objects
+    all_sentences = []
+
     for line in lines:
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
@@ -420,9 +441,12 @@ if __name__=='__main__':
             #print_MRS_representation(sentence, mrs)
             print
 
-
+            # create new sentence object and append to sentences list
             new_sentence = create_GREC_structure(sentence, GREC_events, semantic_roles)
+            all_sentences.append(new_sentence)
+
             new_sentence.print_GREC_representation()
+
 
             print '*' * 100
             
@@ -450,11 +474,17 @@ if __name__=='__main__':
                 
             print '*' * 100
             
+            
             j += 1
-            break
+            #break
+
 
         i += 1
     f.close()
+
+    # create lexical resource
+    lexical_resource = create_lexical_resource(all_sentences)
+
 
     # End Timer
     end = datetime.now()
