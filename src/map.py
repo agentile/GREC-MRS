@@ -125,9 +125,10 @@ def parseRels(rels_str):
     
     eps = []
     start = 0
+
     bracket_start = rels_str.find('[', start)
     while bracket_start != -1:
-        bracket_end = getMatchingBracket(rels_str, bracket_start)
+        bracket_end = getMatchingBracket(rels_str, bracket_start, '"')
         
         e = rels_str[bracket_start + 1:bracket_end].strip()
 
@@ -199,13 +200,19 @@ def getArgValue(e, key):
             return e[e.find(key + ': ') + (len(key) + 2):]
             
 
-def getMatchingBracket(string, start_pos):
+def getMatchingBracket(string, start_pos, disregard_context_character=False):
     length = len(string)
     bracket = 1
+    disregard = 0
     for i in xrange(start_pos + 1, length):
-        if string[i] == '[':
+        if disregard_context_character != False and string[i] == disregard_context_character:
+            if disregard == 0:
+                disregard = 1
+            else:
+                disregard = 0
+        if string[i] == '[' and disregard == 0:
             bracket += 1
-        elif string[i] == ']':
+        elif string[i] == ']' and disregard == 0:
             bracket -= 1
         if bracket == 0:
             return i
@@ -368,10 +375,8 @@ if __name__=='__main__':
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
 
-
             print 'SENTENCE #%d\n' % (j)
             print sentence
-
 
             GREC_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
@@ -379,7 +384,7 @@ if __name__=='__main__':
             # lets just do one so we can see the output, comment this out 
             # when ready to move on.
             print 'MRS representation:\n'
-            pp = pprint.PrettyPrinter(indent=4)
+            #pp = pprint.PrettyPrinter(indent=4)
             #pp.pprint(mrs)
             print_MRS_representation(sentence, mrs)
             print
@@ -387,6 +392,31 @@ if __name__=='__main__':
             print_GREC_representation(sentence, GREC_events)
 
             print '*' * 100
+            
+            print 'POSSIBLE HEAD NOUN CANDIATES - ' + sentence
+            print
+            
+            #<DT|PP\$>?<JJ>*<NN|NNP>+
+            print 'ALL NOUNS'
+            for rel in mrs['RELS']:
+                # All nouns
+                if '/N' in rel['label'] or '_n_' in rel['label']:
+                    print rel['label']
+                    
+            z = 0
+            print 'HEAD NOUNS ?'
+            for rel in mrs['RELS']:
+                # All nouns
+                if '/N' in rel['label'] or '_n_' in rel['label']:
+                    try:
+                        if '/JJ' in mrs['RELS'][z-1]['label'] or '_a_' in mrs['RELS'][z-1]['label']:
+                            print rel['label']
+                    except:
+                        pass
+                z += 1
+                
+            print '*' * 100
+            
             j += 1
             break
 
