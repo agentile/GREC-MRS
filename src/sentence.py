@@ -51,11 +51,12 @@ class Sentence:
             print
             for role in event.thematic_roles:
                 print '\t\tThematic role:'
-                print '\t\tText:'
+                print '\t\tText: %s' % (role.text)
                 print '\t\tText span: %s:%s' % (role.start_offset, role.end_offset)
 
                 print
             print
+
 
 # GREC event
 class Event:
@@ -92,6 +93,7 @@ class Argument:
     def __init__(self, name, root):
         self.name = name
         self.root = root
+        self.text = None
         self.start_offset = None
         self.end_offset = None
 
@@ -107,10 +109,9 @@ class MappedEvent:
 
 # mapped thematic roles
 class MappedThematicRole:
-    def __init__(self, start_offset, end_offset):
+    def __init__(self, text, start_offset, end_offset):
         self.role_type = None
-        self.text = None
-        self.ID = None
+        self.text = text
         self.start_offset = start_offset
         self.end_offset = end_offset
 

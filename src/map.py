@@ -377,17 +377,15 @@ def create_MRS_structure(sentence, s, mrs):
                         if search_argument.name == 'ARG0' and search_argument.root == find:
                             argument.start_offset = search_relation.start_offset
                             argument.end_offset = search_relation.end_offset
+                            argument.text = sentence.text[argument.start_offset:argument.end_offset]
 
 
-
-def output():
-    pass
 
 
 # two dictionaries are returned
 def create_lexical_resource(sentences):
     triggers_and_roles = {} # trigger : {(role, len(roles)) : count, ...}
-    triggers_and_types = {}
+    triggers_and_types = {} # trigger : trigger_type : count
     for sentence in sentences:
         for event in sentence.GREC_events:
             trigger_types = triggers_and_types.setdefault(event.trigger_text, {})
@@ -419,11 +417,19 @@ def map_MRS_to_GREC(triggers, types, sentence):
                 new_mapped_event.trigger_type = most_likely_type
 
 
-                # create new thematic role for each argument from the relation
+                # create new thematic role arg for each argument from the relation
                 for argument in relation.argument_list:
                     if argument.name != 'ARG0':
-                        new_thematic_role = MappedThematicRole(argument.start_offset, argument.end_offset)
+                        new_thematic_role = MappedThematicRole(argument.text, argument.start_offset, argument.end_offset)
                         new_mapped_event.thematic_roles.append(new_thematic_role)
+
+                        num_args = len(relation.argument_list) - 1
+
+
+                # get most likely thematic role for each relation arg
+
+
+
 
 
 
@@ -530,7 +536,7 @@ if __name__=='__main__':
         # output GREC and MRS representations
         #print 'SENTENCE #%d\n' % (j)
         #print sentence
-        #sentence.print_GREC_representation()
+        sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
 
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
