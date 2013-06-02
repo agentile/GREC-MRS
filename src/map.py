@@ -263,7 +263,6 @@ def parseIndex(index_str):
 
 # takes a sentence and returns associated events from GREC
 def get_GREC_events(s, GREC):
-
     abstract = {}
     for file_num, a in GREC.iteritems():
         if a['abstract_text'].find(s) != -1:
@@ -272,32 +271,31 @@ def get_GREC_events(s, GREC):
     if not abstract:
         raise Exception('Did not find sentence')
 
-    #['event_annotations', 'trigger_annotations']
-    #print abstract.keys()
-    #for a in abstract['text_spans']:
-    #    print a
 
 
     # get sentence offsets
+    s = s.strip()
     start = abstract['abstract_text'].index(s)
     end = start + len(s)
+
+    if start != 0:
+        start -= 1
 
     # pull relevant info from existing data structures
     triggers = abstract['annotations']['trigger_annotations']
     events = abstract['annotations']['event_annotations']
     thematic_spans = abstract['text_spans']
 
-    spans_across_sents = set()
-    trigger_ids = set()
-    triggers_this_sent = []
+    spans_across_sents = set()  # IDs of roles not in this sentence
+    trigger_ids = set()         # IDs of roles in this sentence
 
+    triggers_this_sent = []
     for t in triggers:
         if t['start_offset'] >= start and t['end_offset'] <= end:
             triggers_this_sent.append(t)
             trigger_ids.add(t['ID'])
         else:
             spans_across_sents.add(t['ID'])
-
 
     thematic_this_sent = []
     for t in thematic_spans:
@@ -503,9 +501,6 @@ if __name__=='__main__':
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
 
-            # testing
-            #sentence = 'This osmoregulation is mediated by the OmpR protein, a positive regulator of both genes, which is encoded by the ompR gene.'
-
             # store GREC and MRS details in data structures
             GREC_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
@@ -553,10 +548,11 @@ if __name__=='__main__':
 
         i += 1
     f.close()
+
     # create lexical resource
     triggers_and_roles, triggers_and_types = create_lexical_resource(all_sentences)
 
-    # get all sentences that don't have a recursive event (there are 733)
+    # get all sentences that don't have a recursive event
     # hopefully we can figure out how to work with these (or not?)
     non_recursive = []
     for sentence in all_sentences:
@@ -569,17 +565,18 @@ if __name__=='__main__':
         if not has_recursive:
             non_recursive.append(sentence)
 
+
     # map and output sentences
     j = 1
     for sentence in non_recursive:
         # output GREC and MRS representations
-        #print 'SENTENCE #%d\n' % (j)
-        #print sentence
+        print 'SENTENCE #%d\n' % (j)
+        print sentence.text
         sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
         sentence.print_mapped_GREC_representation()
-        #print '*' * 100
+        print '*' * 100
         j += 1
 
 
