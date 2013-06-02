@@ -45,7 +45,7 @@ class Sentence:
         print 'Mapped GREC representation:\n'
         for event in self.mapped_GREC_events:
             print event.ID,
-            print '\t\tTrigger type:'
+            print '\t\tTrigger type: %s' % (event.trigger_type)
             print '\t\tTrigger text: %s' % (event.trigger_text)
             print '\t\tTrigger span: %s:%s' % (event.start_offset, event.end_offset)
             print

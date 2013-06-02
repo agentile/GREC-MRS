@@ -386,42 +386,46 @@ def output():
 
 # two dictionaries are returned
 def create_lexical_resource(sentences):
-    triggers_and_roles = {} # trigger : {role : count, ...}
-    relations_and_triggers = {}  # relation : [trigger1, trigger2, ...]
-
+    triggers_and_roles = {} # trigger : {(role, len(roles)) : count, ...}
+    triggers_and_types = {}
     for sentence in sentences:
         for event in sentence.GREC_events:
-            roles = triggers_and_roles.setdefault(event.trigger_text, {})
+            trigger_types = triggers_and_types.setdefault(event.trigger_text, {})
+            trigger_types[event.trigger_type] = trigger_types.get(event.trigger_type, 0) + 1
             for tr in event.thematic_roles:
+                roles = triggers_and_roles.setdefault((event.trigger_text, len(event.thematic_roles)), {})
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
-            for relation in sentence.MRS_relations:
-                if relation.start_offset == event.start_offset and \
-                        relation.end_offset == event.end_offset:
-                    triggers = relations_and_triggers.setdefault(relation.rel_type, []).append(event.trigger_text)
-    return triggers_and_roles, relations_and_triggers
+    return triggers_and_roles, triggers_and_types
 
 
-def map_MRS_to_GREC(triggers, relations, sentence):
+def map_MRS_to_GREC(triggers, types, sentence):
     i = 1
+    ignore = ['udef_q_rel', 'parg_d_rel']
     for relation in sentence.MRS_relations:
+        for trigger, num in triggers.iteritems():
 
-        # look for rel in dict.  will probably have to change how we do this.
-        # get the lemma?
-        if relation.rel_type in relations and relation.rel_type != 'udef_q_rel':
+            # if  the text of the relation matches a trigger from GREC, create
+            # an event for it
+            if relation.rel_text == trigger[0] and relation.rel_type not in ignore:
+                mapped_event_id = 'E%d' % (i)
+                i += 1
+                new_mapped_event = MappedEvent(mapped_event_id, relation.rel_text,\
+                        relation.start_offset, relation.end_offset)
+                sentence.mapped_GREC_events.append(new_mapped_event)
 
-            # create new event for each relation.  add the new event to
-            # the mapped events list
-            mapped_event_id = 'E%d' % (i)
-            i += 1
-            new_mapped_event = MappedEvent(mapped_event_id, relation.rel_text,\
-                    relation.start_offset, relation.end_offset)
-            sentence.mapped_GREC_events.append(new_mapped_event)
+                # get the most likely trigger type for the relation text/trigger
+                possible_types = types[relation.rel_text]
+                most_likely_type = max(possible_types.iterkeys(), key=(lambda x: possible_types[x]))
+                new_mapped_event.trigger_type = most_likely_type
 
-            # create new thematic role for each argument
-            for argument in relation.argument_list:
-                if argument.name != 'ARG0':
-                    new_thematic_role = MappedThematicRole(argument.start_offset, argument.end_offset)
-                    new_mapped_event.thematic_roles.append(new_thematic_role)
+
+                # create new thematic role for each argument from the relation
+                for argument in relation.argument_list:
+                    if argument.name != 'ARG0':
+                        new_thematic_role = MappedThematicRole(argument.start_offset, argument.end_offset)
+                        new_mapped_event.thematic_roles.append(new_thematic_role)
+
+
 
 
 
@@ -518,7 +522,7 @@ if __name__=='__main__':
     f.close()
 
     # create lexical resource
-    triggers_and_roles, relations_and_triggers = create_lexical_resource(all_sentences)
+    triggers_and_roles, triggers_and_types = create_lexical_resource(all_sentences)
 
     # map and output sentences
     j = 1
@@ -526,10 +530,10 @@ if __name__=='__main__':
         # output GREC and MRS representations
         #print 'SENTENCE #%d\n' % (j)
         #print sentence
-        sentence.print_GREC_representation()
+        #sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
 
-        map_MRS_to_GREC(triggers_and_roles, relations_and_triggers, sentence)
+        map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
         sentence.print_mapped_GREC_representation()
         #print '*' * 100
         j += 1
