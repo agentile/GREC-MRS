@@ -12,7 +12,7 @@ import os, sys, operator, re
 from datetime import datetime
 import mmap
 import pprint
-from sentence import Sentence, Event, ThematicRole, Relation, Argument
+from sentence import Sentence, Event, ThematicRole, Relation, Argument, MappedEvent, MappedThematicRole
 
 # store all GREC data
 def getGRECData(grec_files):
@@ -343,8 +343,8 @@ def create_GREC_structure(sentence, GREC_events, semantic_roles):
                     for t in sentence_triggers:
                         if ID ==  t['ID']:
                             new_event.trigger_text = t['span']
-                            new_event.trigger_start_offset = t['start_offset'] - start
-                            new_event.trigger_end_offset = t['end_offset'] - start
+                            new_event.start_offset = t['start_offset'] - start
+                            new_event.end_offset = t['end_offset'] - start
 
 
 
@@ -364,11 +364,19 @@ def create_MRS_structure(sentence, s, mrs):
 
         for arg, arg_details in rel['ARGN'].iteritems():
             if 'ARG' in arg:
-                new_arg = Argument()
+                new_arg = Argument(arg, arg_details['root'])
                 new_relation.argument_list.append(new_arg)
-                new_arg.name = arg
-                new_arg.root = arg_details['root']
-                #print '\t\t%s: root %s' % (arg, arg_details['root'])
+
+   # to do: fix this to restrict relations 
+    for relation in sentence.MRS_relations:
+        for argument in relation.argument_list:
+            if argument.name != 'ARG0':
+                find = argument.root
+                for search_relation in sentence.MRS_relations:
+                    for search_argument in search_relation.argument_list:
+                        if search_argument.name == 'ARG0' and search_argument.root == find:
+                            argument.start_offset = search_relation.start_offset
+                            argument.end_offset = search_relation.end_offset
 
 
 
@@ -387,10 +395,38 @@ def create_lexical_resource(sentences):
             for tr in event.thematic_roles:
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
             for relation in sentence.MRS_relations:
-                if relation.start_offset == event.trigger_start_offset and \
-                        relation.end_offset == event.trigger_end_offset:
+                if relation.start_offset == event.start_offset and \
+                        relation.end_offset == event.end_offset:
                     triggers = relations_and_triggers.setdefault(relation.rel_type, []).append(event.trigger_text)
     return triggers_and_roles, relations_and_triggers
+
+
+def map_MRS_to_GREC(triggers, relations, sentence):
+    i = 1
+    for relation in sentence.MRS_relations:
+
+        # look for rel in dict.  will probably have to change how we do this.
+        # get the lemma?
+        if relation.rel_type in relations and relation.rel_type != 'udef_q_rel':
+
+            # create new event for each relation.  add the new event to
+            # the mapped events list
+            mapped_event_id = 'E%d' % (i)
+            i += 1
+            new_mapped_event = MappedEvent(mapped_event_id, relation.rel_text,\
+                    relation.start_offset, relation.end_offset)
+            sentence.mapped_GREC_events.append(new_mapped_event)
+
+            # create new thematic role for each argument
+            for argument in relation.argument_list:
+                if argument.name != 'ARG0':
+                    new_thematic_role = MappedThematicRole(argument.start_offset, argument.end_offset)
+                    new_mapped_event.thematic_roles.append(new_thematic_role)
+
+
+
+
+
 
 
 if __name__=='__main__':
@@ -425,7 +461,6 @@ if __name__=='__main__':
     # Lets parse our MRS file to get sentence, mrs, and grec info 
     # in a python data structure to make things sane to work with.
     i = 0
-    j = 1
 
     # create list for sentence objects
     all_sentences = []
@@ -449,14 +484,7 @@ if __name__=='__main__':
             create_MRS_structure(new_sentence, sentence, mrs)
 
 
-            # output GREC and MRS representations
-            #print 'SENTENCE #%d\n' % (j)
-            #print sentence
-            #new_sentence.print_GREC_representation()
-            #new_sentence.print_MRS_representation()
-            #print '*' * 100
-
-            
+            """
             print 'POSSIBLE HEAD NOUN CANDIATES - ' + sentence
             print
 
@@ -482,9 +510,8 @@ if __name__=='__main__':
             print '*' * 100
             
             
-            
-            j += 1
-            #break
+            """
+            break
 
 
         i += 1
@@ -492,6 +519,20 @@ if __name__=='__main__':
 
     # create lexical resource
     triggers_and_roles, relations_and_triggers = create_lexical_resource(all_sentences)
+
+    # map and output sentences
+    j = 1
+    for sentence in all_sentences:
+        # output GREC and MRS representations
+        #print 'SENTENCE #%d\n' % (j)
+        #print sentence
+        sentence.print_GREC_representation()
+        #sentence.print_MRS_representation()
+
+        map_MRS_to_GREC(triggers_and_roles, relations_and_triggers, sentence)
+        sentence.print_mapped_GREC_representation()
+        #print '*' * 100
+        j += 1
 
 
 
