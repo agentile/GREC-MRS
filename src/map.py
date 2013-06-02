@@ -384,14 +384,14 @@ def create_MRS_structure(sentence, s, mrs):
 
 # two dictionaries are returned
 def create_lexical_resource(sentences):
-    triggers_and_roles = {} # trigger : {(role, len(roles)) : count, ...}
-    triggers_and_types = {} # trigger : trigger_type : count
+    triggers_and_roles = {} # trigger : {role : count, ...}
+    triggers_and_types = {} # trigger : {trigger_type : count, ...}
     for sentence in sentences:
         for event in sentence.GREC_events:
             trigger_types = triggers_and_types.setdefault(event.trigger_text, {})
             trigger_types[event.trigger_type] = trigger_types.get(event.trigger_type, 0) + 1
             for tr in event.thematic_roles:
-                roles = triggers_and_roles.setdefault((event.trigger_text, len(event.thematic_roles)), {})
+                roles = triggers_and_roles.setdefault((event.trigger_text), {})
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
     return triggers_and_roles, triggers_and_types
 
@@ -400,11 +400,11 @@ def map_MRS_to_GREC(triggers, types, sentence):
     i = 1
     ignore = ['udef_q_rel', 'parg_d_rel']
     for relation in sentence.MRS_relations:
-        for trigger, num in triggers.iteritems():
+        for trigger, counts in triggers.iteritems():
 
             # if  the text of the relation matches a trigger from GREC, create
             # an event for it
-            if relation.rel_text == trigger[0] and relation.rel_type not in ignore:
+            if relation.rel_text == trigger and relation.rel_type not in ignore:
                 mapped_event_id = 'E%d' % (i)
                 i += 1
                 new_mapped_event = MappedEvent(mapped_event_id, relation.rel_text,\
@@ -418,24 +418,24 @@ def map_MRS_to_GREC(triggers, types, sentence):
 
 
                 # create new thematic role arg for each argument from the relation
+                roles = triggers[relation.rel_text]
+
                 for argument in relation.argument_list:
                     if argument.name != 'ARG0':
                         new_thematic_role = MappedThematicRole(argument.text, argument.start_offset, argument.end_offset)
                         new_mapped_event.thematic_roles.append(new_thematic_role)
 
-                        num_args = len(relation.argument_list) - 1
-
-
-                # get most likely thematic role for each relation arg
-
-
-
-
-
-
-
-
-
+                        # get most likely thematic role for each relation arg
+                        # if Theme is in the list of roles, assign it.
+                        # else - pick the role with the highest count
+                        if roles:
+                            if 'Theme' in roles:
+                                new_thematic_role.role_type = 'Theme'
+                                roles.pop('Theme', None)
+                            else:
+                                most_likely = max(roles.iterkeys(), key=(lambda x: roles[x]))
+                                new_thematic_role.role_type = most_likely
+                                roles.pop(most_likely, None)
 
 
 
@@ -530,6 +530,7 @@ if __name__=='__main__':
     # create lexical resource
     triggers_and_roles, triggers_and_types = create_lexical_resource(all_sentences)
 
+
     # map and output sentences
     j = 1
     for sentence in all_sentences:
@@ -538,10 +539,9 @@ if __name__=='__main__':
         #print sentence
         sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
-
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
-        sentence.print_mapped_GREC_representation()
-        #print '*' * 100
+        #sentence.print_mapped_GREC_representation()
+        print '*' * 100
         j += 1
 
 

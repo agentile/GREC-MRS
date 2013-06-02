@@ -50,7 +50,7 @@ class Sentence:
             print '\t\tTrigger span: %s:%s' % (event.start_offset, event.end_offset)
             print
             for role in event.thematic_roles:
-                print '\t\tThematic role:'
+                print '\t\tThematic role: %s' % (role.role_type)
                 print '\t\tText: %s' % (role.text)
                 print '\t\tText span: %s:%s' % (role.start_offset, role.end_offset)
 
