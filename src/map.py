@@ -391,7 +391,7 @@ def create_lexical_resource(sentences):
             trigger_types = triggers_and_types.setdefault(event.trigger_text, {})
             trigger_types[event.trigger_type] = trigger_types.get(event.trigger_type, 0) + 1
             for tr in event.thematic_roles:
-                roles = triggers_and_roles.setdefault((event.trigger_text), {})
+                roles = triggers_and_roles.setdefault(event.trigger_text, {})
                 roles[tr.role_type] = roles.get(tr.role_type, 0) + 1
     return triggers_and_roles, triggers_and_types
 
@@ -423,7 +423,6 @@ def map_MRS_to_GREC(triggers, types, sentence):
                 for argument in relation.argument_list:
                     if argument.name != 'ARG0':
                         new_thematic_role = MappedThematicRole(argument.text, argument.start_offset, argument.end_offset)
-                        new_mapped_event.thematic_roles.append(new_thematic_role)
 
                         # get most likely thematic role for each relation arg
                         # if Theme is in the list of roles, assign it.
@@ -436,6 +435,9 @@ def map_MRS_to_GREC(triggers, types, sentence):
                                 most_likely = max(roles.iterkeys(), key=(lambda x: roles[x]))
                                 new_thematic_role.role_type = most_likely
                                 roles.pop(most_likely, None)
+                            new_mapped_event.thematic_roles.append(new_thematic_role)
+
+
 
 
 
@@ -521,7 +523,7 @@ if __name__=='__main__':
             
             
             """
-            break
+            #break
 
 
         i += 1
@@ -530,18 +532,31 @@ if __name__=='__main__':
     # create lexical resource
     triggers_and_roles, triggers_and_types = create_lexical_resource(all_sentences)
 
+    # get all sentences that don't have a recursive event (there are 733)
+    # hopefully we can figure out how to work with these (or not?)
+    non_recursive = []
+    for sentence in all_sentences:
+        has_recursive = False
+        for event in sentence.GREC_events:
+            for role in event.thematic_roles:
+                for ID in role.ID:
+                    if ID.startswith('E'):
+                        has_recursive = True
+        if not has_recursive:
+            non_recursive.append(sentence)
+
 
     # map and output sentences
     j = 1
-    for sentence in all_sentences:
+    for sentence in non_recursive:
         # output GREC and MRS representations
         #print 'SENTENCE #%d\n' % (j)
         #print sentence
-        sentence.print_GREC_representation()
+        #sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
         #sentence.print_mapped_GREC_representation()
-        print '*' * 100
+        #print '*' * 100
         j += 1
 
 
