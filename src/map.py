@@ -272,39 +272,62 @@ def get_GREC_events(s, GREC):
     if not abstract:
         raise Exception('Did not find sentence')
 
+    #['event_annotations', 'trigger_annotations']
+    #print abstract.keys()
+    #for a in abstract['text_spans']:
+    #    print a
+
+
     # get sentence offsets
     start = abstract['abstract_text'].index(s)
     end = start + len(s)
-
 
     # pull relevant info from existing data structures
     triggers = abstract['annotations']['trigger_annotations']
     events = abstract['annotations']['event_annotations']
     thematic_spans = abstract['text_spans']
 
+    spans_across_sents = set()
     trigger_ids = set()
     triggers_this_sent = []
+
     for t in triggers:
         if t['start_offset'] >= start and t['end_offset'] <= end:
             triggers_this_sent.append(t)
             trigger_ids.add(t['ID'])
+        else:
+            spans_across_sents.add(t['ID'])
+
 
     thematic_this_sent = []
     for t in thematic_spans:
-        if t['start_offset'] >= start and  t['end_offset'] <= end:
+        if t['start_offset'] >= start and t['end_offset'] <= end:
             trigger_ids.add(t['ID'])
             thematic_this_sent.append(t)
+        else:
+            spans_across_sents.add(t['ID'])
 
     events_this_sent = []
     for e in events:
+        add_event = False
         for t in e['tuples']:
             for trigger in trigger_ids:
                 if trigger in t['ids'] and (e['ID'], e['tuples']) not in events_this_sent:
-                    events_this_sent.append((e['ID'], e['tuples']))
+                    add_event = True
 
-
+        # check to see if any roles refer to another sentence
+        # if they do, do not return any information for this sentence
+        if add_event:
+            for t in e['tuples']:
+                for trigger in spans_across_sents:
+                    if trigger in t['ids']:
+                        add_event = False
+                        return None
+        if add_event:
+            events_this_sent.append((e['ID'], e['tuples']))
 
     return (start, end, events_this_sent, triggers_this_sent, thematic_this_sent)
+
 
 
 
@@ -335,6 +358,7 @@ def create_GREC_structure(sentence, GREC_events, semantic_roles):
                             new_role.text = t['span']
                             new_role.start_offset = t['start_offset'] - start
                             new_role.end_offset = t['end_offset'] - start
+
             else:
                 new_event.trigger_type = event['event_type']
                 new_event.trigger_ID = event['ids']
@@ -439,8 +463,6 @@ def map_MRS_to_GREC(triggers, types, sentence):
 
 
 
-
-
 if __name__=='__main__':
     # Start timer
     start = datetime.now()
@@ -481,19 +503,22 @@ if __name__=='__main__':
         if line[:5] == 'SENT:':
             sentence = line[6:].strip()
 
+            # testing
+            #sentence = 'This osmoregulation is mediated by the OmpR protein, a positive regulator of both genes, which is encoded by the ompR gene.'
+
             # store GREC and MRS details in data structures
             GREC_events = get_GREC_events(sentence, GREC)
             mrs = parseMRS(lines[i+1].strip())
 
+            if GREC_events:
+                # create new sentence object and append to sentences list
+                new_sentence = Sentence(sentence)
+                all_sentences.append(new_sentence)
 
-            # create new sentence object and append to sentences list
-            new_sentence = Sentence(sentence)
-            all_sentences.append(new_sentence)
 
-
-            # add GREC and MRS details to sentence object
-            create_GREC_structure(new_sentence, GREC_events, semantic_roles)
-            create_MRS_structure(new_sentence, sentence, mrs)
+                # add GREC and MRS details to sentence object
+                create_GREC_structure(new_sentence, GREC_events, semantic_roles)
+                create_MRS_structure(new_sentence, sentence, mrs)
 
 
             """
@@ -528,7 +553,6 @@ if __name__=='__main__':
 
         i += 1
     f.close()
-
     # create lexical resource
     triggers_and_roles, triggers_and_types = create_lexical_resource(all_sentences)
 
@@ -545,17 +569,16 @@ if __name__=='__main__':
         if not has_recursive:
             non_recursive.append(sentence)
 
-
     # map and output sentences
     j = 1
     for sentence in non_recursive:
         # output GREC and MRS representations
         #print 'SENTENCE #%d\n' % (j)
         #print sentence
-        #sentence.print_GREC_representation()
+        sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
-        #sentence.print_mapped_GREC_representation()
+        sentence.print_mapped_GREC_representation()
         #print '*' * 100
         j += 1
 
