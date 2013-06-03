@@ -459,7 +459,25 @@ def map_MRS_to_GREC(triggers, types, sentence):
                                 roles.pop(most_likely, None)
                             new_mapped_event.thematic_roles.append(new_thematic_role)
 
+def evaluation(sentences):
+    total_mapped_events = 0
+    total_actual_events = 0
+    total_union = 0
 
+    for sentence in sentences:
+        num_mapped_event, num_actual_event, union_event = sentence.mapped_event_in_GREC()
+        total_mapped_events += num_mapped_event
+        total_actual_events += num_actual_event
+        total_union += union_event
+
+    # calculate P/R for events
+    event_precision = total_union / float(total_mapped_events)
+    event_recall = total_union / float(total_actual_events)
+    print 'Event precision: %f' % (event_precision)
+    print 'Event recall: %f' % (event_recall)
+
+
+    # calculate P/R for semantic roles
 
 if __name__=='__main__':
     # Start timer
@@ -570,14 +588,16 @@ if __name__=='__main__':
     j = 1
     for sentence in non_recursive:
         # output GREC and MRS representations
-        print 'SENTENCE #%d\n' % (j)
-        print sentence.text
-        sentence.print_GREC_representation()
+        #print 'SENTENCE #%d\n' % (j)
+        #print sentence.text
+        #sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
-        sentence.print_mapped_GREC_representation()
-        print '*' * 100
+        #sentence.print_mapped_GREC_representation()
+        #print '*' * 100
         j += 1
+
+    evaluation(non_recursive)
 
 
 

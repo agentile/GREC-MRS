@@ -8,7 +8,6 @@ class Sentence:
         self.mapped_GREC_events = []
 
     def print_GREC_representation(self):
-
         print 'GREC representation:\n'
         for event in self.GREC_events:
             print event.ID,
@@ -57,6 +56,26 @@ class Sentence:
                 print
             print
 
+    def mapped_event_in_GREC(self):
+        mapped = []
+        for event in self.mapped_GREC_events:
+            mapped.append((event.trigger_text, event.start_offset, event.end_offset))
+
+        actual = []
+        for event in self.GREC_events:
+            actual.append((event.trigger_text, event.start_offset, event.end_offset))
+
+        num_mapped = len(mapped)
+        num_actual = len(actual)
+        union = 0
+
+        for event in mapped:
+            if event in actual:
+                union += 1
+
+        return num_mapped, num_actual, union
+
+
 
 # GREC event
 class Event:
@@ -65,7 +84,6 @@ class Event:
         self.trigger_ID = None
         self.trigger_type = None
         self.trigger_text = None
-        self.trigger_ID = None
         self.start_offset = None
         self.end_offset = None
         self.thematic_roles = []
