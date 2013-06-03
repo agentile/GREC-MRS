@@ -462,22 +462,49 @@ def map_MRS_to_GREC(triggers, types, sentence):
 def evaluation(sentences):
     total_mapped_events = 0
     total_actual_events = 0
-    total_union = 0
+    total_union_events = 0
+
+    total_mapped_roles = 0
+    total_actual_roles = 0
+    total_union_roles_strict = 0
+    total_union_roles = 0
 
     for sentence in sentences:
-        num_mapped_event, num_actual_event, union_event = sentence.mapped_event_in_GREC()
-        total_mapped_events += num_mapped_event
-        total_actual_events += num_actual_event
-        total_union += union_event
+        e_num_mapped_event, e_num_actual_event, e_union_event = sentence.mapped_events_in_GREC()
+        total_mapped_events += e_num_mapped_event
+        total_actual_events += e_num_actual_event
+        total_union_events += e_union_event
+
+        r_num_mapped, r_num_actual, r_strict_union, r_union = sentence.mapped_roles_in_GREC()
+        total_mapped_roles += r_num_mapped
+        total_actual_roles += r_num_actual
+        total_union_roles_strict += r_strict_union
+        total_union_roles += r_union
+
+
 
     # calculate P/R for events
-    event_precision = total_union / float(total_mapped_events)
-    event_recall = total_union / float(total_actual_events)
+    event_precision = total_union_events / float(total_mapped_events)
+    event_recall = total_union_events / float(total_actual_events)
     print 'Event precision: %f' % (event_precision)
     print 'Event recall: %f' % (event_recall)
-
+    print
 
     # calculate P/R for semantic roles
+    role_precision = total_union_roles / float(total_mapped_roles)
+    role_recall = total_union_roles / float(total_actual_roles)
+    print 'Semantic role precision: %f' % (role_precision)
+    print 'Semantic role recall: %f' % (role_recall)
+    print
+
+    role_precision_strict = total_union_roles_strict / float(total_mapped_roles)
+    role_recall_strict = total_union_roles_strict / float(total_actual_roles)
+    print 'Semantic role precision (strict): %f' % (role_precision_strict)
+    print 'Semantic role recall (strict): %f' % (role_recall_strict)
+    print
+
+
+
 
 if __name__=='__main__':
     # Start timer
@@ -588,13 +615,13 @@ if __name__=='__main__':
     j = 1
     for sentence in non_recursive:
         # output GREC and MRS representations
-        #print 'SENTENCE #%d\n' % (j)
-        #print sentence.text
-        #sentence.print_GREC_representation()
+        print 'SENTENCE #%d\n' % (j)
+        print sentence.text
+        sentence.print_GREC_representation()
         #sentence.print_MRS_representation()
         map_MRS_to_GREC(triggers_and_roles, triggers_and_types, sentence)
-        #sentence.print_mapped_GREC_representation()
-        #print '*' * 100
+        sentence.print_mapped_GREC_representation()
+        print '*' * 100
         j += 1
 
     evaluation(non_recursive)

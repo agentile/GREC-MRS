@@ -11,13 +11,13 @@ class Sentence:
         print 'GREC representation:\n'
         for event in self.GREC_events:
             print event.ID,
-            print '\t\tTrigger type: %s (%s)' % (event.trigger_type, ','.join(event.trigger_ID))
+            print '\t\tTrigger type: %s' % (event.trigger_type)
             print '\t\tTrigger text: %s'  % (event.trigger_text)
             print '\t\tTrigger span: %s:%s' % (event.start_offset, event.end_offset)
 
             print
             for role in event.thematic_roles:
-                print '\t\tThematic role: %s (%s)' % (role.role_type, ','.join(role.ID))
+                print '\t\tThematic role: %s' % (role.role_type)
                 print '\t\tText: %s' % (role.text)
                 print '\t\tText span: %s:%s' % (role.start_offset, role.end_offset)
 
@@ -56,7 +56,7 @@ class Sentence:
                 print
             print
 
-    def mapped_event_in_GREC(self):
+    def mapped_events_in_GREC(self):
         mapped = []
         for event in self.mapped_GREC_events:
             mapped.append((event.trigger_text, event.start_offset, event.end_offset))
@@ -72,9 +72,39 @@ class Sentence:
         for event in mapped:
             if event in actual:
                 union += 1
-
         return num_mapped, num_actual, union
 
+    def mapped_roles_in_GREC(self):
+        mapped = []
+        mapped_roles = []
+        for event in self.mapped_GREC_events:
+            for role in event.thematic_roles:
+                mapped.append((role.role_type, role.start_offset, role.end_offset))
+                mapped_roles.append(role.role_type)
+
+        actual = []
+        actual_roles = []
+        for event in self.GREC_events:
+            for role in event.thematic_roles:
+                actual.append((role.role_type, role.start_offset, role.end_offset))
+                actual_roles.append(role.role_type)
+
+        num_mapped = len(mapped)
+        num_actual = len(actual)
+        strict_union = 0
+        union = 0
+
+        for role in mapped:
+            if role in actual:
+                strict_union += 1
+
+        for m_role in mapped_roles:
+            for i, a_role in enumerate(actual_roles):
+                if m_role == a_role:
+                    union += 1
+                    actual_roles.pop(i)
+
+        return num_mapped, num_actual, strict_union, union
 
 
 # GREC event
