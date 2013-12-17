@@ -1,2 +1,2 @@
-LING575
-=======
+GREC Corpus MRS Representations
+===============================
